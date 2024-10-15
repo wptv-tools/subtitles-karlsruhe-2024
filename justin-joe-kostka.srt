@@ -1,0 +1,3275 @@
+﻿1
+00:00:04,080 --> 00:00:05,350
+So, es geht weiter.
+
+2
+00:00:05,650 --> 00:00:08,610
+Der Justin erzählt uns jetzt
+was über Hooks und wie
+
+3
+00:00:08,611 --> 00:00:11,470
+man damit WordPress
+ohne Plugins verändern kann.
+
+4
+00:00:18,610 --> 00:00:20,709
+Also, heute rede ich mal
+so ein bisschen darüber,
+
+5
+00:00:20,710 --> 00:00:22,771
+wie kann man denn so
+den richtigen Hook finden.
+
+6
+00:00:23,275 --> 00:00:27,890
+Also zum Beispiel Code erweitern,
+ohne dass man explizit Änderungen im
+
+7
+00:00:27,891 --> 00:00:30,270
+Plugin oder Core oder ähnlichem
+durchführen muss.
+
+8
+00:00:31,850 --> 00:00:33,290
+Erstmal, wer bin ich?
+
+9
+00:00:33,800 --> 00:00:38,050
+Ganz simpel, ich bin Justin Joe Koska,
+bin 24 Jahre alt, bin WordPress
+
+10
+00:00:38,051 --> 00:00:41,890
+-Entwickler, bin seit 2019 bei der Webvisa
+GmbH bzw.
+
+11
+00:00:42,110 --> 00:00:42,790
+WP-Wartung24.
+
+12
+00:00:43,050 --> 00:00:47,270
+Das ist mein fünftes WordCamp und zweites
+Mal als Speaker bin ich dabei.
+
+13
+00:00:49,040 --> 00:00:50,040
+So, fangen wir mal an.
+
+14
+00:00:50,440 --> 00:00:51,800
+Was sind denn grundsätzlich Hooks?
+
+15
+00:00:53,280 --> 00:00:57,770
+Hooks sind im Prinzip, die ermöglichen die
+Ergänzung oder Modifizierung von Code,
+
+16
+00:00:58,510 --> 00:01:00,321
+ohne dass man direkte Anpassungen im
+Plugin macht.
+
+17
+00:01:00,345 --> 00:01:03,890
+Also, dass man Core oder Theme oder Plugin
+-Dateien, die ich hier übrigens zukünftig
+
+18
+00:01:03,891 --> 00:01:09,850
+jetzt mal als Komponenten zusammenfasse,
+zur Verfügung stellt.
+
+19
+00:01:11,200 --> 00:01:15,510
+Also können zum Beispiel diese Anpassungen
+halt in einem eigenen Theme oder einem
+
+20
+00:01:15,511 --> 00:01:18,590
+eigenen Plugin passieren und müssen nicht
+direkt in der Komponente passieren.
+
+21
+00:01:20,700 --> 00:01:22,140
+Da gibt es zum Beispiel die Actions.
+
+22
+00:01:22,540 --> 00:01:24,950
+Damit kann man Code an einer bestimmten
+Stelle ausführen.
+
+23
+00:01:25,600 --> 00:01:29,650
+Zum Beispiel HTML ausgeben in WP-Head oder
+ähnlichen Hooks.
+
+24
+00:01:32,370 --> 00:01:34,730
+Aktionen detektieren, zum Beispiel
+SavePost.
+
+25
+00:01:36,380 --> 00:01:39,950
+Oder zum Beispiel Funktionen zum richtigen
+Zeitpunkt ausführen, wie TemplateRedirect.
+
+26
+00:01:40,300 --> 00:01:44,670
+Damit die Redirects nicht zu früh
+passieren, dass man trotzdem alle Daten
+
+27
+00:01:44,671 --> 00:01:47,751
+hat, aber auch nicht zu spät, dass der
+Redirect auch noch sauber funktioniert.
+
+28
+00:01:48,230 --> 00:01:50,190
+Oder zum Beispiel REST API Init.
+
+29
+00:01:51,410 --> 00:01:54,802
+Um zum Beispiel die
+RegisterRestRoute -Funktion zu
+
+30
+00:01:54,803 --> 00:01:57,550
+definieren, nur wenn es sich
+um eine REST-Route handelt.
+
+31
+00:01:58,510 --> 00:02:01,110
+Aber auch hier nicht zu früh und nicht zu
+spät.
+
+32
+00:02:02,590 --> 00:02:04,950
+Dafür gibt es in WordPress Core zwei
+Funktionen.
+
+33
+00:02:05,270 --> 00:02:06,910
+Und zwar einmal die DoAction-Funktion.
+
+34
+00:02:07,330 --> 00:02:08,330
+Die sieht so aus.
+
+35
+00:02:09,085 --> 00:02:11,310
+Da haben wir einmal den Hook-Namen und die
+Args.
+
+36
+00:02:12,280 --> 00:02:15,790
+Der Hook-Name ist im Prinzip einfach ein
+String, der definiert, wie der Hook heißt.
+
+37
+00:02:16,190 --> 00:02:19,913
+Und die Args sind halt die
+Argumente, die der Core oder
+
+38
+00:02:19,914 --> 00:02:23,390
+das Plugin oder so an den,
+der den Hook nutzt, weitergibt.
+
+39
+00:02:24,660 --> 00:02:27,350
+Und dafür gibt es dann die Funktion,
+die man dann nutzt.
+
+40
+00:02:27,875 --> 00:02:29,330
+Ist dann in der Regel AddAction.
+
+41
+00:02:30,165 --> 00:02:32,750
+Damit kann man sich denselben Hook-Namen
+referenzieren.
+
+42
+00:02:33,670 --> 00:02:35,870
+Übergibt einen Callback, der dann
+aufgerufen wird.
+
+43
+00:02:36,530 --> 00:02:40,750
+Übergibt eine Priority, also kleinere
+Zahlen werden zuerst aufgerufen,
+
+44
+00:02:40,920 --> 00:02:41,920
+spätere danach.
+
+45
+00:02:42,960 --> 00:02:45,467
+Und AcceptedArgs, wie
+viele der Argumente, die hier
+
+46
+00:02:45,468 --> 00:02:47,731
+übergeben werden, man
+denn wirklich haben möchte.
+
+47
+00:02:49,200 --> 00:02:50,200
+Dafür ein Beispiel.
+
+48
+00:02:50,430 --> 00:02:53,590
+In der WPincludesPost.php gibt es die
+DoActionSavePost.
+
+49
+00:02:54,540 --> 00:02:57,190
+Dort haben wir als mögliche Parameter
+PostID, Post und Update.
+
+50
+00:02:58,980 --> 00:03:00,141
+Jetzt braucht man die
+vielleicht nicht zwingen
+
+51
+00:03:00,142 --> 00:03:02,371
+und möchte einfach
+nur eine Mail versenden.
+
+52
+00:03:03,080 --> 00:03:04,241
+Hookt sich also einfach rein.
+
+53
+00:03:04,530 --> 00:03:05,530
+Da rein.
+
+54
+00:03:05,950 --> 00:03:07,050
+Sagt den Name hier.
+
+55
+00:03:07,990 --> 00:03:08,990
+Den Callback.
+
+56
+00:03:09,070 --> 00:03:10,070
+Der ist dann hier.
+
+57
+00:03:10,790 --> 00:03:12,671
+Und dort hat man dann zum Beispiel die WP
+-Mail.
+
+58
+00:03:14,095 --> 00:03:15,944
+Jetzt will man aber zum
+Beispiel dafür sorgen, dass
+
+59
+00:03:15,945 --> 00:03:18,210
+man zum Beispiel noch
+Informationen über den Post hat.
+
+60
+00:03:18,410 --> 00:03:23,230
+Oder weiß, ob es jetzt ein Update ist oder
+eine Neuerstellung von einem Post.
+
+61
+00:03:24,080 --> 00:03:27,530
+Also kann man zum Beispiel auch die
+Parameter übergeben.
+
+62
+00:03:28,650 --> 00:03:31,090
+Dafür muss man die Anzahl der Parameter
+dort angeben.
+
+63
+00:03:31,925 --> 00:03:33,526
+Aber dann können wir sie einfach nutzen.
+
+64
+00:03:33,790 --> 00:03:35,430
+Wenn es kein Update ist, gehen wir raus.
+
+65
+00:03:35,940 --> 00:03:37,606
+Möchten wir zum Beispiel in dem Fall
+nicht.
+
+66
+00:03:37,630 --> 00:03:40,111
+Und wir holen uns noch den Title,
+bevor wir die Mail versenden.
+
+67
+00:03:40,730 --> 00:03:41,730
+Ganz simpel.
+
+68
+00:03:41,990 --> 00:03:43,930
+Wichtig, was man nur so bei Hooks auch...
+
+69
+00:03:44,280 --> 00:03:46,641
+Nicht nur bei Hooks, auch bei anderen
+Sachen aufpassen muss.
+
+70
+00:03:47,580 --> 00:03:49,810
+Dass man nicht in einer Endlosschleife
+landet.
+
+71
+00:03:49,890 --> 00:03:50,890
+Denn...
+
+72
+00:03:51,405 --> 00:03:54,950
+Es ist zum Beispiel schon mal bei mir
+passiert, dass ich mich reingehuckt habe
+
+73
+00:03:54,951 --> 00:04:00,870
+in das Abfragen einer Änderung eines
+Optionswertes.
+
+74
+00:04:01,075 --> 00:04:02,756
+Und diesen dann wieder korrigieren wollte.
+
+75
+00:04:02,910 --> 00:04:06,950
+Und dadurch einen Endlossloop ausgelöst
+habe und 15.000 E-Mails verschickt habe.
+
+76
+00:04:09,760 --> 00:04:11,070
+Das passiert schneller als man denkt.
+
+77
+00:04:11,090 --> 00:04:12,810
+Da muss man immer so ein bisschen
+aufpassen.
+
+78
+00:04:16,060 --> 00:04:17,461
+Und Endlosschleifen halt vermeiden.
+
+79
+00:04:18,060 --> 00:04:19,070
+Dann gibt es noch Filter.
+
+80
+00:04:19,071 --> 00:04:21,590
+Die funktionieren grundsätzlich sehr
+ähnlich wie Hooks.
+
+81
+00:04:22,140 --> 00:04:25,050
+Nur, dass man Daten vor der Anpassung halt
+anpassen kann.
+
+82
+00:04:26,610 --> 00:04:29,690
+Und zum Beispiel kann man damit
+Funktionalitäten ein- oder ausschalten.
+
+83
+00:04:30,030 --> 00:04:34,950
+Also im Hook Show Admin Bar kann man zum
+Beispiel angeben, wenn der Wert True
+
+84
+00:04:34,951 --> 00:04:37,670
+returnt, wird eine Admin Bar für den User
+angezeigt.
+
+85
+00:04:37,940 --> 00:04:39,070
+Wenn False, dann nicht.
+
+86
+00:04:39,660 --> 00:04:41,341
+Kann man dann Sachen prüfen und so weiter.
+
+87
+00:04:41,500 --> 00:04:43,450
+Und sich dann überlegen, wann was
+passieren soll.
+
+88
+00:04:44,390 --> 00:04:46,066
+Man kann aber zum Beispiel auch die
+Ausgabe verändern.
+
+89
+00:04:46,090 --> 00:04:47,090
+Bei The Content.
+
+90
+00:04:47,310 --> 00:04:48,530
+Da kriegt man dann das HTML zurück.
+
+91
+00:04:48,531 --> 00:04:52,310
+Und kann damit erstmal Sachen machen, bevor
+es dann wirklich effektiv ausgegeben wird.
+
+92
+00:04:53,070 --> 00:04:54,070
+Oder noch einfacher.
+
+93
+00:04:54,270 --> 00:04:55,270
+Excerpt Length.
+
+94
+00:04:55,675 --> 00:04:58,450
+Um die Länge des Textauszuges einfach zu
+definieren.
+
+95
+00:04:59,470 --> 00:05:01,394
+Und je nachdem bei
+bestimmten Beiträgen oder
+
+96
+00:05:01,395 --> 00:05:04,491
+bestimmten Bedingungen
+einfach anders machen.
+
+97
+00:05:04,930 --> 00:05:06,870
+Oder man kann das Verhalten modifizieren.
+
+98
+00:05:07,320 --> 00:05:10,590
+Upload Mimes zum Beispiel sagen,
+hier ich erlaube auch SVG's.
+
+99
+00:05:12,220 --> 00:05:13,250
+Oder maybe MailFrom.
+
+100
+00:05:14,030 --> 00:05:18,190
+Ich stelle den Standard Absender der E
+-Mail im Prinzip.
+
+101
+00:05:18,191 --> 00:05:19,430
+Ein über den Hook.
+
+102
+00:05:20,110 --> 00:05:23,151
+Und kann den vielleicht auch je nachdem,
+was gerade Sache ist, anders machen.
+
+103
+00:05:25,220 --> 00:05:26,901
+Dafür haben wir die Funktion ApplyFilters.
+
+104
+00:05:27,700 --> 00:05:28,941
+Sieht ähnlich aus wie DoAction.
+
+105
+00:05:28,990 --> 00:05:30,970
+Mit einziger Ausnahme, wir haben hier noch
+Value.
+
+106
+00:05:31,500 --> 00:05:33,301
+Das ist der Wert, den wir modifizieren
+können.
+
+107
+00:05:34,430 --> 00:05:38,190
+Und deswegen, AddFilter sieht im Prinzip
+genauso aus wie AddAction.
+
+108
+00:05:40,620 --> 00:05:42,036
+Macht kurzzeitig sogar genau dasselbe.
+
+109
+00:05:42,060 --> 00:05:43,990
+Also AddFilter ruft AddAction auf.
+
+110
+00:05:45,150 --> 00:05:46,150
+Aber...
+
+111
+00:05:46,740 --> 00:05:49,290
+dort haben wir halt im Prinzip dieselben
+Parameter.
+
+112
+00:05:51,110 --> 00:05:52,110
+Beispiel dafür.
+
+113
+00:05:52,790 --> 00:05:54,471
+Die Functions PHP, eben schon
+angesprochen.
+
+114
+00:05:55,110 --> 00:05:56,110
+Upload Mimes.
+
+115
+00:05:56,830 --> 00:05:58,271
+Da kann man dann zum Beispiel sagen.
+
+116
+00:05:59,880 --> 00:06:02,010
+Ich erlaube SVG's zum Upload.
+
+117
+00:06:03,520 --> 00:06:06,410
+Aber auch hier können wir zum Beispiel die
+Parameter abfragen.
+
+118
+00:06:06,490 --> 00:06:07,490
+T und User.
+
+119
+00:06:07,910 --> 00:06:09,491
+Beziehungsweise T haben wir ja auf jeden
+Fall.
+
+120
+00:06:09,515 --> 00:06:11,036
+Das ist ja der, der wird den anpassen.
+
+121
+00:06:11,165 --> 00:06:12,410
+Und User, dafür die 2.
+
+122
+00:06:13,370 --> 00:06:14,870
+Hat der denn die Capability dafür?
+
+123
+00:06:15,570 --> 00:06:16,570
+SVG's abzuladen.
+
+124
+00:06:17,290 --> 00:06:18,290
+Dann mach es.
+
+125
+00:06:18,530 --> 00:06:19,530
+Wichtig.
+
+126
+00:06:20,080 --> 00:06:23,610
+Wir sollten diesen Wert, die Rückgabe des
+Wertes nicht vergessen.
+
+127
+00:06:23,880 --> 00:06:25,770
+Weil sonst ist er nachher leer.
+
+128
+00:06:28,260 --> 00:06:30,741
+Da gibt es noch so ein paar Sonderfälle
+bei Actions und Filter.
+
+129
+00:06:31,020 --> 00:06:33,386
+Denn es gibt zum Beispiel auch Actions und
+Filter mit Referenz.
+
+130
+00:06:33,410 --> 00:06:34,410
+Das heißt.
+
+131
+00:06:34,935 --> 00:06:36,456
+Es gibt zum Beispiel DoActionRefArray.
+
+132
+00:06:36,885 --> 00:06:38,530
+Und ApplyFiltersRefArray.
+
+133
+00:06:39,350 --> 00:06:42,710
+Das sind im Prinzip dieselben Funktionen
+wie DoAction und ApplyFilters.
+
+134
+00:06:42,890 --> 00:06:43,931
+Mit der einzigen Ausnahme.
+
+135
+00:06:44,090 --> 00:06:46,850
+Damit die Parameter im Prinzip als
+Referenz übergeben werden.
+
+136
+00:06:46,950 --> 00:06:48,150
+Und direkt angepasst werden.
+
+137
+00:06:49,070 --> 00:06:50,191
+Zum Beispiel in PreGetPosts.
+
+138
+00:06:50,470 --> 00:06:51,470
+Da hat man die Query.
+
+139
+00:06:52,050 --> 00:06:54,330
+Dass man die halt nicht zurückgeben muss.
+
+140
+00:06:54,570 --> 00:06:56,690
+Sondern als Objekt einfach als Referenz
+erhält.
+
+141
+00:06:57,520 --> 00:07:00,521
+Und es gibt zum Beispiel auch Actions und
+Filter mit dynamischen Hook-Namen.
+
+142
+00:07:01,850 --> 00:07:02,850
+Ein paar Beispiele dafür.
+
+143
+00:07:03,870 --> 00:07:04,310
+TransitionPostStatus.
+
+144
+00:07:04,450 --> 00:07:05,931
+Das ist ja so ein ganz normaler Hook.
+
+145
+00:07:06,740 --> 00:07:08,330
+Wo wir NewStatus und OldStatus haben.
+
+146
+00:07:08,865 --> 00:07:10,970
+Es gibt aber dafür auch OldStatus zu
+NewStatus.
+
+147
+00:07:11,145 --> 00:07:13,390
+Da muss man nicht die Sachen erstmal in
+der Funktion abfragen.
+
+148
+00:07:13,391 --> 00:07:16,350
+Sondern mein Hook wird auch nur
+ausgeführt.
+
+149
+00:07:16,440 --> 00:07:19,250
+Wenn wirklich der OldStatus und NewStatus
+stimmen.
+
+150
+00:07:19,560 --> 00:07:21,281
+Dasselbe gilt auch noch kurz für den
+Filter.
+
+151
+00:07:22,630 --> 00:07:23,070
+RegisterPostTypeArgs.
+
+152
+00:07:23,640 --> 00:07:25,241
+Da kann man den PostType auch übergeben.
+
+153
+00:07:26,170 --> 00:07:27,491
+So, jetzt zum eigentlichen Thema.
+
+154
+00:07:28,270 --> 00:07:29,711
+Wie finde ich denn eigentlich Hooks?
+
+155
+00:07:30,630 --> 00:07:31,670
+Sind wir mal ganz ehrlich.
+
+156
+00:07:32,390 --> 00:07:33,390
+Einfach mal googeln.
+
+157
+00:07:34,320 --> 00:07:35,750
+Hilft in den meisten Fällen.
+
+158
+00:07:38,290 --> 00:07:41,491
+Weil selten ist man wirklich der Einzige
+mit diesen oder ähnlichen Anforderungen.
+
+159
+00:07:42,140 --> 00:07:43,176
+Das heißt, wenn man googelt.
+
+160
+00:07:43,200 --> 00:07:44,801
+Hat man häufig schon mal eine Grundlage.
+
+161
+00:07:45,170 --> 00:07:46,251
+Was man denn nutzen könnte.
+
+162
+00:07:46,370 --> 00:07:47,910
+Oder ähnliche Beispiele.
+
+163
+00:07:49,530 --> 00:07:51,211
+Häufig findet man dabei auch
+Dokumentation.
+
+164
+00:07:51,890 --> 00:07:53,731
+Zum Beispiel die WordPress Developer
+Resources.
+
+165
+00:07:53,950 --> 00:07:56,910
+Oder Entwicklerdokumentation des
+jeweiligen Plugins oder Themes.
+
+166
+00:07:58,410 --> 00:08:00,890
+Jetzt kommen wir mal zu den etwas
+technischeren Themen.
+
+167
+00:08:01,960 --> 00:08:02,960
+Query Monitor Plugin.
+
+168
+00:08:03,890 --> 00:08:08,131
+Da kann man zum Beispiel sich alle ausgeführten
+Actions und Filter anzeigen lassen.
+
+169
+00:08:08,800 --> 00:08:09,510
+Sieht dann so aus.
+
+170
+00:08:09,820 --> 00:08:10,901
+Man installiert das Plugin.
+
+171
+00:08:11,125 --> 00:08:15,790
+Und dann hat man hier oben in der Adminbar
+so eine kleine Anzeige.
+
+172
+00:08:15,791 --> 00:08:17,930
+Die gibt an wie lang die Seite lädt.
+
+173
+00:08:18,010 --> 00:08:18,830
+Und wie groß sie ist.
+
+174
+00:08:18,910 --> 00:08:19,910
+Und alles drum und dran.
+
+175
+00:08:20,550 --> 00:08:21,550
+Wenn man da drauf geht.
+
+176
+00:08:22,110 --> 00:08:23,770
+Gibt es den Punkt Hooks und Actions.
+
+177
+00:08:24,470 --> 00:08:25,576
+Und wenn man dort drauf geht.
+
+178
+00:08:25,600 --> 00:08:26,600
+Sieht so aus.
+
+179
+00:08:28,180 --> 00:08:31,990
+Hier findet man dann links den Hook.
+
+180
+00:08:32,610 --> 00:08:34,010
+Den jeweiligen der aufgerufen wird.
+
+181
+00:08:35,410 --> 00:08:36,410
+Hier die Priority.
+
+182
+00:08:37,050 --> 00:08:38,050
+Hier die Action.
+
+183
+00:08:38,840 --> 00:08:40,730
+Welche Action dann jeweils aufgerufen
+wurde.
+
+184
+00:08:40,731 --> 00:08:44,710
+Und hinten noch aus welcher Komponente das
+kommt.
+
+185
+00:08:44,900 --> 00:08:49,530
+Also zum Beispiel aus Yoast oder
+OutOptimize oder dem WordPress Core.
+
+186
+00:08:51,600 --> 00:08:52,890
+Wenn das alles nichts hilft.
+
+187
+00:08:54,990 --> 00:08:57,930
+Dann muss man meistens einfach mal den
+Code nach Hooks durchsuchen.
+
+188
+00:08:59,300 --> 00:09:02,050
+Dafür kann man einfach den kompletten
+Code.
+
+189
+00:09:02,500 --> 00:09:04,770
+Zum Beispiel über eine IDE oder andere
+Tools.
+
+190
+00:09:05,410 --> 00:09:07,990
+Nach den Funktionen BlueAction und
+ApplyFilters durchsuchen.
+
+191
+00:09:08,295 --> 00:09:09,790
+Und findet dann gegebenenfalls halt.
+
+192
+00:09:10,590 --> 00:09:11,590
+Die passende Stelle.
+
+193
+00:09:12,060 --> 00:09:14,190
+An der vielleicht dann ein Hook existiert.
+
+194
+00:09:15,440 --> 00:09:16,790
+Wenn das so einfach nicht geht.
+
+195
+00:09:17,140 --> 00:09:20,510
+Oder man vielleicht nicht nach dem
+richtigen Hook Namen oder ähnlichem sucht.
+
+196
+00:09:20,511 --> 00:09:21,591
+Und deswegen nichts findet.
+
+197
+00:09:23,950 --> 00:09:26,710
+Suche ich meistens erstmal die
+anzupassende Stelle.
+
+198
+00:09:27,820 --> 00:09:30,490
+Das heißt statt nach DoAction und
+ApplyFilters zu durchsuchen.
+
+199
+00:09:30,720 --> 00:09:33,610
+Durchsuche ich nach Klassen IDs oder
+anderen HTML Attributen.
+
+200
+00:09:33,690 --> 00:09:35,110
+Oder ähnlichem bei der Ausgabe.
+
+201
+00:09:36,410 --> 00:09:38,570
+Um die Stelle zu finden an der das
+passiert.
+
+202
+00:09:38,571 --> 00:09:39,730
+Was ich anpassen möchte.
+
+203
+00:09:40,310 --> 00:09:43,550
+Oder auch die passenden Template Dateien
+angucken.
+
+204
+00:09:43,950 --> 00:09:45,130
+Header PHP, Single PHP.
+
+205
+00:09:45,330 --> 00:09:48,970
+Wenn ich weiß das passiert immer in meinem
+Einzelbeitrags Template.
+
+206
+00:09:49,300 --> 00:09:50,820
+Dann gucke ich vielleicht mal da drin.
+
+207
+00:09:51,730 --> 00:09:54,590
+Oder auch Optionsnamen, Meta Keys oder
+ähnliches.
+
+208
+00:09:54,640 --> 00:09:55,890
+Alles wo man irgendwie weiß.
+
+209
+00:09:58,160 --> 00:09:59,760
+Das müsste an der Stelle genutzt werden.
+
+210
+00:10:00,380 --> 00:10:02,430
+An der ich etwas anpassen will.
+
+211
+00:10:02,880 --> 00:10:04,280
+Danach kann man einfach mal suchen.
+
+212
+00:10:05,480 --> 00:10:06,560
+Und mit ein bisschen Glück.
+
+213
+00:10:07,190 --> 00:10:08,270
+Findet man direkt ein Hook.
+
+214
+00:10:08,370 --> 00:10:10,050
+Und kann direkt mit der Anpassung
+loslegen.
+
+215
+00:10:11,180 --> 00:10:12,460
+Aber auch leider nicht immer so.
+
+216
+00:10:12,760 --> 00:10:15,710
+Denn was machen wir dann wenn da keiner
+ist.
+
+217
+00:10:16,690 --> 00:10:17,690
+Ganz simpel.
+
+218
+00:10:17,810 --> 00:10:20,690
+Man kann zum Beispiel den Code rückwärts
+durchsuchen.
+
+219
+00:10:21,290 --> 00:10:22,290
+Und durchgucken.
+
+220
+00:10:22,780 --> 00:10:24,910
+Um vielleicht andere Stellen kurz vorher
+zu finden.
+
+221
+00:10:25,240 --> 00:10:27,230
+An denen man dasselbe im Prinzip tun kann.
+
+222
+00:10:27,840 --> 00:10:29,146
+Was man eigentlich machen möchte.
+
+223
+00:10:29,170 --> 00:10:31,570
+Oder zum Beispiel die Variable die dort
+erst ausgegeben wird.
+
+224
+00:10:31,625 --> 00:10:33,385
+Vielleicht vorher irgendwo modifizieren
+kann.
+
+225
+00:10:34,900 --> 00:10:36,900
+Dafür habe ich so ein paar kleine Tipps
+und Tricks.
+
+226
+00:10:37,690 --> 00:10:38,706
+Wenn man sie vermeiden kann.
+
+227
+00:10:38,730 --> 00:10:40,170
+Sollte man sie vielleicht vermeiden.
+
+228
+00:10:40,510 --> 00:10:42,630
+Aber wenn man keine andere Möglichkeit
+hat.
+
+229
+00:10:42,780 --> 00:10:43,990
+Ist es trotzdem besser.
+
+230
+00:10:44,210 --> 00:10:46,430
+Als wenn man die Sachen direkt im Code
+anpasst.
+
+231
+00:10:46,985 --> 00:10:48,230
+Und zwar zum Beispiel Filter.
+
+232
+00:10:48,960 --> 00:10:50,800
+Können im Prinzip wie Actions verwendet
+werden.
+
+233
+00:10:51,460 --> 00:10:52,330
+Muss nur beachten.
+
+234
+00:10:52,390 --> 00:10:54,310
+Die Rückgabe muss man trotzdem machen.
+
+235
+00:10:54,490 --> 00:10:55,970
+Auch wenn man den Wert nicht anpasst.
+
+236
+00:10:56,450 --> 00:10:58,310
+Aber trotzdem sollte man den Wert
+zurückgeben.
+
+237
+00:10:58,390 --> 00:11:00,330
+Weil sonst die Funktion nicht mehr.
+
+238
+00:11:00,450 --> 00:11:02,570
+Also der Filter nicht mehr wie gewünscht
+funktioniert.
+
+239
+00:11:03,490 --> 00:11:04,650
+Viele WordPress Funktionen.
+
+240
+00:11:05,050 --> 00:11:06,970
+Haben auch direkt eingebaute Hooks.
+
+241
+00:11:07,090 --> 00:11:08,610
+Also getOption und getTheTitle.
+
+242
+00:11:08,650 --> 00:11:10,970
+Damit kann man problemlos den Wert
+anpassen.
+
+243
+00:11:11,010 --> 00:11:13,130
+Den diese Funktion zurück liefern.
+
+244
+00:11:14,880 --> 00:11:16,250
+Auch kann man zum Beispiel.
+
+245
+00:11:16,330 --> 00:11:17,530
+In vorherigen Hooks.
+
+246
+00:11:18,170 --> 00:11:19,470
+Sich die Werte zusammensammeln.
+
+247
+00:11:19,985 --> 00:11:21,590
+Um sie dann an den späteren Filter.
+
+248
+00:11:21,920 --> 00:11:22,750
+In dem man sie braucht.
+
+249
+00:11:22,790 --> 00:11:23,790
+Aber nicht hat.
+
+250
+00:11:23,910 --> 00:11:24,910
+Nutzen kann.
+
+251
+00:11:26,515 --> 00:11:27,810
+Und man kann zum Beispiel.
+
+252
+00:11:28,770 --> 00:11:29,890
+Im Prinzip wie bei drittens.
+
+253
+00:11:30,540 --> 00:11:32,290
+Auch unspezifische Hooks.
+
+254
+00:11:32,640 --> 00:11:34,210
+Zum Beispiel getOption oder so.
+
+255
+00:11:34,920 --> 00:11:36,666
+Durch andere Hooks die kurz vorher
+stattfinden.
+
+256
+00:11:36,690 --> 00:11:37,690
+Und kurz nachher.
+
+257
+00:11:39,340 --> 00:11:40,090
+Etwas einschränken.
+
+258
+00:11:40,280 --> 00:11:41,746
+Das sie auch wirklich nur dann passieren.
+
+259
+00:11:41,770 --> 00:11:43,170
+Wenn man sie wirklich haben möchte.
+
+260
+00:11:44,130 --> 00:11:45,690
+Dafür haben wir mal ein paar Beispiele.
+
+261
+00:11:46,750 --> 00:11:47,750
+Ich habe einfach mal.
+
+262
+00:11:48,020 --> 00:11:49,850
+Von GitHub Copilot mir so ein.
+
+263
+00:11:50,810 --> 00:11:51,790
+Snippet programmieren lassen.
+
+264
+00:11:51,830 --> 00:11:53,730
+Was so grundsätzlich so in einem.
+
+265
+00:11:54,280 --> 00:11:56,160
+Plugin oder Theme oder so vorhanden sein
+könnte.
+
+266
+00:11:56,190 --> 00:11:57,650
+Was einfach ein E-Mail Versand.
+
+267
+00:11:57,670 --> 00:11:59,070
+Nach einer Beitragsanpassung macht.
+
+268
+00:12:00,010 --> 00:12:01,130
+Gehen wir einmal kurz durch.
+
+269
+00:12:01,260 --> 00:12:02,420
+Hier oben haben wir den Hook.
+
+270
+00:12:03,230 --> 00:12:04,910
+Dann wird die Funktion aufgerufen.
+
+271
+00:12:05,660 --> 00:12:06,330
+Dort holen wir uns.
+
+272
+00:12:06,350 --> 00:12:07,770
+Eine E-Mail-Adress aus den Options.
+
+273
+00:12:08,940 --> 00:12:10,130
+Wenn sie nicht existent ist.
+
+274
+00:12:10,190 --> 00:12:11,190
+Gehen wir raus.
+
+275
+00:12:11,540 --> 00:12:12,860
+Dann checken wir ein paar Fields.
+
+276
+00:12:13,800 --> 00:12:15,160
+Haben da auch noch einen Hook für.
+
+277
+00:12:15,845 --> 00:12:17,190
+Wenn die Changes leer sind.
+
+278
+00:12:17,930 --> 00:12:18,610
+Lassen wir weg.
+
+279
+00:12:18,695 --> 00:12:20,215
+Die E-Mail brauchen wir ja dann nicht.
+
+280
+00:12:20,540 --> 00:12:21,700
+Und dann packen wir uns noch.
+
+281
+00:12:22,070 --> 00:12:23,070
+Betreff zusammen.
+
+282
+00:12:24,450 --> 00:12:25,450
+Eine Message.
+
+283
+00:12:26,980 --> 00:12:28,130
+Und am Ende wird.
+
+284
+00:12:28,450 --> 00:12:29,630
+Eine WP-Mail verschickt.
+
+285
+00:12:30,530 --> 00:12:30,970
+So.
+
+286
+00:12:30,971 --> 00:12:32,950
+Wenn wir da jetzt mal was anpassen wollen.
+
+287
+00:12:33,610 --> 00:12:34,430
+Zum Beispiel.
+
+288
+00:12:34,510 --> 00:12:35,790
+Ein Beitragstyp.
+
+289
+00:12:36,225 --> 00:12:37,545
+In dem E-Mail Betreff hinzufügen.
+
+290
+00:12:38,520 --> 00:12:39,920
+Suchen wir erstmal die Stelle raus.
+
+291
+00:12:41,310 --> 00:12:43,010
+Wo der Betreff zusammengebaut wird.
+
+292
+00:12:43,110 --> 00:12:44,110
+Und sehen da.
+
+293
+00:12:44,340 --> 00:12:45,790
+Da gibt es direkt einen Filter.
+
+294
+00:12:46,450 --> 00:12:47,450
+Kein Problem.
+
+295
+00:12:47,850 --> 00:12:48,850
+Nutzen wir.
+
+296
+00:12:50,740 --> 00:12:51,740
+Einfach reinhucken.
+
+297
+00:12:52,060 --> 00:12:53,170
+Die Funktion definieren.
+
+298
+00:12:53,660 --> 00:12:54,930
+Und die Änderung durchführen.
+
+299
+00:12:56,720 --> 00:12:57,710
+Wenn wir jetzt aber zum Beispiel.
+
+300
+00:12:57,735 --> 00:12:59,550
+Die E-Mail auch senden möchten.
+
+301
+00:13:00,150 --> 00:13:00,590
+Wenn.
+
+302
+00:13:01,150 --> 00:13:02,270
+Keine Änderung passiert ist.
+
+303
+00:13:04,030 --> 00:13:05,070
+Gucken wir uns nochmal an.
+
+304
+00:13:07,330 --> 00:13:08,070
+Wir haben da.
+
+305
+00:13:08,270 --> 00:13:09,270
+Drinnen.
+
+306
+00:13:09,680 --> 00:13:11,010
+Wenn keine Änderungen da sind.
+
+307
+00:13:11,330 --> 00:13:12,330
+Return wir.
+
+308
+00:13:12,890 --> 00:13:13,890
+Das heißt.
+
+309
+00:13:14,250 --> 00:13:15,570
+Alles was danach ausgeführt wird.
+
+310
+00:13:15,595 --> 00:13:17,030
+Also das WP-Mail unten drunter.
+
+311
+00:13:20,540 --> 00:13:21,580
+Da kommt er gar nicht hin.
+
+312
+00:13:23,010 --> 00:13:24,010
+Wir haben aber.
+
+313
+00:13:24,060 --> 00:13:25,060
+Kurze Zeit vorher.
+
+314
+00:13:25,330 --> 00:13:25,730
+Changes.
+
+315
+00:13:26,240 --> 00:13:27,240
+Was ein Filter ist.
+
+316
+00:13:27,720 --> 00:13:28,490
+Und wie ich eben sagte.
+
+317
+00:13:28,610 --> 00:13:31,350
+Wir können so ein Filter im Prinzip auch
+wie ein Hook verwenden.
+
+318
+00:13:31,640 --> 00:13:33,050
+Also wie eine Action.
+
+319
+00:13:33,610 --> 00:13:34,930
+Indem wir uns einfach reinhucken.
+
+320
+00:13:35,130 --> 00:13:36,130
+Zum Beispiel prüfen.
+
+321
+00:13:36,640 --> 00:13:38,450
+Gibt es denn keine Änderung.
+
+322
+00:13:38,530 --> 00:13:41,490
+Also den Fall an dem wir noch eine
+zusätzliche E-Mail versenden möchten.
+
+323
+00:13:42,510 --> 00:13:43,510
+Wenn ja.
+
+324
+00:13:46,650 --> 00:13:47,050
+Dann.
+
+325
+00:13:47,410 --> 00:13:48,410
+Wenn nicht.
+
+326
+00:13:48,450 --> 00:13:49,610
+Also wenn es Changes gibt.
+
+327
+00:13:49,670 --> 00:13:51,110
+Und die Mail sowieso versendet wird.
+
+328
+00:13:51,675 --> 00:13:52,675
+Dann lassen wir es weg.
+
+329
+00:13:54,830 --> 00:13:55,110
+Auch die Mail.
+
+330
+00:13:55,590 --> 00:13:56,630
+Das ist keine Änderung da.
+
+331
+00:13:57,810 --> 00:13:58,810
+Wichtig.
+
+332
+00:13:59,830 --> 00:14:00,830
+Rückgabewert.
+
+333
+00:14:00,930 --> 00:14:02,370
+Weil sonst klappt nicht.
+
+334
+00:14:05,610 --> 00:14:06,370
+Nächstes Beispiel.
+
+335
+00:14:06,620 --> 00:14:10,090
+Wir möchten die Admin E-Mail als Fallback
+Empfänger haben.
+
+336
+00:14:11,290 --> 00:14:12,496
+Wenn wir jetzt hier runter gucken.
+
+337
+00:14:12,520 --> 00:14:14,400
+Hier haben wir unsere E-Mail die abgefragt
+wird.
+
+338
+00:14:15,530 --> 00:14:16,610
+Jetzt sehen wir da drunter.
+
+339
+00:14:16,660 --> 00:14:17,660
+Wenn die leer ist.
+
+340
+00:14:17,990 --> 00:14:19,030
+Also keine hinterlegt ist.
+
+341
+00:14:19,310 --> 00:14:20,050
+Gehen wir raus.
+
+342
+00:14:20,290 --> 00:14:20,830
+Das heißt.
+
+343
+00:14:20,930 --> 00:14:22,670
+Wenn wir daran was anpassen wollen.
+
+344
+00:14:26,390 --> 00:14:27,390
+Davor gibt es nichts.
+
+345
+00:14:27,760 --> 00:14:29,670
+Und wenn das davor nicht angepasst wurde.
+
+346
+00:14:31,270 --> 00:14:32,270
+Bricht er ab.
+
+347
+00:14:32,490 --> 00:14:33,490
+Also.
+
+348
+00:14:33,630 --> 00:14:34,630
+Können wir uns aber.
+
+349
+00:14:34,760 --> 00:14:35,760
+Wie ich eben sagte.
+
+350
+00:14:36,470 --> 00:14:37,470
+Bietet Hooks an.
+
+351
+00:14:38,440 --> 00:14:40,770
+In den Hook Option Unterstrich Option
+Name.
+
+352
+00:14:41,210 --> 00:14:41,650
+Reinhucken.
+
+353
+00:14:42,190 --> 00:14:43,190
+Mit meiner Funktion.
+
+354
+00:14:44,790 --> 00:14:46,410
+Und dort gucken wir einfach.
+
+355
+00:14:47,010 --> 00:14:48,310
+Wenn der Wert leer ist.
+
+356
+00:14:49,030 --> 00:14:50,410
+Dann nehmen wir die Admin E-Mail.
+
+357
+00:14:50,680 --> 00:14:52,080
+Und sonst nehmen wir halt den Wert.
+
+358
+00:14:53,910 --> 00:14:54,910
+Nächstes Beispiel.
+
+359
+00:14:55,560 --> 00:14:56,960
+Wenn wir die Anzahl der Änderungen.
+
+360
+00:14:57,075 --> 00:14:58,690
+In der E-Mail anzeigen wollen.
+
+361
+00:14:59,580 --> 00:15:00,826
+Zum Beispiel noch unten drunter.
+
+362
+00:15:00,850 --> 00:15:01,850
+Oder so.
+
+363
+00:15:02,230 --> 00:15:03,230
+Dann.
+
+364
+00:15:03,370 --> 00:15:04,370
+Gucken wir mal.
+
+365
+00:15:04,710 --> 00:15:05,770
+Hier ist unsere Message.
+
+366
+00:15:07,190 --> 00:15:08,550
+Für Message haben wir aber leider.
+
+367
+00:15:08,690 --> 00:15:09,690
+Keinen Hook.
+
+368
+00:15:10,290 --> 00:15:11,690
+Wir haben nur unten dann WP Mail.
+
+369
+00:15:13,650 --> 00:15:14,570
+Jetzt gibt es hier vor.
+
+370
+00:15:14,650 --> 00:15:15,650
+Aber noch die Do Action.
+
+371
+00:15:19,530 --> 00:15:20,530
+Beziehungsweise.
+
+372
+00:15:20,950 --> 00:15:21,950
+Ja.
+
+373
+00:15:23,830 --> 00:15:25,210
+Wenn wir jetzt in WP Mail.
+
+374
+00:15:25,480 --> 00:15:26,130
+Könnten wir.
+
+375
+00:15:26,430 --> 00:15:27,430
+Die Message anpassen.
+
+376
+00:15:29,270 --> 00:15:29,970
+WP Mail.
+
+377
+00:15:30,030 --> 00:15:31,590
+Ist aber ja nicht nur an dieser Stelle.
+
+378
+00:15:32,400 --> 00:15:33,990
+Sondern auch an vielen anderen Stellen.
+
+379
+00:15:34,200 --> 00:15:35,200
+Überall anders im Code.
+
+380
+00:15:35,230 --> 00:15:36,776
+Deswegen wollen wir vielleicht dafür
+sorgen.
+
+381
+00:15:36,800 --> 00:15:38,290
+Dass das auch wirklich nur passiert.
+
+382
+00:15:38,900 --> 00:15:40,340
+Wenn wir hier an dieser Stelle sind.
+
+383
+00:15:40,760 --> 00:15:42,720
+Und wir haben hier ja gar nicht die
+Informationen.
+
+384
+00:15:42,860 --> 00:15:43,860
+Die wir brauchen.
+
+385
+00:15:44,390 --> 00:15:47,116
+Da fasse ich dann jetzt im Prinzip die
+beiden Punkte von eben zusammen.
+
+386
+00:15:47,140 --> 00:15:48,650
+Dass wir Hooks einschränken können.
+
+387
+00:15:48,850 --> 00:15:49,850
+Mit vorherigen.
+
+388
+00:15:50,100 --> 00:15:52,330
+Oder aber auch Informationen weitergeben
+können.
+
+389
+00:15:52,480 --> 00:15:53,190
+Zum Beispiel.
+
+390
+00:15:53,210 --> 00:15:54,710
+Indem wir uns einmal reinhucken.
+
+391
+00:15:55,060 --> 00:15:56,730
+In diesen Custom Hook hier vor.
+
+392
+00:15:58,390 --> 00:16:00,210
+Mit unserer Save Changes Funktion.
+
+393
+00:16:01,990 --> 00:16:02,990
+Dort gucken wir dann.
+
+394
+00:16:03,225 --> 00:16:04,585
+Speichern wir uns alle Changes ab.
+
+395
+00:16:05,110 --> 00:16:06,690
+Die hier drin stehen.
+
+396
+00:16:07,220 --> 00:16:08,540
+Die wir ja hier nachher brauchen.
+
+397
+00:16:08,600 --> 00:16:09,750
+Aber hier nur haben.
+
+398
+00:16:10,670 --> 00:16:11,670
+Und sagen dann.
+
+399
+00:16:12,160 --> 00:16:13,160
+Auch nur in dem Falle.
+
+400
+00:16:13,450 --> 00:16:15,290
+Wenn dieser Hook ausgeführt wurde.
+
+401
+00:16:15,930 --> 00:16:17,230
+Hooken wir uns in WP Mail rein.
+
+402
+00:16:17,470 --> 00:16:18,530
+Um die Mail anzupassen.
+
+403
+00:16:20,070 --> 00:16:21,070
+Dann.
+
+404
+00:16:21,150 --> 00:16:22,150
+Rufen wir halt.
+
+405
+00:16:22,300 --> 00:16:23,570
+Also das ist dann der Hook.
+
+406
+00:16:23,705 --> 00:16:25,410
+Den wir hier in WP Mail aufrufen.
+
+407
+00:16:27,360 --> 00:16:28,790
+Dort machen wir als aller erstes.
+
+408
+00:16:29,160 --> 00:16:30,226
+Entfernen wir den Filter wieder.
+
+409
+00:16:30,250 --> 00:16:30,610
+Weil.
+
+410
+00:16:31,040 --> 00:16:32,720
+Wenn E-Mails später noch versendet werden.
+
+411
+00:16:32,930 --> 00:16:34,170
+Unabhängig von dieser Funktion.
+
+412
+00:16:34,280 --> 00:16:34,930
+Wollen wir natürlich.
+
+413
+00:16:35,010 --> 00:16:36,750
+Dass die auch nicht beeinflusst werden.
+
+414
+00:16:36,850 --> 00:16:37,590
+Sondern wirklich nur.
+
+415
+00:16:37,591 --> 00:16:38,990
+Diese eine Mail.
+
+416
+00:16:39,090 --> 00:16:41,270
+Diesen einen Aufruf von WP Mail.
+
+417
+00:16:42,660 --> 00:16:43,950
+Und dann ganz simpel.
+
+418
+00:16:44,300 --> 00:16:45,340
+Holen wir uns die Changes.
+
+419
+00:16:46,390 --> 00:16:47,430
+Holen uns den Count davon.
+
+420
+00:16:47,610 --> 00:16:48,610
+Schreiben ihn noch ran.
+
+421
+00:16:49,845 --> 00:16:52,470
+Resetten dann zum Beispiel unsere lokale
+Variable.
+
+422
+00:16:52,630 --> 00:16:53,630
+Und.
+
+423
+00:16:54,520 --> 00:16:55,680
+Geben den Wert wieder zurück.
+
+424
+00:16:59,330 --> 00:17:00,330
+Das Fazit.
+
+425
+00:17:02,690 --> 00:17:03,690
+Hooks ermöglichen.
+
+426
+00:17:04,020 --> 00:17:05,910
+Sehr saubere und flexible Anpassungen.
+
+427
+00:17:06,050 --> 00:17:06,430
+Und zwar.
+
+428
+00:17:06,810 --> 00:17:07,790
+Ohne das man.
+
+429
+00:17:07,791 --> 00:17:10,070
+Direkt im Code Dinge ändern muss.
+
+430
+00:17:10,340 --> 00:17:11,570
+Was für die.
+
+431
+00:17:12,380 --> 00:17:13,270
+Update Fähigkeit.
+
+432
+00:17:13,290 --> 00:17:14,790
+Und Wartbarkeit der Systeme.
+
+433
+00:17:15,270 --> 00:17:16,270
+Erheblich besser ist.
+
+434
+00:17:17,260 --> 00:17:19,430
+Weil wir haben schon diverse Male das
+Problem gehabt.
+
+435
+00:17:19,490 --> 00:17:20,490
+Dass ein Kunde.
+
+436
+00:17:20,990 --> 00:17:22,030
+Diverse Anpassungen.
+
+437
+00:17:22,330 --> 00:17:23,830
+Im Plugin oder dem Theme selber.
+
+438
+00:17:24,610 --> 00:17:25,350
+Durchgeführt hat.
+
+439
+00:17:25,550 --> 00:17:26,870
+Oder durchführen hat lassen.
+
+440
+00:17:27,520 --> 00:17:29,286
+Und wir das Ganze dann erstmal aufräumen
+mussten.
+
+441
+00:17:29,310 --> 00:17:30,310
+Weil wir das Update.
+
+442
+00:17:31,390 --> 00:17:32,310
+Einspielen mussten.
+
+443
+00:17:32,311 --> 00:17:34,170
+Weil zum Beispiel nicht PHP fähig.
+
+444
+00:17:34,255 --> 00:17:35,255
+Oder sicherheitsmäßig.
+
+445
+00:17:36,310 --> 00:17:37,310
+Gefährlich.
+
+446
+00:17:38,020 --> 00:17:39,780
+Dafür gibts halt dann auch verschiedene
+Wege.
+
+447
+00:17:39,935 --> 00:17:41,535
+Wenn man den richtigen Hook finden will.
+
+448
+00:17:42,760 --> 00:17:44,150
+Und manche Hooks sind dabei.
+
+449
+00:17:44,770 --> 00:17:45,770
+Leichter zu entdecken.
+
+450
+00:17:45,910 --> 00:17:46,910
+Manche etwas versteckter.
+
+451
+00:17:46,990 --> 00:17:50,050
+Oder halt auch nur über ein paar Umwege
+verfügbar.
+
+452
+00:17:51,750 --> 00:17:52,750
+Und.
+
+453
+00:17:52,870 --> 00:17:53,310
+Achso.
+
+454
+00:17:53,490 --> 00:17:54,850
+Den Punkt hab ich ja nochmal hier.
+
+455
+00:17:55,580 --> 00:17:56,900
+Dass es wartungsfreundlicher ist.
+
+456
+00:17:57,490 --> 00:17:57,930
+So.
+
+457
+00:17:57,931 --> 00:17:59,470
+Ich bin jetzt.
+
+458
+00:17:59,800 --> 00:18:01,330
+Ziemlich zügig durchgekommen.
+
+459
+00:18:01,830 --> 00:18:02,830
+Weil.
+
+460
+00:18:03,700 --> 00:18:04,710
+Vielen Dank fürs zuhören.
+
+461
+00:18:09,580 --> 00:18:10,650
+Gibt es denn noch Fragen?
+
+462
+00:18:20,020 --> 00:18:20,960
+Ja zeitlich.
+
+463
+00:18:21,000 --> 00:18:22,000
+Würde es passen.
+
+464
+00:18:34,730 --> 00:18:36,360
+Ja erstmal danke für den Vortrag.
+
+465
+00:18:36,380 --> 00:18:38,460
+Da waren ein paar sehr hilfreiche Tipps
+dabei.
+
+466
+00:18:39,110 --> 00:18:40,216
+Was würdest du denn empfehlen.
+
+467
+00:18:40,240 --> 00:18:42,460
+Wenn keiner dieser Strategien
+funktioniert.
+
+468
+00:18:42,680 --> 00:18:43,680
+Also du hast ein Plugin.
+
+469
+00:18:43,740 --> 00:18:45,900
+Das verwendet keine Funktionen.
+
+470
+00:18:45,901 --> 00:18:46,901
+Die Filter haben.
+
+471
+00:18:47,550 --> 00:18:48,440
+Wo du dich reinhucken kannst.
+
+472
+00:18:48,540 --> 00:18:49,580
+Also sowas wie Get Option.
+
+473
+00:18:50,150 --> 00:18:50,980
+Was würdest du dann machen.
+
+474
+00:18:51,040 --> 00:18:54,220
+Um eine Lösung herbeizuführen.
+
+475
+00:18:55,100 --> 00:18:56,740
+Also häufig gibt es.
+
+476
+00:18:57,200 --> 00:18:59,300
+Irgendwo dann doch noch die Möglichkeit.
+
+477
+00:18:59,480 --> 00:19:01,760
+Mit irgendeiner Get Option oder ähnlichem.
+
+478
+00:19:02,540 --> 00:19:03,620
+Aber wenn es dann wirklich.
+
+479
+00:19:04,250 --> 00:19:06,260
+Absolut gar keine Möglichkeit gibt.
+
+480
+00:19:06,440 --> 00:19:07,440
+Und man.
+
+481
+00:19:07,760 --> 00:19:08,760
+Egal wo.
+
+482
+00:19:09,050 --> 00:19:10,420
+Keine Möglichkeit findet.
+
+483
+00:19:11,740 --> 00:19:13,540
+Dann würde ich als erstes mal gucken.
+
+484
+00:19:13,640 --> 00:19:14,220
+Ob man vielleicht.
+
+485
+00:19:14,620 --> 00:19:15,460
+Ist es ein Template ist.
+
+486
+00:19:15,560 --> 00:19:17,720
+Was man dann im Chart Theme oder so
+überschreiben kann.
+
+487
+00:19:18,865 --> 00:19:20,100
+Oder wenn das nicht geht.
+
+488
+00:19:20,260 --> 00:19:21,300
+Irgendeine Klasse oder so.
+
+489
+00:19:21,360 --> 00:19:22,460
+Die man überschreiben kann.
+
+490
+00:19:23,590 --> 00:19:25,300
+Und wenn das alles wirklich nicht geht.
+
+491
+00:19:25,910 --> 00:19:27,876
+Dann bleibt einem wahrscheinlich nichts
+anderes übrig.
+
+492
+00:19:27,900 --> 00:19:30,200
+Außer es wirklich direkt im Code
+durchzuführen.
+
+493
+00:19:30,350 --> 00:19:31,350
+Aber dann.
+
+494
+00:19:31,830 --> 00:19:33,640
+Hat man im Prinzip auch alle Varianten.
+
+495
+00:19:34,260 --> 00:19:36,180
+Durchgegangen die man irgendwie sonst
+hätte.
+
+496
+00:19:36,340 --> 00:19:37,400
+Als Alternative.
+
+497
+00:19:37,580 --> 00:19:38,580
+Die besser wären.
+
+498
+00:19:39,550 --> 00:19:42,030
+Und dann bleibt einem gegebenenfalls auch
+einfach nichts übrig.
+
+499
+00:19:42,950 --> 00:19:43,960
+Hast du mal versucht.
+
+500
+00:19:44,220 --> 00:19:46,340
+So was die Plugin Autoren anzuschreiben.
+
+501
+00:19:46,341 --> 00:19:46,960
+Und zu fragen.
+
+502
+00:19:46,961 --> 00:19:48,100
+Ob es ein Filter anbieten.
+
+503
+00:19:48,260 --> 00:19:50,220
+Und wie erfolgreich war das in deinen
+Erfahrungen.
+
+504
+00:19:50,970 --> 00:19:51,970
+Es kann funktionieren.
+
+505
+00:19:52,200 --> 00:19:53,400
+Kann auch nicht funktionieren.
+
+506
+00:19:54,010 --> 00:19:55,810
+Ich habe zum Beispiel auch ein gutes
+Beispiel.
+
+507
+00:19:56,330 --> 00:19:59,380
+Bei Enfold gab es in dem.
+
+508
+00:19:59,740 --> 00:20:00,920
+Zumindest in dem Zeitpunkt.
+
+509
+00:20:01,040 --> 00:20:02,480
+Wo das Problem aufgetreten ist.
+
+510
+00:20:03,045 --> 00:20:04,100
+Wollte ich den Text.
+
+511
+00:20:04,645 --> 00:20:06,400
+Auf der Suchergebnisseite anpassen.
+
+512
+00:20:06,500 --> 00:20:08,460
+Weil der Kunde da einen anderen Text haben
+wollte.
+
+513
+00:20:10,180 --> 00:20:11,640
+Da gab es nur die Möglichkeit.
+
+514
+00:20:11,715 --> 00:20:13,600
+Das Template wirklich komplett zu
+überschreiben.
+
+515
+00:20:13,680 --> 00:20:15,520
+Weil es wurde einfach kein Hook eingebaut.
+
+516
+00:20:16,080 --> 00:20:17,080
+Und.
+
+517
+00:20:18,570 --> 00:20:19,640
+Wenn man da teilweise dem.
+
+518
+00:20:19,920 --> 00:20:20,720
+Support schreibt.
+
+519
+00:20:20,920 --> 00:20:22,240
+Wenn man ihn überhaupt irgendwie.
+
+520
+00:20:23,400 --> 00:20:24,400
+In die Finger kriegt.
+
+521
+00:20:25,020 --> 00:20:26,320
+Das kann funktionieren.
+
+522
+00:20:26,510 --> 00:20:27,510
+Aber es kann auch.
+
+523
+00:20:28,420 --> 00:20:29,756
+Es kann auch einfach komplett ignoriert
+werden.
+
+524
+00:20:29,780 --> 00:20:31,220
+Weil man sagt ja es funktioniert ja.
+
+525
+00:20:32,060 --> 00:20:33,060
+Aber deswegen.
+
+526
+00:20:34,110 --> 00:20:36,480
+Wichtig für alle die irgendwas entwickeln.
+
+527
+00:20:37,150 --> 00:20:39,040
+Wenn es sinnvolle Stellen für Hooks.
+
+528
+00:20:39,041 --> 00:20:40,041
+Und Filter gibt.
+
+529
+00:20:40,760 --> 00:20:41,760
+Nutzt es bitte.
+
+530
+00:20:42,050 --> 00:20:43,960
+Und bitte nicht.
+
+531
+00:20:45,590 --> 00:20:46,700
+Anonyme Funktionen.
+
+532
+00:20:46,850 --> 00:20:48,820
+Oder Objekte die irgendwo einmal.
+
+533
+00:20:49,000 --> 00:20:51,100
+Erzeugt werden aber nirgendwo gespeichert
+werden.
+
+534
+00:20:51,380 --> 00:20:52,380
+Weil das.
+
+535
+00:20:52,650 --> 00:20:54,250
+Die Sachen da auch wieder rauszukriegen.
+
+536
+00:20:54,580 --> 00:20:55,580
+Das ist nicht spaßig.
+
+537
+00:20:56,150 --> 00:20:58,320
+Also am besten benannte Funktionen.
+
+538
+00:20:58,321 --> 00:21:00,480
+Oder statische Klassen.
+
+539
+00:21:00,680 --> 00:21:02,000
+Mit Methoden oder.
+
+540
+00:21:02,885 --> 00:21:04,460
+Singleton Objekte oder ähnliches.
+
+541
+00:21:19,400 --> 00:21:20,000
+Was machst du.
+
+542
+00:21:20,270 --> 00:21:22,100
+Wenn da viele Hooks aktiv sind.
+
+543
+00:21:22,970 --> 00:21:24,376
+Also du hast dich da reingearbeitet.
+
+544
+00:21:24,400 --> 00:21:25,780
+Kriegst du eine Übersicht.
+
+545
+00:21:26,110 --> 00:21:27,860
+Welche Hooks aktiv sind.
+
+546
+00:21:28,180 --> 00:21:29,240
+Kannst du das raushinten.
+
+547
+00:21:29,580 --> 00:21:31,560
+Oder musst du das alles manuell sichten.
+
+548
+00:21:32,990 --> 00:21:34,240
+Wie verstehst du aktiv.
+
+549
+00:21:36,450 --> 00:21:37,450
+Du hast jetzt ein Plugin.
+
+550
+00:21:37,630 --> 00:21:39,500
+Und du sollst es weiter bearbeiten.
+
+551
+00:21:40,260 --> 00:21:40,980
+Und dann macht es Dinge.
+
+552
+00:21:41,220 --> 00:21:42,480
+Und du sagst nicht.
+
+553
+00:21:42,520 --> 00:21:44,200
+Da ist vielleicht irgendwo ein Hook aktiv.
+
+554
+00:21:45,600 --> 00:21:46,200
+Du musst das ja erstmal raushinten.
+
+555
+00:21:46,300 --> 00:21:48,180
+Was der andere da schon gebaut hat.
+
+556
+00:21:48,720 --> 00:21:49,720
+Na klar.
+
+557
+00:21:49,760 --> 00:21:51,340
+Also du meinst im Prinzip.
+
+558
+00:21:51,380 --> 00:21:54,080
+Wenn eine andere Komponente sich auch
+schon dort reingehookt hat.
+
+559
+00:21:54,140 --> 00:21:55,940
+Und auch schon etwas gemacht hat.
+
+560
+00:21:57,300 --> 00:21:58,360
+Man kann grundsätzlich.
+
+561
+00:21:59,440 --> 00:22:00,440
+Über die.
+
+562
+00:22:01,580 --> 00:22:02,200
+Also man kann ja auch.
+
+563
+00:22:02,280 --> 00:22:04,040
+Andere Actions und Filter entfernen.
+
+564
+00:22:04,080 --> 00:22:05,261
+Wenn man jetzt zum Beispiel weiß.
+
+565
+00:22:05,285 --> 00:22:07,140
+Dieses Plugin macht dort etwas.
+
+566
+00:22:07,580 --> 00:22:09,100
+Das möchte ich aber rückgängig machen.
+
+567
+00:22:09,200 --> 00:22:10,980
+Dann gibt es Remove Filter und Remove
+Action.
+
+568
+00:22:11,860 --> 00:22:12,860
+Das sind im Prinzip.
+
+569
+00:22:13,190 --> 00:22:14,496
+Denen übergibt man im Prinzip das.
+
+570
+00:22:14,520 --> 00:22:16,640
+Was man auch Add Action oder Add Filter
+übergibt.
+
+571
+00:22:17,140 --> 00:22:18,700
+Und die entfernen das dann wieder.
+
+572
+00:22:18,860 --> 00:22:20,920
+Und es gibt so Funktionen wie Remove All
+Actions.
+
+573
+00:22:20,940 --> 00:22:22,400
+Remove All Filters und so.
+
+574
+00:22:22,870 --> 00:22:24,100
+Um auch alles zu entfernen.
+
+575
+00:22:24,810 --> 00:22:25,780
+Und ansonsten.
+
+576
+00:22:25,781 --> 00:22:27,680
+Wenn man jetzt nicht spezifisch weiß.
+
+577
+00:22:27,910 --> 00:22:29,240
+Dass da etwas existiert.
+
+578
+00:22:29,260 --> 00:22:30,700
+Sondern vielleicht eher gucken will.
+
+579
+00:22:32,570 --> 00:22:34,540
+Das wird ja alles in Objekten.
+
+580
+00:22:35,540 --> 00:22:36,540
+Beziehungsweise.
+
+581
+00:22:36,820 --> 00:22:38,400
+Es müsste ein Objekt sein.
+
+582
+00:22:38,520 --> 00:22:40,580
+In dem das vom WordPress Core gespeichert
+wird.
+
+583
+00:22:40,581 --> 00:22:42,320
+Welche Hooks alle.
+
+584
+00:22:42,400 --> 00:22:44,240
+Wo schon reingehooked wurden und so.
+
+585
+00:22:45,160 --> 00:22:46,560
+Und im Notfall kann man halt da.
+
+586
+00:22:46,950 --> 00:22:48,630
+Gucken ob man das irgendwie da rausfindet.
+
+587
+00:22:49,130 --> 00:22:50,570
+Was da ansonsten noch so drin hängt.
+
+588
+00:22:50,690 --> 00:22:52,200
+Oder halt Query Monitor.
+
+589
+00:22:52,380 --> 00:22:53,980
+Wenn man auf der Seite schon drauf ist.
+
+590
+00:22:54,520 --> 00:22:55,960
+Wo man sich dann alle anzeigen kann.
+
+591
+00:22:56,640 --> 00:22:58,320
+Die bei diesem Aufruf halt.
+
+592
+00:22:59,200 --> 00:23:00,200
+Durchgeführt wurden.
+
+593
+00:23:02,550 --> 00:23:03,830
+Ja hallo vielen Dank für deinen.
+
+594
+00:23:04,700 --> 00:23:05,700
+Hilfreichen Vortrag.
+
+595
+00:23:06,040 --> 00:23:07,106
+Du hattest gerade das Beispiel.
+
+596
+00:23:07,130 --> 00:23:09,200
+Mit dem Endfall Theme angegeben.
+
+597
+00:23:09,201 --> 00:23:10,880
+Dass du da nicht mit einem Template.
+
+598
+00:23:11,000 --> 00:23:12,000
+Weitergekommen bist.
+
+599
+00:23:12,230 --> 00:23:13,960
+Ich stellte mir sofort die Frage.
+
+600
+00:23:14,280 --> 00:23:16,360
+Konntest du nicht den Weg über ein Child
+Theme gehen.
+
+601
+00:23:16,650 --> 00:23:19,340
+Und da das Template reinkopieren.
+
+602
+00:23:19,440 --> 00:23:21,220
+Und nach deinen Wünschen anpassen.
+
+603
+00:23:21,690 --> 00:23:22,690
+Das wäre jetzt so ganz.
+
+604
+00:23:23,150 --> 00:23:24,150
+Mein Gedanke gewesen.
+
+605
+00:23:24,650 --> 00:23:25,810
+Also es gab halt keinen Hook.
+
+606
+00:23:25,880 --> 00:23:26,680
+Um es anzupassen.
+
+607
+00:23:26,720 --> 00:23:28,680
+Deswegen musste ich es leider
+überschreiben.
+
+608
+00:23:29,560 --> 00:23:31,380
+So dann habe ich es vielleicht eben
+falsch.
+
+609
+00:23:32,310 --> 00:23:34,580
+Also es gab halt keinen Hook.
+
+610
+00:23:34,660 --> 00:23:35,800
+Mit dem man diesen Text.
+
+611
+00:23:37,080 --> 00:23:38,426
+Einfach hätte modifizieren können.
+
+612
+00:23:38,450 --> 00:23:40,680
+Sondern es blieb nur der Weg im Prinzip
+das Template.
+
+613
+00:23:40,700 --> 00:23:42,020
+Ins Child Theme zu übernehmen.
+
+614
+00:23:42,515 --> 00:23:43,860
+Und manuell anzupassen.
+
+615
+00:23:44,550 --> 00:23:46,060
+Und was natürlich aus.
+
+616
+00:23:46,730 --> 00:23:49,080
+Also es ist besser als es direkt im
+Plugin.
+
+617
+00:23:49,160 --> 00:23:50,160
+Oder im Theme zu machen.
+
+618
+00:23:50,860 --> 00:23:52,640
+Aber wenn jetzt Endfold.
+
+619
+00:23:52,760 --> 00:23:53,500
+In der neuen Version.
+
+620
+00:23:53,680 --> 00:23:55,860
+Ein neues Suchtemplate hinzufügt.
+
+621
+00:23:56,860 --> 00:23:58,500
+Kriegt man diese Änderung halt nicht mit.
+
+622
+00:23:58,580 --> 00:24:00,500
+Bei einem überschriebenen Template.
+
+623
+00:24:01,180 --> 00:24:02,960
+Und das führt auch regelmäßig.
+
+624
+00:24:03,330 --> 00:24:05,260
+Wenn man Systeme updatet zu Problemen.
+
+625
+00:24:05,261 --> 00:24:06,560
+Wenn dann eine Komponente.
+
+626
+00:24:07,080 --> 00:24:08,080
+Irgendwas anderes.
+
+627
+00:24:08,845 --> 00:24:10,045
+Erweitert hat durch Templates.
+
+628
+00:24:10,140 --> 00:24:12,620
+Und das Original Template sich geändert
+hat.
+
+629
+00:24:13,220 --> 00:24:14,500
+Deswegen wenn es geht Hooks.
+
+630
+00:24:15,130 --> 00:24:16,760
+Aber wenn es halt sowas nur gibt.
+
+631
+00:24:16,890 --> 00:24:18,090
+Dann muss man halt vielleicht.
+
+632
+00:24:18,300 --> 00:24:19,780
+Dann doch das Template überschreiben.
+
+633
+00:24:20,420 --> 00:24:21,660
+Um den Wert anpassen zu können.
+
+634
+00:24:34,030 --> 00:24:35,540
+Danke erstmal für den Vortrag.
+
+635
+00:24:35,960 --> 00:24:37,880
+Könntest du vielleicht noch ein bisschen
+mehr zu.
+
+636
+00:24:38,290 --> 00:24:40,200
+Remove Filter, Remove Action erzählen.
+
+637
+00:24:40,460 --> 00:24:41,460
+Ich weiß noch dass das.
+
+638
+00:24:42,480 --> 00:24:43,480
+Immer.
+
+639
+00:24:44,260 --> 00:24:44,980
+Problematisch ist.
+
+640
+00:24:45,180 --> 00:24:46,880
+Quasi wann genau ist.
+
+641
+00:24:47,180 --> 00:24:48,460
+Der Filter eigentlich definiert.
+
+642
+00:24:48,600 --> 00:24:49,780
+Wann kann ich ihn überhaupt.
+
+643
+00:24:50,020 --> 00:24:53,020
+Und da sind ja auch die Prioritäten immer
+spannend.
+
+644
+00:24:53,830 --> 00:24:55,320
+Da kann man zum Beispiel.
+
+645
+00:24:55,580 --> 00:24:56,960
+Zu sagen nehmen wir jetzt mal.
+
+646
+00:24:57,210 --> 00:24:58,330
+Wir gehen mal auf irgendein.
+
+647
+00:24:59,220 --> 00:25:00,220
+Beispiel.
+
+648
+00:25:00,640 --> 00:25:02,100
+Welches haben wir mal gerade hier.
+
+649
+00:25:03,410 --> 00:25:04,410
+Wir nehmen mal.
+
+650
+00:25:06,780 --> 00:25:07,400
+Die ganzen Steps.
+
+651
+00:25:07,401 --> 00:25:08,401
+Erst mal zurück gehen.
+
+652
+00:25:10,600 --> 00:25:11,600
+Nehmen wir die Option.
+
+653
+00:25:12,740 --> 00:25:13,740
+Nehmen wir mal an.
+
+654
+00:25:14,500 --> 00:25:15,500
+In der Option.
+
+655
+00:25:15,540 --> 00:25:16,540
+Die wird geändert.
+
+656
+00:25:16,660 --> 00:25:17,180
+Nehmen wir mal an.
+
+657
+00:25:17,220 --> 00:25:19,360
+Das ist das was irgendwo schon drinsteht.
+
+658
+00:25:19,420 --> 00:25:20,120
+Und man möchte das.
+
+659
+00:25:20,410 --> 00:25:22,900
+Wenn wir jetzt hier gucken.
+
+660
+00:25:23,780 --> 00:25:25,740
+Hier ist keine Priorität hinterlegt.
+
+661
+00:25:25,990 --> 00:25:27,190
+Das heißt es ist Priorität 10.
+
+662
+00:25:27,860 --> 00:25:28,860
+Jetzt könnte man.
+
+663
+00:25:30,390 --> 00:25:32,260
+Also in der Regel wird dieser Hook.
+
+664
+00:25:32,340 --> 00:25:34,400
+Ja dann irgendwo im Plugin.
+
+665
+00:25:34,460 --> 00:25:35,460
+Oder so definiert.
+
+666
+00:25:36,020 --> 00:25:37,680
+Und das kann ja sowohl.
+
+667
+00:25:38,590 --> 00:25:39,680
+Direkt in der Functions.
+
+668
+00:25:39,805 --> 00:25:41,100
+PAP sein oder so.
+
+669
+00:25:41,940 --> 00:25:43,660
+Oder auch wieder in einem anderen Hook.
+
+670
+00:25:43,725 --> 00:25:44,845
+So meinst du denke ich oder.
+
+671
+00:25:45,010 --> 00:25:46,770
+Also das ist gegebenenfalls auch erst
+später.
+
+672
+00:25:47,990 --> 00:25:49,520
+Diese Funktion ausgeführt wird.
+
+673
+00:25:49,620 --> 00:25:50,620
+Vom Plugin.
+
+674
+00:25:51,660 --> 00:25:52,660
+Wenn das der Fall ist.
+
+675
+00:25:53,110 --> 00:25:54,740
+Man kann sich natürlich hier reinhooken.
+
+676
+00:25:55,220 --> 00:25:56,220
+Etwas früher.
+
+677
+00:25:56,970 --> 00:25:58,210
+Also zum Beispiel nicht bei 10.
+
+678
+00:25:58,320 --> 00:25:59,320
+Sondern bei 9.
+
+679
+00:25:59,960 --> 00:26:02,000
+Und dann dort das Remove Filter machen.
+
+680
+00:26:02,640 --> 00:26:04,680
+Dann hat man eine höhere
+Wahrscheinlichkeit.
+
+681
+00:26:04,930 --> 00:26:07,520
+Dass dieser Filter schon hinzugefügt
+wurde.
+
+682
+00:26:07,521 --> 00:26:09,220
+Damit man ihn dann wieder entfernen kann.
+
+683
+00:26:10,695 --> 00:26:11,620
+Und wenn man sich.
+
+684
+00:26:11,640 --> 00:26:13,400
+Also zum Beispiel kurz davor reinhookt.
+
+685
+00:26:14,670 --> 00:26:15,540
+Eine Priorität weniger.
+
+686
+00:26:15,600 --> 00:26:16,600
+Zum Beispiel.
+
+687
+00:26:17,490 --> 00:26:18,850
+Dann ist es sehr unwahrscheinlich.
+
+688
+00:26:19,010 --> 00:26:20,460
+Dass der Hook in dem Moment.
+
+689
+00:26:20,480 --> 00:26:21,740
+Noch nicht hinzugefügt wurde.
+
+690
+00:26:22,580 --> 00:26:24,820
+Weil er meistens schon irgendwo vorher
+hinzugefügt wurde.
+
+691
+00:26:25,030 --> 00:26:27,110
+Und dann kann man den halt meistens sauber
+entfernen.
+
+692
+00:26:28,210 --> 00:26:29,000
+Und dasselbe gilt auch.
+
+693
+00:26:29,080 --> 00:26:31,320
+Wenn man ihn nachher zum Beispiel wieder
+hinzufügen will.
+
+694
+00:26:31,410 --> 00:26:33,250
+Und den vielleicht nur für seinen eigenen
+Hook.
+
+695
+00:26:33,470 --> 00:26:34,550
+Irgendwie weg haben möchte.
+
+696
+00:26:34,575 --> 00:26:36,120
+Dann kann man den natürlich auch.
+
+697
+00:26:36,370 --> 00:26:37,370
+Mit prio plus wieder 1.
+
+698
+00:26:37,500 --> 00:26:38,500
+Wieder hinzufügen.
+
+699
+00:26:40,490 --> 00:26:42,340
+Es gibt auch noch für die prio.
+
+700
+00:26:42,540 --> 00:26:44,580
+prp int min und prp int max.
+
+701
+00:26:44,640 --> 00:26:45,640
+Als Konstanten.
+
+702
+00:26:46,090 --> 00:26:48,400
+Um die kleinstmögliche Integerzahl.
+
+703
+00:26:48,480 --> 00:26:49,540
+In prp zu nehmen.
+
+704
+00:26:49,600 --> 00:26:50,600
+Oder die maximale.
+
+705
+00:26:50,955 --> 00:26:51,955
+Um zum Beispiel zu sagen.
+
+706
+00:26:52,680 --> 00:26:54,200
+Das habe ich glaube ich auch.
+
+707
+00:26:54,740 --> 00:26:56,680
+Irgendwo hier verwendet.
+
+708
+00:27:01,450 --> 00:27:02,810
+Wenn ich jetzt wüsste wo.
+
+709
+00:27:07,520 --> 00:27:08,520
+Ja hier.
+
+710
+00:27:09,340 --> 00:27:09,640
+Prp int max.
+
+711
+00:27:09,960 --> 00:27:10,960
+Das heißt.
+
+712
+00:27:11,920 --> 00:27:14,580
+Ich möchte zum Beispiel abwarten.
+
+713
+00:27:14,581 --> 00:27:16,120
+Bis alle anderen Hooks.
+
+714
+00:27:16,900 --> 00:27:18,376
+Schon diesen Wert hier verändert haben.
+
+715
+00:27:18,400 --> 00:27:19,400
+Diese Changes.
+
+716
+00:27:19,960 --> 00:27:21,640
+Bevor ich dann gucke ob die empty sind.
+
+717
+00:27:21,820 --> 00:27:24,240
+Weil vielleicht fügt was anderes noch was
+hinzu.
+
+718
+00:27:24,320 --> 00:27:25,880
+Und dann sind die gar nicht mehr empty.
+
+719
+00:27:25,930 --> 00:27:27,176
+Und dann werden zwei Mails verschickt.
+
+720
+00:27:27,200 --> 00:27:28,000
+Einmal für empty.
+
+721
+00:27:28,160 --> 00:27:29,340
+Und einmal für nicht empty.
+
+722
+00:27:30,730 --> 00:27:32,860
+Für sowas kann man dann zum Beispiel prp
+int max.
+
+723
+00:27:32,980 --> 00:27:34,520
+Oder prp int min auch verwenden.
+
+724
+00:27:46,260 --> 00:27:47,260
+Ja.
+
+725
+00:27:49,640 --> 00:27:50,980
+Wenn ich jetzt zum Beispiel nur Changes
+brauche.
+
+726
+00:27:51,000 --> 00:27:51,660
+Kann ich es weglassen.
+
+727
+00:27:51,740 --> 00:27:52,980
+Weil eins ist der Default Wert.
+
+728
+00:27:53,350 --> 00:27:55,480
+Wenn ich Changes und Post ID nur brauche.
+
+729
+00:27:55,620 --> 00:27:56,740
+Kann ich zwei reinschreiben.
+
+730
+00:27:57,060 --> 00:27:59,056
+Darf aber dann hier auch nur die beiden
+definieren.
+
+731
+00:27:59,080 --> 00:27:59,920
+Weil wenn ich mehr definiere.
+
+732
+00:27:59,980 --> 00:28:01,020
+Gibt es einen Fatal Error.
+
+733
+00:28:01,150 --> 00:28:02,300
+Weil er versucht im Prinzip.
+
+734
+00:28:02,950 --> 00:28:04,030
+Wenn jetzt hier fünf steht.
+
+735
+00:28:04,270 --> 00:28:05,440
+Versucht er diese Funktion.
+
+736
+00:28:06,760 --> 00:28:09,080
+Mit den ersten fünf Parametern.
+
+737
+00:28:09,120 --> 00:28:10,260
+Die im Apply Filter oder.
+
+738
+00:28:11,670 --> 00:28:13,740
+Do Action drinstehen aufzurufen.
+
+739
+00:28:14,240 --> 00:28:15,600
+Und wenn das dann natürlich nicht.
+
+740
+00:28:15,960 --> 00:28:16,440
+Matcht.
+
+741
+00:28:16,960 --> 00:28:17,920
+Gibt es natürlich einen Fehler.
+
+742
+00:28:17,980 --> 00:28:19,140
+Man kann aber natürlich auch.
+
+743
+00:28:19,740 --> 00:28:21,700
+Werte mit Default Sachen hinterlegen.
+
+744
+00:28:21,870 --> 00:28:22,870
+Also man könnte jetzt.
+
+745
+00:28:24,280 --> 00:28:25,280
+Zum Beispiel.
+
+746
+00:28:28,520 --> 00:28:29,520
+Nehmen wir mal an.
+
+747
+00:28:29,590 --> 00:28:30,590
+Man würde.
+
+748
+00:28:30,990 --> 00:28:33,080
+Einen Callback für zwei Hooks verwenden.
+
+749
+00:28:33,670 --> 00:28:34,840
+Also zum Beispiel möchte man.
+
+750
+00:28:35,300 --> 00:28:36,300
+Ihn bei.
+
+751
+00:28:37,760 --> 00:28:39,960
+Jetzt sind wir wieder bei einem anderen
+Beispiel.
+
+752
+00:28:40,680 --> 00:28:41,680
+Beim.
+
+753
+00:28:42,155 --> 00:28:43,315
+Beispiel eben mit der Option.
+
+754
+00:28:44,200 --> 00:28:45,316
+Könnte man gibt es ja auch nicht nur.
+
+755
+00:28:45,340 --> 00:28:46,700
+Option unterstrich Option nehmen.
+
+756
+00:28:46,820 --> 00:28:47,860
+Sondern es gibt auch noch.
+
+757
+00:28:48,170 --> 00:28:50,100
+Option oder so als Hook auch noch.
+
+758
+00:28:50,560 --> 00:28:51,260
+Nehmen wir mal an.
+
+759
+00:28:51,261 --> 00:28:52,736
+Man möchte sich in beides reinhucken.
+
+760
+00:28:52,760 --> 00:28:54,120
+Bei dem einen soll nur vielleicht.
+
+761
+00:28:54,270 --> 00:28:56,040
+Der und der Wert noch mit übergeben
+werden.
+
+762
+00:28:56,140 --> 00:28:58,060
+Den man aber jetzt bei dem anderen nicht
+braucht.
+
+763
+00:28:58,160 --> 00:28:59,180
+Kann man auch ein.
+
+764
+00:29:00,050 --> 00:29:01,340
+Default Wert hier hinterlegen.
+
+765
+00:29:02,050 --> 00:29:04,210
+Und wenn dann halt nur zwei Parameter
+übergeben werden.
+
+766
+00:29:04,240 --> 00:29:05,440
+Weil man hier zwei hat.
+
+767
+00:29:06,010 --> 00:29:07,250
+Wird der dritte Wert dann halt.
+
+768
+00:29:07,370 --> 00:29:08,410
+Der Default Wert genommen.
+
+769
+00:29:08,520 --> 00:29:10,206
+Aber das ist ein ganz klassischer Default
+Wert.
+
+770
+00:29:10,230 --> 00:29:11,230
+Von der Funktion.
+
+771
+00:29:19,480 --> 00:29:20,520
+Dann sind wir wohl fertig.
+
+772
+00:29:22,240 --> 00:29:23,060
+Vielleicht noch der Hinweis.
+
+773
+00:29:23,100 --> 00:29:24,720
+Bevor alle gleich raus rennen.
+
+774
+00:29:26,540 --> 00:29:27,540
+Es wird gleich.
+

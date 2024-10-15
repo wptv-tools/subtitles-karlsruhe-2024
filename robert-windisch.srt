@@ -1,0 +1,2890 @@
+﻿1
+00:00:00,760 --> 00:00:08,580
+Ja, also, schön, dass ihr alle da seid,
+die, die doch nicht zu Headless sind und
+
+2
+00:00:08,680 --> 00:00:09,680
+hier geblieben sind.
+
+3
+00:00:10,860 --> 00:00:11,860
+Wo noch nicht, aber gut.
+
+4
+00:00:13,720 --> 00:00:19,840
+Wir haben jetzt die Freude, Wirtschaft als
+soziales Netzwerk von Robert Windisch eine
+
+5
+00:00:19,841 --> 00:00:23,500
+Präsentation zu bekommen und ich wünsche
+euch viel Spaß.
+
+6
+00:00:28,790 --> 00:00:29,230
+Okay.
+
+7
+00:00:29,231 --> 00:00:30,310
+Danke, dass ihr da seid.
+
+8
+00:00:31,680 --> 00:00:36,630
+Es wird am Ende wahrscheinlich,
+werdet ihr es bereut haben, hier zu sein,
+
+9
+00:00:36,690 --> 00:00:40,350
+weil ihr kriegt Arbeit, ihr kriegt
+Hausaufgaben am Ende.
+
+10
+00:00:41,670 --> 00:00:42,670
+Fangen wir mal an.
+
+11
+00:00:43,560 --> 00:00:44,870
+WordPress als soziales Netzwerk.
+
+12
+00:00:45,220 --> 00:00:48,270
+Was wir als erstes machen, ist, wir
+springen mal sieben Jahre in die Zukunft.
+
+13
+00:00:49,070 --> 00:00:52,490
+Alles, was gerade eben an Problemen im
+WordPress-Ökosystem rumfliegt,
+
+14
+00:00:52,550 --> 00:00:54,931
+sei es, was ist der
+beste Page Builder, für
+
+15
+00:00:54,932 --> 00:00:56,970
+welchen Formenbilder
+sollte ich mich entscheiden?
+
+16
+00:00:57,250 --> 00:01:00,530
+Irgendwelche anderen Probleme,
+die existieren jetzt erst mal nicht mehr.
+
+17
+00:01:00,970 --> 00:01:03,306
+Für die nächste halbe Stunde existieren
+diese Probleme nicht.
+
+18
+00:01:03,330 --> 00:01:04,330
+Wir haben sie gelöst.
+
+19
+00:01:05,240 --> 00:01:06,766
+Wie wir sie gelöst haben, da kommen wir
+dazu.
+
+20
+00:01:06,790 --> 00:01:09,970
+Aber die Großteil der Probleme... geil,
+ich mag das.
+
+21
+00:01:10,190 --> 00:01:12,370
+Wirklich, es ist sehr cool.
+
+22
+00:01:13,950 --> 00:01:15,450
+Die Probleme haben wir alle gelöst.
+
+23
+00:01:15,800 --> 00:01:19,350
+Das heißt, wir fangen an mit... wie sieht
+es denn jetzt in sieben Jahren aus?
+
+24
+00:01:19,490 --> 00:01:24,070
+Also, wir haben... ihr seid hierher
+gekommen mit einem selbstfahrenden Auto.
+
+25
+00:01:24,071 --> 00:01:25,990
+Oder mit einem Flugzeugtaxi.
+
+26
+00:01:26,550 --> 00:01:29,326
+Schön, dass ihr alle
+eure VR-Brillen abgesetzt
+
+27
+00:01:29,327 --> 00:01:31,730
+habt und quasi wirklich
+in the moment seid.
+
+28
+00:01:31,915 --> 00:01:33,475
+Es ist sehr schön, dass ihr dabei seid.
+
+29
+00:01:34,830 --> 00:01:36,796
+Was sich auch noch
+geändert hat... cool,
+
+30
+00:01:36,797 --> 00:01:40,111
+WordPress hat einen
+Marktanteil von 60 Prozent.
+
+31
+00:01:40,690 --> 00:01:42,126
+Das ist... also erst mal sacken lassen.
+
+32
+00:01:42,150 --> 00:01:46,550
+Normalerweise reden wir irgendwie von 40
+Prozent oder so oder je nachdem 43,
+
+33
+00:01:46,850 --> 00:01:49,470
+34 Prozent aller Webseiten hat WordPress.
+
+34
+00:01:50,030 --> 00:01:52,070
+In sieben Jahren haben wir 60 Prozent.
+
+35
+00:01:53,330 --> 00:01:53,890
+Und...
+
+36
+00:01:54,070 --> 00:01:55,070
+Verrückt.
+
+37
+00:01:55,370 --> 00:01:57,430
+Junge Menschen sind auf WordCamps.
+
+38
+00:01:59,460 --> 00:02:00,330
+Es gibt junge Menschen.
+
+39
+00:02:00,430 --> 00:02:01,430
+Es gibt es wirklich.
+
+40
+00:02:01,750 --> 00:02:03,830
+Junge Menschen helfen im Projekt mit.
+
+41
+00:02:03,940 --> 00:02:06,570
+Junge Menschen sind aktiv in dem ganzen
+Ecosystem.
+
+42
+00:02:07,600 --> 00:02:10,030
+Und eure Frage ist jetzt... cool.
+
+43
+00:02:10,810 --> 00:02:11,810
+Wie?
+
+44
+00:02:12,090 --> 00:02:13,291
+Wie haben wir das hingekriegt?
+
+45
+00:02:14,370 --> 00:02:19,870
+Und es ist eigentlich, wie der Vortrag es
+schon andeutet, relativ einfach.
+
+46
+00:02:20,470 --> 00:02:22,156
+Und zwar haben wir was verändert in
+WordPress.
+
+47
+00:02:22,180 --> 00:02:27,010
+Wir haben gemacht, dass Leute sagen,
+ich hab das auf WordPress gesehen.
+
+48
+00:02:28,060 --> 00:02:30,129
+Die Leute sagen quasi,
+ich hab das auf Tik
+
+49
+00:02:30,130 --> 00:02:32,090
+Tok gesehen, ich habe
+das im Internet gesehen.
+
+50
+00:02:32,210 --> 00:02:33,926
+Die sagen Ich hab das auf Wordpress
+gesehen.
+
+51
+00:02:33,950 --> 00:02:36,550
+WordPress wird ein soziales Netzwerk.
+
+52
+00:02:38,000 --> 00:02:42,230
+Das heißt, die Leute benutzen WordPress
+und interagieren miteinander.
+
+53
+00:02:43,730 --> 00:02:44,830
+Aber für die ist das nicht.
+
+54
+00:02:44,890 --> 00:02:45,790
+Das ist eine Webseite.
+
+55
+00:02:45,910 --> 00:02:46,270
+Es ist ein.
+
+56
+00:02:46,271 --> 00:02:47,950
+Das ist ein CS oder irgendwas.
+
+57
+00:02:48,610 --> 00:02:51,990
+Für die ist das verrückterweise die
+WordPress.
+
+58
+00:02:52,030 --> 00:02:53,270
+Also wenn ich das jetzt lese...
+
+59
+00:02:53,890 --> 00:02:54,890
+Das ist es.
+
+60
+00:02:55,060 --> 00:02:56,101
+Das ist die WordPress-App.
+
+61
+00:02:56,370 --> 00:02:58,011
+Die, die ihr gerade schon benutzen könnt.
+
+62
+00:02:58,160 --> 00:03:00,093
+Also nicht die, die ihr
+gerade benutzt, weil, oh mein
+
+63
+00:03:00,094 --> 00:03:02,011
+Gott, da müssen wir noch
+ganz schön was verändern.
+
+64
+00:03:02,450 --> 00:03:07,290
+Aber die WordPress-App in sieben Jahren ist
+der Startpunkt für Leute, das zu machen.
+
+65
+00:03:07,485 --> 00:03:11,230
+Die sagen, ich habe das in WordPress gesehen
+und sagen, ich will da auch mitmachen.
+
+66
+00:03:11,770 --> 00:03:15,790
+Holen sich die WordPress-App, sagen, ich
+will einen Account, kriegen einen Account.
+
+67
+00:03:16,335 --> 00:03:21,890
+Bei den Leuten ist, falls ihr es gemerkt
+habt, völlig egal, wo ihre URL ist.
+
+68
+00:03:22,210 --> 00:03:25,830
+Wo dieses Konzepte verrückt, dieses,
+was ist mein Profil, wie heißt das,
+
+69
+00:03:26,380 --> 00:03:29,130
+was für eine URL, habe ich da ein SSL
+-Zertifikat drauf?
+
+70
+00:03:29,450 --> 00:03:32,670
+Das interessiert einen normalen User,
+interessiert das null.
+
+71
+00:03:32,980 --> 00:03:33,980
+Die Bohne.
+
+72
+00:03:34,540 --> 00:03:36,530
+Wir reden wirklich von Endanwendern.
+
+73
+00:03:36,531 --> 00:03:41,351
+Die Leute, die gerade Instagram, TikTok
+oder, Gott verbitt, Mastodon benutzen.
+
+74
+00:03:41,390 --> 00:03:46,852
+Die quasi so verrückt sind,
+die sich quasi den Spaß antun,
+
+75
+00:03:46,853 --> 00:03:50,450
+mit diesem weirden Nerd
+-Scheiß wie Mastodon zu arbeiten.
+
+76
+00:03:51,210 --> 00:03:53,877
+Sondern wirklich die User,
+die jetzt gerade eben da
+
+77
+00:03:53,878 --> 00:03:56,930
+draußen, außerhalb des
+Gebäudes, WordPress benutzen.
+
+78
+00:03:57,620 --> 00:04:01,790
+By the way, um euch allen mal den Spiegel
+vor das Gesicht zu halten, ihr benutzt
+
+79
+00:04:01,791 --> 00:04:04,650
+gerade auch nicht WordPress, um Beiträge
+ins Netz zu stellen.
+
+80
+00:04:05,490 --> 00:04:08,333
+Wenn ihr das macht, nutzt
+ihr WordPress und dann postet
+
+81
+00:04:08,433 --> 00:04:10,690
+ihr das auf Social Media,
+dass es auch gesehen wird.
+
+82
+00:04:11,190 --> 00:04:13,350
+Aber in sieben Jahren ist das alles
+gelöst.
+
+83
+00:04:15,090 --> 00:04:19,090
+Das Wichtige, was wir gerade noch nicht
+gelöst haben, ist, ich muss leider den
+
+84
+00:04:19,091 --> 00:04:20,430
+englischen Begriff dafür benutzen,
+weil der Englisch ist.
+
+85
+00:04:20,450 --> 00:04:23,310
+Der einfach das am besten beschreibt,
+ist die Consumption Experience.
+
+86
+00:04:24,420 --> 00:04:28,030
+In sieben Jahren ist das so gelöst,
+dass ihr eure WordPress-App öffnet und
+
+87
+00:04:28,031 --> 00:04:31,610
+dann scrollt ihr durch den Content,
+der im Netz ist.
+
+88
+00:04:33,150 --> 00:04:37,150
+Nicht wie jetzt, WordPress-App auf,
+das sind deine Blog-Beiträge.
+
+89
+00:04:37,410 --> 00:04:40,850
+Das ist cool, aber das heißt, ich muss
+jetzt einen Browser aufmachen,
+
+90
+00:04:41,205 --> 00:04:43,290
+um zu sehen, was andere Leute schreiben.
+
+91
+00:04:44,610 --> 00:04:46,270
+Nein, in sieben Jahren ist das gelöst.
+
+92
+00:04:46,310 --> 00:04:48,990
+In sieben Jahren ist WordPress die
+komplette Experience.
+
+93
+00:04:50,450 --> 00:04:54,290
+Und wenn es ein totales Netzwerk ist im
+Open Web, deswegen Distributed Social
+
+94
+00:04:54,291 --> 00:04:59,970
+Media, benutzen die ganzen Leute nur eine
+einzige App, nämlich die WordPress-App und
+
+95
+00:04:59,971 --> 00:05:04,910
+interagieren mit anderen Menschen,
+produzieren Kinnhälte und reagieren auf
+
+96
+00:05:04,911 --> 00:05:08,010
+andere, kommentieren und die ganzen
+anderen verrückten Dinge, die man halt so
+
+97
+00:05:08,011 --> 00:05:11,070
+auf Social Media-Bereich, auf Social Media
+-Webseiten eben tut.
+
+98
+00:05:13,920 --> 00:05:17,530
+Nächste Frage wäre dann Aber wie verdient
+man denn damit Geld?
+
+99
+00:05:19,380 --> 00:05:20,380
+Und die.
+
+100
+00:05:20,625 --> 00:05:25,950
+Relativ einfache Antwort ist, es gibt mehr
+Kunden für Hosting-Firmen.
+
+101
+00:05:28,310 --> 00:05:31,710
+Weil wenn wir, wenn ihr darüber nachdenkt,
+die Leute gehen auf die, machen die
+
+102
+00:05:31,711 --> 00:05:35,770
+WordPress -App an und dann können die
+darin quasi schreiben, können Dinge machen.
+
+103
+00:05:36,460 --> 00:05:39,343
+Aber da das ja WordPress
+ist, können die auch quasi die
+
+104
+00:05:39,344 --> 00:05:41,811
+WordPress-App benutzen und
+bei einem anderen Hoster sein.
+
+105
+00:05:41,880 --> 00:05:47,610
+Die können quasi bei Jonas sein,
+die können bei Hostinger oder irgendeiner,
+
+106
+00:05:47,670 --> 00:05:49,910
+der quasi auf der WordPress- oder auch
+Hosting-Seite ist.
+
+107
+00:05:50,230 --> 00:05:53,970
+Oder woanders können die quasi sein und
+können einfach die gleiche App benutzen.
+
+108
+00:05:54,490 --> 00:05:57,670
+Weil für die ist es nur quasi ein kleiner
+Klick und dann bumms sind sie quasi
+
+109
+00:05:57,671 --> 00:06:02,731
+woanders und der und die Hosting-Firmen
+machen denen quasi dann spezielle Angebote.
+
+110
+00:06:03,140 --> 00:06:05,770
+Nämlich den Social Media Hosting Plan.
+
+111
+00:06:07,240 --> 00:06:10,290
+Mit einer schnelleren Erreichbarkeit.
+
+112
+00:06:10,520 --> 00:06:12,210
+Das sind neue, da sind mehr Tools drin.
+
+113
+00:06:12,880 --> 00:06:16,590
+Einfach Sachen, die quasi die die End
+-Anwender quasi begeistern.
+
+114
+00:06:17,110 --> 00:06:19,170
+Inhalte über diese Plattform zu
+veröffentlichen.
+
+115
+00:06:19,171 --> 00:06:22,670
+Die dann im WordPress-Social-Network quasi
+zu sehen sind.
+
+116
+00:06:23,390 --> 00:06:26,090
+Das heißt, es ist nicht, du musst nicht
+über Instagram, du musst über die
+
+117
+00:06:26,091 --> 00:06:29,490
+Instagram äh über den Instagram-Dienst
+gehen, sondern du kannst dann später
+
+118
+00:06:29,491 --> 00:06:34,890
+irgendeinen WordPress-Hoster nehmen mit
+einem Social Media Hosting Plan und dann
+
+119
+00:06:35,240 --> 00:06:38,250
+über den im WordPress-Social-Network sein.
+
+120
+00:06:41,050 --> 00:06:42,050
+Und jetzt stellt ihr vor.
+
+121
+00:06:44,570 --> 00:06:46,331
+Glückwunsch, euer Content ist viral
+gegangen.
+
+122
+00:06:47,080 --> 00:06:49,150
+Was das jetzt für einen für einen normalen
+Web-Gruppen ist.
+
+123
+00:06:49,170 --> 00:06:51,935
+Was das für ein normaler
+Hosting ähm ähm ähm äh Vertrag
+
+124
+00:06:51,936 --> 00:06:55,150
+bedeutet, ist ähm ihr bekommt
+den Kuss des Todes von Traffic.
+
+125
+00:06:55,790 --> 00:06:58,490
+Das heißt, stell dir vor, ihr habt so
+einen geilen Content, da geht äh habt's
+
+126
+00:06:58,491 --> 00:07:01,451
+auf englisch gemacht, das geht eine
+Millionen Leute geben euch jetzt Likes.
+
+127
+00:07:02,130 --> 00:07:03,410
+Eure Webseite ist tot.
+
+128
+00:07:05,830 --> 00:07:07,450
+Zukünftig wird das abgefangen.
+
+129
+00:07:08,380 --> 00:07:11,430
+Weil einfach das in kleinen, happigen
+Stücken wird das euch übergeben.
+
+130
+00:07:12,090 --> 00:07:15,190
+Quasi Hosting-Firmen können dafür sorgen,
+dass ihr quasi nicht offline geht.
+
+131
+00:07:15,870 --> 00:07:17,311
+Dass, wenn ihr, wenn ihr viral geht.
+
+132
+00:07:17,440 --> 00:07:19,150
+Dass ihr quasi nochmal geboostet werdet.
+
+133
+00:07:19,151 --> 00:07:23,810
+Dass ihr quasi in den äh in den Werbefeed,
+in dem Werbefeed, den ihr dann seht,
+
+134
+00:07:24,700 --> 00:07:29,630
+in dem quasi ähm können können auch eure,
+kann auch euer Content beworben werden,
+
+135
+00:07:30,250 --> 00:07:33,290
+den ihr quasi im WordPress Social Network
+quasi habt.
+
+136
+00:07:33,800 --> 00:07:38,470
+Das bedeutet, Social Media Firmen in
+Zukunft wissen, wie in Content Marketing
+
+137
+00:07:38,471 --> 00:07:40,151
+funktioniert und können euch das
+verkaufen.
+
+138
+00:07:40,580 --> 00:07:44,270
+Das heißt, die ganzen Sachen, die man
+jetzt so kennt bei ähm bei Instagram für
+
+139
+00:07:44,271 --> 00:07:48,330
+Boosting von Sachen, die gibt's dann auch
+im WordPress sozialen Netzwerk.
+
+140
+00:07:53,200 --> 00:08:00,080
+Das heißt, die ganzen Sachen, die man
+jetzt im WordPress Social Network benutzt,
+
+141
+00:08:01,160 --> 00:08:02,400
+die gibt's dann auch im WordPress Social
+Network.
+
+142
+00:08:02,401 --> 00:08:02,400
+Das heißt, die ganzen Sachen, die man
+jetzt im WordPress Social Network benutzt,
+
+143
+00:08:02,401 --> 00:08:04,076
+die gibt's dann auch im WordPress Social
+Network.
+
+144
+00:08:04,100 --> 00:08:04,700
+Das heißt, die ganzen Sachen, die man
+jetzt im WordPress Social Network benutzt,
+
+145
+00:08:04,701 --> 00:08:05,700
+die gibt's dann auch im WordPress Social
+Network.
+
+146
+00:08:05,701 --> 00:08:05,940
+Das heißt, die ganzen Sachen, die man
+jetzt im WordPress Social Network benutzt,
+
+147
+00:08:05,941 --> 00:08:07,376
+die gibt's dann auch im WordPress Social
+Network.
+
+148
+00:08:07,400 --> 00:08:09,140
+Das heißt, die ganzen Sachen, die man
+jetzt im WordPress Social Network benutzt,
+
+149
+00:08:09,141 --> 00:08:10,180
+die gibt's dann auch im WordPress Social
+Network.
+
+150
+00:08:10,181 --> 00:08:13,420
+Das heißt, die ganzen Sachen, die man
+jetzt im WordPress Social Network benutzt,
+
+151
+00:08:14,910 --> 00:08:16,831
+die gibt's dann auch im WordPress Social
+Network.
+
+152
+00:08:17,450 --> 00:08:20,466
+Das heißt, die ganzen Sachen, die man
+jetzt im WordPress Social Network benutzt,
+
+153
+00:08:20,490 --> 00:08:21,460
+die gibt's dann auch im WordPress Social
+Network.
+
+154
+00:08:21,461 --> 00:08:25,160
+Auf SEO möchtest du noch außerhalb des
+Social-Media-Networks gesehen werden.
+
+155
+00:08:25,220 --> 00:08:28,420
+Willst du dann auch auf normalen Webseiten
+in Google und WhatsApp gesehen werden?
+
+156
+00:08:28,860 --> 00:08:30,120
+Wir haben da so ein System.
+
+157
+00:08:30,560 --> 00:08:31,320
+Völlig verrückt.
+
+158
+00:08:31,560 --> 00:08:33,601
+Das heißt, genau wie das soziale Netzwerk
+WordPress.
+
+159
+00:08:34,130 --> 00:08:35,616
+Und da können wir Plugins installieren.
+
+160
+00:08:35,640 --> 00:08:40,680
+Lass uns mal kurz deine WordPress
+-Installation, die im Social-Media-Vertrag
+
+161
+00:08:40,681 --> 00:08:44,700
+ist, lass uns die mal kurz auf den Pro
+-Account heben und lass uns mal noch ein
+
+162
+00:08:44,701 --> 00:08:47,621
+paar andere Plugins dir anschalten,
+dass du quasi die Dinge machen kannst.
+
+163
+00:08:47,890 --> 00:08:50,660
+Das heißt, wenn wir das schaffen,
+und wir haben das, wie gesagt,
+
+164
+00:08:50,700 --> 00:08:55,000
+in sieben Jahren geschafft, die Leute
+abzuholen, dass sie WordPress als soziales
+
+165
+00:08:55,001 --> 00:09:00,080
+Netzwerk verstehen und damit auch die
+Reichweite haben, damit auch die Plattform
+
+166
+00:09:00,081 --> 00:09:03,460
+haben, damit auch eben
+Interaktionsmöglichkeiten mit anderen
+
+167
+00:09:03,461 --> 00:09:08,640
+Leuten haben, können wir denen den Kram,
+den wir jetzt gerade eben machen mit
+
+168
+00:09:08,740 --> 00:09:13,420
+WordPress, denen als Upsell verkaufen,
+weil das dann einfach mit dazugehört.
+
+169
+00:09:14,110 --> 00:09:16,880
+Und bedenkt bitte, von
+was ich alles rede, ist
+
+170
+00:09:16,881 --> 00:09:21,600
+alles ein normales
+WordPress, mit extra Plugins.
+
+171
+00:09:22,000 --> 00:09:23,000
+That's it.
+
+172
+00:09:23,360 --> 00:09:25,812
+Und eben noch Hosting-Strukturen,
+die noch ein bisschen
+
+173
+00:09:25,813 --> 00:09:28,600
+was verbessern, Performance
+und eben auch Sichtbarkeit.
+
+174
+00:09:31,600 --> 00:09:32,600
+Und jetzt?
+
+175
+00:09:34,700 --> 00:09:37,740
+Wie kommen wir denn jetzt von dem,
+von dem, von dem, wo wir jetzt gerade
+
+176
+00:09:37,741 --> 00:09:40,360
+stehen, in die Zukunft, die ich euch
+gerade aufgemalt habe?
+
+177
+00:09:43,630 --> 00:09:46,330
+Die Mission von WordPress ist,
+demoketize publishing.
+
+178
+00:09:48,220 --> 00:09:49,973
+Das klingt jetzt ein
+bisschen hochtrabend, das
+
+179
+00:09:49,974 --> 00:09:51,770
+klingt ein bisschen so,
+was bedeutet denn das?
+
+180
+00:09:52,300 --> 00:09:56,450
+Das bedeutet eben, dass WordPress als Idee
+gestartet ist, dafür zu sorgen,
+
+181
+00:09:56,550 --> 00:10:03,030
+dass jede Person sich ausdrücken kann,
+dazu quasi die Software kriegt,
+
+182
+00:10:03,130 --> 00:10:06,210
+um zu sagen, ich kann der Welt mitteilen,
+wie ich mich fühle, was ich denke.
+
+183
+00:10:07,230 --> 00:10:10,730
+Was wir gerade eigentlich machen,
+ist demoketize Business Websites.
+
+184
+00:10:11,580 --> 00:10:15,110
+Also wir sorgen dafür, dass quasi Leute,
+die Webseiten machen wollen, die
+
+185
+00:10:15,111 --> 00:10:18,070
+irgendjemanden erreichen wollen,
+nicht quasi jetzt ich habe einen
+
+186
+00:10:18,071 --> 00:10:21,991
+Katzenblog und ich will Dinge machen, sondern
+ich habe irgendein Business Interesse.
+
+187
+00:10:22,350 --> 00:10:26,530
+Dafür ist WordPress das A und O Mittel,
+weil ich weiß nicht, wie viele Leute quasi
+
+188
+00:10:26,531 --> 00:10:30,870
+normalerweise unbedingt Elementor
+brauchen, um sich auszudrücken,
+
+189
+00:10:31,380 --> 00:10:33,896
+wie man denn, wie das,
+warum das Essen denn so
+
+190
+00:10:33,897 --> 00:10:36,571
+dolle geschmeckt hat,
+was sie gegessen haben.
+
+191
+00:10:39,720 --> 00:10:42,320
+Und wie kommen, wie kommen wir jetzt
+dahin, das zu machen?
+
+192
+00:10:43,335 --> 00:10:44,896
+Ich habe eine sehr schlechte Nachricht für
+euch.
+
+193
+00:10:44,920 --> 00:10:46,600
+Jetzt kommen wir wieder zu der
+Hausaufgabe.
+
+194
+00:10:46,710 --> 00:10:49,480
+Es wird es, also es tut mir, tut mir echt
+leid für euch.
+
+195
+00:10:51,200 --> 00:10:53,880
+Ja, ihr seid diejenigen, die damit
+anfangen.
+
+196
+00:10:54,280 --> 00:10:55,500
+Das fängt alles mit euch ab.
+
+197
+00:10:55,740 --> 00:10:57,116
+Die Leute, die jetzt hier im Raum sind.
+
+198
+00:10:57,140 --> 00:11:00,460
+Deswegen habe ich euch die ganze Zeit
+gesagt, geht mal da rüber, weil ihr die
+
+199
+00:11:00,461 --> 00:11:02,981
+jetzt hier alle hier sitzt und sagt und
+jetzt gerade euch denkt.
+
+200
+00:11:04,260 --> 00:11:07,800
+Das da, da ist was drin, da ist so,
+dass das klingt nach was Sinnvollem.
+
+201
+00:11:08,520 --> 00:11:09,720
+Irgendjemand sollte das tun.
+
+202
+00:11:10,060 --> 00:11:12,260
+Irgendjemand sollte dafür sorgen,
+dass wir da hinkommen.
+
+203
+00:11:12,560 --> 00:11:13,840
+Ja, ihr alle hier.
+
+204
+00:11:14,520 --> 00:11:17,620
+Ihr seid diejenigen, die dafür sorgen
+werden, dass wir da ankommen.
+
+205
+00:11:18,610 --> 00:11:20,615
+Weil es muss quasi mit
+irgendjemandem anfangen,
+
+206
+00:11:20,616 --> 00:11:22,320
+dass wir uns alle
+hinstellen und sagen so.
+
+207
+00:11:22,321 --> 00:11:24,041
+Irgendjemand sollte irgendwie irgendwas
+tun.
+
+208
+00:11:28,180 --> 00:11:32,791
+Das sind die beiden Plugins,
+die ihr braucht, um quasi
+
+209
+00:11:32,792 --> 00:11:35,681
+in dem Bereich jetzt die
+nächsten Schritte einzuwerben.
+
+210
+00:11:36,500 --> 00:11:40,800
+Das heißt, ihr braucht das Activity-Pub
+-Plugin von dem Matthias, der da sitzt.
+
+211
+00:11:44,520 --> 00:11:49,400
+Und ihr braucht das Friends-Plugin vom
+Alex Kirk, um eben die Funktionalitäten,
+
+212
+00:11:49,401 --> 00:11:53,780
+die WordPress braucht, um quasi diese
+Funktionen vom sozialen Netzwerk
+
+213
+00:11:53,781 --> 00:11:56,300
+anzuschalten, um die quasi auch zu
+erreichen.
+
+214
+00:11:57,510 --> 00:11:58,700
+Und jetzt kommt die schlechte Nachricht.
+
+215
+00:11:58,720 --> 00:11:59,720
+Sorry, Matthias.
+
+216
+00:12:01,680 --> 00:12:07,179
+Wenn ihr was findet, was da nicht
+funktioniert, wenn ihr was findet, was quasi.
+
+217
+00:12:07,369 --> 00:12:07,380
+..
+
+218
+00:12:07,381 --> 00:12:08,461
+Weil ihr benutzt das jetzt.
+
+219
+00:12:08,570 --> 00:12:10,080
+Ihr könnt euch nicht rausreden.
+
+220
+00:12:10,120 --> 00:12:11,120
+Ich sehe euch alle.
+
+221
+00:12:11,350 --> 00:12:12,280
+Ihr könnt euch nicht rausreden.
+
+222
+00:12:12,320 --> 00:12:14,560
+Ihr müsst das quasi anfangen zu benutzen.
+
+223
+00:12:16,240 --> 00:12:18,860
+Wenn ihr was findet, müsst ihr das quasi
+einwerfen.
+
+224
+00:12:18,861 --> 00:12:20,960
+Ihr könnt halt nicht sagen, ach,
+das sieht Mist aus.
+
+225
+00:12:21,060 --> 00:12:22,820
+Ich installiere das Plugin mal wieder.
+
+226
+00:12:23,320 --> 00:12:25,780
+Ihr müsst mitarbeiten.
+
+227
+00:12:26,800 --> 00:12:28,140
+Ihr könnt euch nicht raushalten.
+
+228
+00:12:28,300 --> 00:12:31,240
+Wir müssen quasi, so wie es klingt,
+unser eigenes Hundeputter essen.
+
+229
+00:12:31,910 --> 00:12:33,680
+Die Interfaces sehen nicht schön aus.
+
+230
+00:12:33,930 --> 00:12:34,930
+Sorry, Matthias.
+
+231
+00:12:35,065 --> 00:12:36,860
+Und im Videostream, sorry, Alex.
+
+232
+00:12:37,900 --> 00:12:41,120
+Die sehen echt nicht schön aus, weil
+sie halt von den Developern gemacht sind.
+
+233
+00:12:41,200 --> 00:12:42,760
+Das heißt, wir brauchen quasi Designer.
+
+234
+00:12:43,250 --> 00:12:44,660
+Wir brauchen UI-Leute.
+
+235
+00:12:44,760 --> 00:12:45,860
+Wir brauchen Developer.
+
+236
+00:12:46,230 --> 00:12:48,680
+Wir brauchen, guckt euch mal an,
+55 Issues.
+
+237
+00:12:48,860 --> 00:12:49,860
+11 Pull-Requests.
+
+238
+00:12:50,220 --> 00:12:51,200
+84 Issues.
+
+239
+00:12:51,240 --> 00:12:52,240
+6 Pull-Requests.
+
+240
+00:12:52,670 --> 00:12:54,190
+Da müssen viel größere Nummern stehen.
+
+241
+00:12:54,240 --> 00:12:56,040
+Außer wir sind fertig und haben das
+geschafft.
+
+242
+00:12:56,100 --> 00:12:56,280
+Yay!
+
+243
+00:12:57,030 --> 00:12:58,030
+Alle können das benutzen.
+
+244
+00:12:58,130 --> 00:12:58,760
+Nee, nee, nee.
+
+245
+00:12:58,820 --> 00:13:00,980
+Eine Menge Leute von denen...
+Ich habe mit ein paar Leuten geredet.
+
+246
+00:13:01,040 --> 00:13:02,096
+Die haben das Plugin mal gesehen.
+
+247
+00:13:02,120 --> 00:13:04,040
+Das Friends-Plugin haben sie wieder
+runtergehabt.
+
+248
+00:13:04,780 --> 00:13:07,880
+So, wir müssen anfangen, das zu benutzen.
+
+249
+00:13:08,140 --> 00:13:11,200
+Weil wenn wir wollen, wie wir es ja
+hatten, 60% Marktanteil.
+
+250
+00:13:11,870 --> 00:13:13,060
+Junge Leute auf Wordcams.
+
+251
+00:13:13,930 --> 00:13:18,840
+Wenn wir wirklich
+das wollen, müssen wir
+
+252
+00:13:18,841 --> 00:13:18,840
+anfangen, selbst in den
+Bereich aktiv zu sein.
+
+253
+00:13:18,841 --> 00:13:21,640
+Wir können nicht warten, dass irgendjemand
+das tut.
+
+254
+00:13:21,880 --> 00:13:23,000
+Weil es tun es schon, Leute.
+
+255
+00:13:23,450 --> 00:13:24,380
+Die Lösungen gibt es schon.
+
+256
+00:13:24,420 --> 00:13:25,580
+Die müssen verbessert werden.
+
+257
+00:13:26,800 --> 00:13:31,220
+Wenn ihr noch den Schritt, bis die Mobile
+-App von WordPress soweit ist.
+
+258
+00:13:32,480 --> 00:13:34,896
+Weil die Mobile-App von WordPress wird
+gerade weiterentwickelt.
+
+259
+00:13:34,920 --> 00:13:37,660
+Die werden gerade Hausaufgaben gelöst.
+
+260
+00:13:38,070 --> 00:13:42,944
+Dass wir eine Basis
+bekommen, um darauf mehr
+
+261
+00:13:42,945 --> 00:13:47,000
+Interaktion in die Mobile-App
+von WordPress reinzuholen.
+
+262
+00:13:47,080 --> 00:13:50,340
+Weil ich habe euch ja gesagt, mit der
+steht und fällt alles, weil das ist der
+
+263
+00:13:50,341 --> 00:13:53,753
+erste Kontaktpunkt, wo Leute
+quasi mit diesem Content und
+
+264
+00:13:53,754 --> 00:13:57,520
+mit der mit der Experience
+quasi irgendwie einhergehen.
+
+265
+00:13:58,120 --> 00:14:01,105
+Bis dahin könnt ihr auch
+gerne Mastodon und andere
+
+266
+00:14:01,106 --> 00:14:03,981
+Clients benutzen, wenn
+ihr denn unbedingt müsst.
+
+267
+00:14:04,460 --> 00:14:06,693
+Und das halt darüber
+euren Content legen
+
+268
+00:14:06,694 --> 00:14:09,541
+wichtig ist und noch mal
+darauf zurückzugehen.
+
+269
+00:14:10,400 --> 00:14:11,780
+Das ist das Hauptziel.
+
+270
+00:14:11,820 --> 00:14:14,528
+Wir müssen dafür sorgen,
+dass diese Plugins von uns
+
+271
+00:14:14,529 --> 00:14:16,900
+benutzt werden und dass
+wir sie quasi voranbringen.
+
+272
+00:14:19,410 --> 00:14:22,920
+Das nächste und wir sind noch nicht fertig
+mit den Hausaufgaben.
+
+273
+00:14:23,530 --> 00:14:27,020
+Ihr müsst anfangen, wirklich Inhalte ins
+Netz zu stellen.
+
+274
+00:14:27,280 --> 00:14:28,020
+Ihr müsst.
+
+275
+00:14:28,170 --> 00:14:33,020
+Es geht nicht darum, dass ihr quasi über
+den über den über das über das Word Camp
+
+276
+00:14:33,021 --> 00:14:35,800
+auf eurer Business Webseite dazu was
+schreibt.
+
+277
+00:14:36,220 --> 00:14:40,960
+Es geht darum, dass ihr anfangt,
+Inhalte ins Netz zu stellen, die euch
+
+278
+00:14:40,961 --> 00:14:43,913
+persönlich betreffen, wo
+ihr quasi über das Essen wie
+
+279
+00:14:43,914 --> 00:14:46,700
+früher über das Essen schreibt,
+über irgendwelche Sachen.
+
+280
+00:14:47,300 --> 00:14:48,020
+Ihr müsst.
+
+281
+00:14:48,021 --> 00:14:49,221
+Ihr müsst das wirklich machen.
+
+282
+00:14:49,380 --> 00:14:50,380
+Ich meine das wirklich.
+
+283
+00:14:50,630 --> 00:14:55,580
+Ihr müsst wirklich anfangen, Netz Inhalte
+ins Netz zu stellen, die halt nicht nur
+
+284
+00:14:55,581 --> 00:15:00,800
+Business Sachen sind, weil der Marketing
+Business Webseite, das machen wir,
+
+285
+00:15:01,230 --> 00:15:04,777
+sondern es geht wirklich
+darum, dass wir anfangen,
+
+286
+00:15:04,778 --> 00:15:07,920
+selbstständig Inhalte von
+uns ins Netz zu steppen.
+
+287
+00:15:09,690 --> 00:15:11,060
+Jetzt wirklich im Ernst.
+
+288
+00:15:11,140 --> 00:15:14,025
+Wir müssen alle anfangen,
+das zu tun, weil eine
+
+289
+00:15:14,026 --> 00:15:16,881
+Menge fast alle von euch
+werden theoretisch nicht.
+
+290
+00:15:18,020 --> 00:15:23,261
+Sich ausdrücken, so wie das quasi die Leute
+auf Instagram und Tick Tock einfach machen.
+
+291
+00:15:23,700 --> 00:15:24,680
+Wir haben es alles so verlernt.
+
+292
+00:15:24,681 --> 00:15:27,121
+Wir sind quasi ständig in unserem
+in unserem Hamsterrad, ein
+
+293
+00:15:27,122 --> 00:15:29,940
+bisschen quasi von einem von
+einem Task zum nächsten Rennen.
+
+294
+00:15:30,470 --> 00:15:33,920
+Und wenn wir wollen, dass wir 60%
+Marktanteil erreichen, wir wollen,
+
+295
+00:15:34,100 --> 00:15:38,540
+dass junge Leute zum zum zum Word Camp
+oder zu den Events kommen, müssen wir
+
+296
+00:15:38,541 --> 00:15:41,011
+dafür sorgen, dass die,
+dass die, dass das Produkt
+
+297
+00:15:41,012 --> 00:15:44,080
+WordPress auch von den
+Leuten benutzt werden will.
+
+298
+00:15:44,900 --> 00:15:45,700
+Es geht nicht.
+
+299
+00:15:45,760 --> 00:15:47,340
+Es reicht nicht nur, dass die jungen
+Leute.
+
+300
+00:15:47,341 --> 00:15:49,636
+Leute zu den Word Camps
+gezogen werden von ihren
+
+301
+00:15:49,696 --> 00:15:51,920
+Eltern, weil das ist das,
+was gerade passiert.
+
+302
+00:15:52,040 --> 00:15:54,819
+Ich nenne es herzlich das
+sind die Drags Dragalongs,
+
+303
+00:15:54,820 --> 00:15:57,340
+weil die werden einfach
+aus Word Camp mitgezogen.
+
+304
+00:15:57,420 --> 00:16:01,300
+Dieses so Ja, das ist so Nerd Scheiß,
+aber das passt schon.
+
+305
+00:16:01,380 --> 00:16:04,420
+Guck dir das einfach mal an, dass sie das,
+wenn wir wollen, dass die Leute von sich
+
+306
+00:16:04,421 --> 00:16:08,340
+aus kommen wollen, müssen wir dafür
+sorgen, dass das Produkt, was sie
+
+307
+00:16:08,341 --> 00:16:12,580
+benutzen, nämlich WordPress, das ist auch
+wirklich das macht, was sie haben wollen.
+
+308
+00:16:15,760 --> 00:16:16,760
+Zu dem Thema.
+
+309
+00:16:17,660 --> 00:16:18,660
+Ähm.
+
+310
+00:16:18,900 --> 00:16:21,511
+Wie man quasi dafür dafür
+sorgt, dass man kontinuierlich
+
+311
+00:16:21,512 --> 00:16:24,760
+Inhalte ins Netz stellt, gibt
+es dieses Iron Blogging.
+
+312
+00:16:25,730 --> 00:16:30,260
+Das ist so ein so ein Thema, da sagt man
+quasi, wie es hier lest hier einmal in der
+
+313
+00:16:30,261 --> 00:16:34,860
+Woche mindestens einmal in der Woche zu
+bloggen und dann ansonsten legt man quasi
+
+314
+00:16:34,861 --> 00:16:38,580
+irgendwo Geld hin und dann, wenn man quasi
+das erreicht hat und man zieht quasi auch
+
+315
+00:16:38,581 --> 00:16:40,556
+andere Leute mit rein, dann holt man sich
+halt was.
+
+316
+00:16:40,580 --> 00:16:42,660
+Das Lustige ist, das ist so alt.
+
+317
+00:16:43,740 --> 00:16:45,020
+Der Link geht nicht mehr.
+
+318
+00:16:45,850 --> 00:16:47,460
+Das ist ein Jahrzehnt alt.
+
+319
+00:16:48,900 --> 00:16:52,360
+Vor einem Jahrzehnt haben wir mal
+gebloggt, haben wir mal Dinge gemacht.
+
+320
+00:16:53,360 --> 00:16:54,400
+Das machen wir nicht mehr.
+
+321
+00:16:55,360 --> 00:17:01,740
+Das heißt, es geht wirklich darum,
+dass wir als Gemeinschaft das ganze Thema
+
+322
+00:17:01,741 --> 00:17:06,220
+benutzen, dass wir wirklich die Software
+benutzen, dass wir mit der Software
+
+323
+00:17:06,221 --> 00:17:09,220
+zusammen wirklich Inhalte ins Netz
+stellen.
+
+324
+00:17:11,940 --> 00:17:13,620
+Und wir sind auch eigentlich schon am
+Ende.
+
+325
+00:17:13,980 --> 00:17:14,980
+Legt los.
+
+326
+00:17:16,740 --> 00:17:17,740
+That's it.
+
+327
+00:17:24,490 --> 00:17:25,850
+So und jetzt, da ist der Matthias.
+
+328
+00:17:25,990 --> 00:17:27,110
+Hat irgendjemand eine Frage?
+
+329
+00:17:36,840 --> 00:17:38,680
+Der kommt nicht mehr, das war das letzte
+Folie.
+
+330
+00:17:39,780 --> 00:17:42,880
+Wir können uns alle hier sehr am Kampf zu
+besitzen und können uns angucken.
+
+331
+00:17:44,880 --> 00:17:46,040
+Ihr wisst, was ihr tun müsst.
+
+332
+00:17:48,600 --> 00:17:49,600
+Ja.
+
+333
+00:17:51,760 --> 00:17:53,901
+Ich habe noch...
+Ich habe noch...
+
+334
+00:17:56,860 --> 00:17:57,860
+Extra deswegen.
+
+335
+00:17:58,860 --> 00:18:01,520
+Ich wollte extra meine URL nicht hierhin.
+
+336
+00:18:02,170 --> 00:18:04,580
+Weil es geht nicht darum, dass ich,
+dass ich nach Freunden suche gerade,
+
+337
+00:18:04,581 --> 00:18:08,720
+dass die, die quasi meinen Sachen folgen
+und ja, ich muss auch besser werden.
+
+338
+00:18:26,460 --> 00:18:28,120
+Ist das nicht ein Henne-Ei-Problem?
+
+339
+00:18:28,580 --> 00:18:33,680
+Also du willst, dass wir ein Tool
+benutzen, das sehr kompliziert ist,
+
+340
+00:18:33,920 --> 00:18:36,119
+nicht schön aussieht
+und wir sollen es mehr
+
+341
+00:18:36,120 --> 00:18:38,400
+benutzen, damit es noch
+mehr Leute benutzen?
+
+342
+00:18:38,620 --> 00:18:39,620
+Ja.
+
+343
+00:18:40,230 --> 00:18:43,451
+Es geht darum, dass das,
+was das, was du quasi in dem
+
+344
+00:18:43,471 --> 00:18:45,820
+Tool findest, was nicht
+funktioniert, wie es sein soll.
+
+345
+00:18:46,745 --> 00:18:47,560
+Gibst du quasi ziemlich viel.
+
+346
+00:18:47,561 --> 00:18:49,811
+Und dann kommst du zu
+Matthias zurück oder dem
+
+347
+00:18:49,812 --> 00:18:51,660
+dem Alex und sagst Ah,
+ich verstehe das nicht.
+
+348
+00:18:51,680 --> 00:18:52,360
+Kann das besser werden?
+
+349
+00:18:52,440 --> 00:18:55,820
+Weil sobald wir verstehen, wie das
+funktioniert, sind wir schon mal einen
+
+350
+00:18:55,821 --> 00:19:00,440
+Schritt weiter, dass auch normale Leute
+normalere Leute das benutzen.
+
+351
+00:19:04,440 --> 00:19:05,970
+Machen, machen gegen Argument.
+
+352
+00:19:06,960 --> 00:19:07,970
+Machen gegen Argument.
+
+353
+00:19:08,050 --> 00:19:08,710
+Deswegen habe ich.
+
+354
+00:19:08,730 --> 00:19:10,070
+Deswegen ist der Talk genau so.
+
+355
+00:19:10,130 --> 00:19:11,130
+Ja.
+
+356
+00:19:11,960 --> 00:19:15,790
+Als jemand, der mal sowas ähnliches wie
+die Iron Brother versucht hat anzustoßen.
+
+357
+00:19:18,010 --> 00:19:18,490
+Also.
+
+358
+00:19:18,491 --> 00:19:19,491
+Also.
+
+359
+00:19:19,590 --> 00:19:20,290
+Sagen wir mal so.
+
+360
+00:19:20,500 --> 00:19:23,030
+Das Team, das du gezeigt hast.
+
+361
+00:19:23,130 --> 00:19:25,010
+Ich erkenne das Design.
+
+362
+00:19:25,310 --> 00:19:25,590
+Ja.
+
+363
+00:19:26,050 --> 00:19:28,030
+Ich weiß, welche Jahreszahl dahinter
+steht.
+
+364
+00:19:29,390 --> 00:19:35,010
+Und ungefähr so lange her ist halt auch,
+dass das irgendwie funktioniert hat.
+
+365
+00:19:35,130 --> 00:19:36,690
+Die Frage an mich wäre.
+
+366
+00:19:37,430 --> 00:19:39,990
+Marktanteil 60% junge Menschen auf
+Wordcamps.
+
+367
+00:19:40,350 --> 00:19:41,610
+Möchtest du, dass das passiert?
+
+368
+00:19:44,190 --> 00:19:44,830
+Sag Nein.
+
+369
+00:19:44,970 --> 00:19:45,590
+Sag einfach Nein.
+
+370
+00:19:45,591 --> 00:19:45,970
+Ist okay.
+
+371
+00:19:46,210 --> 00:19:47,210
+Du kannst Nein sagen.
+
+372
+00:19:51,150 --> 00:19:52,740
+Hast du einen besseren Vorschlag?
+
+373
+00:19:52,780 --> 00:19:53,780
+Du hast ein Mikro.
+
+374
+00:19:54,160 --> 00:19:56,081
+Hast du einen besseren
+Vorschlag, wie wir junge
+
+375
+00:19:56,082 --> 00:19:58,860
+Leute, wie wir quasi das
+besser verkauft kriegen?
+
+376
+00:20:05,340 --> 00:20:06,940
+Einen besseren Vorschlag höre ich nicht.
+
+377
+00:20:10,510 --> 00:20:16,260
+Aber die Hürde, die technische Hürde ist,
+glaube ich, das Problem.
+
+378
+00:20:16,340 --> 00:20:19,280
+Du musst die Leute überzeugen,
+dein Tool zu nutzen.
+
+379
+00:20:20,005 --> 00:20:24,580
+Und das ist so ein bisschen, deshalb sage
+ich, keine Eilprobleme am Anfang.
+
+380
+00:20:24,800 --> 00:20:30,200
+Du hast halt bei Wordpress, hat sich bei
+ganz vielen Dingen ausgehalten,
+
+381
+00:20:30,380 --> 00:20:32,580
+die nach vorne zu gehen.
+
+382
+00:20:32,700 --> 00:20:38,840
+Die haben adaptiert, wenn es eine breit
+genügend, wenn es genug Verbreitung hat.
+
+383
+00:20:39,070 --> 00:20:40,880
+Weil es hat nie selber den Weg bestimmt.
+
+384
+00:20:41,620 --> 00:20:44,700
+Und du möchtest gerade, dass wir quasi
+jetzt den Weg beschreiten.
+
+385
+00:20:46,440 --> 00:20:47,180
+Ich weiß nicht, ob das funktioniert.
+
+386
+00:20:47,380 --> 00:20:47,760
+Thorsten.
+
+387
+00:20:47,840 --> 00:20:48,720
+Du kannst sagen.
+
+388
+00:20:48,721 --> 00:20:50,260
+Das Interface verstehe ich nicht.
+
+389
+00:20:50,320 --> 00:20:51,800
+Der Matthias hat übrigens eine Frage.
+
+390
+00:20:52,820 --> 00:20:53,540
+Da hinter dir.
+
+391
+00:20:53,580 --> 00:20:53,740
+Genau.
+
+392
+00:20:53,800 --> 00:20:54,100
+Da hinter dir.
+
+393
+00:20:54,140 --> 00:20:54,920
+Der Mensch mit der.
+
+394
+00:20:54,921 --> 00:20:55,520
+Der Mensch mit der.
+
+395
+00:20:55,640 --> 00:20:56,640
+Ja, genau.
+
+396
+00:20:56,800 --> 00:20:58,720
+Der, der so ein bisschen was über das
+Thema weiß.
+
+397
+00:20:59,280 --> 00:21:00,676
+Thorsten, weil du mir gerade nicht
+antworten kannst.
+
+398
+00:21:00,700 --> 00:21:03,020
+Deswegen ist es super toll, dass ich dir
+das erzählen kann.
+
+399
+00:21:03,080 --> 00:21:04,080
+Der.
+
+400
+00:21:04,330 --> 00:21:05,330
+Das Prinzip ist ja.
+
+401
+00:21:06,700 --> 00:21:11,760
+Wir als Wordpress Menschen, wenn wir diese
+Plugins nicht benutzen und wenn wir quasi
+
+402
+00:21:11,761 --> 00:21:13,521
+nicht sagen, wie wir es besser machen
+können.
+
+403
+00:21:13,920 --> 00:21:14,920
+Wer?
+
+404
+00:21:15,460 --> 00:21:16,360
+Wer, wenn nicht wir?
+
+405
+00:21:16,361 --> 00:21:19,180
+Wenn wir quasi sagen, das Interface
+verstehen wir nicht.
+
+406
+00:21:19,220 --> 00:21:21,980
+Oder da ist ein Bug, wenn du quasi diese
+Funktion ausführst.
+
+407
+00:21:22,470 --> 00:21:25,800
+Wenn nicht wir das machen, setzen wir uns
+hin und hoffen einfach, dass so,
+
+408
+00:21:26,125 --> 00:21:28,260
+dass so Issues vom Himmel regnen,
+weil irgendjemand.
+
+409
+00:21:28,440 --> 00:21:28,840
+Wir.
+
+410
+00:21:29,460 --> 00:21:30,600
+Es fängt mit uns an.
+
+411
+00:21:31,250 --> 00:21:32,436
+Weil wir können es halt nicht rausreden.
+
+412
+00:21:32,460 --> 00:21:35,500
+Wir können doch nicht sagen, irgendjemand
+sollte das machen, wenn wir wollen,
+
+413
+00:21:35,610 --> 00:21:37,620
+dass wir mag, dass der Marktanteil auf 60%
+geht.
+
+414
+00:21:37,660 --> 00:21:42,080
+Wenn wir wollen, dass junge Leute zu Word
+zu Wordcamps kommen, müssen wir dafür
+
+415
+00:21:42,081 --> 00:21:44,500
+sorgen, dass unser Produkt von diesen
+Leuten benutzt wird.
+
+416
+00:21:44,810 --> 00:21:46,340
+Und wenn es, wenn es durch uns geht.
+
+417
+00:21:46,341 --> 00:21:48,340
+Und wir quasi das Produkt benutzen.
+
+418
+00:21:49,220 --> 00:21:51,380
+In der Funktion Beiträge zu
+veröffentlichen.
+
+419
+00:21:51,640 --> 00:21:52,640
+Democratizing Publishing.
+
+420
+00:21:52,960 --> 00:21:54,040
+Wenn wir das selber machen.
+
+421
+00:21:54,870 --> 00:21:58,440
+Dann ist das die perfekte Grundlage,
+dass andere damit auch anfangen.
+
+422
+00:21:58,500 --> 00:21:59,860
+Wenn wir schon selber sagen.
+
+423
+00:22:00,290 --> 00:22:02,800
+Nee, das muss jemand anderes machen.
+
+424
+00:22:03,270 --> 00:22:04,960
+Irgendjemand, der gerne Content erzeugt.
+
+425
+00:22:05,560 --> 00:22:06,720
+Ihr drückt euch alle aus.
+
+426
+00:22:06,860 --> 00:22:10,020
+Ihr schreibt Leuten, die ihr kennt in
+eurem WhatsApp, whatever.
+
+427
+00:22:10,530 --> 00:22:11,600
+Schreibt ihr Nachrichten.
+
+428
+00:22:12,380 --> 00:22:14,380
+Ihr könnt die in Wordpress schreiben.
+
+429
+00:22:14,930 --> 00:22:16,010
+Ihr könnt den Leuten quasi.
+
+430
+00:22:16,080 --> 00:22:18,680
+Schickt ihnen einen Link auf euren,
+auf euren Content.
+
+431
+00:22:19,550 --> 00:22:23,440
+Wir müssen da anfangen, quasi selber
+unsere eigenen Produkte zu benutzen.
+
+432
+00:22:23,660 --> 00:22:24,140
+Entschuldige.
+
+433
+00:22:24,290 --> 00:22:25,220
+Deine Frage beantwortet.
+
+434
+00:22:25,221 --> 00:22:25,500
+Perfekt.
+
+435
+00:22:25,780 --> 00:22:26,780
+Matthias.
+
+436
+00:22:28,280 --> 00:22:32,760
+Ich wollte nur noch mal was zu dem Henne
+-Ei-Problem sagen, weil das war lange Zeit.
+
+437
+00:22:32,910 --> 00:22:33,700
+War das das Problem?
+
+438
+00:22:33,780 --> 00:22:37,301
+Aber mittlerweile gibt es
+ja schon so ein gewisses
+
+439
+00:22:37,302 --> 00:22:39,660
+Schiff zu dezentralen
+sozialen Netzwerken.
+
+440
+00:22:39,700 --> 00:22:41,060
+Das heißt, es ist ja schon was da.
+
+441
+00:22:41,810 --> 00:22:42,810
+Du fängst ja nicht.
+
+442
+00:22:43,140 --> 00:22:44,140
+An mit was.
+
+443
+00:22:44,141 --> 00:22:45,320
+Was gar niemand nutzt.
+
+444
+00:22:45,435 --> 00:22:48,860
+Sondern du kannst ja schon Netzwerkeffekte
+aktuell nutzen.
+
+445
+00:22:49,860 --> 00:22:53,320
+Und klar, das ist jetzt schon so ein
+bisschen eine Echo-Bubble.
+
+446
+00:22:53,480 --> 00:22:56,220
+Also ich schreibe halt viel über die
+Technik.
+
+447
+00:22:58,540 --> 00:23:01,340
+Wie andere, die diese Technik benutzen,
+interessiert.
+
+448
+00:23:01,450 --> 00:23:05,600
+Deswegen ist da sehr viel wohlwollendes
+Kommentieren.
+
+449
+00:23:05,740 --> 00:23:09,000
+Aber es kommen halt auch Dinge,
+die ich auf meinem Blog schreibe.
+
+450
+00:23:09,610 --> 00:23:11,140
+Wieder Kommentare und Feedback.
+
+451
+00:23:11,440 --> 00:23:13,580
+Ich kann mich wieder über Dinge
+unterhalten.
+
+452
+00:23:13,581 --> 00:23:15,840
+Ohne, dass der andere Wordpress benutzen
+kann.
+
+453
+00:23:16,350 --> 00:23:18,576
+Und ich glaube, das ist halt so ein
+schöner Zwischenschnitt.
+
+454
+00:23:18,600 --> 00:23:21,560
+Also ich steppe Robert zu, dass wir noch
+lange nicht an einem Punkt sind,
+
+455
+00:23:21,740 --> 00:23:23,880
+wo wir sagen können, wir benutzen nur noch
+Wordpress.
+
+456
+00:23:24,000 --> 00:23:26,360
+Aber es ist ein schöner Übergangspunkt.
+
+457
+00:23:27,345 --> 00:23:30,133
+Ich kann Wordpress
+benutzen und trotzdem auch die
+
+458
+00:23:30,134 --> 00:23:34,000
+Vorteile gegen ein soziales
+Netzwerk zurückbleiben.
+
+459
+00:23:34,330 --> 00:23:39,020
+Ich will nicht eben eine Lehre und muss
+hoffen, dass andere das halt auch mitnutzen.
+
+460
+00:23:39,460 --> 00:23:40,720
+Sondern es ist schon was da.
+
+461
+00:23:45,860 --> 00:23:46,520
+So wie...
+
+462
+00:23:46,720 --> 00:23:47,940
+Also für die anderen, die das gerade nicht
+sehen.
+
+463
+00:23:47,960 --> 00:23:50,040
+Wir haben Thorsten überzeugt, dass er
+mitmachen will.
+
+464
+00:23:52,380 --> 00:23:54,300
+Er kann ja nicht antworten, er hat ja kein
+Mikro.
+
+465
+00:23:56,180 --> 00:23:57,180
+Noch jemand eine Frage?
+
+466
+00:24:01,780 --> 00:24:04,960
+Ich weiß, ihr könnt gerne auch gehen,
+jeder Typ ist Headless.
+
+467
+00:24:06,150 --> 00:24:11,220
+Aber es geht halt, wie gesagt, das
+Prinzip ist wirklich, wir sind die Leute.
+
+468
+00:24:11,455 --> 00:24:15,160
+Weil ich habe diesen Vortrag in über zwei
+Jahren schon.
+
+469
+00:24:15,280 --> 00:24:16,160
+Ich steppe schon mit mir rum.
+
+470
+00:24:16,161 --> 00:24:18,520
+Habe das quasi auf Wordcamps eingereicht.
+
+471
+00:24:18,521 --> 00:24:20,760
+Mit der These, oh mein Gott, wir müssen
+was tun.
+
+472
+00:24:21,370 --> 00:24:22,603
+Und jedes Mal wurde
+ich abgelehnt, weil die
+
+473
+00:24:22,604 --> 00:24:24,721
+gesagt haben, hu, das
+ist uns viel zu dunkel.
+
+474
+00:24:24,860 --> 00:24:28,561
+Weil, wenn ihr jetzt mal ganz kurz so
+Sachen, die ich noch nicht geschrieben habe.
+
+475
+00:24:28,620 --> 00:24:29,720
+So mal Marktanteil.
+
+476
+00:24:30,340 --> 00:24:33,020
+Wordpress hat 40% der Webseiten.
+
+477
+00:24:33,450 --> 00:24:35,560
+Ja, wie viel Content ist denn in Wordpress
+drin?
+
+478
+00:24:35,680 --> 00:24:37,699
+Wie viel Content, denkt
+ihr, wird gerade eben,
+
+479
+00:24:37,700 --> 00:24:40,361
+während ich spreche, auf
+YouTube hochgeladen?
+
+480
+00:24:41,350 --> 00:24:45,100
+Wenn wir 5% Marktanteil haben im Netz,
+haben wir wirklich Glück.
+
+481
+00:24:45,750 --> 00:24:48,150
+Weil wir ignorieren halt einfach quasi
+Social Media komplett.
+
+482
+00:24:48,520 --> 00:24:51,140
+Deswegen ist es halt quasi ein wirklich,
+wir müssten was tun.
+
+483
+00:24:51,740 --> 00:24:53,739
+Wenn wir wollen, dass quasi
+unter Marktanteil steigen,
+
+484
+00:24:53,763 --> 00:24:55,591
+wenn wir wollen, dass quasi
+junge Leute das benutzen.
+
+485
+00:24:55,615 --> 00:24:58,480
+Wenn ihr wollt, wenn ihr quasi Wordpress
+verkauft an Kunden.
+
+486
+00:24:59,900 --> 00:25:02,900
+Wie schön wäre das, wenn wir sagen können,
+ja, das ist 60%.
+
+487
+00:25:03,760 --> 00:25:07,760
+Wetten deine, sorry, wetten deine Kinder
+benutzen Wordpress.
+
+488
+00:25:07,920 --> 00:25:12,020
+Das heißt, wir haben quasi eine ganz andere
+Möglichkeit, wenn wir das quasi benutzen.
+
+489
+00:25:12,040 --> 00:25:14,160
+Wenn wir anfangen, unser eigenes
+Hundefutter zu essen.
+
+490
+00:25:14,360 --> 00:25:16,600
+Haben wir eine ganz
+andere Möglichkeit, was das
+
+491
+00:25:16,601 --> 00:25:18,920
+Verkaufen von Wordpress zu
+unseren Business -Kunden ist.
+
+492
+00:25:18,980 --> 00:25:21,060
+Weil wir sind immer noch im Business
+-Bereich tätig.
+
+493
+00:25:21,560 --> 00:25:26,240
+Aber der Punkt, die Leute zu erreichen und
+auch da wirklich, dass wir anfangen,
+
+494
+00:25:26,650 --> 00:25:27,740
+das selber zu benutzen.
+
+495
+00:25:28,020 --> 00:25:29,520
+Selber Content da drauf zu machen.
+
+496
+00:25:30,010 --> 00:25:34,120
+Und verrückterweise, wie ich es vorhin
+hatte, auf anderen Seiten zu kommentieren.
+
+497
+00:25:34,380 --> 00:25:37,420
+Oh mein Gott, wir fangen wieder an,
+miteinander zu reden.
+
+498
+00:25:39,220 --> 00:25:40,580
+Nicht auf, nicht auf Twitter.
+
+499
+00:25:41,130 --> 00:25:43,260
+Sondern auf Social Media.
+
+500
+00:25:43,261 --> 00:25:44,280
+Im Open Web.
+
+501
+00:25:44,990 --> 00:25:46,816
+Wie gesagt, das
+interessiert die End-User,
+
+502
+00:25:46,817 --> 00:25:49,020
+interessiert das null,
+dass es im Open Web ist.
+
+503
+00:25:49,460 --> 00:25:53,040
+Ich hatte nicht eine einzige Slide mit
+Ownership of Data.
+
+504
+00:25:54,360 --> 00:25:55,360
+Niemand interessiert es.
+
+505
+00:25:55,730 --> 00:25:58,680
+Ownership of Data interessiert so gut wie
+niemanden.
+
+506
+00:25:59,190 --> 00:26:00,180
+Von den normalen Usern.
+
+507
+00:26:00,200 --> 00:26:01,180
+Deswegen habe ich das überhaupt nicht
+drin.
+
+508
+00:26:01,220 --> 00:26:02,666
+Aber das interessiert einfach niemand.
+
+509
+00:26:02,690 --> 00:26:05,240
+Die Leute wollen ein Produkt haben,
+was sie benutzen können.
+
+510
+00:26:05,500 --> 00:26:08,860
+Deswegen habt ihr noch Fragen,
+wie ihr da hinkommt.
+
+511
+00:26:09,210 --> 00:26:10,890
+Also ihr wisst jetzt, was ihr tun müsstet.
+
+512
+00:26:11,440 --> 00:26:12,520
+Hält euch irgendwas zurück?
+
+513
+00:26:21,860 --> 00:26:24,140
+Ihr wisst es gar nicht so gut,
+dass es gar nicht so kommt.
+
+514
+00:26:24,830 --> 00:26:26,620
+Und dann habe ich meine Zeit ja
+verschwendet.
+
+515
+00:26:27,450 --> 00:26:28,760
+Du bist immer noch im Open Web.
+
+516
+00:26:29,690 --> 00:26:32,700
+Das heißt, egal wo du hingehst,
+wenn du einmal den Schritt ins Open Web
+
+517
+00:26:32,825 --> 00:26:38,540
+gehst, und dort quasi dich gedanklich
+einnistest, ob das jetzt Wordpress oder
+
+518
+00:26:38,541 --> 00:26:42,660
+Presspress oder Elementor Press heißt,
+ist an der Stelle ja egal.
+
+519
+00:26:43,060 --> 00:26:47,660
+Es geht darum, dass wenn wir einmal im
+Open Web sind, können wir quasi diese
+
+520
+00:26:47,661 --> 00:26:49,560
+ganzen Möglichkeiten, die da sind,
+benutzen.
+
+521
+00:26:51,320 --> 00:26:54,400
+Und wenn ihr anfangt, quasi wieder
+normalen Inhalt ins Netz zu stellen,
+
+522
+00:26:54,710 --> 00:27:00,800
+und nicht auf Social Media, gehört euch
+dann Blablabla, Ownership, Zeugs und so.
+
+523
+00:27:05,230 --> 00:27:07,230
+Ja, du hast gemerkt, wie ich aber noch
+betont habe.
+
+524
+00:27:09,540 --> 00:27:11,120
+Robert, ich gebe dir absolut recht.
+
+525
+00:27:11,320 --> 00:27:11,640
+Vielen Dank.
+
+526
+00:27:12,030 --> 00:27:16,160
+Ich glaube, dass du überhaupt recht hast
+gewissen, dass ich mit einem Produkt,
+
+527
+00:27:16,161 --> 00:27:19,080
+das ich veröffentlicht habe, noch so viel
+richtig reingeschaut habe.
+
+528
+00:27:19,820 --> 00:27:20,720
+Können wir das mal machen?
+
+529
+00:27:20,721 --> 00:27:21,721
+Ja.
+
+530
+00:27:22,085 --> 00:27:24,760
+NichteTheBorg online auf Mastodon.
+
+531
+00:27:25,020 --> 00:27:29,260
+Du zeigst nie wieder eine Folie,
+die du anstatt Bicklebytes hinschreibst,
+
+532
+00:27:29,580 --> 00:27:32,000
+anstatt der Mastodon-Adventurit schreibst.
+
+533
+00:27:32,440 --> 00:27:33,540
+Dann sind wir denke ich...
+
+534
+00:27:33,541 --> 00:27:36,680
+Mastodon wird dann niemals im Leben
+stehen, da steht höchstens meine URL.
+
+535
+00:27:37,060 --> 00:27:38,060
+Auch.
+
+536
+00:27:39,480 --> 00:27:41,040
+Weil Mastodon existiert für mich nicht.
+
+537
+00:27:41,180 --> 00:27:42,976
+Das ist einfach nur dieses Nerd-Ding,
+da drüben.
+
+538
+00:27:43,000 --> 00:27:44,000
+Das ist Nerd-Twitter.
+
+539
+00:27:45,900 --> 00:27:47,460
+Ich habe sehr viel Spaß damit,
+Matthias.
+
+540
+00:27:48,040 --> 00:27:48,520
+Hahaha.
+
+541
+00:27:48,980 --> 00:27:49,980
+Hahaha.
+
+542
+00:27:53,300 --> 00:27:54,300
+Noch jemand?
+
+543
+00:27:55,020 --> 00:27:57,220
+Ihr könnt doch eher Pause machen,
+das ist okay für mich.
+
+544
+00:28:00,920 --> 00:28:01,380
+Nein?
+
+545
+00:28:01,480 --> 00:28:01,920
+Nein?
+
+546
+00:28:02,100 --> 00:28:03,100
+Alles Fragen beantwortet?
+
+547
+00:28:04,260 --> 00:28:06,020
+Ne, da drüben, da drüben ist noch eine
+Frage.
+
+548
+00:28:12,510 --> 00:28:14,290
+Ah so, ja, Frage wiederholen.
+
+549
+00:28:15,970 --> 00:28:19,950
+Und da, was wäre denn dann Punkt 1 jetzt,
+um anzufangen?
+
+550
+00:28:21,610 --> 00:28:27,050
+Warte, also... Luke, geh mit deinem
+Lichtschwert woanders hin.
+
+551
+00:28:27,500 --> 00:28:32,390
+Ähm, Schritt 1 wäre quasi wirklich diese
+Plugins zu installieren.
+
+552
+00:28:32,450 --> 00:28:35,570
+Entweder auf einer neuen Installation oder
+auf deiner bestehenden Installation,
+
+553
+00:28:35,810 --> 00:28:41,070
+um einfach quasi mit ActivityPub und
+Friends einfach quasi Schritt 1 fange an,
+
+554
+00:28:41,230 --> 00:28:42,530
+quasi Inhalte zu publizieren.
+
+555
+00:28:42,590 --> 00:28:44,346
+Du brauchst diese Plugins, um halt dich zu
+vernetzen.
+
+556
+00:28:44,370 --> 00:28:50,370
+Wenn du Fragen hast, der Mensch da mit dem
+vollen Hauptpaar weiß quasi, kann dir dann
+
+557
+00:28:50,371 --> 00:28:53,170
+quasi bei technischen Fragen helfen oder
+halt auch Udo, okay.
+
+558
+00:29:01,870 --> 00:29:03,040
+Jemand da hinten in den letzten Reihen?
+
+559
+00:29:03,041 --> 00:29:04,041
+Jemand eine Frage?
+
+560
+00:29:05,560 --> 00:29:05,900
+Nein?
+
+561
+00:29:06,160 --> 00:29:07,160
+Ihr traut euch nicht?
+
+562
+00:29:07,360 --> 00:29:08,796
+Soll ich euch ein Mikro hinterschicken?
+
+563
+00:29:08,820 --> 00:29:10,046
+Ich kann euch ein Mikro hinterschicken.
+
+564
+00:29:10,070 --> 00:29:12,110
+Da gibt es wahrscheinlich viel weniger
+Rückkopplung.
+
+565
+00:29:14,720 --> 00:29:17,600
+Ihr könnt auch sagen, nein, ich mache
+nicht mit, weil ich finde das doof.
+
+566
+00:29:18,610 --> 00:29:20,170
+Das wäre zum Beispiel so ein Statement.
+
+567
+00:29:20,650 --> 00:29:21,900
+Guck mal da hinten, ja, da, du.
+
+568
+00:29:24,240 --> 00:29:25,240
+Ich sehe euch.
+
+569
+00:29:25,300 --> 00:29:26,340
+Ich kann euch einbeziehen.
+
+570
+00:29:27,450 --> 00:29:30,416
+Ja, wir können auch gerne aufhören,
+wenn ihr quasi, wenn ihr alle fertig seid.
+
+571
+00:29:30,440 --> 00:29:32,380
+Dann können wir sagen, okay, wir haben es
+gelernt.
+
+572
+00:29:32,381 --> 00:29:36,180
+Und ich weiß nicht, macht ihr nächstes
+Jahr ein WordCamp wieder hier?
+
+573
+00:29:36,280 --> 00:29:37,720
+Habt ihr schon was überlegt oder so?
+
+574
+00:29:41,560 --> 00:29:43,680
+Das klang gerade nicht wie ein Organizer.
+
+575
+00:29:48,390 --> 00:29:49,912
+Weil ich könnte sagen,
+wir machen das einfach
+
+576
+00:29:49,913 --> 00:29:53,170
+nächstes Jahr entweder
+in Leipzig oder in Konstanz.
+
+577
+00:29:53,830 --> 00:29:56,443
+Ja, wir können quasi, wir
+gucken dann die Hausaufgaben,
+
+578
+00:29:56,444 --> 00:29:58,811
+kontrollieren dann
+nächstes Jahr in Konstanz.
+
+579
+00:29:59,180 --> 00:30:02,230
+Der Simon, wir machen wahrscheinlich dann
+einfach mal einen Vortrag.
+
+580
+00:30:02,330 --> 00:30:02,870
+Wir machen dann einen.
+
+581
+00:30:03,320 --> 00:30:04,470
+Und wie sieht es aus?
+
+582
+00:30:05,250 --> 00:30:06,830
+Vortrag auf dem WordCamp Konstanz.
+
+583
+00:30:06,870 --> 00:30:09,144
+Und dann gucken wir uns alle
+mal an, wie unsere URLs sind
+
+584
+00:30:09,184 --> 00:30:12,090
+so, die wir benutzen, um
+quasi Inhalte ins Netz zu stellen.
+
+585
+00:30:16,040 --> 00:30:17,040
+Noch jemand irgendwas?
+
+586
+00:30:19,110 --> 00:30:21,306
+Könnt ihr euch gerne eher nach Hause
+schicken, ist okay.
+
+587
+00:30:21,330 --> 00:30:23,690
+Oder zum, ich glaube, der, weiß nicht,
+ob der Talk noch ist.
+
+588
+00:30:24,100 --> 00:30:24,960
+Der Talk ist schon fertig.
+
+589
+00:30:24,980 --> 00:30:25,460
+Ich bin zu langsam.
+
+590
+00:30:25,620 --> 00:30:26,620
+Okay.
+
+591
+00:30:28,330 --> 00:30:31,240
+Ja, deswegen, ähm, habt ihr sonst noch
+irgendwelche Fragen?
+
+592
+00:30:31,540 --> 00:30:33,140
+Ansonsten, ja, könnt ihr...
+
+593
+00:30:33,960 --> 00:30:35,720
+Habt ihr einen Nachttisch und so Zeugs
+unten?
+
+594
+00:30:36,640 --> 00:30:37,040
+Genau.
+
+595
+00:30:37,300 --> 00:30:38,900
+Könnt ihr quasi euch einen Kaffee holen.
+
+596
+00:30:39,260 --> 00:30:41,840
+Könnt ihr euch überlegen, welche,
+welche URL ihr nehmt für euren,
+
+597
+00:30:41,990 --> 00:30:42,980
+für eure Webseite.
+
+598
+00:30:42,981 --> 00:30:45,060
+Dafür, ob ihr neue Installationen
+aufsetzt.
+
+599
+00:30:45,360 --> 00:30:47,920
+Ich hab gehört, WordCamp soll total
+einfach zu installieren sein.
+
+600
+00:30:49,470 --> 00:30:50,670
+Und wie gesagt, diese Plugins.
+
+601
+00:30:50,830 --> 00:30:51,856
+Warte mal, wir können alle noch mal Fotos
+machen.
+
+602
+00:30:51,880 --> 00:30:52,880
+Da alle mal Fotos machen.
+
+603
+00:30:53,560 --> 00:30:57,460
+Und wichtig, ähm, da eure, eure,
+euren Frust reinkippen.
+
+604
+00:30:57,500 --> 00:30:58,500
+Das mag Matthias.
+
+605
+00:30:58,980 --> 00:30:59,380
+Genau.
+
+606
+00:30:59,910 --> 00:31:03,020
+Je unspezifischer eure Issues,
+desto mehr mag der.
+
+607
+00:31:03,040 --> 00:31:03,120
+Genau.
+
+608
+00:31:03,121 --> 00:31:04,121
+Ich finde das...
+
+609
+00:31:05,160 --> 00:31:05,780
+Geht nicht.
+
+610
+00:31:05,940 --> 00:31:06,320
+Geht nicht.
+
+611
+00:31:06,340 --> 00:31:07,940
+Ist so eins von seinen Lieblingstickets.
+
+612
+00:31:08,080 --> 00:31:09,080
+Einfach nur geht nicht.
+
+613
+00:31:09,120 --> 00:31:10,280
+Auf Deutsch da reinschreiben.
+
+614
+00:31:19,045 --> 00:31:20,045
+Ja und, und der...
+
+615
+00:31:20,440 --> 00:31:20,840
+Genau.
+
+616
+00:31:21,170 --> 00:31:22,980
+Und, und der Matthias
+sagt auch, ihr sollt im
+
+617
+00:31:23,020 --> 00:31:25,340
+Plugin Verzeichnis, ähm,
+ähm, Reviews einstellen.
+
+618
+00:31:29,560 --> 00:31:30,560
+Gut.
+
+619
+00:31:31,440 --> 00:31:31,840
+Okay.
+
+620
+00:31:32,150 --> 00:31:34,110
+Ich würd sagen, dann, ähm, habt ihr ab
+jetzt frei.
+
+621
+00:31:34,890 --> 00:31:36,890
+Und könnt euch dann einen anderen Vortrag
+angucken.
+
+622
+00:31:43,990 --> 00:31:44,390
+Robert.
+
+623
+00:31:44,391 --> 00:31:47,530
+Dann danke dir auch noch mal für deinen
+Vortrag.
+
+624
+00:31:47,730 --> 00:31:48,330
+Und...
+
+625
+00:31:48,580 --> 00:31:49,670
+Ach ich weiß...
+
+626
+00:31:49,770 --> 00:31:50,770
+Na wohl, ne?
+
+627
+00:31:50,830 --> 00:31:52,550
+Das ist nicht meine Verantwortung.
+
+628
+00:31:53,230 --> 00:31:54,230
+Vielen Dank.
+
+629
+00:31:54,510 --> 00:31:55,510
+ENDE
+

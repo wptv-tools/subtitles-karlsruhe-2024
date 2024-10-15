@@ -1,0 +1,3064 @@
+﻿1
+00:00:04,890 --> 00:00:06,750
+Jo, schön, dass ihr wieder da seid.
+
+2
+00:00:07,190 --> 00:00:08,750
+Jetzt geht es auch schon direkt weiter.
+
+3
+00:00:09,230 --> 00:00:12,910
+Martin Kraft wird uns jetzt einen
+spannenden Vortrag über psychiatrische
+
+4
+00:00:12,911 --> 00:00:15,250
+Perspektiven auf die Community
+präsentieren.
+
+5
+00:00:16,020 --> 00:00:16,750
+Ich bin gespannt.
+
+6
+00:00:16,950 --> 00:00:17,950
+Viel Spaß euch.
+
+7
+00:00:23,670 --> 00:00:24,550
+Ja, hallo.
+
+8
+00:00:24,590 --> 00:00:26,850
+Ich wechsle ein bisschen das Thema.
+
+9
+00:00:27,010 --> 00:00:30,333
+Es war hier gerade, glaube
+ich, eine andere Richtung
+
+10
+00:00:30,433 --> 00:00:32,690
+von Community, ein
+bisschen zukunftsgewandter.
+
+11
+00:00:33,290 --> 00:00:36,330
+Aber ich gehe ein bisschen mehr in die
+Gegenwart, denke ich.
+
+12
+00:00:36,430 --> 00:00:38,350
+Psychiatrische Perspektiven auf die
+Community.
+
+13
+00:00:38,510 --> 00:00:39,290
+Ein bisschen komisch.
+
+14
+00:00:39,291 --> 00:00:40,371
+Warum geht man hier drüber?
+
+15
+00:00:40,670 --> 00:00:41,390
+Hallo erstmal.
+
+16
+00:00:41,550 --> 00:00:42,550
+Ich bin der Martin.
+
+17
+00:00:43,080 --> 00:00:45,910
+Ich bin WordPress-Enthusiast.
+
+18
+00:00:46,840 --> 00:00:48,090
+Ich habe lange noch einen Begriff gesucht.
+
+19
+00:00:48,091 --> 00:00:48,690
+Was bin ich denn?
+
+20
+00:00:48,810 --> 00:00:50,410
+Wie ist mein Verhältnis zur WordPress?
+
+21
+00:00:50,690 --> 00:00:51,730
+Ich bin kein Entwickler.
+
+22
+00:00:51,830 --> 00:00:53,390
+Ich bin kein Programmierer.
+
+23
+00:00:53,820 --> 00:00:54,980
+Ich verstehe nichts von Code.
+
+24
+00:00:55,150 --> 00:00:56,890
+Ich bin nicht mal Blogger.
+
+25
+00:00:57,780 --> 00:01:00,410
+Ich bin 2018 zu WordPress gekommen über
+meinen Mann.
+
+26
+00:01:00,510 --> 00:01:02,841
+Der hat gesagt, er ist Teil von so einer
+komischen Bibliothek.
+
+27
+00:01:02,865 --> 00:01:03,865
+Die WordPress-Sekte.
+
+28
+00:01:04,010 --> 00:01:06,970
+Und hat mich mitgeschleift auf so ein
+komisches WordCamp Europe.
+
+29
+00:01:08,100 --> 00:01:11,650
+Das war aus meiner Lebensrealität damals
+kommend.
+
+30
+00:01:11,690 --> 00:01:14,490
+Aus der Medizin, wo alles steif und
+hierarchisch ist.
+
+31
+00:01:14,550 --> 00:01:15,050
+Ganz komisch.
+
+32
+00:01:15,051 --> 00:01:16,630
+Leute laufen rum in T-Shirts.
+
+33
+00:01:17,130 --> 00:01:18,130
+Leute duzen sich.
+
+34
+00:01:18,870 --> 00:01:22,550
+Vorträge werden irgendwie bunt gehalten
+und sind ästhetisch ansprechend.
+
+35
+00:01:22,590 --> 00:01:23,970
+Also alles ein bisschen seltsam.
+
+36
+00:01:24,740 --> 00:01:26,850
+Und seitdem bin ich irgendwie dabei
+geblieben.
+
+37
+00:01:26,930 --> 00:01:29,630
+Ich bin auf Meetups im Süden von
+Deutschland unterwegs.
+
+38
+00:01:29,750 --> 00:01:32,510
+Oder auch eben auf verschiedenen WordCamp
+Europe.
+
+39
+00:01:32,690 --> 00:01:34,070
+Ich bin auf Meetups dabei gewesen.
+
+40
+00:01:34,190 --> 00:01:36,850
+Unter anderem auch als Volontier.
+
+41
+00:01:37,840 --> 00:01:40,850
+Im eigentlichen Leben bin ich aber
+Psychiater.
+
+42
+00:01:41,030 --> 00:01:42,690
+Oder eher auf dem Weg zum Psychiater.
+
+43
+00:01:43,400 --> 00:01:44,640
+Das ist ein bisschen schwierig.
+
+44
+00:01:44,740 --> 00:01:45,750
+Ich bin Arzt.
+
+45
+00:01:45,790 --> 00:01:48,770
+Ich habe ganz normal studiert.
+
+46
+00:01:49,110 --> 00:01:52,286
+Habe davor, weil man ja
+bekanntlich nicht so leicht in den
+
+47
+00:01:52,326 --> 00:01:55,130
+Medizinstudium reinkommt, ein
+bisschen Lebenserfahrung gesammelt.
+
+48
+00:01:55,230 --> 00:01:58,310
+Ich habe einen FSJ im geschlossenen
+Alkohol- und Medikamentenentzug gemacht.
+
+49
+00:01:58,900 --> 00:02:01,890
+Der mich motiviert hat, den ganzen Bums
+danach auch durchzuziehen.
+
+50
+00:02:01,891 --> 00:02:05,590
+Habe eine Weiterbildung als Gesundheits-
+und Krankenpfleger gemacht.
+
+51
+00:02:05,730 --> 00:02:07,566
+Habe währenddessen immer in der
+Psychiatrie gearbeitet.
+
+52
+00:02:07,590 --> 00:02:09,871
+Habe während meinem Studium in der
+Psychiatrie gearbeitet.
+
+53
+00:02:10,250 --> 00:02:14,910
+Und bin jetzt letzten Endes eben in meiner
+Weiterbildung als Psychiater.
+
+54
+00:02:16,120 --> 00:02:18,234
+Ich würde ganz kurz
+eine Begriffsbestimmung
+
+55
+00:02:18,235 --> 00:02:20,010
+machen, weil das immer
+durcheinander kommt.
+
+56
+00:02:20,150 --> 00:02:21,170
+Was sind Psychologen?
+
+57
+00:02:21,171 --> 00:02:22,206
+Was sind Psychotherapeuten?
+
+58
+00:02:22,230 --> 00:02:23,230
+Was sind Psychiater?
+
+59
+00:02:23,770 --> 00:02:25,226
+Das letzte habe ich jetzt schon erklärt.
+
+60
+00:02:25,250 --> 00:02:26,350
+Ich bin Arzt.
+
+61
+00:02:26,370 --> 00:02:27,090
+Ich bin Mediziner.
+
+62
+00:02:27,190 --> 00:02:31,270
+Mich interessiert zu einem Teil,
+was die Neurobiologie sagt.
+
+63
+00:02:31,495 --> 00:02:33,016
+Wie entstehen psychische Erkrankungen?
+
+64
+00:02:33,490 --> 00:02:35,081
+Und trotzdem mache
+ich eine Weiterbildung als
+
+65
+00:02:35,082 --> 00:02:37,410
+Facharzt für Psychiatrie
+und Psychotherapie.
+
+66
+00:02:37,870 --> 00:02:40,829
+Da gehört zu meiner
+Ausbildung dazu, dass ich
+
+67
+00:02:40,830 --> 00:02:43,270
+eben eine Ausbildung
+mache zum Psychotherapeut.
+
+68
+00:02:43,290 --> 00:02:46,350
+Ich gebe selber Stunden und werde auch
+selber therapiert.
+
+69
+00:02:47,100 --> 00:02:49,550
+Und dann ist das Gegenteil davon die
+Psychologen.
+
+70
+00:02:49,710 --> 00:02:53,510
+Psychologinnen sind Menschen, die
+Psychologie studieren.
+
+71
+00:02:53,511 --> 00:02:56,650
+Das ist die Wissenschaft vom Vorhersehen
+und Verstehen menschlichen Verhaltens.
+
+72
+00:02:57,220 --> 00:02:58,610
+Das ist ein eigener Zweig.
+
+73
+00:02:58,660 --> 00:03:01,090
+Den studiert man und danach ist man
+erstmal Psychologe.
+
+74
+00:03:01,370 --> 00:03:02,350
+Man kann testen.
+
+75
+00:03:02,351 --> 00:03:03,911
+Man kann Wirtschaftspsychologie machen.
+
+76
+00:03:04,580 --> 00:03:07,250
+Oder man macht eben nochmal eine
+Weiterbildung und wird auch Psychotherapeut.
+
+77
+00:03:07,330 --> 00:03:09,010
+Das dauert dann auch nochmal so fünf
+Jahre.
+
+78
+00:03:09,915 --> 00:03:11,036
+Und da treffen wir uns dann.
+
+79
+00:03:11,200 --> 00:03:14,090
+Die Ärzte und die Psychologinnen als
+Psychotherapeuten.
+
+80
+00:03:16,020 --> 00:03:18,690
+Ich muss vor diesem Vortrag ein Disclaimer
+stellen.
+
+81
+00:03:18,810 --> 00:03:21,470
+Sowohl für die Leute, die den jetzt hier
+zuhören, als auch für die, die den
+
+82
+00:03:21,471 --> 00:03:24,010
+vielleicht als Aufzeichnung später
+zuhören.
+
+83
+00:03:26,240 --> 00:03:28,250
+Es wird in dem Vortrag eher um Mental
+Health gehen.
+
+84
+00:03:28,370 --> 00:03:31,301
+Ich werde mich zur Abwechslung nicht so
+sehr mit Psychischer konzentrieren.
+
+85
+00:03:31,325 --> 00:03:32,766
+Ich werde mich eher mit der Krankheit
+beschäftigen.
+
+86
+00:03:32,790 --> 00:03:34,630
+Und es gibt viele Formen von psychischer
+Not.
+
+87
+00:03:35,405 --> 00:03:38,406
+Und da wir in Deutschland sind und dieser
+Vortrag auf Deutsch gehalten wird,
+
+88
+00:03:38,450 --> 00:03:40,807
+sind die einfachsten Hilfsmittel
+für Menschen in psychischer
+
+89
+00:03:40,808 --> 00:03:45,730
+Not immer noch die 112, die
+116, 117 oder Teleponseelsorge.
+
+90
+00:03:46,460 --> 00:03:50,410
+Ich sage das deshalb, weil es einfach
+wirklich schon mal eine Main-Message ist.
+
+91
+00:03:50,470 --> 00:03:54,030
+Und wenn ihr nichts von diesem Vortrag
+sonst mitnehmt, wenn ihr in psychische Not
+
+92
+00:03:54,031 --> 00:03:58,090
+geratet und vor allem voran sind das
+Gedanken nicht mehr lebensvollen oder eben
+
+93
+00:03:58,091 --> 00:04:02,090
+andere Situationen, verschiedenste Art,
+dann sucht euch Hilfe.
+
+94
+00:04:03,510 --> 00:04:06,950
+Es gibt das in Deutschland Gott sei Dank
+für alle Menschen, die krankenversichert
+
+95
+00:04:06,951 --> 00:04:09,086
+sind und auch für die Menschen,
+die nicht krankenversichert sind.
+
+96
+00:04:09,110 --> 00:04:11,450
+Und Psychiatrien sind dazu da,
+um Menschen zu helfen.
+
+97
+00:04:13,025 --> 00:04:15,410
+Nicht nur in der größten Not, sondern eben
+auch weiter.
+
+98
+00:04:20,130 --> 00:04:23,230
+Üblicherweise setzt man ja so eine kleine
+Agenda für den Vortrag vorneweg.
+
+99
+00:04:23,650 --> 00:04:26,211
+Ich werde erstmal drüber sprechen,
+was ist psychische Gesundheit.
+
+100
+00:04:26,750 --> 00:04:29,110
+Danach vor allem mein Blick auf die
+Community.
+
+101
+00:04:29,111 --> 00:04:33,010
+Das heißt, die Perspektive eines
+Außenseiters, ein paar psychiatrische
+
+102
+00:04:33,011 --> 00:04:35,691
+Aspekte, sicherlich kein vollständiges
+Bild, das geht einfach nicht.
+
+103
+00:04:35,990 --> 00:04:39,790
+Aber einfach mal gucken, was gibt es von
+hier so Risiken und Nebenwirkungen,
+
+104
+00:04:39,850 --> 00:04:45,270
+was für Chancen hat WordPress oder die
+Community vor allem und was nicht.
+
+105
+00:04:45,390 --> 00:04:48,710
+Und ganz zum Schluss gebe ich einen
+kleinen Ausblick auf hilfreiche Skills,
+
+106
+00:04:49,590 --> 00:04:51,500
+eine kleine Auswahl an
+Sachen, die meiner Meinung nach
+
+107
+00:04:51,501 --> 00:04:54,210
+gut umsetzbar sind und die
+einem persönlich helfen können.
+
+108
+00:04:56,770 --> 00:04:57,990
+Die Ärzte lieben...
+
+109
+00:04:59,110 --> 00:05:01,310
+Mentale Gesundheit lieben Definitionen.
+
+110
+00:05:01,760 --> 00:05:05,790
+Und ich beginne, weil es so schön griffig
+ist, mit einer kleinen Definition.
+
+111
+00:05:06,345 --> 00:05:10,070
+Mentale Gesundheit ist ein Zustand des
+mentalen Wohlbefindens, der Menschen dazu
+
+112
+00:05:10,071 --> 00:05:13,910
+in die Lage versetzt, im Lebenszeitspress
+umzugehen, ihre Fähigkeiten zu
+
+113
+00:05:13,911 --> 00:05:16,925
+bewirklichen, gut zu
+lernen, gut zu arbeiten
+
+114
+00:05:16,926 --> 00:05:20,291
+und an ihrer Community
+teilhaben zu können.
+
+115
+00:05:20,630 --> 00:05:23,050
+Ihr seht, dass es viel, viel, viel mehr
+als...
+
+116
+00:05:23,375 --> 00:05:25,050
+Das habe ich zwei Folien weiter.
+
+117
+00:05:26,310 --> 00:05:27,310
+Nein.
+
+118
+00:05:27,970 --> 00:05:31,530
+Mentale Gesundheit ist mehr als nur die
+Abwesenheit von psychischer Erkrankung.
+
+119
+00:05:31,970 --> 00:05:35,550
+Über diesen kleinen Teil, da kümmern wir
+Psychiater uns.
+
+120
+00:05:35,670 --> 00:05:38,850
+Aber eigentlich ist das alles andere,
+was mentale Gesundheit ist, findet draußen
+
+121
+00:05:38,851 --> 00:05:41,205
+statt, findet im Leben statt
+und geht darum, dass man
+
+122
+00:05:41,206 --> 00:05:43,850
+ein Leben, eine Umwelt
+schafft, in der das möglich ist.
+
+123
+00:05:43,930 --> 00:05:44,270
+Denn...
+
+124
+00:05:44,870 --> 00:05:45,870
+Ohne Folie.
+
+125
+00:05:46,710 --> 00:05:47,710
+Zurück.
+
+126
+00:05:48,280 --> 00:05:49,610
+Mental Health is a Human Right.
+
+127
+00:05:50,680 --> 00:05:54,530
+Das hat deshalb die WHO so postuliert,
+weil es überall auf der Welt Frieden gibt
+
+128
+00:05:54,680 --> 00:05:57,449
+und es eben Bedingungen
+geben sollte, unter denen mentale
+
+129
+00:05:57,450 --> 00:05:59,791
+Gesundheit und psychische
+Gesundheit möglich sein sollte.
+
+130
+00:06:00,290 --> 00:06:03,770
+Und so sollte auch mentale Gesundheit in
+dieser Community möglich sein.
+
+131
+00:06:04,050 --> 00:06:09,070
+Und ich glaube, dass ihr alle Dinge erlebt
+habt, die einen at risk bringen,
+
+132
+00:06:09,330 --> 00:06:11,550
+eben doch auch in die psychische
+Erkrankung zu schlittern, durch die
+
+133
+00:06:11,551 --> 00:06:14,111
+Community, durch das Projekt und durch
+das, was wir hier erleben.
+
+134
+00:06:14,430 --> 00:06:14,870
+Aber...
+
+135
+00:06:15,370 --> 00:06:16,370
+Reife vorne wird.
+
+136
+00:06:17,990 --> 00:06:18,990
+Genau.
+
+137
+00:06:21,390 --> 00:06:23,231
+Einmal, Gott sei Dank, eine einfache
+Erklärung.
+
+138
+00:06:23,540 --> 00:06:24,430
+Was ist jetzt psychische Erkrankung?
+
+139
+00:06:24,431 --> 00:06:25,030
+Und was ist psychische Krankheit?
+
+140
+00:06:25,110 --> 00:06:28,830
+Es gibt Diagnosebücher, es gibt
+Checklisten, die man durcharbeiten kann.
+
+141
+00:06:28,910 --> 00:06:33,270
+Die Psychologinnen sind ganz gut darin,
+differenzierte Tests und Anhaktests zu
+
+142
+00:06:33,271 --> 00:06:36,850
+machen, wie man es dort, um eine
+psychische Erkrankung einzuteilen.
+
+143
+00:06:38,060 --> 00:06:40,926
+Meiner Meinung nach ist immer noch das
+ärztliche oder das psychologische,
+
+144
+00:06:40,950 --> 00:06:45,150
+psychotherapeutische, alles davon
+Erstgespräch, Mittel der Wahl und alle
+
+145
+00:06:45,151 --> 00:06:48,151
+weiteren Gespräche, die dann folgen,
+um den Weg zu einer Diagnose zu finden.
+
+146
+00:06:48,830 --> 00:06:51,336
+Und dann kann man über
+differenzierte Diagnosen
+
+147
+00:06:51,337 --> 00:06:53,690
+nachdenken und das bis
+aufs Feinste rausdestillieren.
+
+148
+00:06:53,691 --> 00:06:56,350
+Auch das alles heute nicht in diese
+Vortragsreihe.
+
+149
+00:06:57,120 --> 00:06:59,281
+Psychische Erkrankungen sind nicht so
+heute mein Thema.
+
+150
+00:06:59,450 --> 00:07:02,250
+Worüber ich sprechen möchte, ist, wie
+entstehen alle psychischen Erkrankungen.
+
+151
+00:07:02,510 --> 00:07:06,770
+Und dafür gibt es ein gängiges Modell und
+das heißt das Vulnerabilitätsstressmodell.
+
+152
+00:07:07,235 --> 00:07:12,290
+Das heißt, dass man einerseits... also
+jeder bringt seine eigene Verletzlichkeit
+
+153
+00:07:12,291 --> 00:07:15,150
+mit, seine Möglichkeit, psychisch krank zu
+werden.
+
+154
+00:07:15,655 --> 00:07:17,510
+Und auf der anderen
+Seite gibt es Stressmomente
+
+155
+00:07:17,534 --> 00:07:19,246
+in unserem Leben, die
+uns krank machen können.
+
+156
+00:07:19,270 --> 00:07:21,070
+Wir alle erleben Lifetime Stress.
+
+157
+00:07:21,071 --> 00:07:24,070
+Und wir alle erleben Stress.
+
+158
+00:07:24,210 --> 00:07:27,730
+Und das Modell versucht zu erklären,
+wie man psychisch krank wird.
+
+159
+00:07:28,510 --> 00:07:30,911
+Und dazu kommen jetzt diese wunderschönen
+Fässer zum Einsatz.
+
+160
+00:07:31,180 --> 00:07:33,430
+Denn wir alle sind in diesem Modell kleine
+Fässer.
+
+161
+00:07:34,130 --> 00:07:35,766
+Wir sind Fässer, die unterschiedlich voll
+sind.
+
+162
+00:07:35,790 --> 00:07:37,570
+Voll mit dem biopsychosozialen Modell.
+
+163
+00:07:38,290 --> 00:07:42,210
+Das besagt, dass wir sowohl aus
+biologischen Faktoren angefüllt sind.
+
+164
+00:07:42,270 --> 00:07:43,830
+Das ist die genetische Ausstattung.
+
+165
+00:07:43,930 --> 00:07:46,590
+Das ist je nachdem, welche Rezeptoren ich
+im Kopf habe.
+
+166
+00:07:46,630 --> 00:07:50,270
+Je nachdem, wie viel Substanz,
+also Transmitterstoffe vorhanden sind.
+
+167
+00:07:50,271 --> 00:07:53,150
+Manchmal auch, welche Substanzen ich
+konsumiert habe.
+
+168
+00:07:53,250 --> 00:07:55,130
+Um davon mehr Transmitter zu haben oder
+weniger.
+
+169
+00:07:55,660 --> 00:07:58,070
+Die mich anfälliger machen für eine
+psychische Erkrankung.
+
+170
+00:07:59,510 --> 00:08:01,250
+Weiter gibt es die psychologischen
+Faktoren.
+
+171
+00:08:01,350 --> 00:08:02,830
+Das ist meine Einstellung zum Leben.
+
+172
+00:08:03,170 --> 00:08:04,286
+Das ist meine Art zu denken.
+
+173
+00:08:04,310 --> 00:08:06,610
+Das ist die Art, wie ich mit Problemen
+umgehe.
+
+174
+00:08:06,880 --> 00:08:08,321
+Die in meinem Leben auf mich treten.
+
+175
+00:08:08,970 --> 00:08:11,750
+Das ist ein Teil, den man gut behandeln
+kann.
+
+176
+00:08:12,070 --> 00:08:14,770
+Auch biologische Faktoren kann man
+inzwischen relativ gut behandeln.
+
+177
+00:08:14,850 --> 00:08:16,990
+Da gibt es auch differenzierte Methoden.
+
+178
+00:08:17,030 --> 00:08:18,810
+Und da ist man beim Psychiater auch gut
+aufgehoben.
+
+179
+00:08:18,811 --> 00:08:21,051
+Aber über die möchte ich jetzt auch nicht
+weitersprechen.
+
+180
+00:08:22,080 --> 00:08:23,441
+Über die psychologischen Faktoren.
+
+181
+00:08:23,570 --> 00:08:26,610
+Klar wirkt Psychotherapie, aber auch
+einfach gute Erfahrungen.
+
+182
+00:08:26,611 --> 00:08:28,790
+Gute Erfahrungen, positive Erfahrungen.
+
+183
+00:08:28,830 --> 00:08:31,550
+Oder die Erlebnisse etwas bewältigt zu
+haben.
+
+184
+00:08:31,650 --> 00:08:33,450
+Das muss sich dann nicht angenehm
+anfühlen.
+
+185
+00:08:33,570 --> 00:08:34,906
+Aber trotzdem macht man Erfahrungen.
+
+186
+00:08:34,930 --> 00:08:38,410
+Und so ändert sich Psyche und unsere
+Fähigkeit, Probleme zu bewältigen.
+
+187
+00:08:39,995 --> 00:08:41,750
+Als letzten Faktor die sozialen Faktoren.
+
+188
+00:08:41,850 --> 00:08:43,290
+Und auch deshalb seid ihr alle hier.
+
+189
+00:08:43,460 --> 00:08:44,090
+Es geht um Community.
+
+190
+00:08:44,450 --> 00:08:46,150
+Es gibt inzwischen sehr gute Studien.
+
+191
+00:08:46,151 --> 00:08:48,090
+Die auch sich damit beschäftigen.
+
+192
+00:08:48,170 --> 00:08:51,510
+Wie Miteinander, menschliches Miteinander
+und soziale Beziehungen.
+
+193
+00:08:51,550 --> 00:08:53,650
+Zur psychischen Gesundheit und
+Gesunderhaltung.
+
+194
+00:08:53,710 --> 00:08:56,170
+Aber eben auch der Mangel an sozialer
+Bindung.
+
+195
+00:08:56,270 --> 00:08:59,650
+Zur psychischen Erkrankung führen kann.
+
+196
+00:09:01,120 --> 00:09:04,310
+Und dieser Punkt bringt mich jetzt direkt
+zur Community.
+
+197
+00:09:06,450 --> 00:09:07,450
+Community.
+
+198
+00:09:08,770 --> 00:09:09,770
+Community.
+
+199
+00:09:10,450 --> 00:09:12,030
+Community, Ressource oder Risiken.
+
+200
+00:09:13,740 --> 00:09:15,910
+Wenn man sich das jetzt unter diesen
+Aspekten.
+
+201
+00:09:16,430 --> 00:09:17,850
+Biopsychosoziales Modell anschaut.
+
+202
+00:09:18,360 --> 00:09:21,530
+Dann gibt es hier verschiedene Chancen,
+Ressourcen.
+
+203
+00:09:21,610 --> 00:09:23,330
+Und über die möchte ich zuerst mal
+sprechen.
+
+204
+00:09:23,580 --> 00:09:24,820
+Also wir wägen ein bisschen ab.
+
+205
+00:09:25,900 --> 00:09:28,890
+Wir haben die große Chance über die
+Community.
+
+206
+00:09:29,230 --> 00:09:30,350
+Sozialen Kontakt zu haben.
+
+207
+00:09:30,430 --> 00:09:32,730
+Sozialer Kontakt als Experte.
+
+208
+00:09:33,250 --> 00:09:34,850
+Sozialer Kontakt als Hilfesuchender.
+
+209
+00:09:35,460 --> 00:09:37,430
+Sozialer Kontakt als Person, die Hilfe
+geben kann.
+
+210
+00:09:38,490 --> 00:09:39,490
+Soziale Interaktion.
+
+211
+00:09:40,090 --> 00:09:41,570
+Eben immer mit dieser Identifikation.
+
+212
+00:09:41,790 --> 00:09:44,210
+Denn oft fällt es uns schwer, wenn wir in
+psychische Not geraten.
+
+213
+00:09:44,211 --> 00:09:46,870
+Wenn ich mich jetzt stumm in eine Bar
+setze.
+
+214
+00:09:47,430 --> 00:09:49,230
+Dann bin ich als Person gerade anwesend.
+
+215
+00:09:49,310 --> 00:09:52,030
+Und es fällt vielleicht schwer,
+über irgendwas in Kontakt zu kommen.
+
+216
+00:09:52,150 --> 00:09:53,350
+Aber wenn ich Wordpress nehme.
+
+217
+00:09:54,060 --> 00:09:55,746
+Und ich bin in einem Raum Wordpress
+Menschen.
+
+218
+00:09:55,770 --> 00:09:57,650
+Dann haben wir dieses Thema schon mal
+gemeinsam.
+
+219
+00:09:58,030 --> 00:09:59,406
+Oder wir wissen, wir arbeiten alle damit.
+
+220
+00:09:59,430 --> 00:10:00,706
+Man kann nach diesem Bezug fragen.
+
+221
+00:10:00,730 --> 00:10:02,410
+Das stellt schon mal sozialen Kontakt her.
+
+222
+00:10:02,930 --> 00:10:03,810
+Und dann geht es natürlich weiter.
+
+223
+00:10:03,870 --> 00:10:06,290
+Bin ich in einer Meetup Gruppe,
+die sich regelmäßig trifft.
+
+224
+00:10:06,910 --> 00:10:08,511
+Kann ich einfach verschiedene Menschen
+treffen.
+
+225
+00:10:08,535 --> 00:10:09,695
+Kann andere Meetups besuchen.
+
+226
+00:10:09,790 --> 00:10:12,510
+Kann an einen neuen Ort ziehen und
+schauen, ob es dieses Meetup gibt.
+
+227
+00:10:12,850 --> 00:10:14,190
+Das sind alles Chancen für soziale
+Kontakt.
+
+228
+00:10:14,191 --> 00:10:16,900
+Die uns aus der sozialen
+Isolation als großen
+
+229
+00:10:16,901 --> 00:10:19,451
+Risikofaktor für psychische
+Erkrankungen führen.
+
+230
+00:10:19,750 --> 00:10:20,806
+Wenn man in andere Länder schaut.
+
+231
+00:10:20,830 --> 00:10:22,830
+In England und in Japan werden ja Versuche
+gemacht.
+
+232
+00:10:22,910 --> 00:10:27,170
+Auf Regierungsebene Ministerien gegen
+Einsamkeit zu gründen.
+
+233
+00:10:28,210 --> 00:10:30,170
+Und hier sehen wir eine Möglichkeit.
+
+234
+00:10:30,330 --> 00:10:32,816
+Wo wir auf ganz kompletter
+Ebene gegen soziale
+
+235
+00:10:32,817 --> 00:10:35,211
+Isolation oder Einsamkeit
+vorgelegt werden.
+
+236
+00:10:36,010 --> 00:10:37,190
+Jeder von uns kann beitragen.
+
+237
+00:10:37,850 --> 00:10:40,710
+Als ich 2018 mit Wordpress meinen ersten
+Kontakt hatte.
+
+238
+00:10:41,270 --> 00:10:42,976
+Hatte ich noch weniger Ahnung von
+Wordpress.
+
+239
+00:10:43,000 --> 00:10:44,146
+Hatte jetzt auch wenig Ahnung.
+
+240
+00:10:44,170 --> 00:10:45,210
+Aber das war noch weniger.
+
+241
+00:10:45,980 --> 00:10:50,390
+Und ich habe damals für das Plugin
+-Kollektiv Lukus Probe gelesen.
+
+242
+00:10:50,410 --> 00:10:51,410
+Auf einem Hackathon.
+
+243
+00:10:51,990 --> 00:10:53,006
+Ich habe sonst nicht viel Ahnung.
+
+244
+00:10:53,030 --> 00:10:54,110
+Aber das konnte ich machen.
+
+245
+00:10:54,480 --> 00:10:56,680
+Was ich auch gelernt habe ist,
+dass ich übersetzen kann.
+
+246
+00:10:56,740 --> 00:10:58,810
+Welche mehrere Sprachen ausreichend gut
+genug.
+
+247
+00:10:58,890 --> 00:11:01,590
+Um mich an manchen Versetzungen zu trauen.
+
+248
+00:11:01,830 --> 00:11:05,350
+Und jeder hat irgendwo eine Form zu
+contributen.
+
+249
+00:11:06,170 --> 00:11:08,950
+Es gibt auch, ich denke an die Schweizer
+Community.
+
+250
+00:11:09,030 --> 00:11:12,650
+Auch Menschen, die vielleicht sonst
+weniger Kontakt zu Wordpress haben.
+
+251
+00:11:12,651 --> 00:11:14,410
+Und die ganze Meetups einfach
+organisieren.
+
+252
+00:11:14,430 --> 00:11:16,510
+Obwohl sie selber vielleicht gerade mal
+Blogger sind.
+
+253
+00:11:16,830 --> 00:11:18,650
+Oder gerade mal in Anführungszeichen.
+
+254
+00:11:19,290 --> 00:11:24,770
+Einfach jede Fähigkeit kann irgendwo in
+dieser Wordpress-Sphäre einzug finden.
+
+255
+00:11:24,910 --> 00:11:26,710
+Und findet sich auch auf den Events dann
+für.
+
+256
+00:11:28,110 --> 00:11:30,656
+Ein großer Teil, den ich heute mit dem
+Pappteaser ein bisschen zerlegt habe.
+
+257
+00:11:30,680 --> 00:11:32,320
+Ist die Frage nach der Selbstwirksamkeit.
+
+258
+00:11:33,600 --> 00:11:37,890
+Meiner Meinung nach kann man sehr
+selbstwirksam in Wordpress sein.
+
+259
+00:11:38,290 --> 00:11:39,406
+Das kann das kleine Projekt sein.
+
+260
+00:11:39,430 --> 00:11:41,171
+Das kann die Verschönerung meines Blogs
+sein.
+
+261
+00:11:41,195 --> 00:11:42,786
+Da kann ich danach einen Haken dran
+setzen.
+
+262
+00:11:42,810 --> 00:11:44,170
+Ich kann ein kleines Plugin bauen.
+
+263
+00:11:44,220 --> 00:11:46,010
+Ich habe etwas selber von mir produziert.
+
+264
+00:11:46,050 --> 00:11:46,650
+Und es ist fertig.
+
+265
+00:11:46,770 --> 00:11:47,770
+Es ist abgeschlossen.
+
+266
+00:11:47,930 --> 00:11:48,790
+Päffi widerspricht.
+
+267
+00:11:48,810 --> 00:11:50,686
+Dinge sind niemals fertig, wenn man
+programmiert.
+
+268
+00:11:50,710 --> 00:11:52,190
+Es ist alles agil und immer im Fluss.
+
+269
+00:11:53,250 --> 00:11:55,050
+Aber zumindest habe ich mal etwas
+produziert.
+
+270
+00:11:55,110 --> 00:11:57,967
+Und das ist etwas, was unter
+verschiedenen psychischen
+
+271
+00:11:57,968 --> 00:12:01,830
+Theorien einfach wirklich
+etwas ist, was man braucht.
+
+272
+00:12:02,150 --> 00:12:03,530
+Und ich weiß wovon ich spreche.
+
+273
+00:12:03,610 --> 00:12:05,357
+Denn bei Gesprächen
+und in der Psychiatrie
+
+274
+00:12:05,358 --> 00:12:08,351
+ist man nie mit einem
+konkreten Ding fertig.
+
+275
+00:12:08,450 --> 00:12:10,250
+Aber so ein Pote ist zumindest mal so
+weit.
+
+276
+00:12:10,251 --> 00:12:11,770
+Dass man ihn committet und abschickt.
+
+277
+00:12:12,990 --> 00:12:13,990
+Genau.
+
+278
+00:12:15,120 --> 00:12:16,480
+Es ist ein wunderbarer Safe Space.
+
+279
+00:12:17,480 --> 00:12:20,590
+Die sind alle hier bekannt mit dem Code of
+Conduct.
+
+280
+00:12:20,680 --> 00:12:23,490
+Diese Verhaltensregeln, die so viele Dinge
+sicherstellen.
+
+281
+00:12:23,550 --> 00:12:27,390
+Wenn ich auf ein Wordpress Event gehe,
+dann weiß ich, dass der gilt.
+
+282
+00:12:28,110 --> 00:12:30,550
+Und dieser Code of Conduct schützt einen.
+
+283
+00:12:30,630 --> 00:12:33,750
+Er sagt ja in der einfachsten Form,
+seid nett zueinander.
+
+284
+00:12:34,400 --> 00:12:37,150
+Aber er sagt eben auch allen Menschen,
+egal welcher sexuelle Orientierung,
+
+285
+00:12:37,151 --> 00:12:44,170
+egal welches Handy ich besitze,
+egal welches Betriebssystem ich fahre,
+
+286
+00:12:44,780 --> 00:12:49,257
+egal ob ich den Classic Editor
+oder eben Gutenberg benutze, ich
+
+287
+00:12:49,258 --> 00:12:52,031
+bin willkommen und ich darf
+dafür nicht diskriminiert werden.
+
+288
+00:12:52,400 --> 00:12:54,634
+Und mich hat das total
+überrascht, wie offen, wie
+
+289
+00:12:54,635 --> 00:12:56,910
+tolerant so ein Wordcombe
+Europe in Berlin ist.
+
+290
+00:12:56,970 --> 00:13:01,190
+Das war eben ein Opening Event und das war
+so tolerant und gleich.
+
+291
+00:13:01,350 --> 00:13:03,086
+Und man wusste, man ist in einem
+geschützten Raum.
+
+292
+00:13:03,110 --> 00:13:05,150
+Das ist ein großer Vorteil.
+
+293
+00:13:05,730 --> 00:13:09,270
+Und ich glaube, den sollte man auch nicht
+zu gering schätzen, dass man sich einfach
+
+294
+00:13:09,820 --> 00:13:10,820
+wohlfühlen kann.
+
+295
+00:13:12,600 --> 00:13:15,310
+Es ist einfach in Summe sinnstiftend.
+
+296
+00:13:16,710 --> 00:13:22,670
+Sinnstiftend dahin, dass man sich damit
+identifiziert, dass es einem irgendwie gut
+
+297
+00:13:22,671 --> 00:13:24,870
+tut, dass man einen Zweck in seinem Leben
+findet.
+
+298
+00:13:25,075 --> 00:13:29,170
+Vielleicht, zumindest in einem Teilbereich
+seines Lebens, vielleicht je nachdem,
+
+299
+00:13:29,250 --> 00:13:33,450
+wie man veranlagt ist, kann dieser größer
+oder weniger groß sein, aber er kann eben
+
+300
+00:13:33,650 --> 00:13:34,650
+Sinn stiften.
+
+301
+00:13:36,620 --> 00:13:41,870
+Das ist auch ein kleines Risiko, denn
+das kann natürlich auch zu viel werden.
+
+302
+00:13:42,190 --> 00:13:43,750
+Das führt mich zu den Risiken.
+
+303
+00:13:46,730 --> 00:13:49,890
+Das Einfachste überall, wo Menschen zusammen
+treffen, ist schon mal sich vergleichen.
+
+304
+00:13:50,110 --> 00:13:54,110
+Vielleicht contribute ich irgendwo als
+freiwillige Person.
+
+305
+00:13:54,870 --> 00:13:58,130
+Auch da kann ich gerne nochmal dem Feffi
+als Beispiel nehmen, der ewig seinen
+
+306
+00:13:58,131 --> 00:14:02,670
+Activity -Pub seit 15 Jahren vor sich hin
+in seiner Freizeit entwickelt hat und
+
+307
+00:14:02,671 --> 00:14:04,570
+jetzt plötzlich dafür bezahlt wird,
+dass er contribute.
+
+308
+00:14:04,571 --> 00:14:08,710
+Ich glaube, das trifft dieses Einzelne,
+aber das ist ja generell mit dem Fall for
+
+309
+00:14:08,711 --> 00:14:12,630
+future so, dass es einfach Leute gibt,
+die bezahlt dafür werden, zu contributen.
+
+310
+00:14:12,650 --> 00:14:16,110
+Wenn ich da jetzt als freiwillige Person
+am Wochenende mich endlich mal hinsetze
+
+311
+00:14:16,111 --> 00:14:18,445
+und 20 Minuten irgendwas
+übersetze oder so, dann
+
+312
+00:14:18,446 --> 00:14:20,830
+kann ich mich halt
+irgendwie abgehängt fühlen.
+
+313
+00:14:20,870 --> 00:14:24,750
+Oder auch beim Contributen für WordCamps
+gibt es Leute für WordCamp Berlin,
+
+314
+00:14:24,870 --> 00:14:26,654
+die komplett freigestellt
+sind, ein Jahr lang
+
+315
+00:14:26,655 --> 00:14:28,510
+nichts anderes machen als
+ein WordCamp organisieren.
+
+316
+00:14:28,570 --> 00:14:31,712
+Wenn ich das als Volunteer
+mache oder eben als freiwilliger
+
+317
+00:14:31,713 --> 00:14:33,690
+Organiser, dann fühle ich
+mich vielleicht abgehängt.
+
+318
+00:14:33,691 --> 00:14:35,170
+Und fühle mich auch schlecht.
+
+319
+00:14:35,330 --> 00:14:36,850
+Also das kann einfach Stress bedeuten.
+
+320
+00:14:40,120 --> 00:14:41,910
+Die Gefahr der Überidentifikation.
+
+321
+00:14:43,480 --> 00:14:49,530
+Etwas, was die Anwesenden mehr oder
+weniger häufig betrifft.
+
+322
+00:14:50,070 --> 00:14:51,976
+Wordpress, Wordpress, Wordpress,
+Wordpress, Wordpress.
+
+323
+00:14:52,000 --> 00:14:55,970
+Freunde von uns wurden von ihren Eltern
+gefragt, ob das denn nicht eine Sekte ist.
+
+324
+00:14:56,710 --> 00:14:59,467
+Also haben sie wirklich
+at risk gesehen, dass sie in
+
+325
+00:14:59,487 --> 00:15:02,010
+einer Sekte beigetreten
+sind, die Wordpress heißt.
+
+326
+00:15:02,045 --> 00:15:03,670
+Das hat sehr viel Überzeugungsanteil.
+
+327
+00:15:03,690 --> 00:15:04,816
+Das hat viel Arbeit gekostet.
+
+328
+00:15:04,840 --> 00:15:07,970
+Menschen zu erklären, nein, das ist eine
+Open-Software.
+
+329
+00:15:09,260 --> 00:15:11,119
+Es ist ja immer sehr schwer
+Leuten zu erklären, was
+
+330
+00:15:11,120 --> 00:15:13,271
+Wordpress ist und wie
+man da sein Geld verdient.
+
+331
+00:15:13,870 --> 00:15:14,870
+Wie ein der.
+
+332
+00:15:15,090 --> 00:15:17,390
+Aber es ist eben etwas, was...
+
+333
+00:15:17,990 --> 00:15:20,350
+Leute fangen an plötzlich für Firmen zu
+arbeiten.
+
+334
+00:15:20,970 --> 00:15:22,610
+Und dann machen sie am Feierabend weiter.
+
+335
+00:15:22,710 --> 00:15:23,870
+Dann sind die ganzen Meetups.
+
+336
+00:15:24,140 --> 00:15:26,300
+Man fährt durch die Gegend, man geht auf
+die WordCamps.
+
+337
+00:15:26,840 --> 00:15:28,190
+Man hat kein anderes Leben mehr.
+
+338
+00:15:28,580 --> 00:15:31,290
+Man hat vielleicht auch weniger Hobbys.
+
+339
+00:15:31,291 --> 00:15:34,190
+Und alle Sozialkontakte, alle Themen
+treffen sich um einen.
+
+340
+00:15:35,410 --> 00:15:35,850
+Wunderbar.
+
+341
+00:15:35,851 --> 00:15:36,851
+Sinnstiftend.
+
+342
+00:15:36,900 --> 00:15:37,966
+Ich sage, es ist eine Ressource.
+
+343
+00:15:37,990 --> 00:15:39,886
+Und in der Psychiatrie ist es nie ein
+entweder oder.
+
+344
+00:15:39,910 --> 00:15:42,970
+Wenn wir entweder oder denken,
+verwenden, kommen wir in letzter
+
+345
+00:15:42,971 --> 00:15:45,710
+Konsequenz immer zum Hass und zur
+Vernichtung.
+
+346
+00:15:46,590 --> 00:15:47,590
+Psychoanalytisch gesehen.
+
+347
+00:15:48,140 --> 00:15:49,950
+Deshalb bin ich immer für ein sowohl als
+auch.
+
+348
+00:15:50,620 --> 00:15:53,470
+Es ist sinnstiftend, aber es kann zu
+Überidentifikation führen.
+
+349
+00:15:53,690 --> 00:15:56,930
+Und was dann passiert, ist eben,
+wenn wir zum Beispiel mit der Project
+
+350
+00:15:57,105 --> 00:15:58,650
+Governance zu tun haben.
+
+351
+00:15:58,651 --> 00:16:01,570
+Wenn Dinge passieren, auf die wir weniger
+Einfluss haben.
+
+352
+00:16:01,790 --> 00:16:02,790
+Wir geraten unter Stress.
+
+353
+00:16:03,050 --> 00:16:05,410
+Wir haben wenig Ressourcen, uns irgendwie
+abzupolstern.
+
+354
+00:16:05,430 --> 00:16:07,230
+Wir haben keine anderen Hobbys eventuell.
+
+355
+00:16:07,720 --> 00:16:09,906
+Wir haben dieses eine Projekt,
+was uns total viel bedeutet.
+
+356
+00:16:09,930 --> 00:16:10,630
+Was uns total viel gibt.
+
+357
+00:16:10,730 --> 00:16:11,890
+Mit all den positiven Dingen.
+
+358
+00:16:12,390 --> 00:16:15,190
+Aber wir haben auch wenig psychischen
+Spielraum, uns abzulenken.
+
+359
+00:16:15,690 --> 00:16:20,610
+Und es gibt in einer der modernen
+Psychotherapie-Methoden etwas,
+
+360
+00:16:20,790 --> 00:16:22,370
+was den spielenden Kind-Modus heißt.
+
+361
+00:16:22,510 --> 00:16:25,269
+Indem man versucht, rauszugehen
+oder irgendwas einfach vor
+
+362
+00:16:25,369 --> 00:16:28,450
+sich hin zu tun, um sich mit
+positiver Energie aufzuladen.
+
+363
+00:16:28,950 --> 00:16:31,830
+Das hält häufig schwer, um noch
+irgendeinen anderen Ausweg zu finden,
+
+364
+00:16:32,430 --> 00:16:34,870
+wenn alles, was ich gerne mache,
+Programmieren ist.
+
+365
+00:16:34,930 --> 00:16:36,450
+In den extremsten Formen.
+
+366
+00:16:36,451 --> 00:16:39,490
+Aber ich versuche so anzudeuten,
+was ist das, was mich interessiert.
+
+367
+00:16:40,110 --> 00:16:43,690
+Kann ich jetzt zum Beispiel, wenn es
+gerade ganz viel mediale Aufmerksamkeit
+
+368
+00:16:43,840 --> 00:16:45,184
+für WordPress gibt,
+überhaupt noch abschalten
+
+369
+00:16:45,185 --> 00:16:46,630
+und mich mit etwas
+anderem beschäftigen?
+
+370
+00:16:47,030 --> 00:16:51,890
+Oder gerate ich in einen Sog und bin eben
+da komplett identifiziert mit dem Projekt?
+
+371
+00:16:53,380 --> 00:16:55,010
+Was ist jetzt die ärztliche Diagnose?
+
+372
+00:16:55,790 --> 00:16:56,790
+Das nicht.
+
+373
+00:16:57,320 --> 00:16:58,430
+Burnout ist keine Diagnose.
+
+374
+00:16:58,431 --> 00:17:00,170
+Das ist keine Diagnose nach ICD-10.
+
+375
+00:17:00,540 --> 00:17:03,698
+Im ICD-11, dem neuen
+Diagnose-Handbuch, das eigentlich schon
+
+376
+00:17:03,699 --> 00:17:06,086
+seit zwei Jahren gelten soll,
+ist es auch keine Diagnose.
+
+377
+00:17:06,110 --> 00:17:07,590
+Es gibt arbeitsplatzbezogenen Stress.
+
+378
+00:17:08,390 --> 00:17:11,810
+Jetzt arbeiten von euch nicht alle
+hauptberuflich in WordPress.
+
+379
+00:17:12,050 --> 00:17:13,411
+Warum spreche ich trotzdem drüber?
+
+380
+00:17:13,990 --> 00:17:18,970
+Burnout ist eine schicke Modediagnose,
+die erklärt, was passiert.
+
+381
+00:17:19,230 --> 00:17:22,690
+Und auch im Ehrenamt gibt es den Begriff
+Burnout.
+
+382
+00:17:23,050 --> 00:17:26,070
+Es ist so, dass man erst die
+überengagierten Menschen, dass die
+
+383
+00:17:26,071 --> 00:17:28,930
+Menschen, denen das was bedeutet,
+denen es am Herzen liegt, eben eine
+
+384
+00:17:28,931 --> 00:17:32,810
+Überidentifikation gehen, alles dafür
+geben und an einen Punkt kommen,
+
+385
+00:17:32,970 --> 00:17:35,230
+wo sie vielleicht zu wenig zurückkommen.
+
+386
+00:17:36,020 --> 00:17:40,550
+Es gibt zwei, finde ich, gute Modelle,
+um zu erklären, wie ein Burnout entsteht,
+
+387
+00:17:41,020 --> 00:17:42,460
+auch wenn es keine ICD-Diagnose ist.
+
+388
+00:17:42,860 --> 00:17:45,788
+Das ist die Gratifikationskrise
+einerseits und
+
+389
+00:17:45,813 --> 00:17:47,875
+andererseits das
+Verantwortungskontrollmodell.
+
+390
+00:17:48,630 --> 00:17:51,450
+Die Gratifikationskrise besagt,
+dass man so lange produktiv arbeitet,
+
+391
+00:17:51,590 --> 00:17:54,810
+wie man das Gefühl auch hat, man wird
+angemessen für etwas belohnt.
+
+392
+00:17:55,360 --> 00:17:59,330
+Das heißt nicht immer, dass man angemessen
+dafür bezahlt wird, das wird man zu häufig
+
+393
+00:17:59,331 --> 00:18:01,236
+nicht, meiner Meinung
+nach, aber dass man
+
+394
+00:18:01,237 --> 00:18:03,090
+zumindest das Gefühl hat,
+Dankeschön zu bekommen.
+
+395
+00:18:03,270 --> 00:18:07,170
+Das heißt, ich kann in einem Forum Support
+anbieten und irgendwie habe ich trotzdem
+
+396
+00:18:07,171 --> 00:18:08,886
+das Gefühl, alle sind immer super
+undankbar.
+
+397
+00:18:08,910 --> 00:18:12,490
+Der Ton wird immer rauer, niemand
+moderiert was und es tut weh.
+
+398
+00:18:12,491 --> 00:18:14,811
+Und man fragt sich, warum mache ich denn
+scheiße überhaupt?
+
+399
+00:18:15,090 --> 00:18:19,032
+Man macht ein ganzes Wordcamp
+zum Beispiel hier und man
+
+400
+00:18:19,033 --> 00:18:21,430
+frage mich, wie oft haben
+wir heute schon Danke gesagt.
+
+401
+00:18:21,510 --> 00:18:23,877
+Und an dieser Stelle lade
+ich zu einem kleinen Applaus
+
+402
+00:18:23,878 --> 00:18:26,470
+für alle Volontiers, und
+Organiser ein, die heute da sind.
+
+403
+00:18:31,490 --> 00:18:32,932
+Übrigens, genauso
+viel Klatschen wie für die
+
+404
+00:18:32,933 --> 00:18:34,620
+Pflege unter Corona, das
+hat auch nichts geändert.
+
+405
+00:18:34,940 --> 00:18:35,940
+Just saying.
+
+406
+00:18:37,020 --> 00:18:40,700
+Aber immerhin ist es etwas, was so
+sichtbar gemacht wird und wieso auch im
+
+407
+00:18:40,701 --> 00:18:43,560
+WordCamp Europe auch am Ende immer alle
+Volontiers vorne stehen.
+
+408
+00:18:43,780 --> 00:18:46,740
+Und ja, kann eben so ein bisschen helfen.
+
+409
+00:18:47,740 --> 00:18:49,980
+Und auf der anderen Seite das
+Anforderungskontrollmodell.
+
+410
+00:18:50,530 --> 00:18:53,044
+Das besagt, dass wir, solange
+wir den Eindruck haben, die
+
+411
+00:18:53,045 --> 00:18:56,060
+Anforderungen uns gestellt
+werden, können wir kontrollieren.
+
+412
+00:18:56,880 --> 00:18:58,560
+Haben wir das Gefühl von
+Selbstwirksamkeit.
+
+413
+00:19:00,740 --> 00:19:02,352
+Das heißt nicht, dass wir
+sie wirklich kontrollieren
+
+414
+00:19:02,353 --> 00:19:04,400
+können, aber wir müssen
+dieses Gefühl darüber haben.
+
+415
+00:19:04,500 --> 00:19:07,700
+Wir müssen das Gefühl haben, ich kann mit
+den Anforderungen, die das Leben an mich
+
+416
+00:19:07,701 --> 00:19:10,400
+stellt oder die Arbeit an mich stellt,
+noch fertig werden.
+
+417
+00:19:11,160 --> 00:19:13,560
+Das bringt mich zurück zum Thema Project
+Governance.
+
+418
+00:19:13,880 --> 00:19:16,420
+Es gibt vielleicht Entscheidungen,
+die ich nicht verändern kann.
+
+419
+00:19:16,935 --> 00:19:19,660
+Oder die über mich getroffen werden,
+die einfach passieren.
+
+420
+00:19:20,560 --> 00:19:21,676
+Und ich kann sie nicht verändern.
+
+421
+00:19:21,700 --> 00:19:25,500
+Und in gewissen Situationen zum Beispiel,
+wenn man diesen Gutenberg-Editor einführt.
+
+422
+00:19:25,880 --> 00:19:27,120
+Und ich bin einfach unflexibel.
+
+423
+00:19:27,530 --> 00:19:30,080
+Ich habe so lange mit CSS gearbeitet.
+
+424
+00:19:30,140 --> 00:19:31,500
+Ich will das einfach weitermachen.
+
+425
+00:19:31,585 --> 00:19:33,660
+Und jetzt muss ich aber den Gutenberg
+-Editor verwenden.
+
+426
+00:19:33,680 --> 00:19:35,560
+Dann komme ich in eine Krise irgendwo.
+
+427
+00:19:35,760 --> 00:19:37,236
+Und habe das Gefühl, warum machen das
+alle?
+
+428
+00:19:37,260 --> 00:19:38,500
+Ich verstehe es gar nicht mehr.
+
+429
+00:19:39,050 --> 00:19:40,680
+Und es geht mir immer schlechter.
+
+430
+00:19:40,870 --> 00:19:41,500
+Immer schlechter.
+
+431
+00:19:41,640 --> 00:19:46,340
+Und ja, das ist etwas, was man nicht
+auflösen kann.
+
+432
+00:19:46,570 --> 00:19:50,320
+Ich glaube auch, dass ich darauf jetzt
+keine große Antwort habe.
+
+433
+00:19:50,940 --> 00:19:53,060
+Und das bringt mich so ein bisschen jetzt
+zu meinem...
+
+434
+00:19:53,660 --> 00:19:54,660
+...Kill-Style.
+
+435
+00:19:55,030 --> 00:19:58,640
+Ich werde nämlich euch nicht sagen,
+wie ihr eure Community aus dem Deck zieht.
+
+436
+00:19:58,680 --> 00:20:00,260
+Oder wie unsere Community aus dem Deck.
+
+437
+00:20:00,380 --> 00:20:01,380
+Das kann ich nicht.
+
+438
+00:20:01,760 --> 00:20:04,880
+Aber ich glaube, es geht generell darum,
+dass wir einen Rahmen schaffen,
+
+439
+00:20:05,620 --> 00:20:11,501
+dass wir eure Fässer größer machen, um den
+Stress, den ihr habt, besser auszuhalten.
+
+440
+00:20:12,550 --> 00:20:14,289
+Wir können gerne darüber
+sprechen, was es für
+
+441
+00:20:14,313 --> 00:20:16,640
+Möglichkeiten gibt, auch
+Communities resilienter zu machen.
+
+442
+00:20:16,960 --> 00:20:19,320
+Ich bin ein bisschen auf die Individuale
+-Ebene gegangen.
+
+443
+00:20:20,150 --> 00:20:23,280
+Und wollte sagen, was kann dazu beitragen,
+selber diese...
+
+444
+00:20:23,630 --> 00:20:26,700
+...Anfälligkeit für psychischen Stress zu
+reduzieren?
+
+445
+00:20:27,070 --> 00:20:28,470
+Was kann mich selber gesund machen?
+
+446
+00:20:29,210 --> 00:20:32,640
+Und kommen wir gleich mal zur
+unbliebsamsten Folie.
+
+447
+00:20:33,140 --> 00:20:34,140
+Sport.
+
+448
+00:20:35,620 --> 00:20:38,540
+Während man dazu in der Lage ist, ist es
+ein ganz schön auch ableistischer Ansatz.
+
+449
+00:20:38,580 --> 00:20:41,300
+Auf der anderen Seite muss man einfach
+sagen, die Studienlage ist so,
+
+450
+00:20:41,540 --> 00:20:46,086
+dass Sport genauso wirksam
+wie ein Antidepressivum ist,
+
+451
+00:20:46,087 --> 00:20:48,780
+bei leichtgradigen bis
+mittelgradigen Depressionen.
+
+452
+00:20:49,105 --> 00:20:51,480
+Und deshalb extrem effektiv ist es auch.
+
+453
+00:20:51,990 --> 00:20:53,261
+Nicht nur über die körperliche Aktivität.
+
+454
+00:20:53,285 --> 00:20:55,000
+Über den sozialen Anschluss, den man hat.
+
+455
+00:20:55,390 --> 00:20:57,980
+Sondern auch darüber, dass es
+neurotrophische Faktoren auslöst.
+
+456
+00:20:58,020 --> 00:21:00,496
+Und unser Gehirn dazu in die Lage
+versetzt, neue Dinge zu lernen.
+
+457
+00:21:00,520 --> 00:21:03,140
+Etwas, was unter Depressionen nicht
+möglich ist.
+
+458
+00:21:03,750 --> 00:21:05,940
+Wieso man Antidepressiva gibt,
+bei schweren Depressionen.
+
+459
+00:21:05,941 --> 00:21:08,813
+Weil gerade dieser Teil
+von neuen Erfahrungen
+
+460
+00:21:08,814 --> 00:21:11,341
+machen und abspeichern
+eben nicht mehr funktioniert.
+
+461
+00:21:11,415 --> 00:21:12,895
+Und das kann mit Sport erhöht werden.
+
+462
+00:21:14,310 --> 00:21:15,800
+Als nächster Faktor MBSR.
+
+463
+00:21:15,940 --> 00:21:17,060
+Schöner Buchstabensalat.
+
+464
+00:21:17,560 --> 00:21:18,180
+Steht auf den Folien.
+
+465
+00:21:18,200 --> 00:21:20,481
+Ich glaube, die Folien werden dann nachher
+eh hochgeladen.
+
+466
+00:21:20,870 --> 00:21:22,540
+Mindfulness Based Stress Reduction.
+
+467
+00:21:23,870 --> 00:21:25,900
+Führt euch alle zu einem Begriff,
+den ihr kennt.
+
+468
+00:21:26,180 --> 00:21:27,180
+Achtsamkeit.
+
+469
+00:21:27,530 --> 00:21:30,120
+Ich hasse es, Achtsamkeit in der Zeitung
+zu lesen.
+
+470
+00:21:30,300 --> 00:21:31,300
+So in.
+
+471
+00:21:31,685 --> 00:21:32,936
+Und keiner versteht es wirklich.
+
+472
+00:21:32,960 --> 00:21:36,220
+Und es wird so gerne missbraucht für
+alles, was man will.
+
+473
+00:21:36,300 --> 00:21:37,580
+Achtsam morden am Ende.
+
+474
+00:21:38,160 --> 00:21:41,300
+Und MBSR ist die wissenschaftliche Methode
+davon.
+
+475
+00:21:41,500 --> 00:21:42,540
+Die gibt es seit den 90ern.
+
+476
+00:21:42,560 --> 00:21:44,940
+Das ist achtsamkeitsbasierte Stress
+Reduktion.
+
+477
+00:21:45,100 --> 00:21:48,420
+Das sind Kurse, die von Krankenkassen
+übernommen werden.
+
+478
+00:21:48,480 --> 00:21:51,120
+Die man in acht Wochen lernt, angeleitet
+zu meditieren.
+
+479
+00:21:51,420 --> 00:21:54,580
+Und die... die nachweislich
+unsere Hirnstruktur verändern.
+
+480
+00:21:54,760 --> 00:21:58,300
+Unser Angstkern im Gehirn wird immer
+größer, wenn wir unseren psychischen
+
+481
+00:21:58,450 --> 00:21:59,080
+Stress leiden.
+
+482
+00:21:59,440 --> 00:22:02,200
+Und darüber, dass er größer wird, nehmen
+wir auch immer mehr Angstreize wahr.
+
+483
+00:22:02,240 --> 00:22:05,620
+Wir fangen an, immer mehr negativ zu sehen
+in unserem Alltag.
+
+484
+00:22:06,260 --> 00:22:10,140
+Und indem man Achtsamkeit erlernt,
+kann man nachweislich dieses Angstzentrum
+
+485
+00:22:10,340 --> 00:22:11,540
+auch wieder schrumpfen lassen.
+
+486
+00:22:11,600 --> 00:22:14,880
+Man fängt an, die neuronale Plastizität
+auszunutzen.
+
+487
+00:22:15,540 --> 00:22:16,979
+Und quasi die Autobahn,
+in der unsere Gedanken
+
+488
+00:22:17,003 --> 00:22:19,160
+sich normalerweise
+bewegen, umzulenken.
+
+489
+00:22:20,070 --> 00:22:23,070
+Das kann man dann so missverstehen,
+dass man mit Achtsamkeit alles wegmacht.
+
+490
+00:22:23,150 --> 00:22:24,916
+Meditiere so lange, bis ich keinen Schmerz
+mehr empfinde.
+
+491
+00:22:24,940 --> 00:22:27,840
+Ich meditiere so lange, da gab es gerade
+einen großen Artikel in der Süddeutschen
+
+492
+00:22:27,841 --> 00:22:30,881
+Zeitung, bis ich in einen psychotischen
+Zusammenbruch komme und stimmen höre.
+
+493
+00:22:31,440 --> 00:22:32,760
+Deshalb ist es keine Wunderwaffe.
+
+494
+00:22:32,820 --> 00:22:33,976
+Es ist nicht die Lösung dafür.
+
+495
+00:22:34,000 --> 00:22:35,369
+Und ich plädiere für
+jeden, der wirkliche
+
+496
+00:22:35,393 --> 00:22:38,030
+psychische Probleme
+hat, dass er sich Hilfe sucht.
+
+497
+00:22:38,390 --> 00:22:41,940
+Denn das ist keine Lösung, sich allein in
+sein Kämmerchen zu sperren, Yoga zu machen
+
+498
+00:22:41,941 --> 00:22:44,960
+und MBSR 15 geht nicht mehr zu
+praktizieren.
+
+499
+00:22:45,490 --> 00:22:49,380
+Es hilft jedoch nachweislich, mindestens
+eine Viertelstunde am Tag die Meditation
+
+500
+00:22:49,505 --> 00:22:52,675
+auseinanderzusetzen, um
+nachweislich positive Effekte
+
+501
+00:22:52,676 --> 00:22:55,340
+auf das Gehirn zu haben und
+auf psychische Gesundheit.
+
+502
+00:22:57,400 --> 00:22:59,400
+Ein Ansatz, der eher für die Community
+ist.
+
+503
+00:23:00,260 --> 00:23:02,412
+Es sind eigentlich
+bringliche Skills, die relativ
+
+504
+00:23:02,492 --> 00:23:04,560
+gut zu erlernen sind,
+möchte ich noch dazu sagen.
+
+505
+00:23:04,700 --> 00:23:07,280
+Nicht die großen psychotherapeutischen
+Meta-Theorien.
+
+506
+00:23:07,740 --> 00:23:10,280
+Einen Stil, den ich in der Pflege damals
+gelernt habe zu kommunizieren,
+
+507
+00:23:10,300 --> 00:23:12,380
+ist die gewaltfreie Kommunikation nach
+Marshall B.
+
+508
+00:23:12,500 --> 00:23:13,500
+Rosenberg.
+
+509
+00:23:13,640 --> 00:23:19,280
+Das war ein großer Psychiater in den USA,
+der unter anderem mit Jugendlichen in
+
+510
+00:23:19,281 --> 00:23:21,609
+Israel und Palästina und
+mit Straßengangs in New
+
+511
+00:23:21,709 --> 00:23:24,080
+York gearbeitet hat, um
+die zusammenzubringen.
+
+512
+00:23:24,400 --> 00:23:25,818
+Das ist eine
+Kommunikationsstrategie, die
+
+513
+00:23:25,819 --> 00:23:27,820
+bedürfnisorientiert
+und gefühlsorientiert ist.
+
+514
+00:23:28,285 --> 00:23:30,940
+Ein Stil, der ganz leicht zu erlernen ist,
+der im Prinzip nur vier Schritte
+
+515
+00:23:30,941 --> 00:23:34,300
+beinhaltet, indem man ganz klar
+beobachtet, was einen gerade stört.
+
+516
+00:23:34,710 --> 00:23:37,040
+Danach benennt, welches Gefühl beim
+Auftauch.
+
+517
+00:23:37,620 --> 00:23:39,740
+Dazu gehört, dass man erstmal lernt,
+was sind Gefühle?
+
+518
+00:23:39,800 --> 00:23:41,700
+Was kann man für Gefühle überhaupt haben?
+
+519
+00:23:42,200 --> 00:23:44,960
+Im nächsten Schritt benennt, welches
+Bedürfnis dahinter steckt.
+
+520
+00:23:45,600 --> 00:23:47,060
+Denn da sind wir alle gleich.
+
+521
+00:23:47,430 --> 00:23:50,601
+Gefühle kann jeder unterschiedlich haben,
+aber bei den Bedürfnissen, was man braucht
+
+522
+00:23:50,625 --> 00:23:54,160
+im Leben, ist meist leicht und eine ganz
+komplette Bitte formuliert.
+
+523
+00:23:54,720 --> 00:23:59,300
+Klingt einfach, ist aber häufig
+schwieriger, als man denkt, hilft einem,
+
+524
+00:23:59,400 --> 00:24:03,380
+die Selbstwahrnehmung zu fördern,
+hilft einem, klarer zu kommunizieren,
+
+525
+00:24:03,840 --> 00:24:06,878
+hilft einem, in konflikthaften
+Situationen auch in grünen
+
+526
+00:24:06,879 --> 00:24:11,020
+Ländern wiederzukommen und
+macht einen mitunter sehr komplett.
+
+527
+00:24:11,500 --> 00:24:14,980
+Und das ist eine Strategie, über die es
+sich lohnt, mehr nachzudenken und die
+
+528
+00:24:14,981 --> 00:24:19,780
+glaube ich gerade auch in konflikthaften
+Foren und Slack-Nachrichten, manchmal
+
+529
+00:24:19,781 --> 00:24:21,781
+vielleicht ein bisschen Entschärfung
+reinzubringen.
+
+530
+00:24:23,440 --> 00:24:28,521
+Das wäre es schon mit meinen drei wichtigsten
+Skills, die ich so mal empfehlen würde.
+
+531
+00:24:29,080 --> 00:24:32,880
+Ich möchte trotzdem enden mit Mental
+Health is the basic human right.
+
+532
+00:24:33,050 --> 00:24:38,540
+Lasst uns bitte alle zusammen eine
+resiliente Gesellschaft und Community hier
+
+533
+00:24:38,541 --> 00:24:43,760
+machen, die dafür sorgt, dass es Recht auf
+mentale Gesundheit ermöglicht und die
+
+534
+00:24:43,761 --> 00:24:45,905
+ermöglicht, dass man
+neben der Community
+
+535
+00:24:45,906 --> 00:24:49,581
+auch teilhaben kann
+und gesund arbeiten kann.
+
+536
+00:24:49,800 --> 00:24:53,280
+Und finally, man kommt ja nicht ohne
+Kalendersprüche aus.
+
+537
+00:24:53,660 --> 00:24:54,920
+Okay not to be okay.
+
+538
+00:24:55,770 --> 00:25:00,140
+Das war gerade gestern der Tag der
+mentalen Gesundheit und ich möchte nochmal
+
+539
+00:25:00,141 --> 00:25:03,560
+dazu aufrufen, das Hilfssystem,
+das wir haben, auch zu nutzen.
+
+540
+00:25:04,270 --> 00:25:05,710
+So schwierig das auch teilweise ist.
+
+541
+00:25:06,340 --> 00:25:10,680
+Genau, und damit wäre ich mit meinem
+Vortrag am Ende und wäre offen für Fragen
+
+542
+00:25:10,681 --> 00:25:13,160
+und auch die Diskussion,
+wie ihr euch eine mental
+
+543
+00:25:13,161 --> 00:25:15,740
+gesündere oder eine
+resilientere Gesellschaft vorstellt.
+
+544
+00:25:33,500 --> 00:25:37,120
+Frage war nach dem Beispiel für gewaltfreie
+Kommunikation nach Marshall Rosenberg.
+
+545
+00:25:37,460 --> 00:25:38,380
+Das wäre zum Beispiel ganz klar.
+
+546
+00:25:38,420 --> 00:25:43,140
+Wenn ich sehe, dass du die Socken bei uns
+im Schlafzimmer auf dem Boden liegen
+
+547
+00:25:43,141 --> 00:25:48,480
+lässt, dann werde ich wütend, weil,
+nächster Schritt, Bedürfnis, mir wichtig
+
+548
+00:25:48,481 --> 00:25:51,440
+ist, dass wir in einer ordentlichen
+Umgebung gemeinsam wohnen und mir
+
+549
+00:25:51,441 --> 00:25:55,240
+Sauberkeit wichtig ist, weil ich nicht
+krank werden möchte, kannst du bitte die
+
+550
+00:25:55,241 --> 00:25:58,080
+Socken beim nächsten Mal aufräumen,
+damit ich nicht zu ärgern muss.
+
+551
+00:25:58,920 --> 00:26:00,360
+Wichtig ist, dass es eine Bitte ist.
+
+552
+00:26:00,780 --> 00:26:02,180
+Das Gegenüber kann auch sagen,
+nein.
+
+553
+00:26:02,860 --> 00:26:06,540
+Wenn es keine Bitte war, dann,
+also wenn ich merke, dass dieses Nein mich
+
+554
+00:26:06,541 --> 00:26:10,141
+verärgert, dann war es eine Forderung und
+dann ist das Ganze nach hinten losgegangen.
+
+555
+00:26:10,180 --> 00:26:14,006
+Dann ist mir egal, was er
+empfindet und was das Thema war,
+
+556
+00:26:14,007 --> 00:26:16,821
+sondern dann ist nur wichtig,
+dass ich meine Bitte durchdrücke.
+
+557
+00:26:17,540 --> 00:26:20,980
+Es gibt Übungskurse dafür, es gibt
+Seminare dazu, das ist etwas, was man
+
+558
+00:26:20,981 --> 00:26:24,340
+nicht so hopp da hopp mal lernt,
+was auch wirklich Übung braucht und die
+
+559
+00:26:24,640 --> 00:26:25,640
+Konflikte rettet weiter.
+
+560
+00:26:56,180 --> 00:26:59,100
+Also genau um es noch einmal zu sagen,
+um es wiederholen für alle, die Aussage
+
+561
+00:26:59,101 --> 00:27:02,220
+war, dass es eben beim Imposter-Syndrom
+auch sinnvoll ist, zu schauen,
+
+562
+00:27:02,440 --> 00:27:03,780
+dass es auch anderen
+Menschen so geht, dass auch
+
+563
+00:27:03,781 --> 00:27:05,260
+alle anderen Menschen
+nur mit Wasser kochen.
+
+564
+00:27:05,690 --> 00:27:09,560
+Und ich glaube, das ist auch ganz wichtig,
+gerade wenn man, also ich war ja nur auf
+
+565
+00:27:09,561 --> 00:27:13,300
+Bird Camp Europe unterwegs und da auch mal
+zu sehen so, was sind Themen, die dort
+
+566
+00:27:13,301 --> 00:27:16,160
+behandelt werden, was sind Themen,
+die der Robert voranbringt, was ist
+
+567
+00:27:16,285 --> 00:27:19,720
+Roberts Agenda zum Beispiel, die einfach
+relativ Meta ist und was sind Sachen,
+
+568
+00:27:19,780 --> 00:27:24,020
+die man auch in der Community braucht und
+da dann mit dem Simon lebhaft Leuten zu
+
+569
+00:27:24,021 --> 00:27:27,665
+zeigen, dass man zum Beispiel
+Elementor auseinanderlegen
+
+570
+00:27:27,666 --> 00:27:30,120
+kann und einfach super
+easy übertragen kann.
+
+571
+00:27:30,620 --> 00:27:32,996
+Also realitätsnahe Sachen zu sehen ist,
+glaube ich, einfach ganz wichtig,
+
+572
+00:27:33,020 --> 00:27:35,640
+so zu schauen, was sind denn wirklich
+reale Themen im Leben.
+
+573
+00:27:37,120 --> 00:27:38,120
+Genau.
+
+574
+00:27:39,290 --> 00:27:42,200
+Sind sonst noch Fragen oder auch... ja?
+
+575
+00:27:50,760 --> 00:27:51,760
+Mhm.
+
+576
+00:27:52,530 --> 00:27:55,320
+Die Frage war nach der Lieblings
+-Achtsamkeit-App.
+
+577
+00:27:55,980 --> 00:28:00,621
+Ich bin selber Benutzer von Seven Minds,
+ohne Schleichwerbung dafür machen zu wollen.
+
+578
+00:28:00,760 --> 00:28:01,760
+Ähm...
+
+579
+00:28:02,270 --> 00:28:03,820
+Das zahlen auch manche Krankenkassen.
+
+580
+00:28:04,590 --> 00:28:08,100
+Seven Minds ist eine deutsche App von
+einem Berliner Startup, inzwischen relativ
+
+581
+00:28:08,450 --> 00:28:13,020
+groß, die im Rahmen von sieben Minuten mit
+auch einem Grundlagenkurs ordentlich
+
+582
+00:28:13,021 --> 00:28:18,240
+eigentlich vernünftige Achtsamkeit zum
+Großteil vermitteln.
+
+583
+00:28:18,520 --> 00:28:19,380
+Kommt immer drauf an.
+
+584
+00:28:19,520 --> 00:28:21,596
+Es gibt auch so Teile, die immer so ein
+bisschen esoterisch werden.
+
+585
+00:28:21,620 --> 00:28:23,616
+Da muss man bei Meditationskursen ja immer
+aufpassen.
+
+586
+00:28:23,640 --> 00:28:24,976
+Aber da ist Seven Minds eigentlich ganz
+gut.
+
+587
+00:28:25,000 --> 00:28:27,820
+Und ansonsten wirklich zertifizierte MBSR
+-Kurse.
+
+588
+00:28:27,900 --> 00:28:31,030
+Das Gute ist, dass die
+Krankenkasse darauf achtet, dass sie
+
+589
+00:28:31,031 --> 00:28:34,680
+zertifiziert sind und die
+befördert, dass sie zertifiziert sind.
+
+590
+00:28:34,900 --> 00:28:35,300
+Und genau.
+
+591
+00:28:35,525 --> 00:28:37,045
+Kann man in acht Wochen gilt erwerben.
+
+592
+00:28:37,740 --> 00:28:39,560
+Während so zwei Z-Kurse noch nicht.
+
+593
+00:28:48,510 --> 00:28:51,370
+Sonst habe ich auch kein Problem damit,
+früher in die Pause zu starten.
+
+594
+00:28:51,371 --> 00:28:56,710
+Wenn es keine Fragen mehr gibt,
+dann danke ich für eure Aufmerksamkeit.
+
+595
+00:28:56,830 --> 00:28:57,830
+Ja?
+
+596
+00:29:02,200 --> 00:29:03,200
+Ich wiederhole es.
+
+597
+00:29:18,500 --> 00:29:19,500
+Das mache ich gerne.
+
+598
+00:30:11,030 --> 00:30:11,390
+Genau.
+
+599
+00:30:11,430 --> 00:30:13,390
+Also diesen Hinsatz würde ich auch
+aufnehmen.
+
+600
+00:30:13,470 --> 00:30:14,330
+Dieses Aufeinander achten.
+
+601
+00:30:14,370 --> 00:30:16,010
+Ich hatte das ursprünglich in den Folien
+auch mal gesagt.
+
+602
+00:30:16,011 --> 00:30:19,910
+Vor ein bisschen haben wir diskutiert mit
+Big Orange Charter, zu denen ich mich
+
+603
+00:30:19,911 --> 00:30:22,690
+nicht äußern kann, weil ich davon zu wenig
+mitbekommen habe am Rand.
+
+604
+00:30:22,960 --> 00:30:24,470
+Das gibt es ja als Community-Projekt.
+
+605
+00:30:25,330 --> 00:30:27,690
+Ich glaube, Mass gibt die aus
+Großbritannien vorangetrieben.
+
+606
+00:30:28,415 --> 00:30:31,226
+Das geht davon von anderen
+Gesundheitssystemen aus,
+
+607
+00:30:31,227 --> 00:30:33,431
+weshalb die für sich selber
+viel autonomer arbeiten.
+
+608
+00:30:33,470 --> 00:30:35,111
+Das muss man in Deutschland nicht mehr
+haben.
+
+609
+00:30:35,135 --> 00:30:38,490
+Dafür eben Telefonien sind Sorge und einen
+kurzfristigeren Zugang zu Psychiatrien.
+
+610
+00:30:38,930 --> 00:30:39,330
+Genau.
+
+611
+00:30:39,370 --> 00:30:41,890
+Ich glaube, es ist ganz wichtig zu
+unterscheiden zwischen schweren
+
+612
+00:30:41,891 --> 00:30:44,457
+psychischen Krisen, wo man
+professionelle Hilfe braucht
+
+613
+00:30:44,557 --> 00:30:46,890
+und auch dieser Möglichkeit,
+zur Selbstkundgabe.
+
+614
+00:30:46,910 --> 00:30:50,810
+Das ist oft ja schon schwer genug zu
+sagen, it's okay not to be okay.
+
+615
+00:30:51,030 --> 00:30:53,176
+Also es ist oft schon schwer genug zu
+sagen, es geht mir nicht gut.
+
+616
+00:30:53,200 --> 00:30:54,240
+Wie oft sagt man denn das?
+
+617
+00:30:54,530 --> 00:30:55,530
+Schon nicht.
+
+618
+00:30:56,190 --> 00:30:59,870
+Und da möchte ich eben zur gewaltfreien
+Kommunikation einmal raten, weil man
+
+619
+00:30:59,871 --> 00:31:03,130
+allein über die, die sich damit
+beschäftigen, schon mal lernt,
+
+620
+00:31:03,180 --> 00:31:06,610
+so was sind denn überhaupt Fühle und was
+kann ich überhaupt ausdrücken?
+
+621
+00:31:06,650 --> 00:31:08,870
+Und das andere wirklich achtet
+aufeinander.
+
+622
+00:31:09,540 --> 00:31:12,650
+Ich weiß, auf den World Reviews gibt es
+zum Beispiel diesen Hell-Track oder
+
+623
+00:31:12,651 --> 00:31:15,790
+Wellness -Track, wo mal so Yoga angeboten
+wurde.
+
+624
+00:31:15,791 --> 00:31:17,641
+Das ist alles auch schön
+und gut, aber es geht mir
+
+625
+00:31:17,642 --> 00:31:19,511
+eben vor allem um
+zwischenmenschliche Bindungen.
+
+626
+00:31:19,960 --> 00:31:21,766
+Der größte Risikofaktor ist, dass man
+alleine ist.
+
+627
+00:31:21,790 --> 00:31:22,826
+Und das muss man nicht sein.
+
+628
+00:31:22,850 --> 00:31:24,250
+Das kann über den Chat stattfinden.
+
+629
+00:31:24,420 --> 00:31:27,430
+Es kann einfach mal sein, nachzufragen,
+hey, du hast ja einen Blogpost dazu
+
+630
+00:31:27,431 --> 00:31:29,631
+verfasst, was ist denn da, also was war
+deine Intention?
+
+631
+00:31:30,360 --> 00:31:32,640
+Und eben da einfach so ein bisschen
+aufeinander aufpassen.
+
+632
+00:31:32,870 --> 00:31:38,350
+Sicherlich sehr hilfreich und kann eben
+auch sehr hilfreich sein.
+
+633
+00:31:38,430 --> 00:31:43,610
+Es ist zum Beispiel auch so, um noch
+diesen rassisten Bereich vielleicht der
+
+634
+00:31:43,611 --> 00:31:45,331
+Psychiatrie auch nochmal zu treffen,
+dass...
+
+635
+00:31:45,940 --> 00:31:48,075
+Über ein Drittel aller Menschen,
+die einen Suizidversuch
+
+636
+00:31:48,099 --> 00:31:50,050
+machen, waren in der
+Woche davor beim Hausarzt.
+
+637
+00:31:50,610 --> 00:31:53,271
+Und der Hausarzt hat nicht
+gefragt oder hat halt eben nicht
+
+638
+00:31:53,331 --> 00:31:55,790
+klassisch abgeteilt, ob da
+Suizidgedanke vorhanden sind.
+
+639
+00:31:55,970 --> 00:31:59,550
+Es gibt also oft Anzeichen dafür,
+dass Menschen es nicht gut finden und sie
+
+640
+00:31:59,551 --> 00:32:02,530
+kommen mit irgendeinem Thema zum Hausarzt,
+also ganz klassisch mit irgendwas ganz
+
+641
+00:32:02,531 --> 00:32:04,571
+anderem, weil es so schwer ist,
+darüber zu sprechen.
+
+642
+00:32:05,060 --> 00:32:08,250
+Das heißt, einfach da eine Alertness zu
+haben und einfach auch mal nachzufragen,
+
+643
+00:32:08,310 --> 00:32:10,790
+sag mal, wie geht's dir und wie geht's dir
+eigentlich wirklich?
+
+644
+00:32:10,980 --> 00:32:13,670
+Nachdem die Standardantwort kommt,
+ja, es ist schon okay.
+
+645
+00:32:13,671 --> 00:32:18,750
+Und da dann auch eben nochmal der Hinweis,
+Suizidalität, lebenswürdige Gedanken sind
+
+646
+00:32:18,925 --> 00:32:23,110
+immer ernst zu nehmen und gehören immer
+ab, gehören immer, egal wie leichtfertig
+
+647
+00:32:23,111 --> 00:32:26,410
+gesagt, einmal eigentlich einem Psychiater
+vorzustellen oder einem Arzt.
+
+648
+00:32:26,790 --> 00:32:28,190
+Generell sollte das jeder Arzt tun.
+
+649
+00:32:34,260 --> 00:32:37,620
+Dann danke ich euch für eure
+Aufmerksamkeit und wünsche viel Spaß beim
+
+650
+00:32:37,621 --> 00:32:39,760
+Kaffeetrinken, was die Psychiater am
+besten können.
+
+651
+00:32:46,150 --> 00:32:47,460
+Herr Martin, dann auch wir noch.
+
+652
+00:32:47,850 --> 00:32:50,920
+Unser Dank vom WordCamp-Burger-Team.
+
+653
+00:32:51,760 --> 00:32:53,000
+Vielen Dank für deinen Vortrag.
+
+654
+00:32:53,700 --> 00:32:54,940
+Und ja, euch eine schöne Pause.
+
+655
+00:32:55,000 --> 00:32:56,000
+Danke.
+

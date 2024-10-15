@@ -1,0 +1,3210 @@
+﻿1
+00:00:08,950 --> 00:00:13,802
+Okay, ja, vielen Dank, dass
+ihr alle noch da seid zum last
+
+2
+00:00:13,803 --> 00:00:17,130
+but least Vortrag in diesem
+Projekt für den heutigen Tag.
+
+3
+00:00:17,820 --> 00:00:21,030
+Projekte erfolgreich
+managen, ein Toolkit, nicht
+
+4
+00:00:21,031 --> 00:00:23,770
+nur für die ersten Schritte
+von Ann -Kathrin Klose.
+
+5
+00:00:23,910 --> 00:00:24,910
+Viel Spaß.
+
+6
+00:00:28,700 --> 00:00:30,550
+Ja, schön, dass ihr alle noch hier seid.
+
+7
+00:00:30,690 --> 00:00:31,690
+Ich freue mich.
+
+8
+00:00:31,870 --> 00:00:36,670
+Ich bin Ann-Kathrin, ich bin
+Projektmanagerin bei Sight.
+
+9
+00:00:36,671 --> 00:00:39,950
+Und das erklärt natürlich auch das Thema
+meines heutigen Talks hier.
+
+10
+00:00:40,050 --> 00:00:42,430
+Wie komme ich gut durch mein Projekt?
+
+11
+00:00:42,630 --> 00:00:45,723
+Denn jetzt mal ganz
+ehrlich, läuft eh nie so, wie
+
+12
+00:00:45,724 --> 00:00:48,071
+wir es mal am Anfang uns
+vorgenommen hatten, oder?
+
+13
+00:00:48,610 --> 00:00:49,550
+Irgendwas passiert immer.
+
+14
+00:00:49,630 --> 00:00:52,039
+Die Frage ist also, wie
+gehe ich damit so um,
+
+15
+00:00:52,040 --> 00:00:54,230
+dass es am Ende doch
+noch wirklich gut wird?
+
+16
+00:00:54,270 --> 00:00:55,390
+Und was heißt das überhaupt?
+
+17
+00:00:55,750 --> 00:00:56,410
+Kurz zu mir.
+
+18
+00:00:56,490 --> 00:00:59,210
+Ich bin zum ersten Mal hier als Speakerin
+dabei.
+
+19
+00:00:59,370 --> 00:01:01,130
+Darum möchte ich mich einmal kurz
+vorstellen.
+
+20
+00:01:02,090 --> 00:01:04,330
+Was ich im Moment mache, habe ich ja
+gerade schon gesagt.
+
+21
+00:01:05,010 --> 00:01:10,130
+Früher habe ich schon reichlich WordPress
+-Erfahrung gesammelt, als Redakteurin im
+
+22
+00:01:10,131 --> 00:01:13,690
+Marketing und als Kundin für eben solche
+Projekte.
+
+23
+00:01:14,280 --> 00:01:17,750
+Insofern kenne ich da auch
+beide Perspektiven hinter
+
+24
+00:01:17,751 --> 00:01:20,690
+diesem Thema und möchte
+da ein paar Erfahrungen teilen.
+
+25
+00:01:20,770 --> 00:01:22,922
+Ja, und in meiner Freizeit
+bin ich gerne draußen,
+
+26
+00:01:22,923 --> 00:01:24,730
+reise gerne und spiele
+Pen & Paper Games.
+
+27
+00:01:24,850 --> 00:01:27,759
+Auf dem Foto seht ihr
+mich auch beim Kajaken
+
+28
+00:01:27,760 --> 00:01:30,811
+bei Malta, gerade im
+Urlaub bei einigen Wochen.
+
+29
+00:01:31,440 --> 00:01:33,410
+Gut, dann fangen wir doch mal an.
+
+30
+00:01:34,410 --> 00:01:35,930
+Projektmanagement ist ganz einfach.
+
+31
+00:01:36,050 --> 00:01:37,290
+Das ist doch wohl hier keine Frage.
+
+32
+00:01:37,310 --> 00:01:41,230
+Man versteht mal kurz, was der Kunde denn
+von einem will und dann sortiert man so
+
+33
+00:01:41,231 --> 00:01:43,050
+ein bisschen, was zwischendrin noch
+passiert.
+
+34
+00:01:43,770 --> 00:01:45,830
+Und am Ende sind alle happy, weil alles
+fertig ist.
+
+35
+00:01:46,590 --> 00:01:47,590
+Klingt gut, ne?
+
+36
+00:01:50,120 --> 00:01:51,746
+Also, und dann jetzt mal ein bisschen
+ernsthafter.
+
+37
+00:01:51,770 --> 00:01:56,050
+Was ich hier gerade sehr abstrahiert habe,
+sind natürlich die klassischen Phasen des
+
+38
+00:01:56,200 --> 00:01:57,830
+Projekts, nicht so sehr die Initierung.
+
+39
+00:01:58,600 --> 00:02:02,130
+Das ist ein Teil, der in der Agenturarbeit
+auch ein bisschen anders aussieht als in
+
+40
+00:02:02,131 --> 00:02:06,530
+den klassischen Theorien, weil ein Teil
+der Initierung eines Projekts,
+
+41
+00:02:06,570 --> 00:02:09,651
+nämlich, hey, will ich überhaupt ein
+Projekt machen, findet beim Kunden statt.
+
+42
+00:02:10,140 --> 00:02:13,070
+Wenn wir als Projektmanager dann ins Spiel
+kommen, ist meistens schon erstmal
+
+43
+00:02:13,071 --> 00:02:16,130
+entschieden, hey, es wird ein Projekt
+irgendwie geben.
+
+44
+00:02:16,940 --> 00:02:18,190
+Wir werden uns damit was beschäftigen.
+
+45
+00:02:18,191 --> 00:02:19,311
+Wir sollen hier was liefern.
+
+46
+00:02:20,930 --> 00:02:23,090
+Und damit kommen wir dann in diese
+Planungsphase.
+
+47
+00:02:23,910 --> 00:02:27,350
+Und in dieser Planungsphase geht es dann
+auch darum, dass wir Aufwände schätzen,
+
+48
+00:02:27,410 --> 00:02:30,666
+dass wir ein Jira einrichten,
+dass wir Tickets erstellen,
+
+49
+00:02:30,686 --> 00:02:32,950
+dass wir vorbereiten, wie
+die Arbeit aussehen soll.
+
+50
+00:02:32,951 --> 00:02:36,530
+Und dann in die Ausführung rüber gehen,
+da wird jemand Code schreiben vielleicht
+
+51
+00:02:36,531 --> 00:02:39,091
+oder ein Design erstellen, was auch immer
+dieses Projekt braucht.
+
+52
+00:02:40,350 --> 00:02:42,358
+Und wir als Projektmanager
+müssen dafür sorgen, dass
+
+53
+00:02:42,359 --> 00:02:45,350
+das gut läuft, während sich
+alles jederzeit ändern kann.
+
+54
+00:02:46,730 --> 00:02:47,930
+Und dann am Ende, ja!
+
+55
+00:02:48,150 --> 00:02:49,150
+Endlich geschafft!
+
+56
+00:02:49,190 --> 00:02:53,650
+Super cool und bevor wir jetzt in die
+Problematik weiter einsteigen und
+
+57
+00:02:53,651 --> 00:02:58,910
+vielleicht auch in Lösungen, rule ich euch
+an die Hand geben kann, möchte ich frage,
+
+58
+00:02:58,911 --> 00:03:02,930
+dass ihr euch euer coolstes Projekt der
+Welt eingesetzt habt!
+
+59
+00:03:02,931 --> 00:03:04,870
+Was wäre das?
+
+60
+00:03:06,440 --> 00:03:09,590
+Vielleicht ein megacooles WooCommerce
+-System, das ihr aufbauen sollt.
+
+61
+00:03:10,160 --> 00:03:13,010
+Vielleicht eine super barrierefreie
+Website.
+
+62
+00:03:13,890 --> 00:03:16,171
+Stellt euch das mal vor, ihr habt dieses
+Projekt gewonnen.
+
+63
+00:03:17,100 --> 00:03:18,930
+Das ist euer Projekt, ihr dürft das
+umsetzen.
+
+64
+00:03:18,990 --> 00:03:22,630
+Ihr habt ein gutes Budget, ihr habt alle
+Anforderungen verstanden.
+
+65
+00:03:23,300 --> 00:03:24,930
+Ihr seid irgendwo in der Phase 3.
+
+66
+00:03:26,100 --> 00:03:28,470
+Es läuft alles super, ihr seid im Plan.
+
+67
+00:03:28,990 --> 00:03:29,770
+Richtig cool.
+
+68
+00:03:29,771 --> 00:03:32,690
+Und dann passiert das.
+
+69
+00:03:33,880 --> 00:03:36,786
+Euer Kunde ruft euch an, nachdem ihr einen
+Zwischenstand präsentiert habt,
+
+70
+00:03:36,810 --> 00:03:39,189
+der voll im Plan liegt und
+sagt, ja, aber funktioniert
+
+71
+00:03:39,190 --> 00:03:41,750
+das denn jetzt auch mit
+dem Internet Explorer 11?
+
+72
+00:03:42,010 --> 00:03:45,190
+Und ganz klein da unten steht es auch,
+ein Kunde 2024.
+
+73
+00:03:45,530 --> 00:03:48,350
+Insofern, ja, ich habe diese Aussage
+dieses Jahr gehört.
+
+74
+00:03:48,430 --> 00:03:50,010
+Ein Feature, das wir gebaut haben.
+
+75
+00:03:51,040 --> 00:03:55,210
+Und das Problem ist jetzt aber,
+erstens, das war uns vorher nicht klar.
+
+76
+00:03:55,850 --> 00:03:59,770
+Aber zweitens, kein Kunde der Welt hat
+einfach aus Lange und Weitem, im Moment in
+
+77
+00:03:59,771 --> 00:03:59,770
+der Zeit, im Moment jetzt, ist es dann
+auch nicht mehr so.
+
+78
+00:03:59,771 --> 00:04:00,490
+Also, wir haben uns in der Zeit von drei
+Jahren lang materiell entschieden,
+
+79
+00:04:00,710 --> 00:04:02,670
+jetzt mal nach dem Internet Explorer 11 zu
+fragen.
+
+80
+00:04:03,480 --> 00:04:07,431
+Die sitzen halt auch nicht vor uralt Computern,
+weil sie da Bock drauf haben oder so.
+
+81
+00:04:07,640 --> 00:04:10,466
+Das Problem ist, hinter
+solchen Fragen, davon gibt
+
+82
+00:04:10,467 --> 00:04:14,030
+es jede Menge, steht
+immer auch ein echter Bedarf.
+
+83
+00:04:14,560 --> 00:04:17,079
+Und ein Unternehmen, das
+dummerweise noch Rechner
+
+84
+00:04:17,080 --> 00:04:19,930
+rumstehen hat, auf
+denen dieser Zustand läuft.
+
+85
+00:04:23,950 --> 00:04:25,975
+Oder wir hatten einen kleinen
+Bug in einem Projekt, und das
+
+86
+00:04:25,999 --> 00:04:28,850
+war mein eigenes Kundenprojekt,
+der nur in Safari aufbrach.
+
+87
+00:04:28,950 --> 00:04:30,830
+Und da sah nur ein Button irgendwie
+komisch aus.
+
+88
+00:04:30,870 --> 00:04:31,870
+Das war nur Safari.
+
+89
+00:04:32,780 --> 00:04:35,810
+Man hätte jetzt sagen können, hey,
+dafür verzögern wir doch kein Go-Live hier.
+
+90
+00:04:36,450 --> 00:04:39,250
+Ein Button, ein Button-Style, der in
+Safari blöd aussieht.
+
+91
+00:04:40,785 --> 00:04:42,906
+Es gab ein viel zu kleines Problem mit
+dieser Haltung.
+
+92
+00:04:44,260 --> 00:04:47,030
+Die gesamte Firma, 900 Leute, hatten
+Firmen-iPhones.
+
+93
+00:04:47,765 --> 00:04:51,650
+Mit dem Go-Live dieser neuen Firmen
+-Website hätten sicherlich mehrere hundert
+
+94
+00:04:51,651 --> 00:04:54,270
+dieser Leute auf diesem iPhone diese Seite
+erst mal geöffnet.
+
+95
+00:04:56,550 --> 00:04:57,950
+Willkommen in Safari.
+
+96
+00:04:59,030 --> 00:05:03,311
+Sie alle werden diesen kleinen Fehler
+bemerken, weil es auch ein IT-Unternehmen war.
+
+97
+00:05:03,450 --> 00:05:04,450
+Ging nicht.
+
+98
+00:05:04,550 --> 00:05:06,111
+Musste natürlich vorher behoben werden.
+
+99
+00:05:07,450 --> 00:05:10,566
+Das sind die Faktoren, bei denen man dann
+an eine Stelle kommt, wo man sagen muss,
+
+100
+00:05:10,590 --> 00:05:13,870
+ja, als Projektmanager wird es dann echt
+auch mal schwierig.
+
+101
+00:05:14,085 --> 00:05:18,370
+Denn eigentlich haben wir vor,
+als Projektmanager, dafür zu sorgen,
+
+102
+00:05:18,410 --> 00:05:18,790
+dass unsere Unternehmen, unsere
+Unternehmen, unsere Unternehmen,
+
+103
+00:05:18,791 --> 00:05:22,830
+unsere Unternehmen, unsere Projekte zum
+richtigen Zeitpunkt geliefert werden.
+
+104
+00:05:23,710 --> 00:05:25,350
+Wir möchten im Budget bleiben.
+
+105
+00:05:26,730 --> 00:05:28,370
+Wir wollen ja nicht drauflegen als Firma.
+
+106
+00:05:28,430 --> 00:05:30,370
+Wir möchten schon unseren Gewinn hier
+machen.
+
+107
+00:05:31,390 --> 00:05:33,068
+Der Kunde wird aber
+auch nicht ständig Budget
+
+108
+00:05:33,069 --> 00:05:34,650
+nachschieben können
+in den meisten Fällen.
+
+109
+00:05:35,060 --> 00:05:36,730
+Und es muss den richtigen Umfang haben.
+
+110
+00:05:36,830 --> 00:05:38,910
+Das heißt, wir möchten die Ziele des
+Kunden erfüllen.
+
+111
+00:05:39,710 --> 00:05:43,930
+Wie wir vielleicht Internet jetzt Vf, gar
+nicht so richtig vorher verstanden haben.
+
+112
+00:05:44,440 --> 00:05:45,630
+Das ist das magische Dreieck.
+
+113
+00:05:45,710 --> 00:05:50,430
+Denn im realen, dem in der echten Welt,
+sieht das dann nicht so aus.
+
+114
+00:05:50,550 --> 00:05:53,190
+Und damit werden wir uns jetzt auch
+beschäftigen in diesem Vortrag.
+
+115
+00:05:53,600 --> 00:05:57,850
+Was kann ich denn machen, damit das
+halbwegs noch aufgeht und funktioniert?
+
+116
+00:05:58,990 --> 00:06:02,330
+Denn von alleine ist das nicht der Fall
+hier.
+
+117
+00:06:02,510 --> 00:06:04,670
+Denn das ist eben auch die Tatsache.
+
+118
+00:06:04,710 --> 00:06:06,890
+Hey, wir sind nicht alleine mit diesem
+Problem.
+
+119
+00:06:08,200 --> 00:06:09,200
+IT-Projekte scheitern.
+
+120
+00:06:09,890 --> 00:06:13,150
+Ich habe hier mal ein paar Beispiele aus
+der Studienlage rausgesucht für euch.
+
+121
+00:06:15,690 --> 00:06:23,690
+Die Standish Group hat im Chaos Report
+2020 verkündet, dass die Dann ist da
+
+122
+00:06:23,691 --> 00:06:29,700
+Boston Consulting Group
+dieses Jahr, die dann auch CIOs
+
+123
+00:06:29,780 --> 00:06:33,550
+befragt haben, die super
+Top-Level-Leute befragt haben.
+
+124
+00:06:33,925 --> 00:06:35,290
+Wie läuft es denn bei euch?
+
+125
+00:06:35,940 --> 00:06:42,130
+Ja, 30% eurer Budget und zu spät
+geliefert, auch bei IT-Projekten.
+
+126
+00:06:42,960 --> 00:06:46,670
+Und dann gibt es da noch aus England
+diesen ganz fiesen Wert, der sagt,
+
+127
+00:06:46,890 --> 00:06:50,370
+dass agile Projekte ganz, ganz,
+ganz besonders oft scheitern.
+
+128
+00:06:51,070 --> 00:06:53,990
+Das kann man dann nochmal anfechten an
+sich.
+
+129
+00:06:54,050 --> 00:06:57,330
+Also das sind Zahlen, die natürlich immer
+in einem bestimmten Kontext erfasst sind.
+
+130
+00:06:57,430 --> 00:07:00,530
+Ob die wirklich so stimmen, wie hoch es
+wirklich ist, ist schreibbar.
+
+131
+00:07:00,550 --> 00:07:02,869
+Wir können jetzt ewig
+diskutieren, wie viele IT-Projekte
+
+132
+00:07:02,870 --> 00:07:05,036
+wirklich scheitern oder was
+scheitern überhaupt bedeutet.
+
+133
+00:07:05,060 --> 00:07:10,310
+Aber wenn man sich diese Studien anguckt,
+sieht man eben auch schnell, dass immer
+
+134
+00:07:10,311 --> 00:07:12,110
+wieder ein paar Ursachen dort genannt
+werden.
+
+135
+00:07:14,360 --> 00:07:19,530
+Nämlich mangelnde Kommunikation bei 66%
+der IT-Projekte, die scheitern angeblich.
+
+136
+00:07:20,220 --> 00:07:24,810
+Wird genannt, naja, IT-Projekte scheitern
+besonders oft, wenn wir unsere User nicht
+
+137
+00:07:25,010 --> 00:07:26,010
+von Anfang an verstehen.
+
+138
+00:07:26,560 --> 00:07:28,394
+Das ist in der Abenteuarbeit
+manchmal auch ein bisschen
+
+139
+00:07:28,395 --> 00:07:30,690
+schwierig, weil ist das unser
+Job oder der des Kunden?
+
+140
+00:07:30,850 --> 00:07:33,530
+Wenn wir den Kunden
+nicht verstehen, bleibt
+
+141
+00:07:33,590 --> 00:07:36,050
+es durchaus mal stecken,
+was wir da machen.
+
+142
+00:07:37,080 --> 00:07:41,230
+Aber eben auch mangelnde Abstimmung
+zwischen Business und IT.
+
+143
+00:07:42,280 --> 00:07:44,041
+Und da sind wir wieder voll in unserem
+Thema.
+
+144
+00:07:44,330 --> 00:07:46,326
+Wir sind der IT-Teil, der Kunde ist der
+Business-Teil.
+
+145
+00:07:46,350 --> 00:07:47,910
+Wie kommunizieren wir denn miteinander?
+
+146
+00:07:48,890 --> 00:07:54,550
+Und dann eben auch bei dieser furchtbaren
+Studie über agile Projekte in England.
+
+147
+00:07:55,390 --> 00:07:57,710
+Ja, wenn man den User nicht versteht,
+wird es halt nichts.
+
+148
+00:07:58,020 --> 00:08:03,530
+Das ist eine wirklich ungewöhnliche
+Erkenntnis an dieser Stelle.
+
+149
+00:08:05,480 --> 00:08:07,007
+Aber das sind eben auch
+die Herausforderungen,
+
+150
+00:08:07,008 --> 00:08:08,430
+vor denen wir als
+Projektmanager stehen.
+
+151
+00:08:08,550 --> 00:08:10,390
+Denn wir sind am Ende ja die
+Schnittstelle.
+
+152
+00:08:11,310 --> 00:08:12,990
+Zwischen dem Kunden und der Umsetzung.
+
+153
+00:08:14,190 --> 00:08:15,161
+Und an dieser Schnittstelle
+geht es dann darum,
+
+154
+00:08:15,162 --> 00:08:19,050
+hey, was können wir denn
+eigentlich nun verbessern?
+
+155
+00:08:19,410 --> 00:08:23,070
+Denn wir sind diejenigen, die dort einen
+ganz, ganz großen Einfluss haben.
+
+156
+00:08:23,190 --> 00:08:25,870
+Und das geht natürlich auch nicht nur für
+mich in der Agenturarbeit.
+
+157
+00:08:26,410 --> 00:08:29,530
+Wer als Freelancer ein Projekt umsetzt,
+ist automatisch ja auch sein eigener
+
+158
+00:08:29,630 --> 00:08:32,990
+Projektmanager in diesem Projekt und muss
+diese Aufgabe mit übernehmen.
+
+159
+00:08:33,150 --> 00:08:35,410
+Das passiert also auf allen Ebenen
+gleichzeitig.
+
+160
+00:08:35,770 --> 00:08:39,690
+Und dafür gibt es aber zum Glück ein paar
+Techniken, die ich so aus meiner Erfahrung
+
+161
+00:08:39,691 --> 00:08:44,150
+mit Projekten von hey, irgendwie Website
+mit neuen Design-Features bis hin zu
+
+162
+00:08:44,151 --> 00:08:50,670
+großen Plugins mit Millionen von Nutzern
+weitergeben möchte, weil es gibt so ein
+
+163
+00:08:50,671 --> 00:08:53,070
+paar einfache Tricks und Learnings,
+die helfen.
+
+164
+00:08:54,850 --> 00:08:56,930
+Punkt eins ist, wir müssen uns gegenseitig
+verstehen.
+
+165
+00:08:57,110 --> 00:08:59,230
+Klingt total profan, ist es aber
+eigentlich gar nicht.
+
+166
+00:09:01,500 --> 00:09:04,970
+Wenn ein Kunde zu mir sagt, hey,
+ich hätte gern da einen besseren Überblick
+
+167
+00:09:05,095 --> 00:09:07,830
+über die Bilder, die ich in meinem System
+hochgeladen habe.
+
+168
+00:09:08,830 --> 00:09:10,730
+Dann kann ich halt antworten, ja,
+ja, wir haben da so ein Plugin,
+
+169
+00:09:10,750 --> 00:09:12,430
+das installieren wir dir mal, kein
+Problem.
+
+170
+00:09:13,905 --> 00:09:17,021
+Das Problem ist, der Kunde kommt
+aus seiner Wahrnehmungswelt
+
+171
+00:09:17,022 --> 00:09:21,190
+und seinen Wissenshintergründen,
+die er haben kann.
+
+172
+00:09:21,720 --> 00:09:25,310
+Ich wiederum habe mein WordPress im Sinn,
+dass mein Kunde sagt, der von noch gar
+
+173
+00:09:25,311 --> 00:09:27,443
+nichts gesehen hat, weiß,
+ja, ja, ja, beim anderen
+
+174
+00:09:27,444 --> 00:09:29,630
+Kunde war das so, das
+hilft ja, das geht dann schon.
+
+175
+00:09:29,690 --> 00:09:31,130
+Hier, machen wir mal eben schnell.
+
+176
+00:09:31,890 --> 00:09:34,450
+Es ist halt blöd, wenn der Kunde
+eigentlich so eine Idee hat wie,
+
+177
+00:09:34,680 --> 00:09:39,410
+ja, aber eigentlich so wie, wenn ich bei
+Google Fotos ein Bild hochlade,
+
+178
+00:09:39,450 --> 00:09:41,786
+dann sagt mir das ja auch so ein ähnliches
+Bild da drin war.
+
+179
+00:09:41,810 --> 00:09:44,470
+Da hilft mein Plugin nämlich von vorne bis
+hinten gar nichts.
+
+180
+00:09:44,590 --> 00:09:48,070
+Wenn ich das aber in der Projektplanung so
+vorsehe, dass ich dieses Plugin verwende,
+
+181
+00:09:48,071 --> 00:09:51,770
+um das Kundenproblem zu lösen,
+dann habe ich ein ganz großes Problem.
+
+182
+00:09:52,050 --> 00:09:54,149
+Und das Problem ist hier, dass
+eine Lücke besteht zwischen
+
+183
+00:09:54,150 --> 00:09:58,310
+meiner Erlebniswelt und meinem
+Vorwissen und der meines Kunden.
+
+184
+00:09:59,230 --> 00:10:01,510
+Weil wir aus ganz verschiedenen
+Sichtweisen kommen.
+
+185
+00:10:01,630 --> 00:10:03,186
+Ich denke automatisch an meinen WordPress.
+
+186
+00:10:03,210 --> 00:10:05,150
+Ich habe davon zehn Jahre gearbeitet.
+
+187
+00:10:05,151 --> 00:10:05,710
+Ich kenne das.
+
+188
+00:10:05,750 --> 00:10:06,210
+Ich weiß das.
+
+189
+00:10:06,310 --> 00:10:06,910
+Vertraut mir.
+
+190
+00:10:06,970 --> 00:10:08,410
+Ich bin hier die Expertin.
+
+191
+00:10:08,960 --> 00:10:12,170
+Mein Kunde denkt ganz anders urteilt nach.
+
+192
+00:10:12,380 --> 00:10:14,636
+Was ich hier gerne
+mache, ist, dass ich mit einer
+
+193
+00:10:14,637 --> 00:10:17,230
+einfachen Variante
+von User Stories arbeite.
+
+194
+00:10:18,380 --> 00:10:22,350
+Im Vollformat geht es bei User Stories
+darum, erstmal eine Persona zu entwerfen.
+
+195
+00:10:23,670 --> 00:10:24,450
+Wer ist das?
+
+196
+00:10:24,690 --> 00:10:25,950
+Wer sind meine echten User?
+
+197
+00:10:26,380 --> 00:10:28,660
+Das muss natürlich der Kunde ein ganzes
+Stück weit machen.
+
+198
+00:10:29,140 --> 00:10:30,730
+Dann entwickelt man Epics etc.
+
+199
+00:10:30,970 --> 00:10:32,930
+Das ist ein langer, langer, komplexer
+Prozess.
+
+200
+00:10:33,010 --> 00:10:34,530
+Den kann ich nicht immer durchlaufen.
+
+201
+00:10:34,531 --> 00:10:37,910
+Weil da fehlt auch oft in der Praxis die
+Zeit oder die Möglichkeit.
+
+202
+00:10:38,470 --> 00:10:45,210
+Aber diese Formel als Nutzer XY möchte ich
+etwas tun, um ein Ziel zu erreichen.
+
+203
+00:10:45,410 --> 00:10:47,466
+Das ist etwas, was ich in der
+Kommunikation gerne verwende.
+
+204
+00:10:47,490 --> 00:10:50,270
+Wenn mir also mein Kunde sagt,
+ich will irgendwie einen besseren
+
+205
+00:10:50,271 --> 00:10:52,889
+Überblick über meine
+Bilder in WordPress, in
+
+206
+00:10:52,890 --> 00:10:55,090
+der Mediathek haben,
+fange ich an zu fragen.
+
+207
+00:10:55,550 --> 00:11:03,550
+Gut, also du möchtest hier vielleicht
+Wissen, vielleicht kategorisieren.
+
+208
+00:11:03,551 --> 00:11:06,870
+Und fang an, solche User Stories mit ihm
+zu formulieren.
+
+209
+00:11:07,440 --> 00:11:09,960
+Und das ist etwas, was die Kunden dann
+auch ganz oft aufgreifen.
+
+210
+00:11:10,190 --> 00:11:14,450
+Als Content Editor möchte ich einen
+besseren Überblick über meine Bilder
+
+211
+00:11:14,451 --> 00:11:19,770
+haben, um zu entscheiden, ob ich ein Bild
+wiederverwenden kann.
+
+212
+00:11:20,050 --> 00:11:22,830
+Dann sagt mir mein Kunde, nee, nee,
+nee, es geht nicht um die Wiederverwendung.
+
+213
+00:11:22,850 --> 00:11:24,390
+Es geht um was ganz anderes.
+
+214
+00:11:24,510 --> 00:11:26,190
+Und so nähern wir uns nach und nach an.
+
+215
+00:11:26,780 --> 00:11:32,251
+Weil ich durch diese feste Formel meine
+eigene Perspektive ganz leicht aufgeben kann.
+
+216
+00:11:32,460 --> 00:11:34,980
+Indem ich immer wieder versuche,
+aus Kundensicht zu formulieren,
+
+217
+00:11:35,440 --> 00:11:38,050
+was glaube ich, dass mein Kunde gerade tun
+möchte als Ziel.
+
+218
+00:11:39,960 --> 00:11:45,010
+Kann ich den Sprung schaffen und nicht
+automatisch meine eigenen Annahmen sofort
+
+219
+00:11:45,011 --> 00:11:48,830
+mitnehmen ins Gespräch und den Kunden
+meine Annahmen aufstülpen und hoffen,
+
+220
+00:11:48,831 --> 00:11:51,310
+dass ich das irgendwo getroffen habe,
+um dann irgendwann zu merken, ja,
+
+221
+00:11:51,311 --> 00:11:54,292
+schade, mein Effort ist
+jetzt leider explodiert, weil
+
+222
+00:11:54,293 --> 00:11:56,451
+meine Annahmen haben
+jetzt doch nicht so gepasst.
+
+223
+00:11:57,170 --> 00:11:59,090
+Und das ist ein Format, man muss es sich
+angewöhnen.
+
+224
+00:11:59,091 --> 00:12:00,970
+Es fühlt sich auch erstmal fremd an im
+Gespräch.
+
+225
+00:12:00,971 --> 00:12:03,230
+Und die Kunden sind vielleicht auch
+erstmal verwundert davon, dass man immer
+
+226
+00:12:03,231 --> 00:12:06,770
+wieder formelhaft die gleichen Sätze und
+Formulierungen wiederholt.
+
+227
+00:12:07,330 --> 00:12:11,250
+Aber sobald die Kunden das auch erstmal
+aufgreifen, kann man damit echt auch einen
+
+228
+00:12:11,251 --> 00:12:14,150
+Effekt haben darauf, wie gut man sich
+gegenseitig versteht hier.
+
+229
+00:12:14,900 --> 00:12:16,910
+Weil auch der Kunde dann
+dazu kommt, dass er nicht nur
+
+230
+00:12:16,970 --> 00:12:19,730
+sagt, ja, ich will was,
+sondern warum will ich das?
+
+231
+00:12:20,010 --> 00:12:21,010
+Warum?
+
+232
+00:12:21,470 --> 00:12:22,630
+Das ist echt ein Gamechanger.
+
+233
+00:12:23,600 --> 00:12:25,970
+Wenn du das hast, dann kannst du dem
+Kunden wirklich helfen.
+
+234
+00:12:27,750 --> 00:12:28,150
+Genau.
+
+235
+00:12:28,151 --> 00:12:31,450
+Und dann haben wir was verstanden und
+gehen in die Umsetzung um.
+
+236
+00:12:32,500 --> 00:12:34,686
+Und ganz ehrlich, das hier ist ein No
+-Brainer eigentlich.
+
+237
+00:12:34,710 --> 00:12:39,150
+Sorgt dafür, dass der Kunde weiß,
+wo die Informationen stecken.
+
+238
+00:12:39,250 --> 00:12:43,740
+Aber ganz ehrlich, also ich
+habe da so einen Kunden
+
+239
+00:12:43,741 --> 00:12:46,970
+aktuell, der vergisst ständig,
+wo sein Staging-System ist.
+
+240
+00:12:47,670 --> 00:12:49,890
+Das heißt, und welche Passwörter er dafür
+braucht.
+
+241
+00:12:50,460 --> 00:12:54,571
+Ich schicke ihm eine Info, wir haben da was
+gebaut, guck dir das mal auf Staging an.
+
+242
+00:12:54,850 --> 00:12:56,330
+Wo ist denn mein Staging überhaupt?
+
+243
+00:12:57,190 --> 00:12:58,130
+Ich weiß das gar nicht mehr.
+
+244
+00:12:58,131 --> 00:13:01,050
+Oh nein, jetzt habe ich den Link zwar,
+aber ich komme da gar nicht rein.
+
+245
+00:13:01,150 --> 00:13:01,890
+Ich weiß gar nicht mehr.
+
+246
+00:13:01,891 --> 00:13:03,130
+Hilfe, alles ist kaputt.
+
+247
+00:13:03,150 --> 00:13:04,406
+Oh mein Gott, hilf mir gar nicht.
+
+248
+00:13:04,430 --> 00:13:04,790
+Ja.
+
+249
+00:13:05,070 --> 00:13:05,430
+Nein.
+
+250
+00:13:06,090 --> 00:13:09,730
+Der Punkt ist, worauf wir als
+Projektmanager achten müssen, ist,
+
+251
+00:13:09,790 --> 00:13:12,730
+dass wir dem Kunden die richtigen
+Informationen geben.
+
+252
+00:13:13,890 --> 00:13:15,661
+Die wirklich wesentlichen
+Informationen geben
+
+253
+00:13:15,662 --> 00:13:18,071
+und dass wir es
+übersichtlich aufbereiten.
+
+254
+00:13:18,750 --> 00:13:22,450
+Das heißt, was ich mache, wenn ich meine
+Kunden dazu bringen kann, mit uns in Slack
+
+255
+00:13:22,451 --> 00:13:26,450
+zu kommunizieren, gibt es in jedem Slack
+-Channel eine Liste mit Links.
+
+256
+00:13:28,905 --> 00:13:31,750
+Kind, Kunde, keine Sorge, es ist noch
+alles da.
+
+257
+00:13:32,360 --> 00:13:33,840
+Guck mal, hier ist deine Links-Liste.
+
+258
+00:13:33,990 --> 00:13:34,990
+Das hilft.
+
+259
+00:13:35,110 --> 00:13:36,110
+Das ist komplett profan.
+
+260
+00:13:36,520 --> 00:13:41,330
+Aber es hilft, dass der Overhead reduziert
+wird, dass der Stress reduziert wird.
+
+261
+00:13:42,100 --> 00:13:45,110
+Zumal man da eben nicht nur, hey,
+das ist dein Staging, ablegen kann.
+
+262
+00:13:47,000 --> 00:13:48,920
+Viele Kunden kriegen den Teil zumindest
+noch hin.
+
+263
+00:13:49,570 --> 00:13:52,430
+Nicht unbedingt immer alle, aber das ist
+noch sehr profan.
+
+264
+00:13:52,470 --> 00:13:56,390
+Man kann dort auch viel, viel
+weitergehende Informationen ablegen.
+
+265
+00:13:57,610 --> 00:14:00,110
+Und da sind RAID-Logs.
+
+266
+00:14:00,130 --> 00:14:02,530
+Und jetzt wird es ein bisschen fachlich
+auch anspruchsvoller.
+
+267
+00:14:04,410 --> 00:14:10,111
+Eine Technik, die ich adaptiert habe, gerade
+um mit schwierigeren Kunden zu arbeiten.
+
+268
+00:14:10,670 --> 00:14:12,630
+Das kann man aber auch für jeden Kunden
+verwenden.
+
+269
+00:14:13,400 --> 00:14:17,650
+RAID steht für Risk Assumption Issues and
+Decisions.
+
+270
+00:14:20,010 --> 00:14:23,550
+Und worum es hier geht, ist, dass wir
+einen einzelnen Word schaffen,
+
+271
+00:14:23,730 --> 00:14:26,310
+ein Dokument, ein Excel-Sheet mit vier
+Reitern.
+
+272
+00:14:26,390 --> 00:14:30,170
+In das wir diese Themen eintragen können.
+
+273
+00:14:31,160 --> 00:14:32,920
+Wenn wir das Gefühl haben, da ist ein
+Risiko.
+
+274
+00:14:33,700 --> 00:14:37,668
+Zum Beispiel, wenn sich
+das Projekt weiter verzögert,
+
+275
+00:14:37,669 --> 00:14:40,690
+kommt ein Major Release
+von WordPress dazwischen.
+
+276
+00:14:40,691 --> 00:14:43,611
+Und dann haben wir nochmal mehr Aufwand,
+wenn wir das noch updaten müssen,
+
+277
+00:14:43,670 --> 00:14:45,710
+weil dann noch mehr Anpassungen nötig
+sind.
+
+278
+00:14:45,980 --> 00:14:47,486
+Und dann kann es sich noch weiter
+verzögern.
+
+279
+00:14:47,510 --> 00:14:50,073
+Wir müssen jetzt entscheiden,
+möchten wir in diesen Pfad
+
+280
+00:14:50,074 --> 00:14:52,471
+reinkommen oder möchten wir
+ganz, ganz schnell live gehen.
+
+281
+00:14:53,710 --> 00:14:54,710
+Oder...
+
+282
+00:14:54,760 --> 00:14:56,227
+Wir wissen eigentlich
+gar nicht so genau für
+
+283
+00:14:56,228 --> 00:14:57,450
+dieses Feature, was
+will der Kunde eigentlich.
+
+284
+00:14:57,670 --> 00:14:59,150
+Also müssen wir eine Annahme treffen.
+
+285
+00:14:59,710 --> 00:15:02,530
+Oder auch, wir haben hier ja Hosting
+-Anbieter.
+
+286
+00:15:04,300 --> 00:15:07,030
+Hey, der Kunde braucht eigentlich einen
+neuen Hosting-Anbieter, weil irgendwie
+
+287
+00:15:07,031 --> 00:15:10,430
+läuft dieser Server, der uns da
+bereitgestellt hat, so ganz und gar nicht.
+
+288
+00:15:10,510 --> 00:15:13,310
+Und wenn das in die Production so geht,
+dann hat der Kunde ein Problem.
+
+289
+00:15:13,680 --> 00:15:14,680
+Das ist ein Issue.
+
+290
+00:15:15,810 --> 00:15:18,014
+Oder auch, hey, der
+Kunde hat entschieden, es
+
+291
+00:15:18,015 --> 00:15:20,190
+funktioniert nicht, was
+wir da gemacht haben.
+
+292
+00:15:20,440 --> 00:15:21,440
+Wir müssen da was ändern.
+
+293
+00:15:22,070 --> 00:15:23,070
+Das sind Informationen.
+
+294
+00:15:26,300 --> 00:15:27,940
+Wie sollten wir zentral vertriebbar sein?
+
+295
+00:15:28,770 --> 00:15:31,410
+Wie sollte man an einem Ort sein,
+wo auch der Kunde nachlesen kann?
+
+296
+00:15:32,180 --> 00:15:35,653
+Denn was sonst passiert,
+ist, dass ihr in eine
+
+297
+00:15:35,654 --> 00:15:38,791
+Situation kommt, in der
+ihr den Überblick verliert.
+
+298
+00:15:39,610 --> 00:15:43,010
+Und das ist mir auch als Kundin passiert,
+das ist mir als Projektmanagerin passiert.
+
+299
+00:15:44,690 --> 00:15:48,390
+Der Kunde stellt vier Anfragen für kleine
+Change-Requests am Tag.
+
+300
+00:15:48,920 --> 00:15:51,010
+Irgendwo im Ticket, per E-Mail,
+per Slack.
+
+301
+00:15:51,510 --> 00:15:52,510
+Hier, da, dort, das.
+
+302
+00:15:53,370 --> 00:16:00,310
+Das wird am Ende leicht, wo Change-Request
+nicht besonders schwergewichtig sein.
+
+303
+00:16:01,590 --> 00:16:03,760
+Hier irgendwie dreizehn
+hin und her und da
+
+304
+00:16:03,761 --> 00:16:06,070
+irgendwas anders und
+dort eine kleine Änderung.
+
+305
+00:16:06,130 --> 00:16:10,550
+Aber in der Masse kann euch das ordentlich
+aus dem Takt bringen.
+
+306
+00:16:10,710 --> 00:16:14,148
+Weil, wenn sich das
+so durchzieht, habt ihr
+
+307
+00:16:14,149 --> 00:16:17,511
+irgendwann nicht zwei
+Stunden am Tag mehr oder so.
+
+308
+00:16:17,645 --> 00:16:20,850
+Sondern habt ihr 20, 200 Stunden mehr,
+als ihr geplant hattet.
+
+309
+00:16:21,050 --> 00:16:22,090
+Das ist mit.
+
+310
+00:16:23,460 --> 00:16:27,270
+Dem zeitlichen Ziel für dieses Projekt in
+der Regel dann nicht mehr vereinbar.
+
+311
+00:16:27,860 --> 00:16:29,260
+Aber wie kommuniziere ich das denn?
+
+312
+00:16:29,390 --> 00:16:30,990
+Dafür nutze ich Generate Logs.
+
+313
+00:16:32,120 --> 00:16:34,350
+Kann es eintragen in bestimmte Dateien.
+
+314
+00:16:35,220 --> 00:16:38,340
+Dateien, die ich teile mit dem Kunden,
+die ich verlinke an einem zentralen Ort.
+
+315
+00:16:39,300 --> 00:16:43,430
+Kann es besprechen auf Basis dieser
+gemeinsamen Datei.
+
+316
+00:16:44,115 --> 00:16:45,346
+Ich habe mich immer wieder darauf gerufen.
+
+317
+00:16:45,370 --> 00:16:48,450
+Hey Kunde, wir haben, guck mal hier, da
+steht es doch, wir haben darüber gesprochen.
+
+318
+00:16:48,610 --> 00:16:51,025
+Denn sonst kommen wir in
+eine Situation, in der so ein
+
+319
+00:16:51,100 --> 00:16:56,350
+komplexes Projekt, nach einer
+Weile, echt den ganzen Berg an.
+
+320
+00:16:56,450 --> 00:16:57,650
+Hey, da war eine kleine Issue.
+
+321
+00:16:57,680 --> 00:16:58,720
+Da war ein Change Request.
+
+322
+00:16:59,260 --> 00:17:01,610
+Da war irgendeine Änderungsentscheidung.
+
+323
+00:17:02,100 --> 00:17:03,116
+Dort war ein bisschen was.
+
+324
+00:17:03,140 --> 00:17:06,327
+Und auf einmal haben wir
+eine Situation, in der dieses
+
+325
+00:17:06,328 --> 00:17:08,871
+Dreieck gar nicht mehr
+ganz so magisch aussieht.
+
+326
+00:17:09,810 --> 00:17:13,450
+Und dann geht es uns gar nicht mehr so
+gut, wenn uns das überrascht wird.
+
+327
+00:17:14,200 --> 00:17:16,240
+Denn das ist das große Problem im
+Projektmanagement.
+
+328
+00:17:17,000 --> 00:17:18,840
+Eine E-Mail beantworten, ist nicht das
+Problem.
+
+329
+00:17:19,520 --> 00:17:22,250
+Mit dem Kunden im Job fix quatschen,
+ist nicht so gut.
+
+330
+00:17:22,251 --> 00:17:22,650
+Das ist das Problem.
+
+331
+00:17:23,010 --> 00:17:25,570
+Ich habe da einen Kunden, mit dem rede ich
+gerne über Doctor Who.
+
+332
+00:17:26,385 --> 00:17:27,865
+Das läuft mit dem Verstehen sehr gut.
+
+333
+00:17:28,030 --> 00:17:29,030
+Alles super.
+
+334
+00:17:31,750 --> 00:17:33,758
+Aber wir haben die Aufgabe,
+dass wir den Überblick
+
+335
+00:17:33,759 --> 00:17:36,091
+behalten, bevor wir in
+so eine Situation geraten.
+
+336
+00:17:36,560 --> 00:17:38,720
+Wir werden trotzdem in solche Situationen
+hier geraten.
+
+337
+00:17:40,000 --> 00:17:42,275
+Jedes Projekt hat irgendwo,
+jedes größere Projekt hat
+
+338
+00:17:42,355 --> 00:17:44,790
+irgendwo diesen Tipppunkt,
+wo es mal auch schwierig wird.
+
+339
+00:17:46,010 --> 00:17:48,630
+Weil sich langlaufende Projekte immer,
+immer, immer verändern.
+
+340
+00:17:48,920 --> 00:17:50,890
+Aber die Frage ist, wie können wir damit
+umgehen?
+
+341
+00:17:51,640 --> 00:17:56,110
+Und das ist der Punkt, warum ich glaube,
+wir brauchen ganz, ganz viel Kommunikation.
+
+342
+00:17:56,111 --> 00:17:58,170
+Wir brauchen ganz viel Transparenz mit dem
+Kunden.
+
+343
+00:17:58,820 --> 00:18:03,650
+Und das ist es, wofür ich denke,
+aus meiner Erfahrung, dass Greatblogs eine
+
+344
+00:18:04,050 --> 00:18:05,050
+ziemlich gute Idee sind.
+
+345
+00:18:05,110 --> 00:18:06,590
+Das ist ein leichtgewichtiges Format.
+
+346
+00:18:07,400 --> 00:18:10,590
+Ihr könnt verschiedene Arten von
+Informationen dort eintragen.
+
+347
+00:18:10,710 --> 00:18:12,690
+Ihr könnt alles an einem Ort haben.
+
+348
+00:18:12,850 --> 00:18:14,870
+Ihr habt kein, ah, das ist ein Confluence.
+
+349
+00:18:14,950 --> 00:18:16,110
+Das steht in der E-Mail.
+
+350
+00:18:16,840 --> 00:18:18,590
+Dann haben wir da noch eine Slack
+-Nachricht.
+
+351
+00:18:18,591 --> 00:18:22,610
+Und dann ist da vielleicht noch irgendein
+Meeting-Protokoll, das relevant ist mehr.
+
+352
+00:18:23,390 --> 00:18:26,790
+Sondern ihr vereinheitlicht, wo die
+wichtigen Dinge stehen.
+
+353
+00:18:27,820 --> 00:18:30,590
+Und dann, wenn es dann soweit ist,
+dass ihr sagen müsst, ah, Kunde,
+
+354
+00:18:31,360 --> 00:18:35,370
+sorry, aber irgendwie ist unser magisches
+Dreieck hier nicht mehr so magisch,
+
+355
+00:18:35,810 --> 00:18:40,390
+sondern in einer ordentlichen Schieflage,
+habt ihr eine gemeinsame Wissensbasis und
+
+356
+00:18:40,391 --> 00:18:43,470
+könnt dem Kunden auch was an die Hand
+geben, wo ihr sagt, guck mal, wir haben
+
+357
+00:18:43,471 --> 00:18:45,831
+immer wieder darüber gesprochen,
+das ist jetzt der eine Ort.
+
+358
+00:18:46,300 --> 00:18:47,700
+Hier stehen all eure Informationen.
+
+359
+00:18:48,450 --> 00:18:49,910
+Das hilft mir im Projekt immer sehr.
+
+360
+00:18:52,930 --> 00:18:55,970
+Weil als Kundin war mir nicht immer
+unbedingt bewusst, dass ich jetzt gerade
+
+361
+00:18:55,971 --> 00:18:59,930
+die vierte Flying Change Request-Antrage
+am Tag geschrieben habe, weil mein Projekt
+
+362
+00:19:00,030 --> 00:19:01,906
+muss ja fertig werden, das gefällt mir
+gerade nicht.
+
+363
+00:19:01,930 --> 00:19:05,030
+Schnell mal eben was in ein Ticket
+geschrieben und dann mal eben abgeschickt
+
+364
+00:19:05,105 --> 00:19:06,869
+und dann mal erwartet,
+es passiert schon was, die
+
+365
+00:19:06,870 --> 00:19:09,171
+sind ja alle nett, die
+arbeiten ja gerne mit mir.
+
+366
+00:19:09,265 --> 00:19:10,265
+Das funktioniert schon.
+
+367
+00:19:11,840 --> 00:19:13,360
+Und so ist es dann auch mit Projekten.
+
+368
+00:19:14,610 --> 00:19:17,090
+Im täglichen Business passiert ganz,
+ganz, ganz viel.
+
+369
+00:19:17,860 --> 00:19:19,770
+Rund um das, was eigentlich geplant war.
+
+370
+00:19:19,810 --> 00:19:21,250
+Und das gehört dazu, das ist normal.
+
+371
+00:19:21,690 --> 00:19:25,850
+Sonst können wir alle nur noch nach
+Waterfall arbeiten und heute wird geplant
+
+372
+00:19:26,075 --> 00:19:28,635
+und drei Jahren wird geliefert und
+dazwischen wird nicht geredet.
+
+373
+00:19:29,320 --> 00:19:32,250
+Wir machen ja Agile, damit das besser
+wird.
+
+374
+00:19:33,400 --> 00:19:36,350
+Damit wir genau treffen am Ende,
+was der Kunde will.
+
+375
+00:19:37,000 --> 00:19:38,690
+Aber das Risiko ist eben
+auch, dass wir dann in
+
+376
+00:19:38,691 --> 00:19:41,230
+solche Schieflagen geraten,
+während wir arbeiten.
+
+377
+00:19:42,610 --> 00:19:45,230
+Und da hilft Kommunikation, ganz viel
+Kommunikation.
+
+378
+00:19:45,370 --> 00:19:46,730
+Schafft klare Strukturen.
+
+379
+00:19:46,731 --> 00:19:48,510
+Wie ihr mit dem Kunden kommuniziert.
+
+380
+00:19:49,300 --> 00:19:52,380
+Schafft Orte, an denen die Informationen
+nachvollziehbar sind und sorgt dafür,
+
+381
+00:19:52,510 --> 00:19:54,690
+dass die Kunden diese Orte auch finden
+können.
+
+382
+00:19:55,910 --> 00:19:56,310
+Genau.
+
+383
+00:19:56,350 --> 00:19:59,490
+Und irgendwann kommen wir dann trotzdem an
+den Punkt, an dem wir sagen, hey,
+
+384
+00:20:00,550 --> 00:20:03,510
+endlich quasi hoffentlich irgendwie
+fertig.
+
+385
+00:20:04,960 --> 00:20:06,080
+Auch da stecken Fallen drin.
+
+386
+00:20:06,110 --> 00:20:11,970
+Denn das Ding ist, wir sagen, hey,
+endlich alle Tickets bearbeitet.
+
+387
+00:20:12,210 --> 00:20:13,210
+Mega cool.
+
+388
+00:20:14,130 --> 00:20:16,790
+Der Kunde sagt, ja, sieht doch ganz gut
+aus hier alles, ne?
+
+389
+00:20:17,250 --> 00:20:18,250
+Doch ganz schick.
+
+390
+00:20:18,340 --> 00:20:20,190
+Und drei Monate später fällt der Kunde
+auf.
+
+391
+00:20:20,540 --> 00:20:22,346
+Also irgendwie, also das hat der nicht
+gemacht.
+
+392
+00:20:22,370 --> 00:20:23,170
+Das hätten wir doch gerne gehabt.
+
+393
+00:20:23,290 --> 00:20:25,066
+Wir haben doch mal vor zwei Jahren darüber
+gesprochen.
+
+394
+00:20:25,090 --> 00:20:26,690
+Warum ist denn das jetzt nicht passiert?
+
+395
+00:20:27,560 --> 00:20:29,880
+Und ja, das ist ein echtes Beispiel,
+gerade ehrlich gesagt.
+
+396
+00:20:32,070 --> 00:20:34,870
+Und dann habt ihr wieder eine ganz
+schwierige Situation.
+
+397
+00:20:35,070 --> 00:20:37,210
+Weil was, was sagt man denn da?
+
+398
+00:20:37,470 --> 00:20:39,186
+Einerseits kann man sich auf den Vertrag
+berufen.
+
+399
+00:20:39,210 --> 00:20:42,530
+Aber die Frage ist dann eben auch,
+was ist unser Ziel?
+
+400
+00:20:42,970 --> 00:20:44,250
+Überhaupt hier in diesem Moment?
+
+401
+00:20:45,090 --> 00:20:46,090
+Zufriedener Kunde?
+
+402
+00:20:46,480 --> 00:20:47,610
+Oder ein Budget zu sein?
+
+403
+00:20:48,450 --> 00:20:49,490
+Oder ein glückliches Team?
+
+404
+00:20:51,360 --> 00:20:53,362
+Denn wenn wir dann
+einfach sagen, nö, in meinem
+
+405
+00:20:53,363 --> 00:20:55,470
+Vertrag steht doch nichts
+vom Internet Explorer 11.
+
+406
+00:20:56,310 --> 00:20:57,586
+Ist mir doch egal, was du hier willst.
+
+407
+00:20:57,610 --> 00:20:59,010
+Dann kommt der Kunde in uns wieder.
+
+408
+00:20:59,420 --> 00:21:01,100
+Und schreibt uns auch keine gute
+Bewertung.
+
+409
+00:21:01,470 --> 00:21:02,710
+Und empfiehlt uns nicht weiter.
+
+410
+00:21:03,370 --> 00:21:06,090
+Das sind ja alles so Punkte, hey,
+eigentlich sind Folgeprojekte cool.
+
+411
+00:21:06,530 --> 00:21:09,711
+Wenn wir gut mit dem Kunden arbeiten können,
+möchten wir das ja auch weiter machen.
+
+412
+00:21:09,790 --> 00:21:11,790
+Wenn wir aber dann einfach da sitzen und
+sagen, nö.
+
+413
+00:21:12,090 --> 00:21:12,490
+Nö.
+
+414
+00:21:12,810 --> 00:21:13,810
+Was?
+
+415
+00:21:14,350 --> 00:21:15,350
+Haben wir ein Problem.
+
+416
+00:21:15,665 --> 00:21:17,625
+Darum ist auch diese Abnahmephase
+tatsächlich was.
+
+417
+00:21:18,760 --> 00:21:20,360
+Müssen wir gestalten als Projektmanager.
+
+418
+00:21:21,080 --> 00:21:22,690
+Wie sieht eine Abnahme aus?
+
+419
+00:21:23,370 --> 00:21:25,950
+Denn von alleine hat man das als Kunde
+nicht so drauf.
+
+420
+00:21:26,510 --> 00:21:30,990
+Das hier ist ein echter Screenshot aus
+einem Jira-Projekt, in dem ich Kundin war.
+
+421
+00:21:31,190 --> 00:21:35,010
+Und da ich im gleichen Unternehmen jetzt
+angestellt bin, in dem ich Kundin war,
+
+422
+00:21:35,490 --> 00:21:37,050
+kann ich diese Phase noch screenshoten.
+
+423
+00:21:38,370 --> 00:21:41,619
+Das Ding ist, als Kunde
+kommt man auf ganz viele Ideen,
+
+424
+00:21:41,620 --> 00:21:43,931
+wie man ganz schnell mal
+irgendwas abnehmen kann.
+
+425
+00:21:44,870 --> 00:21:47,446
+Ich hab da einfach irgendwelche Emojis
+drunter geschmissen und dachte mir,
+
+426
+00:21:47,470 --> 00:21:48,950
+ja cool, ist doch abgenommen hier,
+ne?
+
+427
+00:21:49,220 --> 00:21:51,590
+Ich hab irgendwas gesehen, das so Emoji
+drunter fertig ist.
+
+428
+00:21:53,490 --> 00:21:55,050
+Das ist aber ätzend als Projektmanager.
+
+429
+00:21:55,370 --> 00:21:57,890
+Ganz ehrlich, als Projektmanager möchte
+man das überhaupt nicht.
+
+430
+00:21:57,990 --> 00:22:00,070
+Denn es bringt Unsicherheit für mich da
+rein.
+
+431
+00:22:00,790 --> 00:22:02,070
+Was meint mein Kunde denn jetzt?
+
+432
+00:22:02,800 --> 00:22:05,650
+Hat er zur Kenntnis genommen, dass da was
+passiert ist?
+
+433
+00:22:06,155 --> 00:22:07,755
+Oder hat er sich das wirklich angesehen?
+
+434
+00:22:09,150 --> 00:22:11,341
+Oder möchte er, dass dieses
+Ticket jetzt auf Production
+
+435
+00:22:11,342 --> 00:22:14,150
+deployed wird, in Maintenance
+-Support-Projekten?
+
+436
+00:22:15,110 --> 00:22:17,250
+Oder was ist denn hier überhaupt Sache?
+
+437
+00:22:18,380 --> 00:22:20,500
+Und andererseits für Kunden ist das gar
+nicht so klar.
+
+438
+00:22:20,750 --> 00:22:23,790
+Ist doch wohl klar, was ich hier meine mit
+diesem Emoji.
+
+439
+00:22:23,870 --> 00:22:27,610
+Ich bin ja so froh, dass der Entwickler
+jetzt meine Anfrage hier umgesetzt hat.
+
+440
+00:22:27,650 --> 00:22:28,650
+Mega!
+
+441
+00:22:29,350 --> 00:22:30,790
+Ne, so funktioniert das nicht.
+
+442
+00:22:30,870 --> 00:22:34,270
+Und das ist was, da hilft es, wenn wir als
+Projektmanager uns das bewusst machen.
+
+443
+00:22:35,160 --> 00:22:38,370
+Und ganz klar mit dem Kunden vereinbaren,
+wie sieht eine Abnahme aus?
+
+444
+00:22:38,450 --> 00:22:39,610
+Was brauchen wir von dir?
+
+445
+00:22:40,880 --> 00:22:41,920
+Und was bedeutet das auch?
+
+446
+00:22:42,410 --> 00:22:43,810
+Denn das ist Kunden oft nicht klar.
+
+447
+00:22:45,770 --> 00:22:46,970
+Sie haben doch mal was gesagt.
+
+448
+00:22:48,100 --> 00:22:49,940
+Dann war es aber jetzt irgendwie nicht
+erfüllt.
+
+449
+00:22:50,100 --> 00:22:50,830
+Für uns war es abgenommen.
+
+450
+00:22:50,870 --> 00:22:54,050
+Für den Kunden war es irgendwie noch
+gedanklich halb so in progress.
+
+451
+00:22:54,230 --> 00:22:55,910
+Weil, was da war, passte ja schon.
+
+452
+00:22:55,970 --> 00:22:57,650
+Das will ich ja schon auf Production
+haben.
+
+453
+00:22:58,220 --> 00:22:59,170
+Die andere Hälfte fehlt aber noch.
+
+454
+00:22:59,210 --> 00:23:00,681
+Können wir in zwei Wochen drüber reden?
+
+455
+00:23:00,705 --> 00:23:01,705
+Das ist Mist.
+
+456
+00:23:01,970 --> 00:23:04,190
+Das passiert aber im Praxisalltag schon.
+
+457
+00:23:04,191 --> 00:23:10,390
+Weil viele unserer Kunden ja nun auch mal
+nicht die High-Level-Enterprise-Experts
+
+458
+00:23:10,690 --> 00:23:11,930
+für ihre Softwareprojekte sind.
+
+459
+00:23:13,080 --> 00:23:16,350
+Sondern kleine Unternehmen, wo jemand aus
+der Marketingabteilung vielleicht auch
+
+460
+00:23:16,351 --> 00:23:18,751
+eine Website nebenher irgendwie bauen
+lässt über das Projekt.
+
+461
+00:23:19,600 --> 00:23:21,350
+Die haben selber keinen Einblick.
+
+462
+00:23:21,630 --> 00:23:22,710
+Und das ist unser Job hier.
+
+463
+00:23:23,760 --> 00:23:26,240
+Auch mit den Kunden zu vereinbaren,
+wie mache ich eine Abnahme.
+
+464
+00:23:26,630 --> 00:23:28,946
+Das heißt in dem Fall,
+statt Emojis war es,
+
+465
+00:23:28,947 --> 00:23:31,891
+dass ich eine bestimmte
+Formel da reinschreibe.
+
+466
+00:23:32,470 --> 00:23:34,170
+Dass ich explizit das Wort übernehme.
+
+467
+00:23:34,171 --> 00:23:35,890
+Und Proofs verwende zur Abnahme.
+
+468
+00:23:36,050 --> 00:23:38,910
+Weil damit ist dann keine Unsicherheit
+mehr da, was ich denn meine.
+
+469
+00:23:39,070 --> 00:23:41,630
+Und damit ist mir auch bewusst,
+was ich gerade tue in dem Moment.
+
+470
+00:23:41,690 --> 00:23:45,750
+Weil ich bewusst formulieren muss, statt
+irgendwas hier zu klicken mal schnell.
+
+471
+00:23:45,980 --> 00:23:46,980
+Das geht ja immer leicht.
+
+472
+00:23:48,180 --> 00:23:50,790
+Und dann ist aber auch der Punkt am Ende
+des Projekts.
+
+473
+00:23:51,890 --> 00:23:54,010
+Sollte man sich überlegen, wie
+kommunizieren wir denn?
+
+474
+00:23:54,470 --> 00:23:57,990
+Ein wichtiger Punkt hier ist, dass ich
+gelernt habe über verschiedene Abnahmen
+
+475
+00:23:57,991 --> 00:24:00,230
+hinweg, dass wir schrittlich
+kommunizieren.
+
+476
+00:24:01,680 --> 00:24:03,350
+Es klingt völlig profan, ich weiß.
+
+477
+00:24:03,351 --> 00:24:06,650
+Aber es ist ganz einfach, ein Projekt mal
+in Call4 zu zeigen.
+
+478
+00:24:06,690 --> 00:24:08,810
+Und der Kunde sagt, alles gut und dann ist
+man fertig.
+
+479
+00:24:09,290 --> 00:24:11,790
+Das Ding ist aber, der Auftrag war ein
+schrittliches Dokument.
+
+480
+00:24:12,440 --> 00:24:13,880
+Warum ist es die Abnahme nicht auch?
+
+481
+00:24:14,430 --> 00:24:15,586
+Damit hat man nämlich einen Schlusspunkt.
+
+482
+00:24:15,610 --> 00:24:16,750
+Damit hat man ein Agreement.
+
+483
+00:24:17,060 --> 00:24:18,666
+Damit hat man was, worauf man sich berufen
+kann.
+
+484
+00:24:18,690 --> 00:24:22,410
+Während so ein mündlich schnell gesagtes,
+ja, ja, ja, alles schick, alles gut,
+
+485
+00:24:22,470 --> 00:24:28,371
+habe ich schön gemacht, ja, ja, schwer
+ist, um sich darauf nochmal zu einigen.
+
+486
+00:24:28,770 --> 00:24:32,430
+Und genauso ist es wichtig, dass man in
+diesem Moment, in dieser letzten Phase des
+
+487
+00:24:32,580 --> 00:24:34,170
+Projekts, Zeitrahmen setzt.
+
+488
+00:24:35,090 --> 00:24:40,330
+Dass man sagt, hey, wie viel Zeit brauchst
+du, um das überhaupt zu kontrollieren?
+
+489
+00:24:40,370 --> 00:24:44,278
+Weil es ist unrealistisch,
+dass der Kunde nach drei
+
+490
+00:24:44,279 --> 00:24:47,111
+Tagen ein komplexes
+Projekt komplett reviewed hat.
+
+491
+00:24:47,930 --> 00:24:50,590
+Sollte man eine Frage stellen,
+in der drei Tage, nachdem er zuerst mal
+
+492
+00:24:50,591 --> 00:24:52,957
+sein komplexes Projekt
+gesehen hat, sagt, ja, ja,
+
+493
+00:24:53,037 --> 00:24:56,950
+super, abgenommen,
+fertig, mach mal, passt schon.
+
+494
+00:24:57,690 --> 00:24:59,330
+Da ist dann klar, es wird was nachkommen.
+
+495
+00:24:59,610 --> 00:25:00,270
+Vereinbart was.
+
+496
+00:25:00,390 --> 00:25:02,050
+Vereinbart, wie eine Abnahme aussehen
+kann.
+
+497
+00:25:02,051 --> 00:25:05,530
+Was könnt ihr tun, um dem Kunden dabei zu
+helfen, wirklich zu verstehen,
+
+498
+00:25:05,980 --> 00:25:07,850
+ob richtig geliefert wurde, was er wollte.
+
+499
+00:25:08,440 --> 00:25:09,960
+Wie viel Zeit solltet ihr vereinbaren?
+
+500
+00:25:10,070 --> 00:25:14,510
+Denn andererseits, drei Monate nach der
+Hergestellung des Projekts braucht eben
+
+501
+00:25:14,511 --> 00:25:17,206
+auch kein Kunde mehr, damit anzukommen,
+dass ihm jetzt aber aufgefallen ist,
+
+502
+00:25:17,230 --> 00:25:18,626
+ihr habt da irgendwie einen Fehler
+gemacht.
+
+503
+00:25:18,650 --> 00:25:24,270
+Weil, wenn ihr ein Haus bauen lasst und
+die Schlüsselübergabe hattet, und nach
+
+504
+00:25:24,271 --> 00:25:26,359
+drei Monaten sagt, ja, aber
+die Pins dagegen, die hat
+
+505
+00:25:26,418 --> 00:25:28,530
+doch vielleicht nicht ganz
+den richtigen Farbstrom.
+
+506
+00:25:29,800 --> 00:25:31,290
+Die möchte ich jetzt bitte nochmal
+getauscht haben.
+
+507
+00:25:31,291 --> 00:25:35,530
+Weil ich hatte jetzt mehr so ein Cremeweiß
+im Sinn und kein reines Weiß.
+
+508
+00:25:35,610 --> 00:25:38,550
+Und das ist mir bei der Abnahme nicht
+aufgefallen.
+
+509
+00:25:38,551 --> 00:25:44,190
+Aber jetzt wird der Bauherr euch angucken
+und sagen, wie bitte, wenn er nett ist.
+
+510
+00:25:45,500 --> 00:25:48,477
+Und natürlich wollen wir
+weiterhin ein partnerschaftliches,
+
+511
+00:25:48,478 --> 00:25:50,770
+gutes, nettes Verhältnis
+unseren Kunden beibehalten.
+
+512
+00:25:51,690 --> 00:25:54,450
+Das ist wichtig, das brauchen wir,
+das wollen wir.
+
+513
+00:25:55,000 --> 00:25:57,166
+So kann man gut zusammenarbeiten,
+so macht die Arbeit Spaß.
+
+514
+00:25:57,190 --> 00:26:00,330
+Und trotzdem muss hier eben auch auf die
+Fairness geachtet werden.
+
+515
+00:26:01,590 --> 00:26:04,570
+Und die Fairness muss in beide Richtungen
+gewährleistet sein.
+
+516
+00:26:04,630 --> 00:26:08,210
+Aber Kunden ist oft gar nicht bewusst,
+dass auch Software altert.
+
+517
+00:26:09,720 --> 00:26:12,350
+Wenn da schon gleich Updates wieder
+installiert wurden, dass es dann sein
+
+518
+00:26:12,351 --> 00:26:14,549
+kann, dass ein Fehler,
+der jetzt auch gar nichts
+
+519
+00:26:14,550 --> 00:26:16,390
+mehr mit der Übergabe
+original zu tun hatte.
+
+520
+00:26:16,960 --> 00:26:21,330
+Das sind wieder Faktoren, genau wie beim
+Verstehen der Anforderungen ursprünglich,
+
+521
+00:26:22,100 --> 00:26:23,260
+wie man kommunizieren sollte.
+
+522
+00:26:24,260 --> 00:26:26,060
+Und dann eben auch ganz eindeutig
+vereinbaren.
+
+523
+00:26:28,120 --> 00:26:29,120
+Hass ist keine Abnahme.
+
+524
+00:26:32,200 --> 00:26:35,390
+Schaut hin, wie ihr das kommuniziert und
+wie ihr hier miteinander umgeht.
+
+525
+00:26:35,620 --> 00:26:38,504
+Denn es ist nichts schlimmer,
+als wenn ihr ein tolles Projekt
+
+526
+00:26:38,505 --> 00:26:41,950
+hattet und einen vollen Kunden
+und super miteinander klarkommt.
+
+527
+00:26:42,030 --> 00:26:44,630
+Und dann, der Bericht ist an dieser Stelle
+noch.
+
+528
+00:26:46,310 --> 00:26:49,050
+Genau, und das sind so ein paar Ideen
+hier.
+
+529
+00:26:49,110 --> 00:26:53,690
+Denn am Ende ist das Ziel nicht,
+dass wir sagen, alles muss perfekt werden,
+
+530
+00:26:54,670 --> 00:27:00,550
+weil wir wollen die Zeit, das Budget und
+den Umfang, exakt treffen, wie geplant.
+
+531
+00:27:01,550 --> 00:27:02,550
+Passiert nicht.
+
+532
+00:27:03,190 --> 00:27:04,190
+Könnt ihr vergessen.
+
+533
+00:27:04,760 --> 00:27:05,960
+Willkommen in der realen Welt.
+
+534
+00:27:06,360 --> 00:27:09,590
+Das Ziel ist aber, dass man gemeinsam mit
+dem Kunden an einen Punkt kommt,
+
+535
+00:27:09,670 --> 00:27:12,234
+an dem man sagen kann,
+so, es ist ganz gut geworden
+
+536
+00:27:12,235 --> 00:27:14,831
+hier eigentlich, was
+wir hier gemacht haben.
+
+537
+00:27:16,080 --> 00:27:20,370
+Und das ist hier die grundlegende Idee im
+Projektmanagement auch, dass man nämlich
+
+538
+00:27:20,371 --> 00:27:24,030
+an einen Punkt kommen kann, in dem nicht
+alles optimal gelaufen ist, aber in dem
+
+539
+00:27:24,031 --> 00:27:26,498
+man sagen kann, hey,
+Kunde happy, Team happy und
+
+540
+00:27:26,499 --> 00:27:28,671
+dann natürlich auch der
+Projektmanager happy.
+
+541
+00:27:30,590 --> 00:27:34,650
+Und das sind meine Ideen dazu,
+wie man im Projektmanagement auch durchaus
+
+542
+00:27:34,651 --> 00:27:38,211
+an ein gutes Ziel kommen kann, worauf
+man achten muss, um dahin zu kommen.
+
+543
+00:27:38,930 --> 00:27:39,930
+Gut.
+
+544
+00:27:45,900 --> 00:27:46,900
+Habt ihr Fragen?
+
+545
+00:28:24,030 --> 00:28:28,120
+Ja, die Frage war, wie man entscheidet,
+wie man mit wiederholten
+
+546
+00:28:28,121 --> 00:28:30,321
+Änderungsanfragen,
+Bugfixing und ähnlichem
+
+547
+00:28:30,322 --> 00:28:32,380
+umgeht und welche
+Zeitrahmen man hier setzt.
+
+548
+00:28:33,010 --> 00:28:36,300
+Zum Ersten ist das eine vertragliche
+Angelegenheit, dass man gerade in größeren
+
+549
+00:28:36,301 --> 00:28:40,480
+Projekten vereinbart, wie viele
+Änderungsrunden inklusive sind,
+
+550
+00:28:40,640 --> 00:28:43,580
+gerade wenn es nicht um reine Bugs geht,
+weil oft ist es ja dann, der Kunde denkt,
+
+551
+00:28:43,600 --> 00:28:45,920
+das ist ein Bug und du sagst, aber hey,
+das ist ein Change.
+
+552
+00:28:46,170 --> 00:28:47,900
+Dass man da dann zumindest eine Regel hat.
+
+553
+00:28:48,460 --> 00:28:51,080
+Wir machen zwei Runden Changes und dann
+ist aber auch vorbei.
+
+554
+00:28:53,140 --> 00:28:54,820
+Andererseits kommt es natürlich darauf an.
+
+555
+00:28:54,970 --> 00:28:58,820
+Wenn du ein Feature baust, kann man schon
+sagen, hey, zwei Wochen ist realistisch
+
+556
+00:28:58,821 --> 00:29:00,827
+für eine Abnahme, weil
+der Kunde ist ja auch ein
+
+557
+00:29:00,828 --> 00:29:02,901
+bisschen in der Pflicht,
+mit uns zu arbeiten.
+
+558
+00:29:02,960 --> 00:29:06,700
+Es ist ja nicht nur wir sind verpflichtet,
+mit dem Kunden nett zu sein, sondern der
+
+559
+00:29:06,701 --> 00:29:09,160
+Kunde muss ja auch ein bisschen auf uns
+eingehen.
+
+560
+00:29:10,150 --> 00:29:14,880
+Für ein großes Projekt würde ich sagen,
+vier bis sechs Wochen, zumindest bis man
+
+561
+00:29:14,881 --> 00:29:17,616
+mal an den Punkt kommt, dass
+man mit dem Kunden wieder
+
+562
+00:29:17,617 --> 00:29:19,841
+redet und reviewt, wie weit
+die Abnahme gekommen ist.
+
+563
+00:29:26,450 --> 00:29:27,450
+Was macht man?
+
+564
+00:29:28,900 --> 00:29:31,890
+Was mache ich, wenn ich Unterlagen von
+Kunden über Monate nicht bekomme?
+
+565
+00:29:34,240 --> 00:29:35,150
+Fotos, Texte, sowas.
+
+566
+00:29:35,170 --> 00:29:36,310
+Ja, das kenne ich.
+
+567
+00:29:37,085 --> 00:29:40,450
+Ehrlich gesagt, in der Regel sind das dann
+oft auch einfach keine Kunden tatsächlich.
+
+568
+00:29:40,490 --> 00:29:40,930
+Ehrlich gesagt, in der Regel sind das dann
+oft auch einfach keine Kunden tatsächlich.
+
+569
+00:29:41,180 --> 00:29:43,745
+Also, eine Kundenbeziehung
+setzt daraus, dass der Kunde
+
+570
+00:29:43,746 --> 00:29:46,071
+auch ein Interesse an der
+Umsetzung seines Projekts hat.
+
+571
+00:29:46,800 --> 00:29:50,030
+Wenn das nicht der Fall ist, muss ich
+irgendwann diese Situation problematisieren.
+
+572
+00:29:50,630 --> 00:29:55,050
+Denn wir wollen ja tatsächlich irgendwie
+dahin kommen, dass der Kunde, der ja auch
+
+573
+00:29:55,051 --> 00:29:58,890
+erwartet, dass wir liefern, zufrieden ist
+mit dem Ergebnis.
+
+574
+00:30:00,580 --> 00:30:03,950
+Wenn ich aber meine Ziele nicht halten
+kann, dann trage ich es ins Rate-Log ein.
+
+575
+00:30:04,750 --> 00:30:06,670
+Der Kunde hat nicht geliefert,
+das ist ein Issue.
+
+576
+00:30:07,740 --> 00:30:10,730
+Dann bespreche ich das mit dem Kunden,
+sobald der Kunde mir wieder gegenüber sitzt.
+
+577
+00:30:10,930 --> 00:30:15,370
+Ich zeige ihm, hier guck mal,
+dokumentiert, ich kann dieses Ziel Zeit
+
+578
+00:30:15,371 --> 00:30:17,750
+nicht erreichen, wenn diese Unterlagen
+nicht da sind.
+
+579
+00:30:18,510 --> 00:30:20,246
+Versuche eine ganz klare Vereinbarung zu
+treffen.
+
+580
+00:30:20,270 --> 00:30:22,970
+Und wenn nicht, dann kommen wir an einen
+Punkt, an dem entweder das Projekt nicht
+
+581
+00:30:22,971 --> 00:30:24,750
+mehr erfüllbar ist, wenn es ganz hart
+läuft.
+
+582
+00:30:25,290 --> 00:30:28,430
+Oder an dem wir bestimmte Teile als nicht
+erfüllbar markieren müssen.
+
+583
+00:30:29,110 --> 00:30:31,130
+Weil dieses ewige Warten, das funktioniert
+nicht.
+
+584
+00:30:32,330 --> 00:30:33,330
+Du hältst dich damit auf.
+
+585
+00:30:34,610 --> 00:30:36,570
+Natürlich, ein realistischer Zeitraum ist
+wichtig.
+
+586
+00:30:36,610 --> 00:30:38,430
+Und das hängt vom Kunden ab, welcher das
+ist.
+
+587
+00:30:38,431 --> 00:30:43,230
+Aber am Ende, irgendwann muss man nur noch
+sagen, Kunde, wenn du willst, dass ich
+
+588
+00:30:43,231 --> 00:30:46,710
+hier in der richtigen Zeit liefere,
+musst du zuliefern.
+
+589
+00:30:46,770 --> 00:30:49,530
+Und wenn du das nicht tust, müssen wir neu
+verhandeln.
+
+590
+00:31:10,540 --> 00:31:10,860
+Genau.
+
+591
+00:31:11,380 --> 00:31:14,700
+Also die Frage war, wenn ich mit dem
+Kunden vereinbart habe, in vier Wochen
+
+592
+00:31:14,701 --> 00:31:16,820
+sind die Bilder da und das ist nicht der
+Fall.
+
+593
+00:31:18,040 --> 00:31:19,560
+Wie gehe ich damit um im Endeffekt?
+
+594
+00:31:19,640 --> 00:31:22,700
+Und ja, man sagt dem Kunden dann,
+ja gut, kein Go-Live, wenn du deine Daten
+
+595
+00:31:22,875 --> 00:31:25,355
+nicht zugeliefert hast, weil wir können es
+nicht fertigstellen.
+
+596
+00:31:26,140 --> 00:31:29,160
+Da ist ganz, ganz klare Position wichtig.
+
+597
+00:31:29,510 --> 00:31:33,041
+Du beziehst eine Position, du kommunizierst
+ganz klar, was passieren wird.
+
+598
+00:31:33,075 --> 00:31:35,880
+Du dokumentierst es an einem Ort,
+den der Kunde auch zur Verfügung hat.
+
+599
+00:31:36,425 --> 00:31:39,025
+Wenn das dann ist, was der Kunde will,
+dann will der Kunde das so.
+
+600
+00:31:39,670 --> 00:31:41,546
+Hat der Kunde vielleicht falsch geplant
+mit dir?
+
+601
+00:31:41,570 --> 00:31:44,580
+Dann hat der Kunde vielleicht andere
+Probleme als dieses Break-Grad.
+
+602
+00:31:44,600 --> 00:31:47,320
+Das ist total okay, das ist auch kein
+Vorwurf an irgendwen.
+
+603
+00:31:47,780 --> 00:31:48,780
+So ist das Leben.
+
+604
+00:31:48,920 --> 00:31:51,581
+Aber dann ist eben
+wichtig, dass wir uns hier klar
+
+605
+00:31:51,582 --> 00:31:54,181
+und ehrlich begegnen in
+dieser Geschäftsbeziehung.
+
+606
+00:31:54,490 --> 00:31:56,296
+Damit am Ende nicht irgendjemand
+unzufrieden ist.
+
+607
+00:31:56,320 --> 00:31:58,039
+Ja, aber ich habe dann
+doch zwei Tage vor dem
+
+608
+00:31:58,040 --> 00:31:59,440
+vereinbarten Go-Live noch
+meine Bilder zugeliefert.
+
+609
+00:32:00,080 --> 00:32:01,600
+Warum habt ihr das denn nicht gemacht?
+
+610
+00:32:01,665 --> 00:32:03,960
+Ja, weil es drei Monate zu spät war,
+lieber Kunde.
+
+611
+00:32:04,510 --> 00:32:07,300
+Sorry, wir hätten diese drei Monate
+gebraucht, um das noch zu machen.
+
+612
+00:32:07,360 --> 00:32:07,940
+Das geht so nicht.
+
+613
+00:32:08,100 --> 00:32:09,280
+Und das ist was...
+
+614
+00:32:10,120 --> 00:32:12,240
+Natürlich muss man dem Kunden auch mal
+entgegenkommen.
+
+615
+00:32:13,060 --> 00:32:14,860
+Jeder macht Fehler, jeder hat mal ein
+Problem.
+
+616
+00:32:14,920 --> 00:32:16,456
+Es läuft nicht immer alles so,
+wie es sollte.
+
+617
+00:32:16,480 --> 00:32:17,480
+Es gehört dazu.
+
+618
+00:32:18,400 --> 00:32:21,560
+Aber wenn es sich wiederholt, oder wenn es
+wirklich nicht mehr umsetzbar ist,
+
+619
+00:32:21,620 --> 00:32:25,340
+dann geht es eben tatsächlich darum,
+dass man sagt, okay, Kunde, geht so nicht.
+
+620
+00:32:25,740 --> 00:32:26,740
+So funktioniert es nicht.
+
+621
+00:32:27,370 --> 00:32:28,450
+Hier ist die Dokumentation.
+
+622
+00:32:28,630 --> 00:32:29,696
+Wir haben darüber gesprochen.
+
+623
+00:32:29,720 --> 00:32:31,216
+Lass uns jetzt eine Lösung hier finden.
+
+624
+00:32:31,240 --> 00:32:32,240
+Gemeinsam.
+
+625
+00:32:32,530 --> 00:32:34,296
+Und wenn der Kunde das nicht will,
+dann hast du ein Problem.
+
+626
+00:32:34,320 --> 00:32:36,856
+Und dann musst du eben auch hinterfragen,
+kann das noch was werden?
+
+627
+00:32:36,880 --> 00:32:39,940
+Weil du hast eine Vereinbarung getroffen.
+
+628
+00:32:40,350 --> 00:32:41,670
+Und du hast deinen Teil erbracht.
+
+629
+00:33:26,450 --> 00:33:27,450
+Ja.
+
+630
+00:33:28,130 --> 00:33:29,130
+Das ist ein guter Punkt.
+
+631
+00:33:29,390 --> 00:33:30,390
+Ja.
+
+632
+00:33:30,590 --> 00:33:33,070
+Die Frage war, ob man das auch in den
+Vertrag aufnehmen sollte.
+
+633
+00:33:33,640 --> 00:33:37,670
+Dass man, wenn die Kunden ihren Pflichten
+nicht nachkommen, auch nicht mehr selbst
+
+634
+00:33:37,820 --> 00:33:40,368
+verpflichtet ist, gewisse
+Termine zu halten oder
+
+635
+00:33:40,369 --> 00:33:42,711
+gewisse Leistungen in einem
+Zeitrahmen zu erbringen.
+
+636
+00:33:42,950 --> 00:33:43,950
+Ja.
+
+637
+00:33:44,110 --> 00:33:45,186
+Würde ich absolut unterstützen.
+
+638
+00:33:45,210 --> 00:33:46,370
+Das sollte im Vertrag stehen.
+
+639
+00:33:46,450 --> 00:33:47,230
+Das ist nicht immer der Fall.
+
+640
+00:33:47,231 --> 00:33:47,870
+Nicht immer möglich.
+
+641
+00:33:47,950 --> 00:33:49,550
+Nicht immer sinnvoll mit manchen Kunden.
+
+642
+00:33:50,030 --> 00:33:52,590
+Aber grundsätzlich ist es ganz gut,
+eine Liste zu haben.
+
+643
+00:33:53,770 --> 00:33:56,110
+Einfach ein Dokument, das man an jeden
+Vertrag anhängt.
+
+644
+00:33:56,430 --> 00:33:58,270
+Kunde, du bist verpflichtet zu x,
+y und z.
+
+645
+00:33:59,170 --> 00:34:00,446
+Und dann kannst du immer noch nett sein.
+
+646
+00:34:00,470 --> 00:34:03,070
+Wenn es mal einmal schief geht,
+muss man nämlich sofort mit dem
+
+647
+00:34:03,270 --> 00:34:05,910
+Vorschlaghammer auf den Kunden hauen und
+sagen, aber im Vertrag steht.
+
+648
+00:34:05,911 --> 00:34:08,330
+So hast du natürlich auch keine gute
+Kundenbeziehung.
+
+649
+00:34:08,370 --> 00:34:12,950
+Aber wenn es sich dann durchzieht,
+dann ist es gut, wenn es im Vertrag steht.
+
+650
+00:34:13,870 --> 00:34:17,551
+Und selbst wenn nicht, ist es gut, wenn
+du dokumentiert hast, was passiert ist.
+
+651
+00:35:02,260 --> 00:35:03,260
+Ja.
+
+652
+00:35:04,840 --> 00:35:07,380
+Also, die Frage war, ob
+ich Asana im Allgemeinen
+
+653
+00:35:07,381 --> 00:35:09,700
+empfehlen oder auch eine
+Alternative geben kann.
+
+654
+00:35:09,980 --> 00:35:13,600
+Der Punkt ist, Asana ist hier eine Quelle
+für Informationen zum RateBlock
+
+655
+00:35:13,601 --> 00:35:15,680
+-spezifisch, nicht allgemeine Tool
+-Empfehlungen.
+
+656
+00:35:17,055 --> 00:35:20,380
+Im Allgemeinen wäre die Frage,
+wenn du am Anfang startest, und gar nicht
+
+657
+00:35:20,381 --> 00:35:23,940
+weißt, wie gehst du ein Projekt erstmal
+an, welche Tools kannst du gebrauchen,
+
+658
+00:35:25,440 --> 00:35:30,700
+zweiteilig erstens, mach mal, versuch mal
+irgendwie einen Scrum-Master-Kurs oder ein
+
+659
+00:35:30,701 --> 00:35:33,260
+Buch in diese Richtung zu bekommen,
+denn da kriegst du einen guten Überblick
+
+660
+00:35:33,261 --> 00:35:35,048
+darüber, wie du auch mit
+Kunden arbeiten kannst und wie
+
+661
+00:35:35,072 --> 00:35:37,220
+du es gestalten kannst, auch
+wenn du keinen Scrum machst.
+
+662
+00:35:37,630 --> 00:35:38,980
+Also, ich bin Scrum-Masterin.
+
+663
+00:35:39,750 --> 00:35:42,480
+Ich arbeite meistens nicht nach Scrum,
+aber ich kann diese Techniken,
+
+664
+00:35:42,520 --> 00:35:45,720
+diese Arbeit, diesen Umgang mit den Kunden
+im Allgemeinen gut anwenden.
+
+665
+00:35:45,820 --> 00:35:49,380
+Das ist immer ein guter Startpunkt,
+weil es auch ein bisschen mehr low-level
+
+666
+00:35:49,381 --> 00:35:52,420
+ist, als ganz mehrjährige
+Projektmanagement-Ausbildungen.
+
+667
+00:35:53,100 --> 00:35:56,720
+Und dann, bei Tools, ganz ehrlich,
+schau dir zwei oder drei an.
+
+668
+00:35:57,190 --> 00:35:59,280
+Jira, Asana, noch ein weiteres.
+
+669
+00:35:59,890 --> 00:36:02,456
+Guck dir an, bei welchem du ein gutes
+Gefühl hast, dass es für dich passt.
+
+670
+00:36:02,480 --> 00:36:04,960
+Denn am Ende ist es egal.
+
+671
+00:36:05,220 --> 00:36:06,220
+Ganz ehrlich.
+
+672
+00:36:06,280 --> 00:36:09,380
+Welches dieser Tools du verwendest,
+ist am Ende egal, weil es darauf ankommt,
+
+673
+00:36:09,420 --> 00:36:12,380
+wie legst du deine Informationen ab,
+wie strukturierst du deine Informationen
+
+674
+00:36:12,381 --> 00:36:15,080
+da drin und wie arbeitest du mit dem
+Kunden damit.
+
+675
+00:36:15,570 --> 00:36:18,380
+Und ob es dann ein Jira-Ticket ist oder
+ein Asana-Board oder was auch immer.
+
+676
+00:36:18,381 --> 00:36:22,300
+Nimm, womit du gut zurechtkommst und ein
+gutes Gefühl hast.
+
+677
+00:36:26,050 --> 00:36:27,050
+Mehr Fragen?
+
+678
+00:36:38,090 --> 00:36:39,780
+Dann nochmal danke für eure
+Aufmerksamkeit.
+
+679
+00:36:43,480 --> 00:36:45,970
+Ja, es hat wirklich Spaß gemacht.
+
+680
+00:36:46,210 --> 00:36:47,210
+Danke schön.
+
+681
+00:36:47,280 --> 00:36:48,280
+Vielen Dank.
+

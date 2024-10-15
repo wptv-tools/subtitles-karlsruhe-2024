@@ -1,0 +1,2699 @@
+﻿1
+00:00:01,440 --> 00:00:02,520
+So, es geht weiter.
+
+2
+00:00:02,900 --> 00:00:08,220
+Der Lars wird euch jetzt was über
+Gutenberg UI mit JSON Schema Generierung
+
+3
+00:00:08,770 --> 00:00:09,940
+erzählen und viel Spaß.
+
+4
+00:00:10,360 --> 00:00:11,360
+Genau.
+
+5
+00:00:15,250 --> 00:00:16,291
+Doch nicht vorher, Mensch.
+
+6
+00:00:18,920 --> 00:00:20,401
+Vorab vielleicht mal ein paar Fragen.
+
+7
+00:00:21,830 --> 00:00:25,140
+Wer von euch kennt JSON Schema oder hat
+schon mal was gemacht damit?
+
+8
+00:00:27,810 --> 00:00:29,451
+Also nicht keiner, das ist schon mal gut.
+
+9
+00:00:30,990 --> 00:00:36,000
+Wer von euch hat mal eine Settings-Page
+für WordPress-Admin selber gebaut?
+
+10
+00:00:38,010 --> 00:00:39,650
+Auch nicht keiner, das war auch sehr gut.
+
+11
+00:00:40,160 --> 00:00:41,240
+Und jetzt die Spitzenfrage.
+
+12
+00:00:42,090 --> 00:00:43,090
+Wer von euch kann React?
+
+13
+00:00:45,510 --> 00:00:47,190
+Schade, ich habe gehofft, es sind weniger.
+
+14
+00:00:53,470 --> 00:00:55,910
+Okay, wir kommen gleich auf die eben
+gestellten Fragen zurück.
+
+15
+00:01:15,430 --> 00:01:17,350
+Wenn ich fertig bin, ist der Vortrag um
+übrigens.
+
+16
+00:01:21,390 --> 00:01:22,390
+Genau.
+
+17
+00:01:22,800 --> 00:01:30,650
+Also, in WordPress wird JSON Schema auch
+heute, oder eigentlich nicht erst seit
+
+18
+00:01:30,651 --> 00:01:32,095
+heute, schon so eine
+ganze Weile, eigentlich schon
+
+19
+00:01:32,119 --> 00:01:35,250
+ein paar Jahre, eingesetzt
+an verschiedensten Stellen.
+
+20
+00:01:36,620 --> 00:01:39,110
+Und JSON Schema wird dort genutzt,
+um Daten zu modellieren.
+
+21
+00:01:39,500 --> 00:01:42,021
+Mal so ein Beispiel, deswegen habe ich
+eben gefragt wegen der Settings-Page,
+
+22
+00:01:42,045 --> 00:01:46,052
+wenn man eine Settings-Page
+macht, sagt man vorher
+
+23
+00:01:46,053 --> 00:01:48,910
+Register Settings und
+deklariert seine Datenstruktur.
+
+24
+00:01:48,990 --> 00:01:50,770
+Sagt also, hier kommt jetzt ein String
+rein.
+
+25
+00:01:50,771 --> 00:01:53,590
+Oder ein Array von Strings oder dies,
+das, jenes.
+
+26
+00:01:53,690 --> 00:01:57,410
+Also man gibt die Datenstruktur schon mal
+rein, damit WordPress mit dieser
+
+27
+00:01:57,411 --> 00:02:00,450
+Datenstruktur schon Validierung machen
+kann und so weiter und so fort.
+
+28
+00:02:01,320 --> 00:02:03,430
+Und so wie man das bei der
+Settings-Page macht, so wird
+
+29
+00:02:03,454 --> 00:02:05,560
+das an ganz vielen anderen
+Stellen auch schon benutzt.
+
+30
+00:02:06,340 --> 00:02:07,810
+Also nehmen wir mal, wir nehmen die REST
+-API.
+
+31
+00:02:07,811 --> 00:02:12,490
+Wenn ich eine REST-API Endpoint mache,
+muss ich auch einen JSON Schema angeben,
+
+32
+00:02:13,010 --> 00:02:16,970
+damit validiert werden kann, wenn die API
+der Endpoint aufgerufen wird, dass die
+
+33
+00:02:16,971 --> 00:02:20,131
+Daten vorher schon geprüft und validiert
+werden können, ob die denn valide sind.
+
+34
+00:02:20,680 --> 00:02:24,471
+Und so gibt es noch viele, viele andere
+Stellen, wo das heute schon eingesetzt wird.
+
+35
+00:02:25,030 --> 00:02:26,646
+Es gibt noch ein paar Stellen,
+die sind nicht ganz so offensichtlich,
+
+36
+00:02:26,670 --> 00:02:29,770
+wie zum Beispiel, wenn ich einen Gutenberg
+-Block habe.
+
+37
+00:02:29,870 --> 00:02:34,230
+Ein Gutenberg-Block hat eine Blockjson,
+eine Datei, in der drin steht,
+
+38
+00:02:34,390 --> 00:02:38,030
+was der Block kann, was er macht und
+welche Attribute er hat.
+
+39
+00:02:38,240 --> 00:02:41,971
+Also eigentlich das, was man auf der rechten
+Seite in dieser Sidebar eingeben kann.
+
+40
+00:02:42,230 --> 00:02:44,790
+Wenn man sich das mal genauer anguckt,
+was da in der Blockjson drin steht oder
+
+41
+00:02:44,791 --> 00:02:48,070
+was da so definiert ist, also in diesen
+Attributen.
+
+42
+00:02:48,670 --> 00:02:50,951
+Also mit anderen Worten, den Daten,
+die man eingeben kann.
+
+43
+00:02:51,020 --> 00:02:58,560
+Dann stellt man fest, dass das wie so eine
+Art JSON Schema ist, ein bisschen weniger.
+
+44
+00:02:58,820 --> 00:03:02,520
+Man könnte das, was da drin definiert
+wird, auch mit JSON Schema beschreiben.
+
+45
+00:03:02,540 --> 00:03:04,716
+Man hat sich aber damals dafür
+entschieden, vielleicht hat man es nicht
+
+46
+00:03:04,740 --> 00:03:06,986
+gekannt oder vielleicht war man sich
+unsicher, das zu nehmen.
+
+47
+00:03:07,010 --> 00:03:09,336
+Man hat gesagt, okay, wir machen hier
+Attribute mit einem eigenen Ding.
+
+48
+00:03:09,360 --> 00:03:13,341
+Aber eigentlich ist das, was da drin steht,
+auch nichts anderes wie ein JSON Schema.
+
+49
+00:03:16,110 --> 00:03:18,980
+Jetzt ist es so, JSON Schema definiert
+also eine Struktur.
+
+50
+00:03:19,500 --> 00:03:20,700
+Sagen wir mal, was nehmen wir mal?
+
+51
+00:03:20,701 --> 00:03:21,140
+Den Klassiker.
+
+52
+00:03:21,380 --> 00:03:23,900
+Wir haben eine Adresse, also einen Namen,
+eine E-Mail-Adresse.
+
+53
+00:03:25,620 --> 00:03:27,083
+Wegen mir noch ein
+Geschlecht, ach nee, das soll
+
+54
+00:03:27,084 --> 00:03:28,741
+vielleicht optional sein,
+geht keinem was an.
+
+55
+00:03:28,840 --> 00:03:31,340
+Alles solche Sachen kann man in so einer
+Struktur angeben.
+
+56
+00:03:32,070 --> 00:03:33,471
+Und da liegt es ja eigentlich nahe.
+
+57
+00:03:34,880 --> 00:03:37,558
+Also man kann jetzt
+klassischerweise hergehen und die
+
+58
+00:03:37,559 --> 00:03:39,801
+Oberfläche dazu programmieren,
+mit React zum Beispiel.
+
+59
+00:03:40,220 --> 00:03:42,800
+Oder wenn es eine Settings-Page ist,
+eben mit PHP.
+
+60
+00:03:43,840 --> 00:03:45,601
+Aber eigentlich muss man das überhaupt
+nicht.
+
+61
+00:03:46,600 --> 00:03:48,567
+Weil in der Struktur
+so gut wie alles drin
+
+62
+00:03:48,568 --> 00:03:51,181
+steht, was man braucht,
+um die Oberfläche...
+
+63
+00:03:53,180 --> 00:03:54,180
+zu generieren.
+
+64
+00:03:54,530 --> 00:03:57,043
+Also mit anderen Worten,
+um ohne React -Code
+
+65
+00:03:57,044 --> 00:04:00,201
+zu schreiben, die
+Oberfläche dafür zu kriegen.
+
+66
+00:04:01,130 --> 00:04:05,660
+Ich bringe jetzt mal den Eyecatcher dafür,
+also Settings-Page.
+
+67
+00:04:06,160 --> 00:04:10,340
+Settings-Page heißt, ich registriere,
+wie meine Daten aussehen.
+
+68
+00:04:10,580 --> 00:04:12,021
+Also ich übergebe einen JSON Schema.
+
+69
+00:04:13,690 --> 00:04:14,972
+Und danach muss ich
+mich mit PHP hinsetzen und
+
+70
+00:04:14,973 --> 00:04:17,460
+muss die Oberfläche
+dazu zusammen stricken.
+
+71
+00:04:17,560 --> 00:04:20,760
+Also noch einen Input, Type-Text machen,
+dieses, jenes und so weiter und so fort.
+
+72
+00:04:25,780 --> 00:04:27,300
+Dazu nehmen wir uns mal...
+
+73
+00:04:30,080 --> 00:04:32,140
+Mensch, ist das klein... äh, also groß
+meine ich.
+
+74
+00:04:36,570 --> 00:04:44,470
+Dazu nehmen wir uns mal die Settings-Page
+von WooCommerce zum Beispiel.
+
+75
+00:04:46,740 --> 00:04:47,861
+Die haben wir hier irgendwo.
+
+76
+00:04:52,730 --> 00:04:53,730
+Ja, ich habe mal Zeit.
+
+77
+00:04:56,350 --> 00:04:57,350
+Hier.
+
+78
+00:04:59,730 --> 00:05:00,190
+So.
+
+79
+00:05:00,191 --> 00:05:02,992
+So, das ist jetzt so eine klassische,
+der eine oder andere kennt die...
+
+80
+00:05:04,210 --> 00:05:07,023
+Seite, die im Augenblick
+noch, also wie Settings-Pages
+
+81
+00:05:07,024 --> 00:05:08,910
+heutzutage aussehen,
+mit HTML gemacht ist.
+
+82
+00:05:10,530 --> 00:05:12,521
+Wo ich irgendwelche Tabs
+habe, wo ich irgendwelche
+
+83
+00:05:12,522 --> 00:05:14,451
+Eingabefelder habe
+und so weiter und so fort.
+
+84
+00:05:15,210 --> 00:05:18,450
+Und die ganzen Settings, die wir hier
+sehen, sind einmal hinprogrammiert.
+
+85
+00:05:19,540 --> 00:05:23,690
+Und zum anderen auch über Register Settings
+als Struktur schon mal WordPress gegeben.
+
+86
+00:05:23,910 --> 00:05:26,910
+Das heißt, WordPress weiß vorher auch
+schon, es gibt hier eine Adressline 1,
+
+87
+00:05:27,165 --> 00:05:30,811
+Adressline 2, City... und zwar
+das Wort, das weiß das alles schon.
+
+88
+00:05:31,400 --> 00:05:33,250
+Jetzt kann man hergehen und kann sagen...
+
+89
+00:05:34,490 --> 00:05:35,690
+Ich demonstriere das mal kurz.
+
+90
+00:05:39,580 --> 00:05:42,030
+Wir haben jetzt hier, also ich habe jetzt
+hier nicht alle Tabs nachprogrammiert, ne?
+
+91
+00:05:42,031 --> 00:05:43,831
+Ich habe jetzt nur zwei Tabs
+nachprogrammiert.
+
+92
+00:05:43,970 --> 00:05:45,291
+Können ja nochmal runterscrollen.
+
+93
+00:05:47,230 --> 00:05:48,406
+Halt, ich habe ja nicht programmiert,
+ne?
+
+94
+00:05:48,430 --> 00:05:49,470
+Ich habe nur konfiguriert.
+
+95
+00:05:50,300 --> 00:05:53,086
+Wir können ja jetzt sagen so, okay,
+wir haben ja jetzt schon die Daten,
+
+96
+00:05:53,110 --> 00:05:56,530
+die für das WordPress, äh, für das
+WooCommerce-Plugin deklariert sind.
+
+97
+00:05:57,490 --> 00:06:00,210
+Jetzt gucken wir mal, ob wir die nicht
+nehmen können.
+
+98
+00:06:00,211 --> 00:06:02,670
+Und daraus ableiten können, wie die
+Oberfläche aussieht.
+
+99
+00:06:03,330 --> 00:06:04,411
+Und das geht auch ganz gut.
+
+100
+00:06:06,230 --> 00:06:08,303
+Also wenn wir jetzt das andere
+daneben legen könnten, dann
+
+101
+00:06:08,327 --> 00:06:10,330
+würde man sehen, dass die
+Seite exakt genauso aussieht.
+
+102
+00:06:10,350 --> 00:06:12,070
+Dass ja auch der gleiche Quatsch drin
+steht.
+
+103
+00:06:13,370 --> 00:06:14,490
+Dass das alles gleich ist.
+
+104
+00:06:14,590 --> 00:06:18,910
+Der feine Unterschied ist, dass das,
+was wir hier sehen, jetzt nicht nur so ein
+
+105
+00:06:18,911 --> 00:06:22,230
+bisschen anders aussieht, sondern alles
+das, was wir hier sehen, ist Gutenberg-UI.
+
+106
+00:06:23,620 --> 00:06:25,806
+Also das ist, als ob ihr das mit React
+programmiert habt.
+
+107
+00:06:25,830 --> 00:06:27,990
+Nur, dass ihr es nicht mit React
+programmieren musstet.
+
+108
+00:06:28,500 --> 00:06:33,690
+Weil dafür gibt es den guten alten JSON
+-Schema-Field-Form-Renderer.
+
+109
+00:06:34,530 --> 00:06:43,210
+Das ist also ein Stück React-Code, den
+JSON-Schema nimmt und das in React rendert.
+
+110
+00:06:43,510 --> 00:06:46,271
+Der ist entstanden beim CloudFest
+-Hackathon, dieses Jahr im Frühjahr.
+
+111
+00:06:47,360 --> 00:06:51,970
+Und der wurde in den letzten drei Monaten
+etwas schiefmütterlich, aber davor sehr
+
+112
+00:06:51,971 --> 00:06:54,890
+intensiv, und es geht auch weiter damit,
+entwickelt.
+
+113
+00:06:55,095 --> 00:06:57,815
+Und der wird an ganz vielen Stellen,
+die wir uns gleich mal angucken,
+
+114
+00:06:58,010 --> 00:07:01,890
+kann man den benutzen, zum Beispiel,
+um zu sagen, nee, ich habe jetzt keinen
+
+115
+00:07:01,891 --> 00:07:03,586
+Bock mehr, irgendwelche Settings-Pages zu
+programmieren.
+
+116
+00:07:03,610 --> 00:07:07,190
+Ich habe doch hier schon mein Schema,
+mein Settings-Page-Schema zum Beispiel,
+
+117
+00:07:08,140 --> 00:07:12,690
+meine WordPress-Settings schon angegeben.
+
+118
+00:07:13,250 --> 00:07:14,846
+Das rendern, das kann doch bitte jemand
+anders machen.
+
+119
+00:07:14,870 --> 00:07:19,251
+Jetzt gucken wir uns mal an, wie sich
+sowas äußert oder wie das dann so aussieht.
+
+120
+00:07:20,570 --> 00:07:21,570
+Gott, ist das groß.
+
+121
+00:07:31,300 --> 00:07:32,300
+Ach ja.
+
+122
+00:07:34,320 --> 00:07:35,320
+Ich habe es gleich.
+
+123
+00:07:46,890 --> 00:07:54,190
+Hier haben wir jetzt mal das JSON-Schema
+von der WooCommerce-Seite.
+
+124
+00:07:57,500 --> 00:08:00,630
+Hier steht also alles das drin,
+was wir eben auch gesehen haben.
+
+125
+00:08:00,790 --> 00:08:07,770
+Hier, welche Länder gibt es, welche... na,
+was soll da stehen?
+
+126
+00:08:08,390 --> 00:08:10,290
+General soll das Store-Address stehen.
+
+127
+00:08:10,291 --> 00:08:13,290
+Wenn wir jetzt mal hier reingucken, steht
+da ja auch tatsächlich Store -Address.
+
+128
+00:08:13,370 --> 00:08:15,610
+Und wenn wir das jetzt hier ändern,
+machen wir jetzt mal.
+
+129
+00:08:26,400 --> 00:08:27,440
+Wir speichern das mal.
+
+130
+00:08:29,200 --> 00:08:33,360
+Mit etwas Glück sehen wir jetzt auch
+Geschäftsadresse da stehen.
+
+131
+00:08:33,500 --> 00:08:35,460
+Das heißt also, es ist eigentlich relativ
+einfach.
+
+132
+00:08:36,960 --> 00:08:39,080
+Richtig schreiben hätte ich es können
+noch, aber naja.
+
+133
+00:08:39,900 --> 00:08:43,020
+Das heißt, es ist relativ einfach,
+sowas in JSON hinzuschreiben.
+
+134
+00:08:43,060 --> 00:08:47,201
+Und man hat es ja eh schon getan, wenn
+man Settings-Pages für seine Plugins macht.
+
+135
+00:08:48,330 --> 00:08:53,180
+Das heißt, was man mit diesem Render
+erreichen kann, ist zum Beispiel im Falle
+
+136
+00:08:53,181 --> 00:08:59,900
+von Settings-Pages, dass man nur noch sein
+Schema schreibt, aber nicht mehr das
+
+137
+00:08:59,901 --> 00:09:04,721
+Rendering der Settings-Page erledigen muss,
+weil das nämlich automatisch passiert.
+
+138
+00:09:05,320 --> 00:09:07,880
+Aufgrund der Daten, die man sowieso schon
+vorher drin stehen hat.
+
+139
+00:09:11,180 --> 00:09:13,440
+Und das Ganze wird in Gutenberg-UI
+generiert.
+
+140
+00:09:13,870 --> 00:09:16,040
+Und jetzt denken wir mal dran,
+wo WordPress gerade ist.
+
+141
+00:09:16,640 --> 00:09:20,560
+Also eine Sache, die bei WordPress oder
+bei WordPress ist Gutenberg total toll.
+
+142
+00:09:20,800 --> 00:09:22,120
+Site Editor sieht total toll aus.
+
+143
+00:09:24,450 --> 00:09:26,490
+Und WPAdmin-Dashboard sieht jetzt nicht so
+toll aus.
+
+144
+00:09:26,700 --> 00:09:28,656
+Das hat ja auch Automatik
+erkannt, das hat auch
+
+145
+00:09:28,657 --> 00:09:30,560
+WordPress-Org erkannt und
+man macht ja auch was daran.
+
+146
+00:09:30,740 --> 00:09:32,540
+Das Ganze wird ja gerade komplett neu
+gemacht.
+
+147
+00:09:33,610 --> 00:09:36,566
+Damit es total schick aussieht und soll
+auch alles mit Gutenberg gemacht werden,
+
+148
+00:09:36,590 --> 00:09:37,865
+beziehungsweise mit
+React-Controls, damit es
+
+149
+00:09:37,866 --> 00:09:40,121
+auch stylebar ist und
+so weiter und so fort.
+
+150
+00:09:40,280 --> 00:09:42,866
+Das Problem daran ist, man muss das immer
+noch alles mit React machen.
+
+151
+00:09:42,890 --> 00:09:44,490
+Ich will euch mal zeigen, was das heißt.
+
+152
+00:09:48,430 --> 00:09:56,180
+Wenn ihr jetzt irgendwie, sagen wir mal,
+in 2, 3, 4, 5 Jahren mal eine Settings
+
+153
+00:09:56,330 --> 00:10:03,120
+-Page machen wollt, dann könnt ihr,
+warum ist das eigentlich so herrsinig,
+
+154
+00:10:06,350 --> 00:10:10,950
+dann schreibt ihr in 3, 4, 5 Jahren, also
+lernt ihr erstmal alle React, das ist klar.
+
+155
+00:10:12,910 --> 00:10:15,070
+Und dann schreibt ihr hier solche tollen
+Sachen dahin.
+
+156
+00:10:15,930 --> 00:10:17,350
+Also das ist schon eine tolle API.
+
+157
+00:10:17,550 --> 00:10:20,616
+Das ist jetzt zum Beispiel DataFuse,
+die sind jetzt gerade relativ neu drinnen.
+
+158
+00:10:20,640 --> 00:10:26,550
+Das ist eine total tolle API, mit der kann
+man, wie mit Gutenberg auch, kann man die
+
+159
+00:10:26,551 --> 00:10:29,231
+tollsten Sachen programmieren und kann die
+auch schön programmieren.
+
+160
+00:10:30,520 --> 00:10:31,966
+Aber man muss extrem viel mehr wissen.
+
+161
+00:10:31,990 --> 00:10:34,751
+Es reicht halt nicht mehr PHP zu wissen
+und man muss eine ganze Menge,
+
+162
+00:10:35,110 --> 00:10:37,770
+also das hier, was wir hier sehen zum
+Beispiel, man muss eine ganze Menge
+
+163
+00:10:37,771 --> 00:10:41,010
+programmieren oder wie ich sage,
+man schreibt sich die Finger bunt.
+
+164
+00:10:42,670 --> 00:10:43,856
+Das muss man aber eigentlich gar nicht.
+
+165
+00:10:43,880 --> 00:10:46,200
+Und das zeige ich euch jetzt mal an einem
+kleinen Beispiel.
+
+166
+00:10:46,510 --> 00:10:47,510
+Wo stehe ich zeitlich?
+
+167
+00:10:57,920 --> 00:10:59,720
+Es gibt also... mein Gott ist das groß.
+
+168
+00:11:03,200 --> 00:11:04,200
+Guter Hinweis.
+
+169
+00:11:05,530 --> 00:11:06,541
+Ja, aber ich komme
+gerade nicht ran, ich habe
+
+170
+00:11:06,542 --> 00:11:08,341
+es ausgeschaltet, weil
+das scrollbar hier unten.
+
+171
+00:11:09,160 --> 00:11:10,160
+Naja.
+
+172
+00:11:14,785 --> 00:11:16,825
+Ach, Moment mal, ich bin Fifikus,
+ich mache es hier.
+
+173
+00:11:21,470 --> 00:11:23,840
+Und jetzt mache ich... nicht schlecht.
+
+174
+00:11:26,780 --> 00:11:27,060
+Genau.
+
+175
+00:11:27,520 --> 00:11:29,880
+Jetzt gucken wir uns mal ein einfaches
+Beispiel an, damit ihr euch mal eher so
+
+176
+00:11:29,881 --> 00:11:32,320
+vorstellen könnt, ja, hm hm hm,
+wie gehen das jetzt?
+
+177
+00:11:32,910 --> 00:11:35,280
+Wir haben jetzt hier die eben erwähnte,
+so eine Art Adresse.
+
+178
+00:11:35,430 --> 00:11:40,100
+Wir haben gesagt, pass mal auf,
+hier gibt es jetzt so, keine richtige
+
+179
+00:11:40,101 --> 00:11:43,400
+Adresse, aber fast, wir haben jetzt hier
+so eine Registration-Form gemacht mit
+
+180
+00:11:43,401 --> 00:11:45,916
+einem Text und haben jetzt gesagt,
+so, was brauchen wir denn jetzt?
+
+181
+00:11:45,940 --> 00:11:47,016
+Was wollen wir denn jetzt alles da drin
+haben?
+
+182
+00:11:47,040 --> 00:11:48,760
+Naja, wir haben jetzt hier eine
+Eigenschaft.
+
+183
+00:11:48,960 --> 00:11:51,020
+First Name, das soll ein Text sein.
+
+184
+00:11:51,200 --> 00:11:52,200
+Was soll da da stehen?
+
+185
+00:11:52,240 --> 00:11:53,280
+Was soll das Default sein?
+
+186
+00:11:54,310 --> 00:11:55,676
+Ach ja, und es soll ein String sein,
+natürlich.
+
+187
+00:11:55,700 --> 00:11:57,580
+Wir haben Last Name, soll auch so ein Ding
+sein.
+
+188
+00:11:57,880 --> 00:11:58,880
+Wir haben Hobbys.
+
+189
+00:12:04,560 --> 00:12:06,716
+Hier stehen jetzt schon irgendwelche
+Beispiele, die man eingeben soll.
+
+190
+00:12:06,740 --> 00:12:08,400
+Das ist aber ein Freitext-Feld.
+
+191
+00:12:08,740 --> 00:12:11,136
+Wir haben ein Alter, das ist natürlich
+eine Zahl, das ist klar.
+
+192
+00:12:11,160 --> 00:12:12,216
+Kann man noch weiter einschränken.
+
+193
+00:12:12,240 --> 00:12:13,100
+Es soll noch positiv sein.
+
+194
+00:12:13,200 --> 00:12:14,460
+Minus zwei Alter geht ja nicht.
+
+195
+00:12:14,580 --> 00:12:16,740
+Habe ich jetzt mal der Einfachheit halber
+rausgelassen.
+
+196
+00:12:18,100 --> 00:12:22,340
+Wir haben ein Text-Feld
+für... für das Bio.
+
+197
+00:12:22,840 --> 00:12:24,856
+Wir haben ein Passwort-Feld aus
+irgendwelchen Gründen.
+
+198
+00:12:24,880 --> 00:12:26,840
+Ach so, weil es eine Registration-Form
+ist, genau.
+
+199
+00:12:27,290 --> 00:12:29,588
+Und dann haben wir hier noch
+aus irgendwelchen Gründen,
+
+200
+00:12:29,663 --> 00:12:32,560
+haben wir jetzt hier noch
+so einen Boolean-Wert.
+
+201
+00:12:33,050 --> 00:12:36,360
+Er muss jetzt mal das License-Agreement
+mit reinmachen.
+
+202
+00:12:36,500 --> 00:12:38,980
+Und weil wir das alles so hingeschrieben
+haben, jetzt mal hier an dem Beispiel hier
+
+203
+00:12:38,981 --> 00:12:42,700
+unten, weil wir gesagt haben, es gibt hier
+eine Eigenschaft, agree terms,
+
+204
+00:12:43,390 --> 00:12:44,816
+und die ist vom Boolean macht er uns.
+
+205
+00:12:44,840 --> 00:12:45,840
+Wer hätte das gedacht?
+
+206
+00:12:46,100 --> 00:12:47,900
+Natürlich das entsprechende Control dafür
+hin.
+
+207
+00:12:49,500 --> 00:12:49,820
+So.
+
+208
+00:12:49,821 --> 00:12:52,421
+Jetzt kann man sich fragen, warum müssen
+wir jetzt keine Checkbox?
+
+209
+00:12:53,700 --> 00:12:58,180
+Weil der Renderer sagt, der Renderer ist
+das Ding, dieses Gutenberg-Renderer-Field
+
+210
+00:12:58,181 --> 00:13:03,801
+-Ding, weil der Renderer eben sagt, ist ein
+Boolean, Boolean rendere ich halt immer so.
+
+211
+00:13:04,430 --> 00:13:07,100
+Ist auch nur die halbe Wahrheit,
+weil, ich will auf ein nächstes Ding
+
+212
+00:13:07,101 --> 00:13:12,140
+nämlich zu sprechen kommen, alles das,
+was man in einer solchen Struktur
+
+213
+00:13:12,141 --> 00:13:14,654
+definiert hat, für das
+gibt es erstmal immer eine
+
+214
+00:13:14,694 --> 00:13:17,080
+Antwort von einem
+Renderer, wie der die rendert.
+
+215
+00:13:17,380 --> 00:13:22,180
+Und das Default-Verhalten für ein Boolean
+ist natürlich eine Checkbox.
+
+216
+00:13:22,630 --> 00:13:27,460
+Ich habe aber gesagt, das ist ein weiteres
+sozusagen Feature von diesem Ding,
+
+217
+00:13:28,220 --> 00:13:31,420
+man will manchmal so Customization haben,
+also so ein bisschen so, man will zum
+
+218
+00:13:31,421 --> 00:13:35,800
+Beispiel sagen, agree terms ist eine
+Checkbox, aber da habe ich eigentlich
+
+219
+00:13:35,801 --> 00:13:41,240
+keinen Bock drauf, ich will jetzt mal so
+ein, wie heißt das Ding, einen Toggle haben.
+
+220
+00:13:41,905 --> 00:13:44,276
+Und wenn man das nicht will, das ist
+nämlich in Wahrheit das Default,
+
+221
+00:13:44,300 --> 00:13:46,500
+dann wird mir hier tatsächlich eine
+Checkbox hingemacht.
+
+222
+00:13:49,340 --> 00:13:51,720
+Und wenn man jetzt hier unten drunter
+guckt, in dem Playground kann man sich das
+
+223
+00:13:51,721 --> 00:13:55,240
+hier anzeigen lassen, was dann unten
+rauskommt, kriegt man das ganze Formular,
+
+224
+00:13:55,730 --> 00:13:57,467
+kriegt die Validierung und
+kriegt auch die Daten, die
+
+225
+00:13:57,468 --> 00:14:00,620
+diesem Schema, was man hier
+eingegeben hat, entsprechen.
+
+226
+00:14:01,800 --> 00:14:05,840
+So und jetzt kann ich hier genauso gut,
+ich mache es mal wieder rein, kann man
+
+227
+00:14:05,841 --> 00:14:10,980
+hier sagen, nee, mach mir mal ein Toggle
+-Widget raus, oder mach mir, man kann ja
+
+228
+00:14:10,981 --> 00:14:13,500
+auch ein ganz eigenes Widget machen,
+oder mach mir ein ganz eigenes Widget raus.
+
+229
+00:14:14,220 --> 00:14:15,380
+Ein gutes Beispiel dafür ist,
+
+230
+00:14:19,600 --> 00:14:21,800
+verdammt, mit dieser Ansicht komme ich so
+schlecht klar.
+
+231
+00:14:24,750 --> 00:14:28,280
+Ein gutes Beispiel dafür ist, was ihr alle
+kennt irgendwie,
+
+232
+00:14:31,540 --> 00:14:36,680
+wenn ich hier in der Page drinnen bin,
+haben wir hier drüben, also ein Block hat
+
+233
+00:14:36,681 --> 00:14:39,201
+ja auch Attribute, Attribute sind nichts
+anderes als ein Schema.
+
+234
+00:14:40,410 --> 00:14:43,320
+Und dann kann ich jetzt hier sagen,
+dann
+
+235
+00:14:48,440 --> 00:14:50,061
+haben wir jetzt zum
+Beispiel hier eine Sites,
+
+236
+00:14:50,085 --> 00:14:52,460
+und da haben wir ja
+hier nicht, was ist Sites?
+
+237
+00:14:53,310 --> 00:14:56,797
+Sites ist eigentlich in Schema
+ausgedrückt ein String, und
+
+238
+00:14:56,798 --> 00:15:02,120
+der String darf nur die Werte
+S, M, L, XL, XXL annehmen.
+
+239
+00:15:02,540 --> 00:15:05,116
+Das heißt eigentlich, wenn das hier mit
+dem Schema-Renderer gemacht wäre,
+
+240
+00:15:05,140 --> 00:15:08,126
+würde man das auch anzeigen, es würde aber
+nicht so angezeigt werden, über dieses
+
+241
+00:15:08,150 --> 00:15:10,564
+Spezialkontroll, sondern
+es würde eine Dropdown-Box
+
+242
+00:15:10,604 --> 00:15:13,020
+gerendert werden, mit diesen
+vier möglichen Werten drinnen.
+
+243
+00:15:13,330 --> 00:15:15,770
+Und voreingestellt wäre das Default,
+wenn man denn eins hätte.
+
+244
+00:15:16,850 --> 00:15:19,096
+Man kann aber, und das ist das,
+was man sieht in diesem UI-Widget,
+
+245
+00:15:19,120 --> 00:15:22,520
+wo wir halt dieses Toggle drinnen hatten,
+darüber kann man sagen, nee, machste
+
+246
+00:15:22,521 --> 00:15:25,640
+nicht, hab keinen Bock auf dieses Select
+-Ding, sondern ich möchte so ein Ding
+
+247
+00:15:25,641 --> 00:15:30,180
+angezeigt werden, dann kann man das sagen,
+UI-Widget soll sein, das fragt mich jetzt
+
+248
+00:15:30,181 --> 00:15:32,564
+nicht, wie das Control
+heißt, aber dieses Dimension
+
+249
+00:15:32,565 --> 00:15:34,901
+oder Sites-Control, wie auch
+immer, das gibt's ja schon.
+
+250
+00:15:35,260 --> 00:15:39,360
+Das heißt, man kann also auch exakt diese
+Oberfläche, wenn man das haben möchte,
+
+251
+00:15:39,615 --> 00:15:40,615
+auch machen.
+
+252
+00:15:40,970 --> 00:15:44,160
+Genauso wie ja hier oben so ein Background
+-Ding ist, eigentlich ist das nur ein
+
+253
+00:15:44,310 --> 00:15:46,960
+String -Feld in Wahrheit, tief in sich
+drin.
+
+254
+00:15:48,730 --> 00:15:54,340
+Dieses hier, wo dahinter der Color-Palette
+ist, aber in Wahrheit ist es nur ein
+
+255
+00:15:54,490 --> 00:15:57,800
+String -Feld, wo in den Hex- oder CSS
+-Farbwert drin gespeichert wird.
+
+256
+00:15:57,860 --> 00:15:58,980
+Das andere ist es gar nicht.
+
+257
+00:16:02,050 --> 00:16:03,636
+Alles das kann man mit diesem Renderer
+auch machen.
+
+258
+00:16:03,660 --> 00:16:06,460
+Und das Schöne ist, jetzt sagen wir mal,
+jetzt stellen wir uns mal vor,
+
+259
+00:16:06,660 --> 00:16:10,180
+ach, es sind jetzt schon irgendwie 10
+Jahre rum, Gutenberg entwickelt sich
+
+260
+00:16:10,280 --> 00:16:14,300
+weiter, die Stile, die verwendet werden
+sollen, sollen sich auch weiterverwenden.
+
+261
+00:16:14,930 --> 00:16:18,060
+Wenn man mit so einer Abstraktionsebene,
+die noch dazu euch die Arbeit leichter
+
+262
+00:16:18,285 --> 00:16:20,960
+macht, weil ihr nämlich kein React dafür
+braucht, sondern weil ihr seid einfach so
+
+263
+00:16:20,961 --> 00:16:23,501
+gerendert wird, weil ihr nur JSON-Streamer
+benutzt habt, dann ist das einfach so.
+
+264
+00:16:23,525 --> 00:16:29,060
+Dann nimmt man einfach den Renderer in die
+Hand, der ja auch nur JavaScript ist.
+
+265
+00:16:30,930 --> 00:16:33,700
+Und dann sagt man halt, okay, wir
+schreiben jetzt mal zum Beispiel das
+
+266
+00:16:33,950 --> 00:16:37,860
+Toggle -Widget um, machen das ganz anders
+und dann sieht das überall, in allen
+
+267
+00:16:37,861 --> 00:16:39,954
+Blöcken überall, sieht
+das dann so aus, wie
+
+268
+00:16:39,955 --> 00:16:43,321
+es aussehen soll, nämlich
+in dem neuen Style.
+
+269
+00:16:43,600 --> 00:16:45,157
+Weil eben nichts mehr
+mit React programmiert
+
+270
+00:16:45,181 --> 00:16:47,160
+ist, sondern weil das
+deklarativ beschrieben ist.
+
+271
+00:16:48,400 --> 00:16:49,520
+Ich will euch gleich mal
+zeigen, wie das ungefähr
+
+272
+00:16:49,521 --> 00:16:51,301
+aussieht, damit ihr
+eine Vorstellung habt.
+
+273
+00:16:52,110 --> 00:16:53,870
+Also wie viel Aufwand das ist oder nicht
+ist.
+
+274
+00:16:56,740 --> 00:16:57,740
+Hier bin ich falsch.
+
+275
+00:17:01,150 --> 00:17:02,630
+Habe ich noch drei oder zwei Minuten?
+
+276
+00:17:04,520 --> 00:17:05,520
+Geht noch, okay.
+
+277
+00:17:14,510 --> 00:17:18,660
+Hier oben drinnen, also ich grabe jetzt
+mal hier in dem Quelltext von diesen
+
+278
+00:17:18,661 --> 00:17:21,760
+Dingen rum, ohne euch damit überfrachten
+zu wollen.
+
+279
+00:17:22,460 --> 00:17:24,340
+Aber das möchte ich euch schon gerne mal
+zeigen.
+
+280
+00:17:25,590 --> 00:17:27,120
+Sagen wir mal, wir gucken uns jetzt mal
+an.
+
+281
+00:17:27,121 --> 00:17:30,620
+Das Toggle-Widget, also damit da so ein
+Toggle kommt und nicht eine Checkbox,
+
+282
+00:17:30,740 --> 00:17:31,980
+was muss ich denn dafür machen?
+
+283
+00:17:36,710 --> 00:17:37,950
+Es ist nur noch ein Klick away.
+
+284
+00:17:40,320 --> 00:17:41,320
+Hier ist es.
+
+285
+00:17:45,650 --> 00:17:52,140
+Also auch wenn ihr natürlich kein React
+schreiben sollt, ob ihr es glaubt oder
+
+286
+00:17:52,141 --> 00:17:55,820
+nicht, Zeile 10 fängt es an, Zeile 28 hört
+es auf.
+
+287
+00:17:56,065 --> 00:17:57,840
+Das ist das Toggle-Widget.
+
+288
+00:17:58,560 --> 00:17:59,636
+Mehr muss man da gar nicht machen.
+
+289
+00:17:59,660 --> 00:18:03,540
+Das hier ist das echte Gutenberg-Control,
+Toggle-Control und der Rest drumherum,
+
+290
+00:18:03,600 --> 00:18:08,080
+dieses ganze Gegröße, was hier steht,
+das ist nur dafür da, um die Anwendung von
+
+291
+00:18:08,081 --> 00:18:10,520
+dem JSON-Schema-Renderer auf das Toggle
+-Widget zu machen.
+
+292
+00:18:10,620 --> 00:18:13,560
+Das heißt, mit anderen Worten,
+ich hoffe, der eine oder andere stimmt mir
+
+293
+00:18:13,561 --> 00:18:16,440
+an der Stelle zu, so richtig viel Aufwand
+ist das nicht.
+
+294
+00:18:16,820 --> 00:18:21,700
+Man kann also relativ einfach Dinge
+einbinden, Gutenberg-Controls,
+
+295
+00:18:21,701 --> 00:18:25,260
+zum Beispiel eben dieses Sides-Control, was
+wir vorhin hatten, oder, oder, oder, oder.
+
+296
+00:18:26,130 --> 00:18:29,460
+Genauso wie, das hatten wir vorhin hier in
+diesem anderen Beispiel, in der Settings
+
+297
+00:18:29,635 --> 00:18:33,028
+-Page, genauso wie ich
+gesagt habe, achso, da komme
+
+298
+00:18:33,128 --> 00:18:35,440
+ich jetzt wieder nicht
+drauf in dieser Ansicht,
+
+299
+00:18:42,060 --> 00:18:43,060
+hier, na, ja doch, hier.
+
+300
+00:18:43,340 --> 00:18:46,146
+Na, jetzt haben wir hier das Tab-Control,
+kann man sich auch fragen, Tab-Control,
+
+301
+00:18:46,170 --> 00:18:48,490
+keine Ahnung, kann ich ja gar nicht in
+JSON-Schema angeben.
+
+302
+00:18:49,020 --> 00:18:50,180
+Muss man aber gar nicht.
+
+303
+00:18:50,745 --> 00:18:53,780
+Aber man kann über diese Customization,
+die man eingeben kann, sagen, hm,
+
+304
+00:18:54,080 --> 00:18:56,960
+pass mal auf, hier in der Struktur,
+ich habe hier zwei Unterobjekte,
+
+305
+00:18:57,020 --> 00:18:59,740
+das eine sind die General-Eigenschaften,
+das andere sind die Product-spezifischen
+
+306
+00:18:59,741 --> 00:19:03,180
+Eigenschaften, stell die Dinger mal in dem
+Tab da.
+
+307
+00:19:03,300 --> 00:19:06,340
+Und da schreibt man auch wieder nur hin,
+UI-Widget, eben nicht das DV-Widget,
+
+308
+00:19:06,890 --> 00:19:12,080
+das TV-Widget hieße alles untereinander
+machen oder in Akkordeon oder in was auch
+
+309
+00:19:12,081 --> 00:19:14,601
+immer, sondern ich sage, nö, hm,
+stellen wir das mal als Tab da.
+
+310
+00:19:14,940 --> 00:19:17,680
+So, und dann schreibe ich das halt rein in
+mein UI-File.
+
+311
+00:19:17,860 --> 00:19:19,340
+Das zeige ich euch auch nochmal kurz.
+
+312
+00:19:25,070 --> 00:19:28,570
+So, und da steht halt hier drin, nö, komm,
+machen wir mal ein Tab-Widget da oben hin.
+
+313
+00:19:29,120 --> 00:19:31,750
+Und weil das da steht, ist es halt in Tabs
+organisiert.
+
+314
+00:19:32,080 --> 00:19:33,230
+Also es ist relativ einfach.
+
+315
+00:19:33,620 --> 00:19:37,850
+Oder, ich hoffe, ihr stimmt mir an der
+Stelle auch zu, dass...
+
+316
+00:19:38,800 --> 00:19:41,560
+ist doch wesentlich einfacher,
+als wenn ihr React programmieren müsst.
+
+317
+00:19:42,030 --> 00:19:43,030
+Viel viel einfacher.
+
+318
+00:19:45,170 --> 00:19:49,070
+Und, wenn sich irgendwann mal die Struktur
+dessen, wie Oberflächen in WordPress oder
+
+319
+00:19:49,071 --> 00:19:52,430
+Gutenberg aussehen sollen, ändert,
+und das ist ja einfach gesetzt,
+
+320
+00:19:52,780 --> 00:19:55,750
+dass sich Dinge ändern über die Zeit,
+dann muss man, wenn die Oberflächen mit
+
+321
+00:19:55,751 --> 00:20:02,530
+Jason Schema geschrieben sind,
+falsch rum, äh, muss man lediglich den
+
+322
+00:20:02,531 --> 00:20:05,491
+Renderer, also ein kleines Stückchen Code
+anpassen und alles, alles, alles,
+
+323
+00:20:07,020 --> 00:20:08,730
+sieht aus, wie das neue Gutenberg.
+
+324
+00:20:09,090 --> 00:20:10,418
+Egal, ob sich die
+Strukturen oder irgendwelche
+
+325
+00:20:10,419 --> 00:20:12,491
+anderen Sachen unten
+drunter geändert haben.
+
+326
+00:20:13,220 --> 00:20:14,484
+So, jetzt zeig ich euch
+nochmal so einen kleinen
+
+327
+00:20:14,485 --> 00:20:16,751
+Bummer, der so ein
+bisschen ganz cool ist.
+
+328
+00:20:17,760 --> 00:20:18,960
+Ne, ich erzähl's euch erstmal.
+
+329
+00:20:19,130 --> 00:20:20,130
+Also.
+
+330
+00:20:22,740 --> 00:20:26,460
+Der Christopher Kurt, ich weiß nicht,
+wer den kennt von euch, aber der eine oder
+
+331
+00:20:26,461 --> 00:20:30,600
+andere vielleicht, mit dem wir nicht zu
+dem Hackathon gefahren, und hab dem so
+
+332
+00:20:30,601 --> 00:20:36,120
+erzählt, was ich da so vorhab und so,
+und der so, ja, hm, so, klingt ganz geil
+
+333
+00:20:36,121 --> 00:20:41,200
+halt so, aber der ist jetzt kein
+Entwickler, sondern eher so ein Agenturtyp.
+
+334
+00:20:41,580 --> 00:20:44,780
+Der hat gesagt so, hm, weißt du,
+was ich schon immer gerne gehabt hätte?
+
+335
+00:20:44,880 --> 00:20:46,720
+Ich hätte schon immer gerne mal,
+ich hab jetzt grad so einen Kunden zum
+
+336
+00:20:46,721 --> 00:20:51,160
+Beispiel, der bräuchte so ein,
+wie so eine Art Öffnungszeitenblock.
+
+337
+00:20:51,840 --> 00:20:52,720
+Gibt's vielleicht auch, ne?
+
+338
+00:20:52,780 --> 00:20:55,300
+Hat vielleicht auch irgendjemand schon mal
+programmiert oder so.
+
+339
+00:20:56,260 --> 00:20:59,201
+Aber irgendwas passt ja erfahrungsgemäß
+auch immer nicht, deswegen gibt's ja 5000
+
+340
+00:20:59,225 --> 00:21:02,580
+Forms, Plugins, und es gibt ja für jedes
+Ding immer 5000 Plugins.
+
+341
+00:21:03,730 --> 00:21:06,010
+Wenn man sowas damit macht, könnte man
+sowas damit machen?
+
+342
+00:21:07,130 --> 00:21:09,690
+Dann hab ich so gesagt so, warum bin ich
+nicht da drauf gekommen?
+
+343
+00:21:09,840 --> 00:21:11,680
+Na klar kann man sowas damit machen.
+
+344
+00:21:13,000 --> 00:21:16,700
+Also das Geile ist, man hat damit die
+Freiheit, das ist nämlich auch ein
+
+345
+00:21:16,701 --> 00:21:19,978
+Anwendungszweck dafür, dass
+ich ohne Code schreiben zu müssen,
+
+346
+00:21:19,979 --> 00:21:22,401
+erstmal in der Lage bin,
+prinzipiell Formulare zu machen.
+
+347
+00:21:23,620 --> 00:21:26,220
+Und die Idee an der Stelle war,
+wir gucken uns das auch gleich an,
+
+348
+00:21:26,680 --> 00:21:30,420
+also der, na, ich möchte Öffnungszeiten
+haben, oder eine Menükarte, völlig egal,
+
+349
+00:21:30,690 --> 00:21:31,360
+irgend sowas, ne?
+
+350
+00:21:31,361 --> 00:21:34,580
+Irgendwelche individuellen
+Datenstrukturen.
+
+351
+00:21:36,570 --> 00:21:40,400
+Dann geht der Designer, also der,
+der die Webseite entwickelt für den
+
+352
+00:21:40,401 --> 00:21:44,700
+Kunden, geht rein in seiner Rolle als
+nicht der Kunde, sondern der Entwickler,
+
+353
+00:21:44,701 --> 00:21:47,102
+also der Admin an
+der Stelle, schreibt das
+
+354
+00:21:47,103 --> 00:21:50,081
+Schema rein, was
+Öffnungszeiten beschreibt.
+
+355
+00:21:50,220 --> 00:21:53,240
+Öffnungszeiten sind von Montag bis Sonntag
+einzugeben.
+
+356
+00:21:54,810 --> 00:21:58,880
+An jeden Tag können verschiedene
+Öffnungszeiten sein, nämlich von 8 bis 10,
+
+357
+00:21:59,200 --> 00:22:00,460
+von 11 bis 13 Uhr, von...
+
+358
+00:22:03,020 --> 00:22:05,096
+vielleicht will man noch eine Beschreibung
+dazu machen und so weiter und so fort.
+
+359
+00:22:05,120 --> 00:22:08,020
+Man kann das also schon durchaus in so
+eine Struktur reingießen.
+
+360
+00:22:09,410 --> 00:22:13,880
+Und wenn das gemacht wurde von dem Admin,
+dann würde danach der Kunde reingehen,
+
+361
+00:22:14,420 --> 00:22:17,220
+und der Kunde würde an der Stelle in der
+Seite, wo es eingebettet wäre,
+
+362
+00:22:17,450 --> 00:22:20,296
+oder in den Seiten, wenn es ein reusable
+Block ist, wie heißt das neudeutsch?
+
+363
+00:22:20,320 --> 00:22:22,200
+Anders auf jeden Fall, ihr wisst,
+was ich meine.
+
+364
+00:22:23,560 --> 00:22:24,976
+Würde der das Formular gerendert kriegen.
+
+365
+00:22:25,000 --> 00:22:27,440
+Das heißt, der wäre in der Lage,
+der würde gar nicht sehen, der würde also
+
+366
+00:22:27,441 --> 00:22:28,849
+nichts von dem JSON
+Schema sehen, der würde
+
+367
+00:22:28,850 --> 00:22:31,480
+das Formular sehen
+für seine Opening Hours.
+
+368
+00:22:31,630 --> 00:22:35,120
+Und könnte seine Öffnungszeiten eingeben,
+ändern, dies, das, jenes.
+
+369
+00:22:35,240 --> 00:22:37,227
+Und auf der finalen Seite,
+ich weiß nicht, wer das
+
+370
+00:22:37,247 --> 00:22:39,260
+kennt, mal Hand heben,
+wer Interactivity API kennt.
+
+371
+00:22:41,380 --> 00:22:42,380
+Naja, ein paar immerhin.
+
+372
+00:22:43,520 --> 00:22:46,700
+Interactivity API wiederum würde die
+eingegebenen Daten nehmen und darstellen.
+
+373
+00:22:46,740 --> 00:22:49,560
+Nämlich, wer hätte das gedacht, als
+Öffnungszeiten auf der gepublisheden Seite.
+
+374
+00:22:50,110 --> 00:22:51,480
+Das ist jetzt nur ein so ein Fall.
+
+375
+00:22:52,120 --> 00:22:55,040
+Menükarte ist das zweite, und so gibt es
+noch tausend andere Fälle, wo man gar
+
+376
+00:22:55,041 --> 00:22:58,180
+nicht mehr programmieren müsste,
+sondern man durch reines Beschreiben...
+
+377
+00:22:59,150 --> 00:23:02,720
+von der Datenstruktur, die gefordert ist,
+man das Formular gerendert kriegt,
+
+378
+00:23:02,721 --> 00:23:05,740
+was dann wiederum für den Kunden ja eine
+nützliche Sache ist, um seine Daten
+
+379
+00:23:05,741 --> 00:23:07,121
+einzugeben, weil der
+will ja weder JSON,
+
+380
+00:23:07,122 --> 00:23:08,640
+noch JSON Schema, noch
+sonst irgendwas sehen.
+
+381
+00:23:08,680 --> 00:23:11,280
+Der will einfach ein Formular haben,
+wo sein Kram eingegeben wird.
+
+382
+00:23:12,710 --> 00:23:15,375
+Naja, jedenfalls habe ich mich dann
+hingesetzt und habe mal gesagt so, okay.
+
+383
+00:23:15,399 --> 00:23:16,140
+..
+
+384
+00:23:17,700 --> 00:23:18,780
+dann mache ich jetzt mal...
+
+385
+00:23:19,660 --> 00:23:20,660
+einen JSON Schema dazu.
+
+386
+00:23:29,630 --> 00:23:32,620
+So, also stört euch bitte nicht daran,
+dass das jetzt ein bisschen Englisch,
+
+387
+00:23:32,621 --> 00:23:34,461
+ein bisschen Deutsch, ein bisschen mhm mhm
+ist.
+
+388
+00:23:35,250 --> 00:23:36,660
+Das liegt nur daran, weil es...
+
+389
+00:23:38,330 --> 00:23:39,970
+noch so ein bisschen Hackathon-Stand ist.
+
+390
+00:23:40,950 --> 00:23:43,230
+So, also wir haben jetzt einen Titel hier,
+Öffnungszeiten.
+
+391
+00:23:44,460 --> 00:23:45,500
+Der steht eben da, weil...
+
+392
+00:23:46,640 --> 00:23:49,000
+hier oben irgendwo gesagt worden ist,
+dass der Titel eben...
+
+393
+00:23:50,160 --> 00:23:51,160
+irgendwo steht es hier...
+
+394
+00:23:52,760 --> 00:23:53,580
+eben Öffnungszeiten ist.
+
+395
+00:23:53,745 --> 00:23:55,496
+Also hier oben das Weakling Hours ist das
+hier, ne?
+
+396
+00:23:55,520 --> 00:23:57,346
+Und das hier, achso, das habe ich auch
+noch nicht gesagt.
+
+397
+00:23:57,370 --> 00:23:58,530
+Der Playground, der ist live.
+
+398
+00:23:58,710 --> 00:23:59,620
+Ihr habt es ja vorhin schon gesehen,
+ne?
+
+399
+00:23:59,621 --> 00:24:01,301
+Das heißt, wenn ich hier irgendwas
+tippe...
+
+400
+00:24:03,390 --> 00:24:05,270
+dann wird das eben auch gleich drüben
+gerendert.
+
+401
+00:24:06,360 --> 00:24:06,840
+So, ne?
+
+402
+00:24:06,880 --> 00:24:09,096
+Jetzt gucken wir uns mal an, so dieses
+Schema, was das hier ist, ne?
+
+403
+00:24:09,120 --> 00:24:11,560
+Was kann man da jetzt so machen,
+so?
+
+404
+00:24:11,640 --> 00:24:13,560
+Okay, ich kann jetzt hier
+Öffnungszeiten...
+
+405
+00:24:13,760 --> 00:24:16,120
+Also das ist das Rechte, ist das,
+was der Kunde sehen würde.
+
+406
+00:24:16,470 --> 00:24:19,316
+Und jetzt kann ich hier sagen,
+so okay, naja, für welchen Wochentag denn?
+
+407
+00:24:19,340 --> 00:24:19,900
+Ja, Montag.
+
+408
+00:24:19,901 --> 00:24:23,115
+Und jetzt steht hier aber oben drüber so...
+das sieht so komisch aus, so Weakdays 1.
+
+409
+00:24:24,230 --> 00:24:25,540
+Hier steht Opening Hours 1.
+
+410
+00:24:25,700 --> 00:24:27,560
+Und dann steht das alles auch so komisch
+untereinander, ne?
+
+411
+00:24:27,580 --> 00:24:28,960
+Also die Öffnungszeiten von bis...
+
+412
+00:24:29,460 --> 00:24:31,056
+von denen es ja mehrere pro Tag geben
+kann.
+
+413
+00:24:31,080 --> 00:24:32,100
+Die stehen jetzt da so
+untereinander und irgendwie
+
+414
+00:24:32,101 --> 00:24:34,161
+sieht das jetzt
+irgendwie nicht geil aus.
+
+415
+00:24:34,340 --> 00:24:36,831
+Aber ich habe ja vorhin
+gesagt, wir haben ja
+
+416
+00:24:36,832 --> 00:24:38,560
+die Möglichkeit, eine
+Customization zu machen.
+
+417
+00:24:38,680 --> 00:24:41,161
+Das heißt, wir können jetzt zum Spiel
+hergehen und sagen, also Opening Hours,
+
+418
+00:24:41,185 --> 00:24:43,517
+das hier, das will ich
+so individuell haben, da
+
+419
+00:24:43,518 --> 00:24:45,500
+schreibe ich mir eine
+eigene React -Komponente.
+
+420
+00:24:45,800 --> 00:24:48,225
+Wie vorhin dieses Heiz-Component,
+die wir vorhin gesehen
+
+421
+00:24:48,295 --> 00:24:51,380
+haben, wo man S, M, XL, XXL
+eingeben konnte im Gutenberg.
+
+422
+00:24:52,280 --> 00:24:54,866
+Könnte ich eine eigene hinterlegen,
+aber wir wollen ja kein React schreiben.
+
+423
+00:24:54,890 --> 00:24:56,570
+Brauchen wir auch gar nicht, oftmals
+nicht.
+
+424
+00:24:57,740 --> 00:25:00,616
+Da kann man wieder zu diesem Customization
+-File gehen und kann jetzt sagen,
+
+425
+00:25:00,640 --> 00:25:05,580
+ich schreibe jetzt mal so weit wie es geht
+mit diesem UI-Customization-Ding.
+
+426
+00:25:06,540 --> 00:25:07,620
+Mensch, die Zeit rennt.
+
+427
+00:25:09,830 --> 00:25:11,190
+Schreibe ich jetzt mal so einen...
+
+428
+00:25:11,460 --> 00:25:12,776
+Also wir sehen, das ist alles
+untereinander.
+
+429
+00:25:12,800 --> 00:25:16,740
+Schreibe ich jetzt mal so ein
+Customization-File, geht immer noch nicht
+
+430
+00:25:16,790 --> 00:25:18,790
+mega aus, aber hey, das sieht schon mal
+besser aus.
+
+431
+00:25:18,820 --> 00:25:22,280
+Ich habe jetzt die Öffnungszeiten von 8
+bis 18 Uhr gemacht und ich könnte jetzt
+
+432
+00:25:22,430 --> 00:25:23,760
+noch mal dazufügen...
+
+433
+00:25:25,620 --> 00:25:26,320
+...nochmal eine weitere.
+
+434
+00:25:26,321 --> 00:25:29,720
+Eine weitere von 20 bis... weiß ich nicht
+was...
+
+435
+00:25:30,820 --> 00:25:32,480
+...bis 22 Uhr oder oder oder.
+
+436
+00:25:32,600 --> 00:25:35,396
+Und ich kann auch dazu sagen, bitte nur
+mit Tischreservierung oder oder oder oder.
+
+437
+00:25:35,420 --> 00:25:36,420
+Völlig egal.
+
+438
+00:25:36,800 --> 00:25:38,280
+Und dass man das so machen kann...
+
+439
+00:25:39,145 --> 00:25:42,780
+...also auch hier hat man ganz viele
+Möglichkeiten, Einfluss darauf zu nehmen.
+
+440
+00:25:42,920 --> 00:25:45,020
+Sagt man zum Beispiel...
+
+441
+00:25:48,100 --> 00:25:49,170
+...ich hab's gleich...
+
+442
+00:25:50,270 --> 00:25:50,870
+...hier, ne?
+
+443
+00:25:51,130 --> 00:25:54,750
+Class Names Striped Opening Hours,
+also diese Öffnungszeiten selber,
+
+444
+00:25:55,650 --> 00:25:57,530
+die sollen jetzt mal so striped halt sein.
+
+445
+00:25:57,531 --> 00:25:59,090
+Deswegen ist das hier
+weiß, das nächste ist ein
+
+446
+00:25:59,091 --> 00:26:01,351
+bisschen dunkler und das
+nächste ist wieder anders.
+
+447
+00:26:01,420 --> 00:26:04,810
+Aber am Ende, ihr könnt's wahrscheinlich
+erahnen, ist das nur eine CSS-Klasse.
+
+448
+00:26:06,460 --> 00:26:09,530
+Und dass die Dinger nebeneinander sind,
+da steht hier auch irgendwo drin...
+
+449
+00:26:13,360 --> 00:26:15,186
+...naja, natürlich steht's nicht oben,
+es steht natürlich unten.
+
+450
+00:26:15,210 --> 00:26:16,210
+Ja klar.
+
+451
+00:26:16,850 --> 00:26:17,850
+Hier.
+
+452
+00:26:18,150 --> 00:26:19,930
+Class Names, Direction Horizontal.
+
+453
+00:26:20,200 --> 00:26:23,650
+Es könnte auch Direction Schnullibulli
+oder Diagonale oder irgendwas sein.
+
+454
+00:26:23,690 --> 00:26:26,610
+Es ist nur eine CSS-Klasse, das ist der
+entscheidende Punkt an der Stelle.
+
+455
+00:26:27,620 --> 00:26:28,730
+Und als ich das Ding fertig hatte,
+ne?
+
+456
+00:26:28,731 --> 00:26:30,155
+Das ist jetzt nur mal
+so ein Prototyp, um zu
+
+457
+00:26:30,156 --> 00:26:31,730
+zeigen, aha, da kann man
+ja ne ganze Menge machen.
+
+458
+00:26:31,910 --> 00:26:34,770
+Und runter kommt so ein JSON-Schema wieder
+raus mit den Öffnungszeiten, die man dann
+
+459
+00:26:34,771 --> 00:26:37,270
+mit Interactivity API auch wieder
+generisch rendern könnte.
+
+460
+00:26:37,390 --> 00:26:38,390
+Alles super.
+
+461
+00:26:39,105 --> 00:26:40,946
+Und genau so könnte man jetzt natürlich
+auf den Kniff kommen.
+
+462
+00:26:40,970 --> 00:26:42,970
+Okay, wo haben wir denn jetzt noch JSON
+-Schema?
+
+463
+00:26:43,210 --> 00:26:43,990
+Wie viele Minuten hab ich noch?
+
+464
+00:26:44,070 --> 00:26:45,070
+Eine, zwei?
+
+465
+00:26:45,670 --> 00:26:46,670
+Null?
+
+466
+00:26:47,260 --> 00:26:48,300
+Ich will nochmal ausholen.
+
+467
+00:26:48,450 --> 00:26:49,990
+Wir haben ganz viele JSON-Schemas.
+
+468
+00:26:50,970 --> 00:26:55,210
+Also Dinge, wo wir Formulare, die im
+Augenblick auch im Gutenberg selbst drinne
+
+469
+00:26:55,211 --> 00:26:57,371
+programmiert sind, gar nicht mehr
+programmieren müsste.
+
+470
+00:26:57,670 --> 00:27:00,790
+Weil wir haben da schon... schon
+JSON-Schema dazu rumliegen.
+
+471
+00:27:00,920 --> 00:27:01,630
+Mal so ein Beispiel.
+
+472
+00:27:01,750 --> 00:27:03,270
+Kennt der eine oder andere vielleicht?
+
+473
+00:27:03,355 --> 00:27:04,355
+Die theme.json.
+
+474
+00:27:04,830 --> 00:27:08,410
+theme.json ist eine Datenstruktur,
+die beschreibt, die alle Eigenschaften
+
+475
+00:27:08,585 --> 00:27:12,150
+beschreibt, wie ich für ein Theme ändern
+kann und wie ich die ändern kann.
+
+476
+00:27:12,970 --> 00:27:13,710
+Das ist ein riesen Editor.
+
+477
+00:27:13,910 --> 00:27:16,706
+Ihr könnt euch gar nicht vorstellen,
+wie riesengroß dieser Code dafür ist.
+
+478
+00:27:16,730 --> 00:27:17,956
+Das braucht man eigentlich gar nicht.
+
+479
+00:27:17,980 --> 00:27:22,131
+Weil, wenn man diese Komponente hat, kann
+man sich das automatisch ändern lassen.
+
+480
+00:27:22,340 --> 00:27:23,340
+Mal ein anderes Beispiel.
+
+481
+00:27:23,410 --> 00:27:24,230
+Eine package.json.
+
+482
+00:27:24,390 --> 00:27:26,110
+Kennt vielleicht auch der eine oder
+andere.
+
+483
+00:27:26,630 --> 00:27:27,630
+Was ist denn das?
+
+484
+00:27:28,090 --> 00:27:30,010
+Zu einer package.json gibt es einen Schema
+-File.
+
+485
+00:27:30,160 --> 00:27:32,810
+In dem Schema-File steht drinne, was in
+einer package.json definiert werden kann.
+
+486
+00:27:32,950 --> 00:27:37,410
+Ein Name, eine Version, ein dies,
+ein das, ein jenes und auch nested.
+
+487
+00:27:37,411 --> 00:27:40,531
+Da können beliebig... die ist ziemlich
+komplex oder kann ziemlich komplex sein.
+
+488
+00:27:41,160 --> 00:27:43,120
+Dafür braucht man überhaupt kein Editor
+schreiben.
+
+489
+00:27:43,970 --> 00:27:45,570
+Weil ich mache hier das Schema rein.
+
+490
+00:27:45,710 --> 00:27:46,270
+Ich könnte es noch machen.
+
+491
+00:27:46,310 --> 00:27:47,190
+Die Zeit reicht leider nicht mehr.
+
+492
+00:27:47,270 --> 00:27:48,270
+Ich habe es aber da.
+
+493
+00:27:48,670 --> 00:27:49,630
+Dann macht man das hier rein.
+
+494
+00:27:49,690 --> 00:27:51,786
+Dann hat man ein Editor für eine package
+.json im Grafischen.
+
+495
+00:27:51,810 --> 00:27:53,501
+Und jetzt sage ich euch
+mal, dass es natürlich nicht die
+
+496
+00:27:53,502 --> 00:27:56,970
+Erfindung von Herrn Gersmann
+ist, sondern andere Software.
+
+497
+00:27:58,010 --> 00:27:59,170
+Anwendungen machen das schon.
+
+498
+00:28:00,190 --> 00:28:01,790
+Wer von euch benutzt Visual Studio Code?
+
+499
+00:28:04,060 --> 00:28:05,246
+Ihr habt alle schon
+mal die Einstellungen
+
+500
+00:28:05,270 --> 00:28:06,570
+aufgemacht bei Visual
+Studio Code, stimmt's?
+
+501
+00:28:06,590 --> 00:28:07,590
+Den Einstellungsdialog.
+
+502
+00:28:07,960 --> 00:28:09,306
+Und eigentlich ist das doch ganz pfiffig.
+
+503
+00:28:09,330 --> 00:28:10,610
+Da kommt ein neues Plugin rein.
+
+504
+00:28:11,190 --> 00:28:13,066
+Und ich kann oben über den Filter sagen,
+was ich sehen will.
+
+505
+00:28:13,090 --> 00:28:14,426
+Und ich sehe es für alle Plugins auch.
+
+506
+00:28:14,450 --> 00:28:15,490
+Das Formular ist immer da.
+
+507
+00:28:15,790 --> 00:28:17,670
+Und das sieht eigentlich auch halbwegs
+okay aus.
+
+508
+00:28:18,270 --> 00:28:19,170
+Das ist nicht gerendert.
+
+509
+00:28:19,190 --> 00:28:19,810
+Wer hätte das gedacht?
+
+510
+00:28:19,950 --> 00:28:21,066
+Sondern die machen es genauso.
+
+511
+00:28:21,090 --> 00:28:25,270
+Die machen also aus dem JSON Schema von
+den Einstellungen von Visual Studio Code
+
+512
+00:28:25,271 --> 00:28:28,810
+plus den JSON Schema-Tar für die
+Einstellung der einzelnen Plugins,
+
+513
+00:28:29,210 --> 00:28:30,210
+rendern die das Formular.
+
+514
+00:28:30,350 --> 00:28:31,430
+Mehr machen die auch nicht.
+
+515
+00:28:31,770 --> 00:28:35,750
+Also die leben genau dieses System,
+was man auch sehr, sehr gut, und das
+
+516
+00:28:35,751 --> 00:28:37,930
+sollte auch schon der Schlusssatz von mir
+sein, damit ich nicht vollständig
+
+517
+00:28:37,931 --> 00:28:41,150
+übertreibe, was man auch sehr gut bei
+Gutenberg benutzen könnte.
+
+518
+00:28:41,440 --> 00:28:43,160
+Und natürlich auch für eure eigenen
+Plugins.
+
+519
+00:28:43,970 --> 00:28:44,590
+Das war's.
+
+520
+00:28:44,670 --> 00:28:45,670
+Auf Wiedersehen.
+
+521
+00:28:50,670 --> 00:28:51,440
+Ach so, eins noch.
+
+522
+00:28:51,590 --> 00:28:52,590
+Eins noch am Schluss.
+
+523
+00:28:52,640 --> 00:28:53,640
+Also natürlich, ne?
+
+524
+00:28:54,300 --> 00:28:55,300
+Gibt es dazu...
+
+525
+00:28:56,700 --> 00:28:57,700
+Ja, da frag ich nochmal.
+
+526
+00:28:57,701 --> 00:28:59,120
+Oder wir machen das irgendwie...
+
+527
+00:29:00,370 --> 00:29:02,620
+Also es gibt hierzu ein Repository auf
+GitHub.
+
+528
+00:29:02,920 --> 00:29:04,440
+Und in dem Repository gibt's...
+
+529
+00:29:05,080 --> 00:29:05,680
+Richtig geil.
+
+530
+00:29:05,720 --> 00:29:07,680
+Wer es noch nicht benutzt, sollte es mal
+benutzen.
+
+531
+00:29:09,140 --> 00:29:10,140
+Kunstpause.
+
+532
+00:29:10,820 --> 00:29:11,820
+Wartet, ich hab's gleich.
+
+533
+00:29:13,490 --> 00:29:14,770
+Hier gibt's den Playground-Link.
+
+534
+00:29:14,800 --> 00:29:16,936
+Ihr müsst hier nichts auschecken oder
+irgendwas kompilieren oder so.
+
+535
+00:29:16,960 --> 00:29:17,580
+Ihr klickt hier drauf.
+
+536
+00:29:17,840 --> 00:29:18,780
+Dann ist das Ding im Browser.
+
+537
+00:29:18,860 --> 00:29:20,038
+Dann habt ihr den ganzen
+Kran, den ihr gerade
+
+538
+00:29:20,039 --> 00:29:21,540
+gesehen habt, inklusive
+des Playgrounds.
+
+539
+00:29:21,750 --> 00:29:24,096
+Habt ihr dort, da kann man rumspielen,
+kann man rumexperimentieren.
+
+540
+00:29:24,120 --> 00:29:25,360
+Man kann das live ausprobieren.
+
+541
+00:29:25,680 --> 00:29:26,580
+Und der Plan ist...
+
+542
+00:29:26,581 --> 00:29:29,860
+Das will ich auch nochmal als wirklich
+letztes Wort, als letzten Satz hinzugeben.
+
+543
+00:29:30,680 --> 00:29:34,500
+Und der Plan ist, zumindest mein Plan ist,
+dass irgendwann mal, also die Hoffnung
+
+544
+00:29:34,501 --> 00:29:36,900
+stirbt zuletzt, dieser ganze Quatsch in
+Guttenberg landet.
+
+545
+00:29:37,580 --> 00:29:40,260
+Damit ihr nicht irgendwann Settings-Pages
+mit React schreiben müsst.
+
+546
+00:29:40,600 --> 00:29:41,600
+Vielen Dank.
+
+547
+00:29:48,980 --> 00:29:49,840
+Ja, gute Frage.
+
+548
+00:29:49,900 --> 00:29:51,420
+Ich hatte vorhin den Link schon offen.
+
+549
+00:29:53,430 --> 00:29:55,030
+Warte mal, ich mach das jetzt nochmal...
+
+550
+00:29:59,740 --> 00:30:01,140
+Ich mach das jetzt nochmal in groß.
+
+551
+00:30:06,560 --> 00:30:07,560
+Also hoch.
+
+552
+00:30:11,050 --> 00:30:12,050
+Verdammt.
+
+553
+00:30:13,170 --> 00:30:13,890
+Warum geht das nicht?
+
+554
+00:30:13,990 --> 00:30:14,990
+Ging doch vorhin.
+
+555
+00:30:17,010 --> 00:30:18,010
+Nee, das ist zu groß.
+
+556
+00:30:18,990 --> 00:30:19,990
+So in etwa.
+
+557
+00:30:22,730 --> 00:30:23,490
+Also ich stehe dazu, ne.
+
+558
+00:30:23,530 --> 00:30:25,430
+Ich versuche das Ding auch in
+Anführungsstrichen zu vermarkten.
+
+559
+00:30:25,450 --> 00:30:28,071
+Ich quatsch damit
+hier mit dem Riyad, mit
+
+560
+00:30:28,072 --> 00:30:30,210
+Adam Zielinski, hab
+ich da drüber gequatscht.
+
+561
+00:30:30,330 --> 00:30:32,370
+Die finden das alles super, finden das
+alles spitze.
+
+562
+00:30:34,390 --> 00:30:35,490
+Aber es braucht halt Zeit.
+
+563
+00:30:36,410 --> 00:30:36,830
+Also nicht, dass ich jetzt...
+
+564
+00:30:36,831 --> 00:30:39,485
+Nicht zuletzt auch von
+meiner Seite, weil das muss
+
+565
+00:30:39,486 --> 00:30:41,691
+halt das entsprechende
+Format haben für Guttenberg.
+
+566
+00:30:41,760 --> 00:30:44,080
+Das muss halt TypeScript sein im
+Augenblick des JavaScript.
+
+567
+00:30:44,465 --> 00:30:48,130
+Das muss gewissen Konventionen entsprechen
+und so weiter und so fort.
+
+568
+00:30:48,320 --> 00:30:49,936
+Und das ist im aktuellen noch nicht
+gegeben.
+
+569
+00:30:49,960 --> 00:30:54,611
+Falls aber jemand von euch Bock hat,
+aktuell bin ich Einzelcamper an der Stelle.
+
+570
+00:30:55,180 --> 00:30:55,810
+Ihr seid herzlich willkommen.
+
+571
+00:30:55,970 --> 00:30:57,010
+Ihr könnt gerne mitmachen.
+
+572
+00:31:00,500 --> 00:31:01,500
+Genau.
+
+573
+00:31:01,900 --> 00:31:02,900
+Noch irgendwelche Fragen?
+
+574
+00:31:07,700 --> 00:31:08,780
+Dann sind wir doch in time.
+
+575
+00:31:25,120 --> 00:31:26,120
+Ach so, ja.
+

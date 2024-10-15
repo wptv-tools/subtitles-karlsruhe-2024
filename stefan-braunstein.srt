@@ -1,0 +1,2539 @@
+﻿1
+00:00:02,340 --> 00:00:03,340
+Drei Minuten zu früh.
+
+2
+00:00:04,430 --> 00:00:07,117
+Okay, der Stefan erzählt
+uns, warum man über
+
+3
+00:00:07,118 --> 00:00:09,961
+einen Headless-WordPress-Ansatz
+nachdenken sollte.
+
+4
+00:00:13,580 --> 00:00:14,800
+Ja, vielen Dank.
+
+5
+00:00:16,180 --> 00:00:18,596
+Wird jetzt natürlich ein schwerer Talk
+nach dem tollen Mittagessen.
+
+6
+00:00:18,620 --> 00:00:20,256
+Erstmal vielen Dank auch an die
+Organisatoren.
+
+7
+00:00:20,280 --> 00:00:24,200
+Ich glaube, wir haben bisher sehr
+spannende Talks gehört hier und ich hoffe,
+
+8
+00:00:24,395 --> 00:00:27,901
+ich kann da ein bisschen anschließen, kann
+euch ein bisschen Inspiration mitgeben.
+
+9
+00:00:28,570 --> 00:00:31,330
+Ich habe mir das Thema
+ausgesucht, Headless, warum man
+
+10
+00:00:31,331 --> 00:00:33,940
+über einen Headless -WordPress
+-Ansatz nachdenken sollte.
+
+11
+00:00:34,880 --> 00:00:37,140
+Damit fange ich einfach mal an.
+
+12
+00:00:37,280 --> 00:00:38,280
+Wer bin eigentlich ich?
+
+13
+00:00:39,440 --> 00:00:42,280
+Ich bin der Stefan Braunstein,
+bin von der Agentur von Affenfels.
+
+14
+00:00:42,480 --> 00:00:44,920
+Man hört es, ich komme aus Stuttgart.
+
+15
+00:00:45,825 --> 00:00:49,240
+Für uns ist es immer ganz besonderes,
+in Karlsruhe aufzutreten als Schwaben.
+
+16
+00:00:50,160 --> 00:00:55,660
+Ich bin bei uns bei von Affenfels für die
+PHP- und Wordpress-Entwicklung zuständig.
+
+17
+00:00:56,120 --> 00:00:57,380
+Und habe früher Teilnehmerinnen und
+Teilnehmer in der Gruppe.
+
+18
+00:00:57,400 --> 00:00:58,556
+Ich habe tatsächlich selber entwickelt.
+
+19
+00:00:58,580 --> 00:00:59,820
+Mittlerweile ist immer weniger.
+
+20
+00:00:59,880 --> 00:01:05,420
+Ich habe noch auf einem guten alten
+Großrechnerbau eine Bausparkasse entwickelt.
+
+21
+00:01:05,740 --> 00:01:08,940
+Also ich habe so ziemlich alles durch bis
+zur Web-Entwicklung.
+
+22
+00:01:10,110 --> 00:01:14,520
+Bevor ich einsteige, eine Frage an die
+gesamte Gruppe.
+
+23
+00:01:15,560 --> 00:01:18,726
+Wer hat denn von euch
+bereits den Headless -Ansatz
+
+24
+00:01:18,727 --> 00:01:21,900
+irgendwo schon mal
+implementiert, eingebaut, verwendet?
+
+25
+00:01:23,580 --> 00:01:24,660
+Eins, zwei...
+
+26
+00:01:25,300 --> 00:01:25,940
+Okay.
+
+27
+00:01:25,941 --> 00:01:29,080
+Und wem sagt prinzipiell der Headless
+-Ansatz etwas?
+
+28
+00:01:30,540 --> 00:01:31,620
+Ah, das sind schon mehrere.
+
+29
+00:01:31,860 --> 00:01:32,860
+Genau.
+
+30
+00:01:33,140 --> 00:01:35,900
+Ich will euch einfach heute einen kleinen
+Einblick geben.
+
+31
+00:01:36,080 --> 00:01:37,900
+Wie verwenden wir denn den Headless
+-Ansatz?
+
+32
+00:01:38,080 --> 00:01:38,780
+Was machen wir?
+
+33
+00:01:38,820 --> 00:01:40,880
+Warum ist es vielleicht gut, den zu
+verwenden?
+
+34
+00:01:40,940 --> 00:01:45,680
+Und warum verkauft sich da manchmal die
+Wordpress-Community so ein bisschen,
+
+35
+00:01:45,681 --> 00:01:48,900
+in Anführungszeichen, kleiner als sie
+eigentlich ist?
+
+36
+00:01:49,020 --> 00:01:51,080
+Weil, wir fangen mal mit einem Vorurteil
+an.
+
+37
+00:01:51,140 --> 00:01:52,520
+Das hören wir häufig von Kunden.
+
+38
+00:01:53,140 --> 00:01:55,880
+Wir betreuen hauptsächlich Leute aus dem
+Verlagswesen.
+
+39
+00:01:55,881 --> 00:01:59,101
+Da kommt hauptsächlich erstmal
+der Vorwurf, das Wordpress
+
+40
+00:01:59,102 --> 00:02:00,440
+könnt ihr doch jetzt
+eigentlich nicht verwenden.
+
+41
+00:02:00,480 --> 00:02:03,484
+Damit macht man doch
+vielleicht mal so einen Reiseblog
+
+42
+00:02:03,485 --> 00:02:05,920
+oder Rezepte stellt man
+damit dar oder sonst irgendwas.
+
+43
+00:02:08,045 --> 00:02:10,200
+Ja, dafür war es ursprünglich entwickelt.
+
+44
+00:02:10,380 --> 00:02:13,860
+Aber wenn ich jetzt einfach mal auf die
+nächste Slide springe.
+
+45
+00:02:14,910 --> 00:02:17,660
+Und die Zahl kennt ihr bestimmt,
+diese legendären 43 %.
+
+46
+00:02:17,661 --> 00:02:21,380
+43 % aller Webseiten auf
+der ganzen Welt oder im
+
+47
+00:02:21,381 --> 00:02:24,961
+ganzen Internet sind auf
+Wordpress -Basis gebaut.
+
+48
+00:02:25,980 --> 00:02:31,560
+In der ganzen Agentur-Geschichte kommen
+immer wieder Kunden und sagen,
+
+49
+00:02:31,700 --> 00:02:33,520
+ja, aber das Wordpress ist ja kostenlos.
+
+50
+00:02:33,860 --> 00:02:36,240
+Und das kann doch dann auch nicht so
+richtig sein.
+
+51
+00:02:36,420 --> 00:02:39,900
+Es gibt große Content-Management-Systeme,
+die kosten einiges.
+
+52
+00:02:40,600 --> 00:02:43,440
+Und die wollen natürlich dann sagen,
+aber wieso denn das Wordpress?
+
+53
+00:02:43,580 --> 00:02:45,446
+Das ist doch wie gesagt, ich habe vorher
+das Vorurteil.
+
+54
+00:02:45,470 --> 00:02:46,120
+Ich gehe gerade nochmal zurück.
+
+55
+00:02:46,245 --> 00:02:47,516
+Das ist doch nur ein Reiseblogger.
+
+56
+00:02:47,540 --> 00:02:48,540
+Was bringt denn das?
+
+57
+00:02:48,640 --> 00:02:50,281
+Deswegen haben wir gesagt, okay,
+pass auf.
+
+58
+00:02:51,100 --> 00:02:54,580
+Wir können alles, was diese großen Content
+-Management-Systeme anbieten.
+
+59
+00:02:54,581 --> 00:02:56,820
+Auch können eben auch mit Wordpress
+darstellen.
+
+60
+00:03:00,470 --> 00:03:03,100
+Und dazu würde ich erstmal weiterspringen.
+
+61
+00:03:03,180 --> 00:03:04,596
+Was könnt ihr eigentlich erwarten von mir
+heute?
+
+62
+00:03:04,620 --> 00:03:06,276
+Ihr könnt von mir heute keinen Code sehen.
+
+63
+00:03:06,300 --> 00:03:08,260
+Ich habe keine Code-Beispiele dabei.
+
+64
+00:03:08,965 --> 00:03:10,716
+Ich möchte euch einfach Inspiration
+mitgeben.
+
+65
+00:03:10,740 --> 00:03:13,220
+Ich möchte euch zeigen, wie verwenden wir
+den Headless-Ansatz?
+
+66
+00:03:13,705 --> 00:03:15,266
+Wie könnt ihr den vielleicht verwenden?
+
+67
+00:03:15,840 --> 00:03:18,340
+Was könnt ihr denn vielleicht für einen
+Mehrwert rausziehen?
+
+68
+00:03:20,950 --> 00:03:21,950
+Kurz zum Inhalt.
+
+69
+00:03:22,320 --> 00:03:23,376
+Vorgestellt habe ich mich schon.
+
+70
+00:03:23,400 --> 00:03:24,520
+Die Einleitung habe ich schon.
+
+71
+00:03:24,521 --> 00:03:26,100
+Wir schauen uns kurz an.
+
+72
+00:03:26,350 --> 00:03:27,280
+Was ist denn Headless?
+
+73
+00:03:27,360 --> 00:03:28,360
+Wie ist es aufgebaut?
+
+74
+00:03:28,810 --> 00:03:30,100
+Was für Vorteile bringt es?
+
+75
+00:03:30,570 --> 00:03:32,100
+Was für Nachteile bringt es?
+
+76
+00:03:32,140 --> 00:03:34,340
+Weil überall, wo Licht ist, ist natürlich
+auch Schatten.
+
+77
+00:03:35,050 --> 00:03:37,720
+Ich habe ein paar klassische Use Cases
+mitgebracht.
+
+78
+00:03:37,840 --> 00:03:41,020
+Also für was wäre denn eigentlich so ein
+Headless-Ansatz interessant?
+
+79
+00:03:42,080 --> 00:03:44,844
+Und am Schluss habe
+ich noch ein Finale mit fünf
+
+80
+00:03:44,845 --> 00:03:47,180
+Tipps bei mir aus der
+PM-Brille mitgebracht.
+
+81
+00:03:47,300 --> 00:03:50,703
+Weil so ein Headless-Ansatz
+bedarf noch ein bisschen
+
+82
+00:03:50,783 --> 00:03:53,120
+mehr, als nur zu sagen,
+ich mache jetzt Headless.
+
+83
+00:03:55,490 --> 00:03:56,490
+Wir steigen mal ein.
+
+84
+00:03:56,650 --> 00:03:58,640
+Was ist denn überhaupt dieses Headless?
+
+85
+00:03:59,960 --> 00:04:02,660
+Also ich habe hier das Ganze mal
+aufgezeichnet.
+
+86
+00:04:03,390 --> 00:04:07,560
+Auf der von euch linken Seite sieht man
+den traditionellen Weg.
+
+87
+00:04:07,700 --> 00:04:11,660
+Ich habe quasi ein monolithisches System
+aufgebaut.
+
+88
+00:04:11,800 --> 00:04:17,740
+Das heißt, ich habe mein CMS-System,
+habe Backend und Frontend relativ hart
+
+89
+00:04:17,741 --> 00:04:20,240
+verquickt und habe dann eine
+Ausgabeschicht.
+
+90
+00:04:21,500 --> 00:04:24,420
+Der Headless-Ansatz, der entkoppelt das
+Ganze ein wenig.
+
+91
+00:04:24,620 --> 00:04:25,620
+Über die API.
+
+92
+00:04:25,760 --> 00:04:31,440
+Das heißt, ich habe mein CMS-System,
+konsumiere dann entsprechend die API und
+
+93
+00:04:31,441 --> 00:04:37,380
+kann dann über die API diverse Applikations-
+oder Frontend-Ebenen ansprechen.
+
+94
+00:04:37,560 --> 00:04:39,540
+In dem Fall könnte es eine Applikation
+sein.
+
+95
+00:04:39,720 --> 00:04:41,740
+Es kann eine normale Webseite sein.
+
+96
+00:04:41,920 --> 00:04:43,020
+Es kann ein Variable sein.
+
+97
+00:04:43,240 --> 00:04:46,740
+Es kann aber auch irgendein Drittsystem
+sein.
+
+98
+00:04:46,960 --> 00:04:48,320
+Durch diese Entkopplung.
+
+99
+00:04:48,495 --> 00:04:54,400
+Wir haben das eingesetzt bei einem Portal
+für Keyboard.
+
+100
+00:04:55,710 --> 00:05:02,440
+Kinderunterhaltung, also für Kindergärten
+werden dort nicht Animationsprogramme,
+
+101
+00:05:02,480 --> 00:05:08,981
+aber was können Kindergärtnerinnen quasi
+die Woche über mit den Kindern veranstalten?
+
+102
+00:05:09,020 --> 00:05:11,801
+Haben wir zum Beispiel
+das Frontend und die
+
+103
+00:05:11,802 --> 00:05:15,441
+App konsumieren da
+quasi einheitlich die API.
+
+104
+00:05:18,180 --> 00:05:21,470
+Dadurch ergeben sich
+durch diese Architektur,
+
+105
+00:05:21,471 --> 00:05:24,400
+ergeben sich einfach
+auch ein paar Vorteile.
+
+106
+00:05:24,401 --> 00:05:26,441
+Und die möchte ich jetzt einfach mal drauf
+eingehen.
+
+107
+00:05:27,220 --> 00:05:28,220
+Und zwar.
+
+108
+00:05:29,730 --> 00:05:31,216
+Ich habe hier mal vier Vorteile
+mitgebracht.
+
+109
+00:05:31,240 --> 00:05:34,160
+Man könnte noch philosophieren,
+ob es noch ein paar weitere Vorteile gibt.
+
+110
+00:05:34,405 --> 00:05:37,080
+Das erste ist die Flexibilität und
+Skalierbarkeit.
+
+111
+00:05:37,380 --> 00:05:41,100
+Dadurch, dass ich das Frontend vom Backend
+erstmal entkoppelt und über die API
+
+112
+00:05:41,101 --> 00:05:45,120
+konsumiere, kann ich natürlich nach oben
+hin flexibel skalieren.
+
+113
+00:05:45,870 --> 00:05:49,520
+Das heißt, ich kann eine App mir davor
+setzen.
+
+114
+00:05:49,680 --> 00:05:53,200
+Ich kann das Ganze über eine Webseite
+konsumieren.
+
+115
+00:05:53,201 --> 00:05:55,860
+Ich kann aber auch die Daten zweit
+verwerten.
+
+116
+00:05:57,880 --> 00:06:01,200
+Ein weiterer Punkt bei der ganzen
+Geschichte ist auch die Sicherheit.
+
+117
+00:06:02,810 --> 00:06:06,780
+Dadurch, dass ich das Frontend erstmal vom
+Backend entkoppelt, habe ich natürlich
+
+118
+00:06:06,781 --> 00:06:11,400
+erstmal die API als angreifbaren Punkt
+erstmal dastehen.
+
+119
+00:06:11,460 --> 00:06:15,000
+Aber das Frontend an sich ist entkoppelt
+vom Backend.
+
+120
+00:06:15,100 --> 00:06:19,040
+Das heißt, ich habe dadurch auch für die
+Wartung, wenn ich das Frontend warte,
+
+121
+00:06:19,420 --> 00:06:22,980
+warte ich das Frontend, muss aber nicht
+zwingend alles am Backend machen.
+
+122
+00:06:22,981 --> 00:06:25,800
+Dadurch habe ich einfach eine erhöhte
+Sicherheit und eine Wartung.
+
+123
+00:06:28,015 --> 00:06:31,120
+Dadurch, dass ich frei bin in der
+Technologieauswahl im Frontend,
+
+124
+00:06:31,390 --> 00:06:34,680
+kann ich natürlich auch sagen,
+hey, ich möchte halt nicht das normale
+
+125
+00:06:34,681 --> 00:06:41,440
+Rendering verwenden von WordPress,
+sondern ich möchte zum Beispiel React
+
+126
+00:06:41,590 --> 00:06:46,254
+verwenden oder eine sonstige
+Frontendsprache, was mir
+
+127
+00:06:46,255 --> 00:06:50,320
+natürlich dadurch einen gewissen
+Teil an Speed bringen kann.
+
+128
+00:06:51,740 --> 00:06:54,781
+Was natürlich auch noch zu bedenken ist,
+da komme ich aber nachher noch dazu.
+
+129
+00:06:55,390 --> 00:06:58,111
+Ich habe hier die Möglichkeit,
+dadurch, dass ich das entkoppelt habe,
+
+130
+00:06:58,540 --> 00:07:01,560
+dass ich selber sagen kann, wie sieht denn
+eigentlich mein SEO aus.
+
+131
+00:07:02,670 --> 00:07:04,760
+Natürlich ist das eine Herausforderung.
+
+132
+00:07:04,820 --> 00:07:07,513
+Ich kann das, wir haben es
+gerade schon mal nach der
+
+133
+00:07:07,514 --> 00:07:09,761
+Mittagspause kurz mit
+ein paar Leuten diskutiert.
+
+134
+00:07:10,175 --> 00:07:11,940
+Natürlich kann ich das SEO schlechter
+machen.
+
+135
+00:07:12,100 --> 00:07:14,328
+Ich kann natürlich aber auch
+das SEO besser machen, indem
+
+136
+00:07:14,329 --> 00:07:16,700
+ich halt alles in der eigenen
+Hand habe im Frontend.
+
+137
+00:07:18,460 --> 00:07:19,460
+Der letzte Punkt.
+
+138
+00:07:19,630 --> 00:07:20,300
+Der letzte Punkt.
+
+139
+00:07:20,301 --> 00:07:21,100
+Meine Abhängigkeiten.
+
+140
+00:07:21,200 --> 00:07:24,043
+Ich habe ganz häufig gehört,
+es wird Elementor verwendet,
+
+141
+00:07:24,044 --> 00:07:26,220
+es wird ein Divi -Builder
+verwendet im Frontend.
+
+142
+00:07:27,200 --> 00:07:30,040
+Dadurch, dass ich mein Frontend hier
+selber baue und selber in
+
+143
+00:07:30,041 --> 00:07:33,116
+Anführungszeichen meine
+Waffen selber wählen kann, was ich
+
+144
+00:07:33,117 --> 00:07:36,700
+im Frontend haben möchte,
+bin ich hier komplett flexibel.
+
+145
+00:07:36,760 --> 00:07:40,620
+Ich bin nicht auf irgendwelche Updates
+angewiesen von irgendwelchen Anbietern.
+
+146
+00:07:41,860 --> 00:07:44,960
+Ich bin selber dafür verantwortlich,
+kann es an einem Entwickler geben im
+
+147
+00:07:45,085 --> 00:07:46,686
+Frontend und der kann das Ganze pflegen.
+
+148
+00:07:47,945 --> 00:07:49,330
+Aber ich habe es schon angedeutet.
+
+149
+00:07:50,850 --> 00:07:53,590
+Es gibt natürlich auch Nachteile an dieser
+ganzen Architektur.
+
+150
+00:07:53,610 --> 00:07:56,426
+Da möchte ich auch nicht schönreden und
+ich möchte auch hier nicht einfach sagen,
+
+151
+00:07:56,450 --> 00:07:59,550
+Headless ist State of the Art und ihr
+müsst jetzt alle Headless verwenden.
+
+152
+00:07:59,610 --> 00:08:00,650
+Es ist einfach ein Ansatz.
+
+153
+00:08:01,190 --> 00:08:02,471
+Auch hier geht es einfach darum.
+
+154
+00:08:03,370 --> 00:08:06,171
+Ihr müsst entscheiden, ist es für mein
+Projekt vielleicht das Richtige?
+
+155
+00:08:07,630 --> 00:08:09,620
+Nachteil ist, und das müssen
+wir ganz ehrlich auch mit
+
+156
+00:08:09,644 --> 00:08:11,890
+dem Kunden kommunizieren,
+es ist ein zusätzlicher Aufwand.
+
+157
+00:08:12,210 --> 00:08:16,261
+Dadurch, dass ich das Ganze
+individuell, das Frontend-Bau,
+
+158
+00:08:16,262 --> 00:08:19,070
+die API konsumieren muss
+und so weiter, dauert es natürlich.
+
+159
+00:08:19,071 --> 00:08:23,170
+Auch länger, bis ich meine erste, ich
+nenne es jetzt mal Webseite am Start habe.
+
+160
+00:08:23,620 --> 00:08:27,310
+Das sind Punkte, da kommen natürlich dann
+die Kunden her und sagen Mensch
+
+161
+00:08:27,311 --> 00:08:30,370
+Braunstein, warum soll ich denn das
+überhaupt machen?
+
+162
+00:08:30,530 --> 00:08:33,150
+Das kostet mich doch mehr und das dauert
+doch viel länger.
+
+163
+00:08:33,210 --> 00:08:34,546
+Das macht doch überhaupt gar keinen Sinn.
+
+164
+00:08:34,570 --> 00:08:38,430
+Ja, wenn man es mit den Vorteilen
+aufwiegt, macht es dann doch irgendwo Sinn.
+
+165
+00:08:38,935 --> 00:08:41,211
+Im Nachgang bin ich
+dann flexibler, weil ich
+
+166
+00:08:41,212 --> 00:08:43,930
+einfach getrennte
+Verantwortlichkeiten habe.
+
+167
+00:08:46,400 --> 00:08:47,650
+Dann habe ich natürlich auch das Problem.
+
+168
+00:08:47,651 --> 00:08:49,006
+Ich habe es vorher gesagt mit den Plugins.
+
+169
+00:08:49,030 --> 00:08:51,210
+Wenn ich Plugins verwende, können die
+Stress machen.
+
+170
+00:08:51,330 --> 00:08:55,930
+Die können Stress machen im Frontend, wenn
+ich die ganzen Informationen durchrute.
+
+171
+00:08:56,110 --> 00:08:59,158
+Es kann Probleme geben,
+was zum Beispiel die Vorschau
+
+172
+00:08:59,159 --> 00:09:01,691
+angeht von Webseiten
+und so weiter und so fort.
+
+173
+00:09:02,745 --> 00:09:03,570
+Ist nicht so einfach.
+
+174
+00:09:03,750 --> 00:09:08,370
+Und ein ganz, ganz wichtiger Punkt,
+was man ganz gerne vergisst und auch mit
+
+175
+00:09:08,371 --> 00:09:11,366
+der ganzen Microservice-Architektur und so
+weiter immer wieder mal vergisst.
+
+176
+00:09:11,390 --> 00:09:13,570
+Es erhöht natürlich ungemein die
+Komplexität.
+
+177
+00:09:14,510 --> 00:09:16,850
+Dadurch, dass ich das Frontend erstmal
+ausgelagert habe.
+
+178
+00:09:17,000 --> 00:09:18,466
+Dass ich da eine eigene Verantwortung
+habe.
+
+179
+00:09:18,490 --> 00:09:21,050
+Dass ich da vielleicht auch einen anderen
+Technik-Stack verwende.
+
+180
+00:09:21,780 --> 00:09:26,510
+Erhöht es die Komplexität meines Projektes
+natürlich ungemein.
+
+181
+00:09:27,860 --> 00:09:30,850
+Das kann natürlich dafür sorgen,
+dass es immer wieder zu Problemen gibt.
+
+182
+00:09:31,400 --> 00:09:33,190
+Und ich brauche natürlich auch die
+Erfahrung.
+
+183
+00:09:33,350 --> 00:09:35,986
+Ich brauche die Erfahrung, wie steuere ich
+denn so eine Rest-API an?
+
+184
+00:09:36,010 --> 00:09:37,650
+Wie konsumiere ich denn eine API richtig?
+
+185
+00:09:38,140 --> 00:09:40,170
+Welche Regeln muss ich denn da vielleicht
+beachten?
+
+186
+00:09:40,710 --> 00:09:44,570
+Auch das ist natürlich sowas, wo ich sage,
+hey, ist nicht ganz so einfach.
+
+187
+00:09:44,650 --> 00:09:46,130
+Ist relativ komplex.
+
+188
+00:09:46,430 --> 00:09:50,670
+Sollte man auf jeden Fall in der Wahl der
+Mittel bedenken.
+
+189
+00:09:52,405 --> 00:09:54,370
+Ich habe noch ein paar Use Cases
+mitgebracht.
+
+190
+00:09:58,310 --> 00:10:01,170
+Für was ist denn so ein Headless-Ansatz
+schön?
+
+191
+00:10:01,290 --> 00:10:03,990
+Also was hören wir denn hauptsächlich auch
+von Kundenanforderungen?
+
+192
+00:10:06,830 --> 00:10:08,982
+Also, ein Punkt ist, wir
+wollen zukunftsfähig sein
+
+193
+00:10:08,983 --> 00:10:11,150
+und problemlos an veränderte
+Anforderungen anpassen.
+
+194
+00:10:11,250 --> 00:10:13,690
+Das heißt, wir haben
+Kunden, die sagen, Mensch,
+
+195
+00:10:13,691 --> 00:10:15,750
+wir würden gerne das
+heute so darstellen.
+
+196
+00:10:15,790 --> 00:10:18,010
+Morgen wollen wir vielleicht eine Single
+-Page-Applikation haben.
+
+197
+00:10:18,011 --> 00:10:21,310
+Wir wollen das relativ offen gestalten,
+wie wir das haben wollen.
+
+198
+00:10:21,830 --> 00:10:26,551
+Aus dem Grund kommen viele Leute und sagen,
+wir wollen das zukunftsfähig gestalten.
+
+199
+00:10:27,400 --> 00:10:31,690
+Ein zweiter Punkt ist, wir brauchen ein
+zentralisiertes Content-Management-System.
+
+200
+00:10:31,910 --> 00:10:36,810
+Das heißt, tatsächlich will ich an einer
+Stelle meinen Content pflegen und will den
+
+201
+00:10:36,811 --> 00:10:42,890
+dann eben an meine Applikation,
+an Drittanbieter usw.
+
+202
+00:10:42,990 --> 00:10:47,230
+weitergeben mit einem Single Point of
+Truth.
+
+203
+00:10:50,140 --> 00:10:54,791
+Ganz gängiger Fall, Kunde kommt, sagt,
+ja, wir wollen erst mal nur eine Webseite.
+
+204
+00:10:54,950 --> 00:10:56,430
+Wunderbar, bau die uns erst mal.
+
+205
+00:10:56,590 --> 00:10:58,393
+Und ein halbes Jahr
+später, die Webseite ist
+
+206
+00:10:58,394 --> 00:11:01,231
+erfolgreich, das digitale
+Produkt ist erfolgreich.
+
+207
+00:11:01,480 --> 00:11:03,990
+Umsätze werden darüber generiert,
+was passiert.
+
+208
+00:11:04,700 --> 00:11:08,450
+Der User kommt und sagt dann, hey,
+was können wir jetzt noch machen?
+
+209
+00:11:08,510 --> 00:11:09,670
+Wir bräuchten jetzt eine App.
+
+210
+00:11:09,820 --> 00:11:12,490
+Wenn ich jetzt natürlich den
+monolithischen Ansatz gefahren hätte,
+
+211
+00:11:12,850 --> 00:11:15,487
+hätte ich jetzt das Problem,
+weil ich jetzt im Nachhinein
+
+212
+00:11:15,488 --> 00:11:17,711
+erstmal dafür sorgen müsste,
+ich müsste die App bauen.
+
+213
+00:11:18,270 --> 00:11:19,730
+Mit diesem Ansatz.
+
+214
+00:11:20,200 --> 00:11:23,990
+Deswegen sagen wir gleich, okay, hey,
+schaut langfristig, was ist euer Ansatz?
+
+215
+00:11:24,365 --> 00:11:25,290
+So könnten wir das verwenden.
+
+216
+00:11:25,291 --> 00:11:28,990
+Deswegen, wir benutzen das CMS tatsächlich
+zentral als eine Lösung.
+
+217
+00:11:29,070 --> 00:11:32,850
+Dann hatten wir auch tatsächlich,
+Kunden kommen auf uns zu und sagen,
+
+218
+00:11:32,970 --> 00:11:35,510
+hey, wir wollen unbedingt React im
+Frontend verwenden, weil wir da vielleicht
+
+219
+00:11:35,511 --> 00:11:38,089
+einen Entwickler haben oder
+eine Entwicklerin haben, eine
+
+220
+00:11:38,189 --> 00:11:40,770
+Designerin haben, die
+entwickelt hauptsächlich auf React.
+
+221
+00:11:40,915 --> 00:11:42,130
+Was können wir denn dafür tun?
+
+222
+00:11:42,760 --> 00:11:46,290
+Wie können wir denn WordPress vielleicht
+verwenden mit React?
+
+223
+00:11:47,490 --> 00:11:48,290
+Klassischer Ansatz.
+
+224
+00:11:48,330 --> 00:11:50,190
+Und ich habe es vorher schon angedeutet.
+
+225
+00:11:50,760 --> 00:11:54,910
+Unsere Kunden wickeln die Transaktion zum
+Beispiel hauptsächlich über die App ab.
+
+226
+00:11:55,100 --> 00:11:57,070
+Es kommen jetzt dann Anforderungen.
+
+227
+00:11:57,130 --> 00:11:59,170
+Hey, wir wollen das Ganze in der App
+darstellen.
+
+228
+00:11:59,290 --> 00:12:03,450
+Wir wollen das verwenden in der App.
+
+229
+00:12:03,490 --> 00:12:06,710
+Wir wollen die Daten in den Newsletter noch
+mit übertragen und so weiter und so fort.
+
+230
+00:12:07,330 --> 00:12:10,033
+Aus diesem Grund sind
+das diese vier Use Cases,
+
+231
+00:12:10,034 --> 00:12:13,091
+mit denen hauptsächlich
+die Kunden zu uns kommen.
+
+232
+00:12:13,955 --> 00:12:14,955
+Jetzt eine Frage an euch.
+
+233
+00:12:15,160 --> 00:12:18,410
+Kam denn von euch schon mal jemand auf
+euch zu und hat gesagt im Nachgang,
+
+234
+00:12:18,840 --> 00:12:22,410
+boah, coole Webseite, wir brauchen jetzt
+noch vielleicht eine App dazu.
+
+235
+00:12:23,170 --> 00:12:25,330
+Gab es von jemandem schon mal diese
+Anforderung bisher?
+
+236
+00:12:26,580 --> 00:12:27,610
+Wie hast du das gelöst?
+
+237
+00:12:27,840 --> 00:12:29,280
+Oder wie bist du es dann angegangen?
+
+238
+00:12:33,840 --> 00:12:34,840
+Okay.
+
+239
+00:12:39,800 --> 00:12:40,180
+Ja.
+
+240
+00:12:40,800 --> 00:12:41,800
+Ja, das ist richtig.
+
+241
+00:12:43,810 --> 00:12:46,148
+Tatsächlich ist es dann halt
+immer auch so ein Punkt, mit
+
+242
+00:12:46,149 --> 00:12:48,456
+dem man dann im Vorfeld mit
+dem Kunden kommunizieren muss.
+
+243
+00:12:48,480 --> 00:12:50,640
+Hey, was willst du denn eigentlich
+erreichen?
+
+244
+00:12:50,641 --> 00:12:52,720
+Wo soll es denn eigentlich letztendlich
+hingehen?
+
+245
+00:12:52,760 --> 00:12:54,844
+Wenn ich jetzt natürlich nur
+sage, ich mache Headless,
+
+246
+00:12:54,845 --> 00:12:56,940
+dass ich Headless gemacht
+habe, ist es nicht gut.
+
+247
+00:12:57,040 --> 00:13:00,060
+Und ich möchte auch nicht sagen,
+dass Headless das einzig Wahre ist.
+
+248
+00:13:00,120 --> 00:13:00,340
+Nochmal.
+
+249
+00:13:00,590 --> 00:13:02,466
+Es geht mir darum zu
+sagen, man kann darüber
+
+250
+00:13:02,467 --> 00:13:04,841
+nachdenken, das zu verwenden
+in bestimmten Projekten.
+
+251
+00:13:05,300 --> 00:13:08,770
+Am besten perspektivisch
+nachdenken, zu sagen,
+
+252
+00:13:08,771 --> 00:13:10,920
+hey, wo entwickelt sich
+vielleicht der Kunde hin?
+
+253
+00:13:10,960 --> 00:13:13,270
+Wenn jetzt zum Beispiel ein
+Gemüseladen um die Ecke zu mir kommt,
+
+254
+00:13:13,271 --> 00:13:15,561
+dem würde ich jetzt nicht den
+Headless-Ansatz aufschwatzen.
+
+255
+00:13:16,100 --> 00:13:19,720
+Einfach weil es, ich sage mal,
+mit Kanonen auf Spatzen geschossen wäre.
+
+256
+00:13:19,721 --> 00:13:21,200
+Das wäre einfach übertrieben.
+
+257
+00:13:21,201 --> 00:13:22,644
+Wenn jetzt aber
+vielleicht ein Mittelständler
+
+258
+00:13:22,668 --> 00:13:24,540
+kommt und sagt, ja, wir
+wollen nur eine Webseite.
+
+259
+00:13:25,160 --> 00:13:26,755
+Dann kann ich natürlich mit
+ihm nochmal durchsprechen
+
+260
+00:13:26,756 --> 00:13:28,420
+und sagen, willst du denn
+wirklich nur eine Webseite?
+
+261
+00:13:28,540 --> 00:13:32,660
+Oder was schwebt dir denn noch vor in der
+Zukunft, in fünf Jahren, in zehn Jahren
+
+262
+00:13:32,661 --> 00:13:35,260
+oder in drei Jahren vielleicht auch
+mittelfristig?
+
+263
+00:13:36,760 --> 00:13:39,860
+Deswegen, diese vier Use Cases sind
+typisch, mit denen die Leute in der
+
+264
+00:13:39,861 --> 00:13:43,480
+Agentur, im Agenturleben auf uns zukommen,
+mit dem sie uns hauptsächlich,
+
+265
+00:13:44,900 --> 00:13:47,460
+ja, mit dem sie hauptsächlich auf uns
+einprasseln.
+
+266
+00:13:49,270 --> 00:13:53,760
+Ich bin jetzt schon relativ beim Finale,
+aber ich habe gesagt, ich habe noch ein
+
+267
+00:13:53,761 --> 00:13:56,674
+paar Punkte mitgebracht, weil
+dieses ganze Thema Headless
+
+268
+00:13:56,675 --> 00:13:59,420
+bringt natürlich auch ein paar
+Hürden mit im Projektmanagement.
+
+269
+00:13:59,540 --> 00:14:02,060
+Ich bin jetzt selber viel im
+Projektmanagement tätig.
+
+270
+00:14:02,061 --> 00:14:07,160
+Ich entwickle eigentlich nur noch wenig
+bis gar nichts mehr, verantworte die
+
+271
+00:14:07,161 --> 00:14:12,600
+Projekte viel auf Projektmanagement-Ebene
+und da gibt es so ein paar Regeln.
+
+272
+00:14:14,055 --> 00:14:17,960
+Ich selber habe mir diese fünf Regeln immer
+vorgehalten, gerade bei so einem Projekt.
+
+273
+00:14:18,120 --> 00:14:20,920
+Das erste ist natürlich, ich habe es
+gesagt, die Sinnhaftigkeit prüfen.
+
+274
+00:14:21,140 --> 00:14:24,720
+Ich kann nicht zum Kunden gehen und sagen,
+lieber Kunde, wir machen jetzt Headless,
+
+275
+00:14:25,080 --> 00:14:29,460
+das kostet dich 30, 40, 50 Prozent mehr,
+aber das ist jetzt cool, das machen wir.
+
+276
+00:14:29,640 --> 00:14:30,676
+Das wird nicht funktionieren.
+
+277
+00:14:30,700 --> 00:14:34,660
+Das heißt, man muss eben in die Zukunft
+schauen, ist das Ganze ein Projekt,
+
+278
+00:14:34,870 --> 00:14:36,620
+wo wir vielleicht eine App brauchen?
+
+279
+00:14:36,860 --> 00:14:38,940
+Ist es vielleicht, wo wir Variables
+ansteuern wollen?
+
+280
+00:14:39,230 --> 00:14:41,510
+Ist es vielleicht, wo wir die Daten
+zweitverwerten wollen?
+
+281
+00:14:42,240 --> 00:14:43,800
+Wie ist denn das Ganze aufgebaut?
+
+282
+00:14:43,940 --> 00:14:45,280
+Wie ist das Budget auch von dem Kunden?
+
+283
+00:14:45,281 --> 00:14:47,641
+Also auch hier gibt es einfach die
+Sinnhaftigkeit zu prüfen.
+
+284
+00:14:48,180 --> 00:14:51,393
+Wie gesagt, der kleine
+Blumenladen um die Ecke wird den
+
+285
+00:14:51,394 --> 00:14:54,101
+Headless-Ansatz nicht wollen
+und auch nicht bezahlen wollen.
+
+286
+00:14:54,580 --> 00:14:56,540
+Mittelständler sagen da vielleicht eher,
+hm, okay.
+
+287
+00:14:56,810 --> 00:14:59,078
+Das heißt, Punkt zwei
+leitet sich davon ab,
+
+288
+00:14:59,079 --> 00:15:01,060
+die Zukunft des Projektes
+im Auge behalten.
+
+289
+00:15:01,160 --> 00:15:04,420
+Auch hier geht es einfach darum,
+was sind meine Eckpunkte?
+
+290
+00:15:04,421 --> 00:15:07,380
+Wie wird das Projekt vielleicht in zwei,
+drei Jahren skalieren können?
+
+291
+00:15:08,840 --> 00:15:10,467
+Das muss ich einfach
+mit dem Kunden ganz klar
+
+292
+00:15:10,468 --> 00:15:13,061
+durchsprechen und auch
+offen mit ihm kommunizieren.
+
+293
+00:15:14,800 --> 00:15:15,260
+Klar, das ist das Problem.
+
+294
+00:15:15,261 --> 00:15:17,976
+Wir müssen klare Verantwortlichkeiten für
+Front- und Backends schaffen.
+
+295
+00:15:18,000 --> 00:15:19,000
+Wir hatten das...
+
+296
+00:15:20,120 --> 00:15:21,488
+Wir arbeiten in einem
+großen Verlag zusammen
+
+297
+00:15:21,489 --> 00:15:23,541
+und haben dort den
+Headless -Ansatz gefahren.
+
+298
+00:15:24,580 --> 00:15:27,500
+Dort war es am Anfang so, wir hatten eine
+Designerin, die hat dann gesagt,
+
+299
+00:15:27,580 --> 00:15:29,760
+ja, ich kann ein bisschen PHP,
+ist ja kein Problem.
+
+300
+00:15:30,560 --> 00:15:33,480
+Die Funktionen, die ich brauche und die
+Daten, die ich vielleicht brauche,
+
+301
+00:15:34,030 --> 00:15:35,716
+die schreibe ich mir da einfach selber
+rein.
+
+302
+00:15:35,740 --> 00:15:38,820
+Und dann hat die Designerin, die
+eigentlich von einer anderen Agentur
+
+303
+00:15:38,821 --> 00:15:40,880
+kommt, hat dann in unserem Code
+mitgearbeitet.
+
+304
+00:15:40,980 --> 00:15:43,140
+Erst mal für den Verlag war das auch kein
+Problem.
+
+305
+00:15:45,410 --> 00:15:47,147
+Für uns war es dann aber
+im Nachhinein ein Problem,
+
+306
+00:15:47,148 --> 00:15:48,796
+weil wir einfach
+Verantwortlichkeiten haben.
+
+307
+00:15:48,820 --> 00:15:52,160
+Wir waren für das Backend zuständig,
+wir waren für die API zuständig und auf
+
+308
+00:15:52,161 --> 00:15:54,776
+einmal wurden da Daten geliefert,
+die eigentlich gar keinen Sinn machen,
+
+309
+00:15:54,800 --> 00:15:58,120
+die einfach für uns auch in der Art,
+wie sie abgefragt worden sind,
+
+310
+00:15:58,580 --> 00:16:03,640
+überhaupt nicht sinnvoll sind und nicht
+unserem Programmierstil entsprechen.
+
+311
+00:16:04,780 --> 00:16:08,460
+Aus dem Grund ist ein Vorteil eben davon
+die klare Trennung.
+
+312
+00:16:08,705 --> 00:16:11,460
+Aber dafür müssen auch klare
+Verantwortlichkeiten geschaffen werden.
+
+313
+00:16:11,540 --> 00:16:12,440
+Wo ist dein Tanzbereich?
+
+314
+00:16:12,540 --> 00:16:13,580
+Wo ist unser Tanzbereich?
+
+315
+00:16:13,581 --> 00:16:14,581
+Was sind deine?
+
+316
+00:16:14,700 --> 00:16:15,480
+Was darfst du machen?
+
+317
+00:16:15,580 --> 00:16:16,580
+Was dürfen wir machen?
+
+318
+00:16:16,995 --> 00:16:19,880
+Hier muss ganz klar geregelt werden,
+deine Sache, meine Sache.
+
+319
+00:16:20,350 --> 00:16:23,620
+Punkt 4, da kommen wir einfach dazu,
+ist eben die offene Kommunikation.
+
+320
+00:16:23,700 --> 00:16:27,680
+Das heißt, ich muss mit allen
+Projektbeteiligten offen drüber reden,
+
+321
+00:16:27,740 --> 00:16:32,540
+sagen, hey, das ist der Ansatz,
+wir öffnen unser Backend via API.
+
+322
+00:16:32,920 --> 00:16:35,360
+Du darfst das konsumieren, das holt dir
+die Daten raus.
+
+323
+00:16:35,520 --> 00:16:37,940
+Wenn du aber was brauchst, ist es unsere
+Aufgabe.
+
+324
+00:16:38,060 --> 00:16:41,640
+Einfach deswegen, dass wir sagen,
+wir sind auch dafür verantwortlich.
+
+325
+00:16:41,700 --> 00:16:43,040
+Und dann ganz wichtig, und das...
+
+326
+00:16:43,980 --> 00:16:46,943
+kriege ich leider immer
+wieder mit von Neukunden und
+
+327
+00:16:46,944 --> 00:16:49,216
+so weiter, ist auch ein
+sauberes Projektmanagement.
+
+328
+00:16:49,240 --> 00:16:52,940
+Es muss sauber dokumentiert werden, wenn
+Änderungen irgendwo vorgenommen werden.
+
+329
+00:16:53,520 --> 00:16:56,960
+Sei es in Form von einem Ticket,
+sei es aber auch in Form von einer
+
+330
+00:16:56,961 --> 00:16:59,136
+Dokumentation, in
+einer Jira-Dokumentation
+
+331
+00:16:59,137 --> 00:17:02,741
+oder in einem Wiki-Eintrag
+oder wie auch immer.
+
+332
+00:17:04,200 --> 00:17:07,400
+Dokumentiert es sauber, macht ein sauberes
+Projektmanagement einfach, dass auch klar
+
+333
+00:17:07,401 --> 00:17:10,757
+ist, wer eigentlich denn
+für was zuständig ist und
+
+334
+00:17:10,758 --> 00:17:13,721
+was jetzt, warum diese
+Änderung durchgeführt wurde.
+
+335
+00:17:16,000 --> 00:17:19,861
+Ich habe am Schluss noch eine
+Message, weil ich jetzt gerade,
+
+336
+00:17:19,862 --> 00:17:22,420
+weil jetzt vor drei Wochen
+war, glaube ich, die DM Exco.
+
+337
+00:17:22,600 --> 00:17:23,996
+Ich weiß nicht, ob da jemand von euch war.
+
+338
+00:17:24,020 --> 00:17:28,621
+Es ist eine große Digitalmesse in Köln und
+dort sind die ganzen großen Player eben da.
+
+339
+00:17:30,330 --> 00:17:33,915
+Und man sieht da die
+WordPress-Jungs und Mädels nicht,
+
+340
+00:17:33,916 --> 00:17:36,760
+weil es eben halt natürlich
+eine Open Source Community ist.
+
+341
+00:17:37,470 --> 00:17:39,381
+Wir hören aber immer
+wieder, wenn wir mit
+
+342
+00:17:39,382 --> 00:17:41,240
+anderen Agenturen reden,
+ich mache WordPress.
+
+343
+00:17:41,520 --> 00:17:43,840
+Es ist so ein bisschen so, die Leute
+gucken uns an so, ach, ihr macht WordPress.
+
+344
+00:17:44,120 --> 00:17:45,160
+Okay, krass.
+
+345
+00:17:46,120 --> 00:17:47,680
+Ja, haben wir auch mal früher gemacht.
+
+346
+00:17:47,780 --> 00:17:48,360
+Machen wir jetzt nicht mehr.
+
+347
+00:17:48,361 --> 00:17:52,685
+Wir machen jetzt die großen Anbieter,
+wo man schon, keine Ahnung, 30.
+
+348
+00:17:52,686 --> 00:17:55,320
+000 erstmal bringen muss, dass man
+erstmal die Lizenz hat und so weiter.
+
+349
+00:17:55,321 --> 00:17:57,001
+Das ist nämlich viel cooler und so weiter.
+
+350
+00:17:58,560 --> 00:18:02,440
+Ich finde, die Community und WordPress an
+sich muss sich nicht verstecken.
+
+351
+00:18:02,520 --> 00:18:05,420
+In dem Content-Management-System steckt so
+viel drin.
+
+352
+00:18:05,620 --> 00:18:08,940
+Wir haben eigentlich, wenn man das so
+anschaut, eine richtig coole Community.
+
+353
+00:18:08,941 --> 00:18:12,280
+43% aller Webseiten weltweit laufen auf
+WordPress.
+
+354
+00:18:13,105 --> 00:18:16,480
+Und da finde ich es immer schade,
+dass es dann immer heißt von anderen
+
+355
+00:18:16,481 --> 00:18:19,086
+Agenturen oder von
+anderen Bereichen, na, dieses
+
+356
+00:18:19,087 --> 00:18:20,940
+WordPress, das wird
+so ein bisschen belächelt.
+
+357
+00:18:20,980 --> 00:18:21,900
+Das ist ja kostenlos.
+
+358
+00:18:21,940 --> 00:18:24,620
+Ich meine, für uns Schwaben, wir mögen die
+kostenlosen Sachen, klar.
+
+359
+00:18:25,440 --> 00:18:28,260
+Aber es ist immer so ein Thema, man
+wird da immer so ein bisschen angeguckt.
+
+360
+00:18:28,300 --> 00:18:29,980
+Ja, das ist doch nur so für so Reiseblogs.
+
+361
+00:18:30,415 --> 00:18:33,295
+Und ich möchte einfach so ein bisschen
+auch die Community ermutigen, hey,
+
+362
+00:18:33,430 --> 00:18:35,840
+WordPress muss sich tatsächlich überhaupt
+nicht verstecken.
+
+363
+00:18:36,170 --> 00:18:37,640
+WordPress kann nämlich alles.
+
+364
+00:18:37,641 --> 00:18:39,060
+Und noch viel mehr.
+
+365
+00:18:39,140 --> 00:18:40,140
+Und sogar Headless.
+
+366
+00:18:40,755 --> 00:18:47,000
+Wir verwenden WordPress bei Verlagskunden,
+die haben im Jahr Millionen Page Visits
+
+367
+00:18:47,225 --> 00:18:48,820
+und haben da kein Problem.
+
+368
+00:18:48,980 --> 00:18:51,640
+Die Redakteure lieben dieses System.
+
+369
+00:18:52,410 --> 00:18:54,325
+Und mir wäre es einfach
+ein Anliegen, dass wir als
+
+370
+00:18:54,349 --> 00:18:56,420
+Community sagen, hey,
+WordPress kann wirklich viel.
+
+371
+00:18:56,840 --> 00:18:59,600
+Wir können da so viel mitbauen.
+
+372
+00:18:59,860 --> 00:19:01,300
+Wir haben da so viele Möglichkeiten.
+
+373
+00:19:02,610 --> 00:19:06,520
+Und damit will ich meinen kurzen
+Inspirationsbeitrag schon abschließen.
+
+374
+00:19:06,521 --> 00:19:09,280
+Ich hoffe, ihr konntet ein bisschen was
+mitnehmen.
+
+375
+00:19:09,400 --> 00:19:12,440
+Ich hoffe, ich konnte euch diesen Headless
+-Ansatz ein bisschen nahe bringen.
+
+376
+00:19:13,060 --> 00:19:15,420
+Und wenn ihr Fragen habt, kommt sehr gerne
+auf mich zu.
+
+377
+00:19:15,480 --> 00:19:16,700
+Verlinkt euch gerne mit mir.
+
+378
+00:19:17,210 --> 00:19:20,210
+Und ansonsten sage ich schon mal vielen
+Dank erstmal für die Aufmerksamkeit.
+
+379
+00:19:28,410 --> 00:19:32,402
+Ich habe direkt eine Frage zu
+dem Thema, wo du gesagt hast,
+
+380
+00:19:32,403 --> 00:19:37,380
+im Endeffekt Headless als
+Multi-Frontend-Tool zu benutzen.
+
+381
+00:19:38,250 --> 00:19:40,803
+Was spricht aus deiner
+Sicht dann dagegen zu
+
+382
+00:19:40,903 --> 00:19:44,000
+sagen, okay, WordPress
+kommt eh mit einer REST API.
+
+383
+00:19:44,280 --> 00:19:51,140
+Ich benutze als Web-Frontend das
+klassische Frontend und flansche eine App,
+
+384
+00:19:51,410 --> 00:19:53,240
+whatever, über REST API auf.
+
+385
+00:19:53,480 --> 00:19:54,300
+Prinzipiell gar nichts.
+
+386
+00:19:54,445 --> 00:19:58,200
+Das ist auch ein sehr guter und sehr
+beliebter Ansatz, den man fahren kann.
+
+387
+00:19:58,840 --> 00:20:02,580
+Wenn ich jetzt natürlich sage,
+hey, pass auf, ich habe jetzt einen
+
+388
+00:20:02,581 --> 00:20:07,580
+speziellen Prüfvorgang für Beiträge,
+die speziell überprüft werden müssen,
+
+389
+00:20:07,620 --> 00:20:09,094
+wo ein spezielles Flag
+gesetzt werden muss,
+
+390
+00:20:09,095 --> 00:20:10,840
+dass es zum Beispiel
+veröffentlicht werden kann.
+
+391
+00:20:10,841 --> 00:20:13,380
+Oder wie auch immer, dass ich eine
+Filterung reinbauen muss.
+
+392
+00:20:14,190 --> 00:20:15,700
+Dann würde ich darüber nachdenken.
+
+393
+00:20:15,720 --> 00:20:19,860
+Wir selber benutzen auch häufig die API
+und flanschen das dann quasi dran.
+
+394
+00:20:20,040 --> 00:20:22,801
+Es kommt darauf an, was wir machen,
+wenn es die Anforderung React ist.
+
+395
+00:20:22,990 --> 00:20:26,900
+Aber prinzipiell ist dieser Ansatz super
+valide und natürlich auch total möglich,
+
+396
+00:20:27,110 --> 00:20:28,736
+dass ich im Nachgang auch darüber die App
+bauen kann.
+
+397
+00:20:28,760 --> 00:20:29,760
+Klar, kein Problem.
+
+398
+00:20:32,240 --> 00:20:34,020
+Ich spiele jetzt mal den Anwalt des
+Teufels.
+
+399
+00:20:34,350 --> 00:20:37,488
+Wenn ihr schon das Frontend
+entkoppelt, warum haltet
+
+400
+00:20:37,489 --> 00:20:40,240
+ihr ausgerechnet beim
+Backend an WordPress fest?
+
+401
+00:20:40,340 --> 00:20:44,060
+Mit einer kaputten Datenbankstruktur,
+mit Admin-Tools, die nicht ordentlich
+
+402
+00:20:44,260 --> 00:20:47,300
+funktionieren, mit einem Notification
+-System, das dringend renoviert gehört.
+
+403
+00:20:47,670 --> 00:20:48,710
+Was spricht für WordPress?
+
+404
+00:20:50,860 --> 00:20:52,962
+Für uns spricht bei
+WordPress hauptsächlich
+
+405
+00:20:52,963 --> 00:20:54,720
+zum einen erstmal
+der Tech -Stack an sich.
+
+406
+00:20:54,940 --> 00:20:56,900
+Den können wir mit sehr gut umgehen.
+
+407
+00:20:59,180 --> 00:21:03,280
+An sich hören wir sehr viel Positives auch
+von den Redakteuren.
+
+408
+00:21:03,300 --> 00:21:05,460
+Das ist auch so ein Punkt, den man nicht
+vergessen darf.
+
+409
+00:21:05,480 --> 00:21:06,680
+Die Leute, die damit arbeiten.
+
+410
+00:21:07,090 --> 00:21:09,636
+Und wir haben sehr häufig,
+kriegen wir das Feedback,
+
+411
+00:21:09,637 --> 00:21:11,720
+dass WordPress eben
+einfach zu benutzen ist.
+
+412
+00:21:11,860 --> 00:21:13,665
+Die Leute benutzen es
+gerne mit einer flachen
+
+413
+00:21:13,666 --> 00:21:16,001
+Hierarchie, mit einer
+flachen Eingabestruktur.
+
+414
+00:21:17,320 --> 00:21:19,200
+Sicherlich gibt es Pro und Contra für
+WordPress.
+
+415
+00:21:19,460 --> 00:21:20,936
+Da müssen wir nicht drüber diskutieren.
+
+416
+00:21:20,960 --> 00:21:23,720
+Wir kriegen das Feedback eben,
+dass es einfach ist zum Warten.
+
+417
+00:21:23,820 --> 00:21:26,640
+Und wir haben auch andere Content
+-Management-Systeme noch im Einsatz.
+
+418
+00:21:27,185 --> 00:21:28,360
+Die sind noch sehr komplex.
+
+419
+00:21:28,361 --> 00:21:30,333
+Da sagen dann die
+Leute zum Beispiel, ist mir
+
+420
+00:21:30,334 --> 00:21:31,980
+zum komplex zum
+Beispiel damit zu arbeiten.
+
+421
+00:21:32,180 --> 00:21:34,700
+Das ist so ein Vorteil, den wir zum
+Beispiel immer wieder hören.
+
+422
+00:21:35,180 --> 00:21:35,840
+Zusatzfrage dazu.
+
+423
+00:21:35,940 --> 00:21:38,480
+Dann im Backend, wenn du sagst,
+die Redakteure loben das.
+
+424
+00:21:39,025 --> 00:21:42,382
+Erarbeitet ihr dann
+mit FSE-Tools, mit dem
+
+425
+00:21:42,383 --> 00:21:44,960
+Gutenberg-Editor oder
+mit dem Classic -Editor?
+
+426
+00:21:45,275 --> 00:21:50,680
+Wir arbeiten viel mit dem Gutenberg-Editor
+und bauen dort eben die Blöcke mit für
+
+427
+00:21:50,681 --> 00:21:53,000
+unsere Kunden, wie sie eben
+dementsprechend brauchen.
+
+428
+00:21:53,140 --> 00:21:54,680
+Also wir bearbeiten viel mit den
+Gutenbergs.
+
+429
+00:21:54,681 --> 00:21:56,801
+Wir sind sehr froh mit den Gutenberg
+-Blöcken aktuell.
+
+430
+00:21:57,315 --> 00:22:00,160
+Und das ist ein Tech-Stack, der für uns
+aktuell super funktioniert.
+
+431
+00:22:03,490 --> 00:22:04,570
+Ganz hinten haben wir noch.
+
+432
+00:22:10,360 --> 00:22:12,843
+Mit welchem
+Headlets-System habt ihr schon
+
+433
+00:22:12,844 --> 00:22:16,371
+Erfahrung, dass der
+so nicht so pain bringt?
+
+434
+00:22:17,550 --> 00:22:20,390
+Was wir für Probleme entdeckt haben schon
+bei Headlets oder so?
+
+435
+00:22:21,620 --> 00:22:27,070
+Oder besser gesagt, welche war die beste
+Headlet, die wir bis jetzt genutzt haben?
+
+436
+00:22:28,170 --> 00:22:29,170
+An Systemen?
+
+437
+00:22:29,240 --> 00:22:33,090
+Naja, da ich bei einer WordPress
+-Veranstaltung bin, ist WordPress
+
+438
+00:22:33,091 --> 00:22:35,670
+natürlich das beste Headlet, was wir
+verwendet haben.
+
+439
+00:22:36,680 --> 00:22:39,870
+Es gibt, letztlich kann man da nicht
+sagen, was das Beste ist oder was nicht.
+
+440
+00:22:40,030 --> 00:22:42,370
+Es kommt immer darauf an, was ist der Use
+Case?
+
+441
+00:22:42,371 --> 00:22:47,030
+Wenn ich natürlich erstmal für ein CMS
+-System 30.000 liefern muss zum Beispiel,
+
+442
+00:22:47,130 --> 00:22:50,570
+oder 5.000 oder was auch immer,
+dass ich erstmal die Basisversion von
+
+443
+00:22:50,571 --> 00:22:55,390
+einem CMS-System habe, das un-customized
+ist, wo einfach der Kunde sagt,
+
+444
+00:22:55,550 --> 00:22:57,070
+okay, da habe ich jetzt Eingabefelder.
+
+445
+00:22:57,340 --> 00:22:58,660
+Hm, da macht es natürlich schwer.
+
+446
+00:22:58,730 --> 00:23:03,034
+Die 5.000 Euro zum Beispiel
+kann ich schon mal verwenden
+
+447
+00:23:03,054 --> 00:23:05,530
+und ein angepasstes,
+customized Backend machen.
+
+448
+00:23:06,250 --> 00:23:08,090
+Letztlich haben alle ihre Vorteile.
+
+449
+00:23:08,210 --> 00:23:10,650
+Wir haben eine Datenbankstruktur,
+die nicht immer optimal ist.
+
+450
+00:23:10,860 --> 00:23:13,810
+Wir haben auch bei WordPress, wo nicht
+alles Gold ist, was glänzt.
+
+451
+00:23:13,990 --> 00:23:15,526
+Letztlich muss man sich selber
+entscheiden.
+
+452
+00:23:15,550 --> 00:23:19,230
+Ich möchte nur ermutigen, dass eben auch
+WordPress eine gute Alternative für diesen
+
+453
+00:23:19,231 --> 00:23:22,410
+Headless -Ansatz ist und dass wir sagen,
+hey, das kann man damit verwenden.
+
+454
+00:23:22,865 --> 00:23:24,590
+Es ist for free, es ist open source.
+
+455
+00:23:24,830 --> 00:23:28,070
+Und das Geld, was ich erstmal an
+Lizenzkosten irgendwo vielleicht mal
+
+456
+00:23:28,071 --> 00:23:33,210
+tragen muss, das kann ich vielleicht für
+den coolen Word, für den coolen Funktionen
+
+457
+00:23:33,211 --> 00:23:35,010
+im Backend-Bereich zum Customizen
+einbauen.
+
+458
+00:23:36,670 --> 00:23:37,670
+Ja, danke.
+
+459
+00:23:37,795 --> 00:23:43,070
+Und habt ihr da auch ein Shop-System
+integriert oder ist das...
+
+460
+00:23:43,570 --> 00:23:46,130
+Wie wird das Headless-System dann
+eingesetzt?
+
+461
+00:23:46,410 --> 00:23:51,210
+Tatsächlich haben wir jetzt in unserer
+WordPress-Unit kein Shop-System.
+
+462
+00:23:51,250 --> 00:23:53,161
+Wir haben DXP-Plattformen,
+die dann zum Beispiel
+
+463
+00:23:53,162 --> 00:23:55,451
+ein Shop-System mit
+integriert haben und so weiter.
+
+464
+00:23:55,580 --> 00:23:56,896
+Aber das ist nicht auf WordPress-Basis.
+
+465
+00:23:56,920 --> 00:24:01,510
+Wir selber machen viel Reichweiten-Seiten
+und digitale Online-Angebote.
+
+466
+00:24:01,511 --> 00:24:05,030
+Den Verlag, den wir betreuen, der hat
+einen eigenen Shop.
+
+467
+00:24:05,240 --> 00:24:07,490
+Also Shop, das ist ein iFrame.
+
+468
+00:24:07,670 --> 00:24:10,170
+Was eine Transaktion auslöst und so
+weiter.
+
+469
+00:24:10,480 --> 00:24:12,711
+Das ist kein richtiges Shop-System,
+was wir da eingebaut haben.
+
+470
+00:24:12,735 --> 00:24:15,651
+Also wir bauen hauptsächlich
+Reichweiten -Seiten
+
+471
+00:24:15,652 --> 00:24:17,670
+und digitale Produkte
+auf WordPress -Basis.
+
+472
+00:24:17,970 --> 00:24:18,970
+Okay.
+
+473
+00:24:19,140 --> 00:24:23,413
+Kannst du noch mal ganz
+kurz ein paar Sätze skizzieren
+
+474
+00:24:23,414 --> 00:24:26,930
+im Einsatz mit der
+Datenbank, mit der REST-API?
+
+475
+00:24:28,670 --> 00:24:30,390
+Auf welche Dinge muss man da achten?
+
+476
+00:24:30,430 --> 00:24:34,450
+Weil es gibt ja auch viele, die haben ein
+Pimcore im Einsatz.
+
+477
+00:24:36,250 --> 00:24:42,190
+Und der Knackpunkt ist, wie fließen die
+Daten rein, können sauber verarbeitet
+
+478
+00:24:42,290 --> 00:24:45,230
+werden und wie können sie wieder sauber
+rausfließen?
+
+479
+00:24:45,720 --> 00:24:47,480
+Kannst du da noch mal ein bisschen was
+sagen?
+
+480
+00:24:49,080 --> 00:24:53,890
+Ja, also wichtig natürlich mit dem
+Arbeiten mit der API ist natürlich,
+
+481
+00:24:56,110 --> 00:25:00,090
+sie muss, also sie ist ja selber, sie ist
+nicht selber geschrieben hier in dem Fall.
+
+482
+00:25:00,170 --> 00:25:02,148
+Wenn wir sie konsumieren, zum
+Beispiel die WordPress-fertige
+
+483
+00:25:02,149 --> 00:25:03,971
+API, die muss natürlich
+sauber dokumentiert sein.
+
+484
+00:25:04,380 --> 00:25:05,230
+Das ist natürlich so ein Punkt.
+
+485
+00:25:05,305 --> 00:25:10,970
+Wir haben häufig Themen gehabt von,
+es muss nicht immer ein CMS sein,
+
+486
+00:25:11,030 --> 00:25:14,448
+aber anderen
+API-Schnittstellen, in denen, ich
+
+487
+00:25:14,449 --> 00:25:17,190
+sage mal, undokumentierte
+Features drin sind.
+
+488
+00:25:18,300 --> 00:25:21,910
+Das ist natürlich fatal, wenn die
+Dokumentation von der API nicht stimmt.
+
+489
+00:25:22,130 --> 00:25:23,510
+Das finde ich ganz schlimm.
+
+490
+00:25:25,370 --> 00:25:30,950
+Und ansonsten gelten eigentlich, glaube
+ich, die normalen Programmierrichtlinien.
+
+491
+00:25:31,050 --> 00:25:33,690
+Also ich muss natürlich gucken,
+wie viele Requests muss ich machen?
+
+492
+00:25:33,830 --> 00:25:35,130
+Wie sichere ich die API?
+
+493
+00:25:35,131 --> 00:25:36,651
+Auch dementsprechend ab und so weiter.
+
+494
+00:25:37,350 --> 00:25:39,790
+Generell muss man da einfach schauen,
+wie es da aufgebaut ist.
+
+495
+00:25:43,070 --> 00:25:46,813
+Aber ansonsten würde ich sagen,
+ganz normal verantwortungsvoll
+
+496
+00:25:46,814 --> 00:25:49,031
+mit der API umgehen, auch
+bei WordPress in dem Fall.
+
+497
+00:25:52,350 --> 00:25:53,350
+Danke.
+
+498
+00:25:53,800 --> 00:25:54,890
+Ich habe eine Frage.
+
+499
+00:25:55,050 --> 00:25:59,130
+Sie haben sehr viel gesprochen über API
+und verschiedene Ansätze.
+
+500
+00:25:59,830 --> 00:26:02,710
+Ich habe folgendes zum Beispiel,
+sagen wir so ein Beispiel.
+
+501
+00:26:02,850 --> 00:26:07,150
+Wir haben WordPress für die Bearbeitung
+von Blogs oder Posts und so weiter.
+
+502
+00:26:07,170 --> 00:26:11,672
+Und zweiterseits wollen
+wir auch in Zukunft eine App
+
+503
+00:26:11,673 --> 00:26:16,930
+aufbauen, zum Beispiel
+auch für Android oder für iOS.
+
+504
+00:26:18,510 --> 00:26:26,510
+Nutzen wir dann REST API oder sollen wir
+dann eine API speziell dafür entwickeln?
+
+505
+00:26:27,835 --> 00:26:30,210
+Also wie wäre dann die Prozedur zum
+Beispiel?
+
+506
+00:26:30,810 --> 00:26:33,710
+Das kommt jetzt natürlich darauf an,
+was ihr da konkret für eine App bauen
+
+507
+00:26:33,711 --> 00:26:35,550
+wollt, was ihr für Zusatzfunktionen
+braucht.
+
+508
+00:26:35,730 --> 00:26:37,999
+Liefert die aktuelle
+REST, API vielleicht schon
+
+509
+00:26:38,000 --> 00:26:39,930
+alles, dann könnt ihr
+natürlich die verwenden.
+
+510
+00:26:39,970 --> 00:26:43,730
+Wenn ihr jetzt sagt, aber wir haben jetzt
+andere schreibende Zugriffe und so weiter
+
+511
+00:26:43,731 --> 00:26:46,466
+und so fort, dann kann es natürlich sein,
+ihr müsst was Eigenes schreiben.
+
+512
+00:26:46,490 --> 00:26:49,650
+Dafür müsst ihr natürlich erstmal wissen,
+was wollt ihr da für eine App bauen?
+
+513
+00:26:49,730 --> 00:26:51,070
+Was macht die App zum Beispiel?
+
+514
+00:26:51,290 --> 00:26:55,501
+Ja, zum Beispiel nur
+wie auf die Homepage zu
+
+515
+00:26:55,502 --> 00:26:59,050
+gehen und nur ein
+Get-Funktionen zu bekommen.
+
+516
+00:26:59,440 --> 00:27:01,410
+Also nur lesen von Datenbanken.
+
+517
+00:27:01,680 --> 00:27:03,320
+Ich glaube, da haben wir es schon gehört.
+
+518
+00:27:03,870 --> 00:27:06,030
+Kommt immer darauf an, brauche ich da
+überhaupt eine App?
+
+519
+00:27:06,031 --> 00:27:08,111
+Also muss ich da eine komplette App selber
+schreiben?
+
+520
+00:27:08,890 --> 00:27:11,370
+Ansonsten kann ich da ganz normal die REST
+API verwenden.
+
+521
+00:27:16,790 --> 00:27:17,790
+Noch eine Frage?
+
+522
+00:27:19,470 --> 00:27:20,590
+Vielen Dank für den Vortrag.
+
+523
+00:27:20,725 --> 00:27:22,310
+Eine Frage wegen der GraphQL.
+
+524
+00:27:23,130 --> 00:27:26,730
+Wird das auch bei euch eingesetzt oder
+nutzt ihr wirklich tatsächlich nur die
+
+525
+00:27:26,731 --> 00:27:29,890
+ganz normale Abfrage vom WordPress von der
+REST API?
+
+526
+00:27:30,340 --> 00:27:32,350
+Wir benutzen tatsächlich die ganz normale.
+
+527
+00:27:32,351 --> 00:27:34,359
+Wir haben uns ein
+Plugin, ein eigenes
+
+528
+00:27:34,360 --> 00:27:36,710
+geschrieben, was noch
+die Daten anders durchgeht.
+
+529
+00:27:36,750 --> 00:27:38,990
+Aber die GraphSQL verwenden wir nicht.
+
+530
+00:27:49,920 --> 00:27:52,720
+Dann, wenn keine Fragen mehr da sind, sage
+ich vielen Dank für eure Aufmerksamkeit.
+
+531
+00:27:52,740 --> 00:27:54,820
+Ich hoffe, ich konnte euch ein bisschen
+was mitgeben.
+
+532
+00:27:54,875 --> 00:27:56,385
+Habt noch einen schönen
+Tag und nochmal vielen
+
+533
+00:27:56,386 --> 00:27:57,960
+Dank an die Organisatoren
+für das tolle Event.
+
+534
+00:27:58,260 --> 00:27:59,260
+Dankeschön.
+

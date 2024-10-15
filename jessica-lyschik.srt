@@ -1,0 +1,1875 @@
+﻿1
+00:02:15,560 --> 00:02:16,960
+...
+
+2
+00:02:44,670 --> 00:02:46,950
+Ja, das ist der dritte Satz, der dritte
+Satz.
+
+3
+00:04:47,870 --> 00:04:53,710
+Also ihr seht, das ist schon manchmal so
+ein bisschen rickelig, aber wir machen das
+
+4
+00:04:53,711 --> 00:04:57,130
+jetzt so, dass wir die Sachen einfach
+kopieren, dann haben wir nämlich ein sehr
+
+5
+00:04:57,131 --> 00:05:03,470
+ähnliches Verhalten zum Spaltenblock oben
+drüber, sodass wir quasi einen umfassenden
+
+6
+00:05:03,471 --> 00:05:06,970
+Block haben und dann darin quasi nochmal
+Unterbereiche.
+
+7
+00:05:06,971 --> 00:05:13,010
+Und wenn ich jetzt hier reingehe und sage,
+ich möchte nach dem Überschritt noch einen
+
+8
+00:05:14,010 --> 00:05:19,490
+Absatz hinzufügen, dann sieht das Ganze
+halt so raus.
+
+9
+00:05:20,930 --> 00:05:23,206
+Und ihr seht schon, das ist schon ein
+bisschen visuell anders.
+
+10
+00:05:23,230 --> 00:05:27,610
+Das ist im Prinzip gleich aufgebaut,
+so von der Idee her, aber einfach dadurch,
+
+11
+00:05:27,730 --> 00:05:31,283
+dass sich die Sachen unterscheiden
+in dem, wie sie aufgebaut
+
+12
+00:05:31,284 --> 00:05:33,971
+sind, kommt man da ein bisschen
+unterschiedlicher Ergebnisse.
+
+13
+00:05:35,950 --> 00:05:41,450
+Also schauen wir mal in den Spaltenblock
+hier rein und hier sieht man, da ist noch
+
+14
+00:05:41,451 --> 00:05:43,532
+ein bisschen was drumherum,
+aber im Prinzip ist das hier
+
+15
+00:05:43,533 --> 00:05:45,691
+auch mit Spalten gelöst,
+also wie in der ersten Lösung.
+
+16
+00:05:46,240 --> 00:05:50,470
+Einfach, weil ihr schon sehen könnt,
+hier müsste man jetzt noch hergehen und
+
+17
+00:05:50,471 --> 00:05:53,290
+die einzelnen Sachen nochmal in sich
+anders ausrichten.
+
+18
+00:05:53,510 --> 00:05:56,256
+Das wird halt mit dem Spaltenblock zum
+Beispiel viel einfacher gemacht,
+
+19
+00:05:56,280 --> 00:05:58,681
+weil das schon vorgegeben ist,
+wie sich die Dinge ausrichten.
+
+20
+00:05:59,790 --> 00:06:02,190
+Und wenn wir uns das Ganze anschauen...
+
+21
+00:06:03,050 --> 00:06:03,690
+Zum Beispiel...
+
+22
+00:06:03,920 --> 00:06:07,230
+Zum Beispiel auf Tablet, dann sehen wir,
+okay, hier ist schon alles ungebrochen.
+
+23
+00:06:08,810 --> 00:06:11,790
+Weil es auch bei den Spalten so ist,
+wird das auch hier schon ungebrochen,
+
+24
+00:06:11,830 --> 00:06:14,170
+aber man sieht halt, in der Zeile ist noch
+alles nebenan.
+
+25
+00:06:14,620 --> 00:06:19,825
+Das wäre jetzt so im ersten
+Moment eben zu sagen, okay,
+
+26
+00:06:19,826 --> 00:06:23,430
+Spalten ist hier tatsächlich
+der bessere Block an der Stelle.
+
+27
+00:06:23,950 --> 00:06:26,993
+Es ist theoretisch möglich,
+das Ganze mit einer Zeile zu
+
+28
+00:06:26,994 --> 00:06:29,550
+machen, hat aber einfach
+grundsätzlich anderes Verhalten.
+
+29
+00:06:29,650 --> 00:06:33,110
+Und da muss man immer gucken, was möchte
+man erreichen?
+
+30
+00:06:33,111 --> 00:06:34,970
+Wie möchte man die Inhalte darstellen?
+
+31
+00:06:36,580 --> 00:06:40,070
+Was ist da am sinnvollsten quasi möglich?
+
+32
+00:06:40,750 --> 00:06:45,330
+Ich glaube, wenn wir auf Mobil gehen,
+dann wird auch bei den...
+
+33
+00:06:45,331 --> 00:06:48,646
+Aber wird auch hier unten... Nee, da wird
+hier unten auch nicht ungebrochen, genau.
+
+34
+00:06:48,670 --> 00:06:50,810
+Das ist halt auch noch so ein Ding.
+
+35
+00:06:50,910 --> 00:06:54,570
+Da muss man hier einmal Zeilenwohnbruch
+erlauben und dann funktioniert das.
+
+36
+00:06:55,900 --> 00:07:00,370
+Wenn ich jetzt aber natürlich hier noch
+mehr reinschreiben würde, dann seht ihr,
+
+37
+00:07:00,680 --> 00:07:02,001
+bricht es auch irgendwann mal um.
+
+38
+00:07:02,550 --> 00:07:06,430
+Aber beim Spaltenblock ist das schon ein
+bisschen früher der Fall, dass das so
+
+39
+00:07:07,130 --> 00:07:11,970
+passend sich umbricht, dass man dann nicht
+mehr allzu gut...
+
+40
+00:07:12,170 --> 00:07:14,590
+Und dann ist es im
+Prinzip eigentlich nur noch
+
+41
+00:07:14,591 --> 00:07:17,411
+eine Sache von, wie
+gestalte ich meine Inhalte?
+
+42
+00:07:18,940 --> 00:07:20,943
+Oder könnte man jetzt
+hergehen und sagen,
+
+43
+00:07:20,944 --> 00:07:24,571
+okay, macht jetzt auch
+noch einen Spanner rein.
+
+44
+00:07:25,630 --> 00:07:28,210
+Spanner hier drin, wo es hier auch zu
+sehen ist.
+
+45
+00:07:28,470 --> 00:07:31,690
+Dann kommt noch mal ein bisschen Text oder
+eine Liste.
+
+46
+00:07:33,440 --> 00:07:34,250
+Nach dem Trenner.
+
+47
+00:07:34,270 --> 00:07:36,390
+Das ist immer ein bisschen frickelig mit
+dem Trennern.
+
+48
+00:07:40,520 --> 00:07:44,210
+Neues Future 1, Neues Future 2 und so
+weiter.
+
+49
+00:07:44,370 --> 00:07:46,130
+Und irgendwann kommt dann nochmal ein
+Button.
+
+50
+00:07:48,730 --> 00:07:49,730
+Jetzt auf.
+
+51
+00:07:51,020 --> 00:07:53,337
+Und dann kann man
+hier natürlich auch noch
+
+52
+00:07:53,338 --> 00:07:55,610
+sagen, an der Spalte
+muss man das auswählen.
+
+53
+00:07:55,710 --> 00:07:56,490
+Da müsst ihr auch immer gucken.
+
+54
+00:07:56,650 --> 00:07:59,290
+Also ich war hier gerade auf der
+Überschrift und hab geguckt, okay,
+
+55
+00:07:59,510 --> 00:08:00,631
+wie kann ich das ausrichten?
+
+56
+00:08:01,130 --> 00:08:01,670
+Aber wenn man hier...
+
+57
+00:08:01,690 --> 00:08:03,642
+Wenn ich natürlich jetzt
+nur auf der Überschrift
+
+58
+00:08:03,643 --> 00:08:05,851
+bin, richte ich ja nur
+die Überschrift aus.
+
+59
+00:08:06,350 --> 00:08:08,710
+Da muss man immer gucken, wo man sich
+genau befindet.
+
+60
+00:08:08,750 --> 00:08:11,526
+Deswegen finde ich das immer so hilfreich,
+wenn die Listenansicht offen ist.
+
+61
+00:08:11,550 --> 00:08:14,250
+Weil dann kann ich hier genau sehen,
+wo bin ich gerade?
+
+62
+00:08:14,390 --> 00:08:15,890
+Welcher Block ist gerade ausgewählt?
+
+63
+00:08:15,990 --> 00:08:20,450
+Weil das ist hier oben für viele,
+die jetzt nicht so wahnsinnig viel damit
+
+64
+00:08:20,451 --> 00:08:22,084
+arbeiten, einfach
+schwierig, immer zu sehen,
+
+65
+00:08:22,085 --> 00:08:24,350
+okay, wo befinde ich
+mich eigentlich gerade?
+
+66
+00:08:24,530 --> 00:08:28,072
+Weil der einzige Unterschied
+zwischen was hier ist
+
+67
+00:08:28,073 --> 00:08:30,830
+und was hier steht, ist
+im Prinzip dieses Icon.
+
+68
+00:08:31,690 --> 00:08:34,630
+Hier, also um welchen Block es sich
+handelt.
+
+69
+00:08:34,710 --> 00:08:36,991
+Und bei der Überschrift ist halt dann noch
+die Ebene dazu.
+
+70
+00:08:37,150 --> 00:08:38,490
+Aber ansonsten sehen die...
+
+71
+00:08:39,430 --> 00:08:41,030
+Sieht das hier sehr, sehr identisch aus.
+
+72
+00:08:41,780 --> 00:08:44,470
+Deswegen ist es immer einfacher,
+wenn man die Listenansicht noch offen hat
+
+73
+00:08:44,471 --> 00:08:48,410
+und kann dann halt hier reingehen und
+sagen, okay, das ist jetzt mein...
+
+74
+00:08:49,420 --> 00:08:50,940
+Da befinde ich mich jetzt gerade drin.
+
+75
+00:08:51,280 --> 00:08:52,880
+Dann kann ich halt an der Spalte hier...
+
+76
+00:08:54,570 --> 00:08:55,930
+Das auch nicht sagen, genau.
+
+77
+00:08:56,980 --> 00:08:59,026
+Sondern muss das Ganze tatsächlich,
+glaube ich, nochmal kopieren.
+
+78
+00:08:59,050 --> 00:09:01,090
+Und dann könnte man im Prinzip auch alles
+auswählen.
+
+79
+00:09:01,130 --> 00:09:01,670
+Das glaube ich.
+
+80
+00:09:01,671 --> 00:09:03,631
+Ich glaube nicht, dass es inzwischen
+funktioniert.
+
+81
+00:09:05,370 --> 00:09:06,370
+Meint ihr das nicht?
+
+82
+00:09:07,450 --> 00:09:09,130
+Warte, dann machen wir das einfach so.
+
+83
+00:09:12,740 --> 00:09:14,800
+Okay, können wir uns sparen mit der
+Ausrichtung.
+
+84
+00:09:14,801 --> 00:09:16,076
+Müssen wir immer noch manuell machen.
+
+85
+00:09:16,100 --> 00:09:17,660
+Ich dachte, das ging inzwischen,
+aber...
+
+86
+00:09:18,370 --> 00:09:19,930
+Oder ich habe das gut, da bin ich dran.
+
+87
+00:09:19,980 --> 00:09:20,980
+Eins von beiden.
+
+88
+00:09:21,900 --> 00:09:22,900
+Genau.
+
+89
+00:09:23,680 --> 00:09:26,220
+Aber diese Gruppe ist jetzt eigentlich da
+auch übergrößert.
+
+90
+00:09:28,090 --> 00:09:29,090
+So könnte man hergehen.
+
+91
+00:09:29,560 --> 00:09:33,120
+Also was ich am liebsten mache,
+ist... Ich baue mir eine Sache hier so auf.
+
+92
+00:09:34,100 --> 00:09:35,812
+Und dann würde ich das
+Ganze einfach duplizieren
+
+93
+00:09:35,813 --> 00:09:37,260
+und nur noch die
+Inhalte austauschen.
+
+94
+00:09:37,385 --> 00:09:39,425
+Das macht es ein bisschen einfacher,
+wie wenn man...
+
+95
+00:09:39,570 --> 00:09:40,300
+Was ihr gerade gesehen habt.
+
+96
+00:09:40,360 --> 00:09:43,600
+Neuen Blog anlegen,
+wieder tippen, wieder
+
+97
+00:09:43,601 --> 00:09:47,481
+Trenner eingeben,
+wieder tippen und so weiter.
+
+98
+00:09:47,720 --> 00:09:48,720
+Ich bin eher so...
+
+99
+00:09:48,925 --> 00:09:50,348
+Das hat man auch in
+dem Speed-Bild gesehen,
+
+100
+00:09:50,349 --> 00:09:52,561
+den ich beim WordCamp
+Europe gemacht habe.
+
+101
+00:09:53,100 --> 00:09:57,740
+Ich habe mir eine Vorlage quasi angelegt
+und habe diese dann einfach dupliziert und
+
+102
+00:09:57,741 --> 00:10:01,700
+dementsprechend angepasst, wo ich es
+gerade gebraucht habe.
+
+103
+00:10:02,250 --> 00:10:06,020
+Das finde ich macht das Arbeiten einfach
+grundsätzlich einfacher, als wenn man
+
+104
+00:10:06,021 --> 00:10:08,540
+wirklich immer manuell hergeht und alles
+macht.
+
+105
+00:10:09,010 --> 00:10:11,660
+Klar, man kann das natürlich so feintunen
+und dann anpassen.
+
+106
+00:10:11,720 --> 00:10:13,910
+Wenn man dann aber grundsätzlich
+was ändern möchte, hat man
+
+107
+00:10:13,911 --> 00:10:16,261
+aber halt immer das Problem,
+dass man dann überall ran muss.
+
+108
+00:10:16,840 --> 00:10:21,580
+Aber das ist halt relativ einfach so
+umzusetzen.
+
+109
+00:10:22,730 --> 00:10:25,400
+Muss ich nur einmal schauen, weil es mich
+interessiert persönlich.
+
+110
+00:10:28,090 --> 00:10:29,300
+Das wollten wir gerade nicht.
+
+111
+00:10:30,100 --> 00:10:31,216
+Das wollten wir gerade nicht.
+
+112
+00:10:31,240 --> 00:10:31,680
+Das wollten wir gerade nicht.
+
+113
+00:10:32,130 --> 00:10:35,200
+Genau, also die Sachen sind hier alle in
+sich zentriert ausgerichtet.
+
+114
+00:10:35,340 --> 00:10:36,680
+Also da ist das alles...
+
+115
+00:10:40,000 --> 00:10:43,360
+Gut, der Button nicht, aber der Button ist
+auch auf 100% gestellt.
+
+116
+00:10:45,010 --> 00:10:46,930
+Das könnte ich ja vielleicht auch nochmal
+machen.
+
+117
+00:10:48,610 --> 00:10:49,610
+Der ist ganz schön groß.
+
+118
+00:10:50,860 --> 00:10:51,860
+Aber ist okay.
+
+119
+00:10:52,350 --> 00:10:55,081
+Jetzt sieht das eigentlich aus, wenn wir
+noch einen zweiten Button hinzunehmen.
+
+120
+00:10:55,380 --> 00:10:56,380
+Es geht.
+
+121
+00:10:59,450 --> 00:11:01,040
+Genau, man hat hier noch Abstände.
+
+122
+00:11:01,041 --> 00:11:03,322
+Die könnten wir auch mal ein bisschen
+anpassen vielleicht.
+
+123
+00:11:03,570 --> 00:11:06,000
+Hier können wir gerade in den Rahmen
+gehen.
+
+124
+00:11:07,960 --> 00:11:08,960
+Und...
+
+125
+00:11:10,640 --> 00:11:11,640
+Nun abziehen.
+
+126
+00:11:14,020 --> 00:11:15,540
+So, das ist Luftballen von außen.
+
+127
+00:11:17,860 --> 00:11:18,860
+Rücksetzen.
+
+128
+00:11:22,360 --> 00:11:23,120
+Muss es auch bewegen?
+
+129
+00:11:23,140 --> 00:11:24,220
+Ich glaube, ja.
+
+130
+00:11:26,060 --> 00:11:27,060
+Okay.
+
+131
+00:11:30,770 --> 00:11:32,861
+Also da kann man dann
+darüber dann vielleicht
+
+132
+00:11:32,862 --> 00:11:35,331
+mal noch ein bisschen
+weiter hier anpassen.
+
+133
+00:11:37,080 --> 00:11:40,990
+Ja, aber so vom Grundprinzip her,
+so könnte man sowas aufbauen.
+
+134
+00:11:41,860 --> 00:11:42,510
+Dann natürlich...
+
+135
+00:11:42,511 --> 00:11:46,570
+Hier ist es natürlich jetzt nochmal ein
+bisschen anders, weil hier jetzt noch
+
+136
+00:11:46,770 --> 00:11:48,410
+dieser ganze Bereich drumherum ist.
+
+137
+00:11:50,120 --> 00:11:52,960
+Erst mal zumachen und uns das mal
+anschauen, wie das hier aufgebaut ist.
+
+138
+00:11:54,430 --> 00:11:56,590
+Dann ist das hier oben erstmal tatsächlich
+eine Gruppe.
+
+139
+00:11:57,330 --> 00:11:59,550
+Darin liegt wiederum eine Gruppe.
+
+140
+00:12:00,980 --> 00:12:02,690
+Die hat dann die Hintergrundfarbe,
+genau.
+
+141
+00:12:03,420 --> 00:12:05,340
+Hier ist dann die weiße Hintergrundfarbe
+besetzt.
+
+142
+00:12:06,450 --> 00:12:07,450
+Und...
+
+143
+00:12:08,090 --> 00:12:11,650
+Dann findet hier erstmal noch die
+Überschrift und dieser Text mit statt.
+
+144
+00:12:12,140 --> 00:12:14,170
+Und erst dann geht es quasi in die Spalten
+rein.
+
+145
+00:12:14,840 --> 00:12:17,530
+Und da wird dann eben alles hingedannet
+auch.
+
+146
+00:12:18,970 --> 00:12:19,970
+Ja?
+
+147
+00:12:29,450 --> 00:12:30,630
+Das ist eine sehr gute Frage.
+
+148
+00:12:30,730 --> 00:12:34,090
+Aber die Frage war, wenn jetzt die Spalten
+hier unterschiedlich hoch sind.
+
+149
+00:12:34,130 --> 00:12:35,486
+Hier sieht man es so ein bisschen.
+
+150
+00:12:35,510 --> 00:12:37,990
+So der mittlere ist so ein bisschen weit
+nach unten verschoben.
+
+151
+00:12:38,660 --> 00:12:43,310
+Und die Frage war jetzt, kann man die
+Buttons quasi auf eine Höhe bringen.
+
+152
+00:12:43,460 --> 00:12:44,460
+Das ist ganz oft.
+
+153
+00:12:45,230 --> 00:12:47,110
+Hatte ich tatsächlich
+letztens auch erst im
+
+154
+00:12:47,111 --> 00:12:49,791
+Support, wo mich genau
+diese Frage gestellt wurde.
+
+155
+00:12:50,350 --> 00:12:51,490
+Kann man tatsächlich tun.
+
+156
+00:12:52,250 --> 00:12:55,990
+Das wird jetzt spannend, ob ich das jetzt
+nochmal wieder auf die Schnelle hinkriege.
+
+157
+00:12:56,030 --> 00:12:57,150
+Aber dafür sind wir ja hier.
+
+158
+00:12:57,630 --> 00:12:58,630
+Also.
+
+159
+00:12:59,070 --> 00:13:01,646
+Im Prinzip habe ich jetzt hier schon quasi
+mir die Vorlage gebaut.
+
+160
+00:13:01,670 --> 00:13:04,630
+Und kann jetzt sagen, okay, ich möchte
+diesen Button hier ganz unten haben.
+
+161
+00:13:04,990 --> 00:13:06,750
+Weil ich habe hier ein bisschen weniger
+Text.
+
+162
+00:13:07,030 --> 00:13:08,270
+Brauche ich auch nicht so viel.
+
+163
+00:13:08,590 --> 00:13:11,910
+Aber trotzdem soll das nicht so eine
+Treppe sein.
+
+164
+00:13:11,911 --> 00:13:14,950
+Sondern die Buttons sollen alle auf einer
+Höhe sein.
+
+165
+00:13:19,370 --> 00:13:20,990
+Jetzt muss ich nochmal kurz überlegen.
+
+166
+00:13:21,260 --> 00:13:23,050
+Also wir haben hier eine Spalte.
+
+167
+00:13:23,090 --> 00:13:24,350
+Da liegt im Prinzip alles drin.
+
+168
+00:13:25,390 --> 00:13:28,210
+Und der Button soll jetzt quasi nach
+unten.
+
+169
+00:13:31,880 --> 00:13:34,675
+Ich glaube, ich muss
+einmal alle Blöcke, die oben
+
+170
+00:13:34,676 --> 00:13:37,530
+drüber liegen, also über
+den Button, einmal kopieren.
+
+171
+00:13:38,460 --> 00:13:40,010
+Mit diesem schönen Feature hier.
+
+172
+00:13:41,470 --> 00:13:42,510
+Und dann...
+
+173
+00:13:46,390 --> 00:13:48,550
+Genau, das war nämlich das, was nicht
+funktioniert hat.
+
+174
+00:13:48,640 --> 00:13:49,910
+Dieses zum Füllen strecken.
+
+175
+00:13:51,040 --> 00:13:52,970
+Aber es gab einen anderen Trick,
+wie das Ding.
+
+176
+00:13:56,640 --> 00:13:57,840
+Muss ich mir selber überlegen.
+
+177
+00:13:59,240 --> 00:14:02,850
+Aber ich will euch zeigen, wenn ihr
+struggelt, ich struggle auch.
+
+178
+00:14:03,230 --> 00:14:08,190
+Also tut euch da keinen Zwang an,
+wenn ihr mal sofort nichts hinkriegt.
+
+179
+00:14:10,960 --> 00:14:12,080
+Muss ich wirklich überlegen.
+
+180
+00:14:14,210 --> 00:14:17,190
+Also es ist nicht an der Spalte.
+
+181
+00:14:21,220 --> 00:14:22,510
+Genau, das war glaube ich...
+
+182
+00:14:22,710 --> 00:14:24,330
+Wir machen nochmal einen Stapel.
+
+183
+00:14:26,890 --> 00:14:27,890
+Hier.
+
+184
+00:14:29,970 --> 00:14:30,970
+Ah.
+
+185
+00:14:32,130 --> 00:14:33,130
+Hier.
+
+186
+00:14:35,210 --> 00:14:37,290
+Das war aber auch nicht das Richtige,
+glaube ich.
+
+187
+00:14:39,890 --> 00:14:42,890
+Bei der Sichtvariante.
+
+188
+00:14:46,560 --> 00:14:47,560
+Passt.
+
+189
+00:14:50,140 --> 00:14:51,260
+Ja, bin ich ja gerade dabei.
+
+190
+00:14:56,410 --> 00:14:57,916
+Ne, das ist ja nur eine Links-Rechts
+-Anordnung.
+
+191
+00:14:57,940 --> 00:14:58,940
+Das ist ja was anderes.
+
+192
+00:15:05,870 --> 00:15:06,870
+Hier rüber.
+
+193
+00:15:08,870 --> 00:15:09,870
+Ne.
+
+194
+00:15:12,520 --> 00:15:15,350
+Ja, damit ich es unten ausrichten kann,
+muss ja eigentlich...
+
+195
+00:15:17,170 --> 00:15:18,570
+Das ist die normale Anordnung.
+
+196
+00:15:20,880 --> 00:15:22,080
+Das ist die falsche Anordnung.
+
+197
+00:15:24,350 --> 00:15:26,610
+Ich wusste irgendwas auf 100% Höhe setzen.
+
+198
+00:15:27,620 --> 00:15:29,420
+Bin ja nicht mal sicher, welche Gruppe es
+war.
+
+199
+00:15:29,590 --> 00:15:30,870
+Wir probieren jetzt einfach mal.
+
+200
+00:15:35,280 --> 00:15:36,440
+Das war's auch nicht.
+
+201
+00:15:39,750 --> 00:15:43,170
+Scheiße, ich hab das Beispiel auch schon
+wieder rausgeholt, wo ich es mal hatte.
+
+202
+00:15:46,850 --> 00:15:47,850
+Aber...
+
+203
+00:15:49,530 --> 00:15:51,090
+Wir heben hier mal die Gruppierung auf.
+
+204
+00:15:51,590 --> 00:15:52,710
+Haben wir alles in einem.
+
+205
+00:15:57,000 --> 00:15:58,000
+Jetzt ist es hier.
+
+206
+00:16:00,440 --> 00:16:02,680
+Jetzt zieht das nur quasi auf die volle
+Breite.
+
+207
+00:16:03,990 --> 00:16:07,060
+Ja, wie sage ich mal, wieder 100 Prozent.
+
+208
+00:16:10,220 --> 00:16:11,520
+Ähm, ja, warte.
+
+209
+00:16:15,920 --> 00:16:18,500
+Ich bin mir relativ sicher, dass es
+irgendwie...
+
+210
+00:16:20,880 --> 00:16:22,560
+Ah, Zwischenraum, das war's.
+
+211
+00:16:23,340 --> 00:16:25,230
+Genau, und jetzt muss
+ich hergehen und mir diese
+
+212
+00:16:25,231 --> 00:16:27,721
+trotzdem noch mal in eine
+Gruppe zusammenlegen.
+
+213
+00:16:27,860 --> 00:16:28,860
+Okay, jetzt haben wir's.
+
+214
+00:16:29,020 --> 00:16:30,020
+Also.
+
+215
+00:16:32,030 --> 00:16:33,600
+Nämlich ein bisschen kompliziert.
+
+216
+00:16:36,570 --> 00:16:37,730
+Kann ich das hier rausnehmen?
+
+217
+00:16:37,840 --> 00:16:39,020
+Okay, also.
+
+218
+00:16:39,760 --> 00:16:40,760
+Wir haben eine...
+
+219
+00:16:41,220 --> 00:16:43,281
+Wir haben hier die Spalte,
+das ist das ganze Ding, das
+
+220
+00:16:43,321 --> 00:16:46,000
+ganze Konstrukt hier, innerhalb
+dieses grünen Bereichs.
+
+221
+00:16:47,340 --> 00:16:48,580
+So, dann haben wir...
+
+222
+00:16:50,810 --> 00:16:53,840
+innerhalb dessen einen sogenannten Stapel,
+also das ist ein Gruppenblock,
+
+223
+00:16:54,010 --> 00:16:58,780
+der nicht horizontal ausgerichtet ist,
+sondern vertikal.
+
+224
+00:17:00,600 --> 00:17:02,000
+Mit dem habe ich jetzt auch...
+
+225
+00:17:03,060 --> 00:17:06,040
+Das ist hier jetzt wurscht, das ist die
+andere Anordnung.
+
+226
+00:17:06,900 --> 00:17:09,668
+Also, hier seht ihr ja,
+hier ist zentriert, hier
+
+227
+00:17:09,669 --> 00:17:12,780
+ist rechtsbündig und
+hier ist quasi gestreckt.
+
+228
+00:17:12,930 --> 00:17:14,050
+Ich lasse das jetzt bei mir.
+
+229
+00:17:14,260 --> 00:17:18,841
+Wichtig ist, dass die Richtung eben vertikal
+ist an der Stelle und nicht horizontal.
+
+230
+00:17:20,370 --> 00:17:21,370
+Ähm, und...
+
+231
+00:17:22,290 --> 00:17:25,400
+Ich habe diesem Stapel eine minimale Höhe
+von 100 Prozent gegeben.
+
+232
+00:17:25,580 --> 00:17:27,220
+Das heißt, streck dich auch...
+
+233
+00:17:27,770 --> 00:17:29,060
+all das, den Platz, den du hast.
+
+234
+00:17:29,320 --> 00:17:31,440
+Also, in der... Nicht
+hier, sondern...
+
+235
+00:17:31,980 --> 00:17:32,260
+Höhe.
+
+236
+00:17:32,620 --> 00:17:33,620
+An der Stelle.
+
+237
+00:17:34,840 --> 00:17:35,840
+Ähm...
+
+238
+00:17:37,440 --> 00:17:39,840
+Und darin habe ich dann quasi zwei Dinge.
+
+239
+00:17:40,350 --> 00:17:41,600
+Zum einen die Gruppe.
+
+240
+00:17:42,170 --> 00:17:46,040
+Eine Gruppe, wo die ganzen Informationen
+drin liegen, also meine Headline, ähm.
+
+241
+00:17:46,700 --> 00:17:47,420
+..
+
+242
+00:17:47,560 --> 00:17:50,880
+Beschreibung, Trainer, was auch immer man
+da reinmachen möchte.
+
+243
+00:17:52,020 --> 00:17:55,600
+Und eben den Button selber, der ja immer
+unten ausgerichtet werden soll.
+
+244
+00:17:57,400 --> 00:17:58,400
+Und ähm...
+
+245
+00:17:58,810 --> 00:18:01,780
+An der Gruppe, das ist dann quasi ein
+Container.
+
+246
+00:18:02,700 --> 00:18:03,700
+Ähm...
+
+247
+00:18:04,400 --> 00:18:07,240
+Der jetzt hier auch nichts besonders
+eingestellt hat.
+
+248
+00:18:07,280 --> 00:18:10,340
+Das ist einfach nur, dass alles
+zusammengehalten wird an der Stelle.
+
+249
+00:18:11,350 --> 00:18:15,460
+Und eben der Button separat, der jetzt
+auch nichts großartig eingestellt hat.
+
+250
+00:18:15,600 --> 00:18:19,720
+Und die Magic, die man braucht,
+ist hier am... ähm...
+
+251
+00:18:20,620 --> 00:18:22,780
+Stapel, dass man sagen kann, Zwischenraum.
+
+252
+00:18:23,390 --> 00:18:24,540
+Man kann es auch mittig einrichten.
+
+253
+00:18:24,541 --> 00:18:27,100
+Dann sieht man, geht der ähm...
+
+254
+00:18:28,230 --> 00:18:30,836
+Ist hier oben ein bisschen mehr Platz und
+hier unten ein bisschen mehr Platz.
+
+255
+00:18:30,860 --> 00:18:33,820
+Ich kann es halt nach oben ausrichten,
+so wie es ganz ursprünglich mal war.
+
+256
+00:18:34,030 --> 00:18:36,120
+Wie auch der normale Flow ist,
+sag ich mal.
+
+257
+00:18:36,760 --> 00:18:38,296
+Ich kann es auch ganz unten ausrichten.
+
+258
+00:18:38,320 --> 00:18:42,040
+Dann ist der Hauptabstand eben hier oben.
+
+259
+00:18:43,000 --> 00:18:46,020
+Oder ich gehe dann eben in den
+Zwischenraum und sage, der Zwischenraum
+
+260
+00:18:46,021 --> 00:18:50,320
+zwischen den Kind-Elementen, was eben hier
+die Gruppe ist, und der Button.
+
+261
+00:18:50,890 --> 00:18:53,420
+Das ist dann, wie ich den Button nach
+unten gedrückt bekomme.
+
+262
+00:18:53,870 --> 00:18:58,620
+Und egal was für... wie hoch die Inhalte
+hier oben sind in dieser Gruppe,
+
+263
+00:18:59,320 --> 00:19:00,860
+die Buttons sind immer ganz unten.
+
+264
+00:19:03,280 --> 00:19:04,320
+Habt ihr was gelernt?
+
+265
+00:19:05,580 --> 00:19:06,580
+Sehr gut.
+
+266
+00:19:10,100 --> 00:19:11,100
+Okay, ähm...
+
+267
+00:19:13,060 --> 00:19:14,180
+Weitere Vorschläge?
+
+268
+00:19:19,290 --> 00:19:21,250
+Das ganze Gefrickel abspeichern,
+wie meinst du?
+
+269
+00:19:24,790 --> 00:19:26,426
+Dass du das immer wieder nutzen kannst,
+ja.
+
+270
+00:19:26,450 --> 00:19:27,450
+Ähm, kannst du tun?
+
+271
+00:19:29,830 --> 00:19:31,852
+Okay, angenommen, du
+möchtest dir jetzt das komplette
+
+272
+00:19:31,876 --> 00:19:34,430
+Spalten-Ding hier speichern,
+dass du das als Vorlage hast.
+
+273
+00:19:35,230 --> 00:19:39,410
+Ich würde dir immer empfehlen, tatsächlich
+so alles mitzunehmen, das du da hast.
+
+274
+00:19:39,450 --> 00:19:41,560
+Also nicht nur so einen
+Teil davon, sondern dann
+
+275
+00:19:41,561 --> 00:19:43,610
+hast du das immer im
+Gesamtkonstrukt zu sehen.
+
+276
+00:19:44,380 --> 00:19:47,870
+Dann kannst du hier drüber sagen,
+Vorlage erstellen.
+
+277
+00:19:50,290 --> 00:19:54,490
+Und kannst dann hier sagen, eben,
+keine Ahnung, weiß ich wie.
+
+278
+00:19:54,730 --> 00:19:55,730
+Pattern.
+
+279
+00:19:56,140 --> 00:19:58,300
+Kannst auch noch Kategorien vergeben,
+wenn du möchtest.
+
+280
+00:19:58,410 --> 00:20:02,350
+Und dann musst du dich hier entscheiden,
+synchronisiert oder nicht synchronisiert.
+
+281
+00:20:02,730 --> 00:20:07,031
+Das ist jetzt der einzige Unterschied, je
+nachdem, welchen Anwendungsfall du hast.
+
+282
+00:20:07,150 --> 00:20:10,510
+Wenn du synchronisiert auswählst,
+dann steht hier diese Vorlage über mehrere
+
+283
+00:20:10,735 --> 00:20:12,390
+Positionen hinweg synchronisierend.
+
+284
+00:20:12,520 --> 00:20:15,370
+Das heißt, wenn du das einmal auf der
+Seite jetzt zum Beispiel einfügst,
+
+285
+00:20:15,890 --> 00:20:20,810
+hast du das einmal hier und dann fügst du
+das auf einer zweiten Seite ein.
+
+286
+00:20:20,910 --> 00:20:22,782
+Und wenn du auf der
+einen Stelle eine Änderung
+
+287
+00:20:22,783 --> 00:20:25,151
+machst, ist es gleich
+auf der anderen Stelle.
+
+288
+00:20:26,090 --> 00:20:27,410
+Das ist halt synchronisiert.
+
+289
+00:20:27,565 --> 00:20:30,430
+Wenn du das nicht möchtest, wenn du
+wirklich nur als Vorlage möchtest,
+
+290
+00:20:30,431 --> 00:20:34,910
+dass du selber dann, je nachdem,
+wo du es gerade brauchst, Anpassungen
+
+291
+00:20:35,035 --> 00:20:36,925
+vornehmen kannst, dann
+würde ich dir empfehlen,
+
+292
+00:20:36,926 --> 00:20:38,130
+das als nicht
+synchronisiert zu machen.
+
+293
+00:20:38,750 --> 00:20:41,670
+Das ist jetzt der einfache Unterschied,
+wo man sich hier entscheiden muss.
+
+294
+00:20:42,020 --> 00:20:47,650
+Und dann kann man das hier über die Schöne
+Plus hinzufügen.
+
+295
+00:20:47,770 --> 00:20:51,770
+Und dann kann man tatsächlich auch,
+wenn man jetzt hier wieder Blöcke einfügt
+
+296
+00:20:51,870 --> 00:20:54,890
+über Vorlagen, gibt es hier den Bereich
+Meine Vorlage.
+
+297
+00:20:55,290 --> 00:20:57,650
+Und den gibt es erst, wenn man was
+tatsächlich angelegt hat.
+
+298
+00:20:58,120 --> 00:21:03,651
+Und da kann ich jetzt im Prinzip, wie
+oft ich möchte, diese Vorlage einfügen.
+
+299
+00:21:03,880 --> 00:21:08,259
+Weil sie jetzt nicht
+synchronisiert ist, sieht man
+
+300
+00:21:08,260 --> 00:21:11,450
+halt hier jetzt, dass es ein
+ganz normales Pattern ist.
+
+301
+00:21:11,530 --> 00:21:15,950
+Ich kann das jetzt anpassen und es ändert
+sich halt nicht hier oben und auch nicht
+
+302
+00:21:15,951 --> 00:21:18,330
+hier unten, weil die halt von einer Rune
+abhängig sind.
+
+303
+00:21:21,380 --> 00:21:22,380
+Okay.
+
+304
+00:21:22,860 --> 00:21:23,860
+Noch Fragen?
+
+305
+00:21:24,530 --> 00:21:27,380
+Oder andere Vorschläge für Patterns,
+die man bauen könnte?
+
+306
+00:21:31,470 --> 00:21:33,110
+Jetzt habe ich irgendwie alle erschlagen.
+
+307
+00:21:33,380 --> 00:21:34,380
+Philipp?
+
+308
+00:21:34,420 --> 00:21:35,420
+Ja.
+
+309
+00:21:59,470 --> 00:22:04,661
+Okay, also aus diesen Pricing Pattern, ich
+nehme die mal zusätzlich mal raus damit.
+
+310
+00:22:04,920 --> 00:22:05,920
+Übersichtlicher.
+
+311
+00:22:07,630 --> 00:22:10,440
+Also du möchtest ein Testimonial Pattern
+jetzt da rausbauen.
+
+312
+00:22:18,310 --> 00:22:19,640
+Auf der Hälfte darzustellen.
+
+313
+00:22:24,180 --> 00:22:25,180
+Ah.
+
+314
+00:22:26,790 --> 00:22:27,740
+Jetzt weiß ich, was du meinst.
+
+315
+00:22:27,741 --> 00:22:29,779
+Also Philipp möchte,
+dass man hier ein Bild hat
+
+316
+00:22:29,780 --> 00:22:32,760
+und das Bild soll quasi
+hier über oben rausgehen.
+
+317
+00:22:32,880 --> 00:22:34,560
+Und dann, wie macht man das?
+
+318
+00:22:35,270 --> 00:22:36,270
+Okay, probieren wir mal.
+
+319
+00:22:37,180 --> 00:22:38,340
+Ja, machen ein Bild.
+
+320
+00:22:40,160 --> 00:22:42,280
+Ich glaube, hier habe ich noch gar nichts
+hochgeladen.
+
+321
+00:22:44,860 --> 00:22:45,860
+Das macht nichts.
+
+322
+00:22:45,940 --> 00:22:48,420
+Ich habe irgendwo immer irgendwelche
+Bilder.
+
+323
+00:22:49,290 --> 00:22:51,400
+Ich meine, da haben wir immer die schönen
+Blumen.
+
+324
+00:22:53,340 --> 00:22:54,720
+So, jetzt haben wir hier ein Bild.
+
+325
+00:22:55,770 --> 00:22:57,178
+Jetzt können wir mal
+in die Einstellungen
+
+326
+00:22:57,179 --> 00:23:00,041
+reingehen, weil deine
+Anforderung war ja kreisrund.
+
+327
+00:23:01,340 --> 00:23:02,340
+Ja, nicht so ganz.
+
+328
+00:23:02,880 --> 00:23:03,880
+Macht nichts.
+
+329
+00:23:04,970 --> 00:23:06,900
+Machen wir einfach mal auf...
+
+330
+00:23:09,510 --> 00:23:10,996
+Okay, müssen wir mal ein bisschen mehr
+machen.
+
+331
+00:23:11,020 --> 00:23:12,020
+Machen wir...
+
+332
+00:23:14,190 --> 00:23:15,660
+Das hat auch keine Auswirkung.
+
+333
+00:23:18,080 --> 00:23:19,080
+Ähm...
+
+334
+00:23:19,320 --> 00:23:20,476
+Ja, wir machen was ganz anderes.
+
+335
+00:23:20,500 --> 00:23:21,500
+Wir wogeln ein bisschen.
+
+336
+00:23:28,140 --> 00:23:28,740
+Hoppen das.
+
+337
+00:23:28,741 --> 00:23:30,280
+Und dann machen wir...
+
+338
+00:23:32,340 --> 00:23:34,340
+Genau, dann haben wir erstmal ein
+kreisrundes Bild.
+
+339
+00:23:34,380 --> 00:23:37,220
+Und jetzt geht es darum, das Ganze nach
+oben zu schieben.
+
+340
+00:23:38,300 --> 00:23:41,680
+So, ich bin mir jetzt nicht sicher,
+wie gut das im Spaltenblock funktioniert.
+
+341
+00:23:43,290 --> 00:23:44,530
+Aber das finden wir jetzt raus.
+
+342
+00:23:47,400 --> 00:23:49,680
+Okay, ich sehe schon, das wird nicht mehr
+funktionieren.
+
+343
+00:23:51,400 --> 00:23:53,356
+Weil ich dafür die Einstellungen noch gar
+nicht habe.
+
+344
+00:23:53,380 --> 00:23:54,380
+Okay.
+
+345
+00:23:55,910 --> 00:23:56,800
+Das geht nicht.
+
+346
+00:23:56,801 --> 00:24:01,000
+Wir sagen jetzt an dem Bild einmal,
+ich möchte es schieben.
+
+347
+00:24:02,730 --> 00:24:06,080
+Dann sollte ich doch dafür Außenabstand
+haben.
+
+348
+00:24:06,360 --> 00:24:07,360
+Genau.
+
+349
+00:24:08,040 --> 00:24:10,120
+Jetzt sagen wir individuell.
+
+350
+00:24:11,400 --> 00:24:12,400
+Oben.
+
+351
+00:24:13,890 --> 00:24:15,700
+Minus 50 Pixel.
+
+352
+00:24:15,940 --> 00:24:16,940
+Okay.
+
+353
+00:24:19,200 --> 00:24:20,240
+So kannst du das...
+
+354
+00:24:20,590 --> 00:24:24,680
+Die negative Margins sind auch erst seit
+6, glaube ich, drin.
+
+355
+00:24:24,880 --> 00:24:25,320
+Genau.
+
+356
+00:24:25,321 --> 00:24:26,360
+Das ist relativ neu.
+
+357
+00:24:27,240 --> 00:24:30,720
+Früher konnte man tatsächlich gar nicht
+negative Margins anlegen.
+
+358
+00:24:31,005 --> 00:24:33,356
+Aber wie du gesehen hast, am Bild selber
+kannst du es nicht machen.
+
+359
+00:24:33,380 --> 00:24:34,940
+Du musst das Bild in eine Gruppe legen.
+
+360
+00:24:35,340 --> 00:24:39,820
+Weil dann hast du eben diese Außenabstand
+-Teile.
+
+361
+00:24:41,180 --> 00:24:43,540
+Und kannst dann natürlich hierüber dann
+sagen...
+
+362
+00:24:43,541 --> 00:24:46,600
+Also ich habe das jetzt hier auch extra
+aufgedröselt, dass ich nur den oberen habe.
+
+363
+00:24:46,740 --> 00:24:48,420
+Weil normalerweise ist das immer zusammen.
+
+364
+00:24:48,620 --> 00:24:51,140
+Also die Abstände oben und unten wird
+gleich ausgerichtet.
+
+365
+00:24:51,600 --> 00:24:53,360
+Hier brauche ich aber nur den oberen
+Abstand.
+
+366
+00:24:54,100 --> 00:24:57,460
+Und... Deswegen das
+einmal auf oben umgestellt.
+
+367
+00:24:57,780 --> 00:25:02,800
+Und halt anstatt den vorgegebenen Presets
+hier einmal so eingestellt.
+
+368
+00:25:02,840 --> 00:25:06,480
+Und dann kannst du das quasi individuell
+rausschieben, wie es gerade geht.
+
+369
+00:25:07,680 --> 00:25:10,595
+Also ich bin auch
+gerade sehr erstaunt, dass
+
+370
+00:25:10,596 --> 00:25:13,040
+das beim Spaltenblock
+tatsächlich auch geht.
+
+371
+00:25:13,390 --> 00:25:14,856
+Ich hätte jetzt erwartet, dass es nicht
+funktioniert.
+
+372
+00:25:14,880 --> 00:25:16,620
+Aber es funktioniert.
+
+373
+00:25:17,340 --> 00:25:18,340
+Okay.
+
+374
+00:25:21,680 --> 00:25:23,036
+Und jetzt die Buttons wieder ausrichten.
+
+375
+00:25:23,060 --> 00:25:23,900
+Ja, das ist gut.
+
+376
+00:25:23,901 --> 00:25:25,816
+Es geht, glaube ich, jetzt auch ein
+bisschen schneller.
+
+377
+00:25:25,840 --> 00:25:28,116
+Wir haben nicht mehr allzu viel Zeit,
+habe ich gerade mitbekommen.
+
+378
+00:25:28,140 --> 00:25:29,140
+Aber das kriegen wir hin.
+
+379
+00:25:29,460 --> 00:25:32,660
+Also wir haben ja gelernt, wir müssen
+alles in eine...
+
+380
+00:25:36,860 --> 00:25:37,860
+Falsche Taste.
+
+381
+00:25:40,440 --> 00:25:41,440
+Jetzt aber.
+
+382
+00:25:41,540 --> 00:25:43,280
+Also wir machen eine Gruppe.
+
+383
+00:25:44,130 --> 00:25:46,460
+Dass wir hier einmal Gruppe und Button
+haben.
+
+384
+00:25:48,220 --> 00:25:48,880
+Gucken wir nochmal.
+
+385
+00:25:49,180 --> 00:25:50,180
+Okay, das passt.
+
+386
+00:25:50,820 --> 00:25:54,600
+Jetzt machen wir das in eine Spalte.
+
+387
+00:25:56,560 --> 00:25:57,560
+Auf.
+
+388
+00:25:58,670 --> 00:26:00,320
+Das schieben wir nochmal breit.
+
+389
+00:26:01,380 --> 00:26:03,540
+Dann wir sagen...
+
+390
+00:26:05,420 --> 00:26:06,460
+Mal 100%.
+
+391
+00:26:08,870 --> 00:26:10,680
+Und jetzt sagen wir zwischendurch auf.
+
+392
+00:26:11,770 --> 00:26:13,050
+Dann haben wir wieder alles auf.
+
+393
+00:26:17,020 --> 00:26:17,540
+Okay.
+
+394
+00:26:17,800 --> 00:26:18,800
+Mal gucken.
+
+395
+00:26:18,840 --> 00:26:19,840
+Ja.
+
+396
+00:26:20,740 --> 00:26:22,620
+Eine ganz kurze Frage haben wir vielleicht
+noch.
+
+397
+00:26:24,180 --> 00:26:25,460
+Soll ich noch irgendwas basteln?
+
+398
+00:26:28,380 --> 00:26:31,490
+Wenn nicht, seid ihr auch in die
+Mittagspause entlassen.
+
+399
+00:26:31,690 --> 00:26:33,670
+Dann kriege ich die Kuppe bis zur
+Mittagspause.
+
+400
+00:26:35,430 --> 00:26:35,950
+Okay.
+
+401
+00:26:36,010 --> 00:26:39,190
+Aber ansonsten, wenn ihr noch Fragen habt,
+fragt gerne mich.
+
+402
+00:26:39,690 --> 00:26:41,330
+Oder auch viele Leute, andere Leute hier.
+
+403
+00:26:42,380 --> 00:26:43,620
+Wir basteln solche Dinge gerne.
+
+404
+00:26:44,300 --> 00:26:45,300
+Und ja.
+
+405
+00:26:45,430 --> 00:26:47,230
+Es gibt für vieles eine Lösung.
+
+406
+00:26:47,580 --> 00:26:48,450
+Noch nicht für alles.
+
+407
+00:26:48,510 --> 00:26:51,110
+Aber wie ihr seht, man kann Dinge
+tatsächlich erreichen.
+
+408
+00:26:52,430 --> 00:26:52,950
+Okay.
+
+409
+00:26:53,030 --> 00:26:54,030
+Danke euch.
+
+410
+00:27:04,500 --> 00:27:05,500
+So.
+
+411
+00:27:05,600 --> 00:27:10,840
+Vielen Dank für den schönen Wortmeld aber
+ich darf wieder in die Zwischenrufe rein.
+
+412
+00:27:11,320 --> 00:27:11,840
+Dankeschön.
+
+413
+00:27:12,320 --> 00:27:13,320
+Ciao ciao.
+

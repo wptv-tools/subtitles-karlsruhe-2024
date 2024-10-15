@@ -1,0 +1,2928 @@
+﻿1
+00:00:04,700 --> 00:00:07,640
+So, es geht weiter mit dem nächsten
+Thorsten.
+
+2
+00:00:07,740 --> 00:00:10,960
+Und der erzählt uns was über GitHub
+Actions Workflows.
+
+3
+00:00:11,380 --> 00:00:12,380
+Viel Spaß.
+
+4
+00:00:12,900 --> 00:00:13,460
+Genau.
+
+5
+00:00:13,710 --> 00:00:14,500
+Ja, guten Morgen.
+
+6
+00:00:14,680 --> 00:00:15,680
+Herzlich willkommen.
+
+7
+00:00:16,320 --> 00:00:18,780
+Wir schauen uns GitHub Actions an.
+
+8
+00:00:18,880 --> 00:00:21,260
+GitHub Actions Workflows und alles,
+was dazu gehört.
+
+9
+00:00:21,850 --> 00:00:22,560
+Mal schauen, ob das funktioniert.
+
+10
+00:00:22,740 --> 00:00:23,340
+Ja, genau.
+
+11
+00:00:23,440 --> 00:00:23,980
+GitHub Actions.
+
+12
+00:00:24,220 --> 00:00:28,940
+Erstmal, was sind GitHub Actions oder was
+ist GitHub Actions?
+
+13
+00:00:30,340 --> 00:00:33,820
+Im Prinzip ist es ein CI-CD-System.
+
+14
+00:00:34,220 --> 00:00:37,400
+Das kennen wir zum Beispiel für
+verschiedenste Dinge, die man machen
+
+15
+00:00:37,401 --> 00:00:40,326
+möchte, nachdem man einen Code geschrieben
+hat und den irgendwo online schiebt.
+
+16
+00:00:40,350 --> 00:00:44,560
+Travis CI, Circle CI oder irgendwelche
+Tools und Services wie Jenkins zum Beispiel.
+
+17
+00:00:45,180 --> 00:00:47,460
+Und GitHub Actions ist eine weitere
+Plattform.
+
+18
+00:00:48,500 --> 00:00:49,660
+Was kann man damit machen?
+
+19
+00:00:49,980 --> 00:00:53,320
+Ja, es ist die Automatisierung von
+verschiedensten Dingen, die man machen
+
+20
+00:00:53,321 --> 00:00:55,161
+möchte, nachdem man einen Code geschrieben
+hat.
+
+21
+00:00:55,485 --> 00:00:57,620
+Oder auch einfach so andere Trigger.
+
+22
+00:00:57,660 --> 00:00:58,660
+Da werden wir zu kommen.
+
+23
+00:00:59,920 --> 00:01:03,345
+Und naja, das Tolle ist
+halt, dass GitHub Actions...
+
+24
+00:01:03,395 --> 00:01:05,811
+Schauen wir mal, ob das
+währenddessen funktioniert.
+
+25
+00:01:06,350 --> 00:01:09,703
+Das Tolle ist, dass
+GitHub Actions direkt in
+
+26
+00:01:09,704 --> 00:01:13,201
+GitHub als Plattform
+fest und tief integriert ist.
+
+27
+00:01:15,160 --> 00:01:16,160
+Schauen.
+
+28
+00:01:16,480 --> 00:01:17,480
+Super.
+
+29
+00:01:17,780 --> 00:01:21,740
+Das heißt, das erlaubt uns einmal,
+GitHub als Plattform, als Website,
+
+30
+00:01:21,885 --> 00:01:24,320
+die wir halt nutzen und kennen,
+einfach weiterzuverwenden.
+
+31
+00:01:24,865 --> 00:01:28,920
+Und auch erlaubt das, dass wir nicht nur
+auf Events wie...
+
+32
+00:01:28,921 --> 00:01:31,656
+Ich habe Code gepusht,
+reagieren können und irgendwelche
+
+33
+00:01:31,657 --> 00:01:34,200
+Automatisten oder
+Automatisierungen anstoßen können.
+
+34
+00:01:34,690 --> 00:01:38,060
+Sondern fast alles, was GitHub als Service
+-Plattform anbietet.
+
+35
+00:01:38,530 --> 00:01:40,440
+Zum Beispiel, es wurde ein Issue erstellt.
+
+36
+00:01:40,790 --> 00:01:42,760
+Es wurde ein Pull-Request mit einem Label
+versehen.
+
+37
+00:01:42,780 --> 00:01:46,801
+Oder sämtliche andere Dinge können ein
+Trigger sein für irgendeine Automatisierung.
+
+38
+00:01:49,110 --> 00:01:50,670
+Warum sollte man GitHub Actions nutzen?
+
+39
+00:01:50,820 --> 00:01:52,660
+Das ist jetzt nicht
+ganz speziell für GitHub
+
+40
+00:01:52,661 --> 00:01:54,420
+Actions, sondern eben
+für ein CI-CD -System.
+
+41
+00:01:55,065 --> 00:01:58,010
+Man kann eben bauen von Applikationen aus
+seinen Quelldateien.
+
+42
+00:01:58,011 --> 00:02:02,450
+Oder Tests oder eben den Code Deployen
+automatisieren.
+
+43
+00:02:05,800 --> 00:02:10,890
+Im Prinzip ist es möglich, dass man völlig
+eigenständige Arbeitsabläufe erstellt.
+
+44
+00:02:11,460 --> 00:02:15,039
+Durch eigenen Code oder
+wiederverwendbare Bausteine, die man
+
+45
+00:02:15,040 --> 00:02:17,630
+einfach benutzen kann und in
+seinen Ablauf einbinden kann.
+
+46
+00:02:19,390 --> 00:02:21,090
+Wie gesagt, es ist in GitHub integriert.
+
+47
+00:02:21,200 --> 00:02:22,310
+Es ist kein Setup nötig.
+
+48
+00:02:22,360 --> 00:02:24,110
+Man lädt eine Konfigurationsdatei hoch.
+
+49
+00:02:24,240 --> 00:02:27,470
+Das ist auch gleichzeitig schon die
+Beschreibung meines Arbeitsablaufs.
+
+50
+00:02:27,471 --> 00:02:28,471
+Und das war's.
+
+51
+00:02:29,250 --> 00:02:34,290
+Und es gibt eine riesige Community von
+kostenfreien Actions.
+
+52
+00:02:34,291 --> 00:02:36,730
+Das sind eben Bausteine, die ich verwenden
+kann.
+
+53
+00:02:36,770 --> 00:02:37,630
+Oder Workflows.
+
+54
+00:02:37,670 --> 00:02:40,510
+Das sind Arbeitsabläufe, die Actions
+benutzen können.
+
+55
+00:02:40,570 --> 00:02:41,570
+Dazu kommen wir gleich.
+
+56
+00:02:42,290 --> 00:02:43,531
+Also wie kann ich sie benutzen?
+
+57
+00:02:44,145 --> 00:02:49,030
+Im Prinzip geht es beim GitHub Actions
+System um mehrere Begrifflichkeiten.
+
+58
+00:02:49,130 --> 00:02:50,970
+Wir haben halt einmal einen Workflow.
+
+59
+00:02:51,050 --> 00:02:53,470
+Das ist dieser Arbeitsablauf, der
+angestoßen wird.
+
+60
+00:02:53,530 --> 00:02:54,950
+Das ist die gesamte weiße Box.
+
+61
+00:02:56,110 --> 00:02:59,307
+Angestoßen wird dieser
+Arbeitsablauf von einem
+
+62
+00:02:59,308 --> 00:03:03,131
+von mehreren möglichen
+Triggern oder Events.
+
+63
+00:03:03,640 --> 00:03:08,790
+Dann kann es sein, dass wir mehrere Jobs
+haben, die laufen auf einer Docker
+
+64
+00:03:08,791 --> 00:03:10,751
+-Umgebung, auf einer virtuellen Maschine
+irgendwo.
+
+65
+00:03:11,255 --> 00:03:15,550
+Und so ein Job kann verschiedene Schritte
+in einer sequentiellen Abfolge ausführen.
+
+66
+00:03:17,630 --> 00:03:22,330
+Das heißt, so ist zum Beispiel eine
+Beispiel-Workflow-Datei.
+
+67
+00:03:22,331 --> 00:03:25,830
+Wir haben hier einmal oben den Trigger.
+
+68
+00:03:26,530 --> 00:03:30,330
+Wenn Code gepusht wird, möchte ich,
+dass dieser Ablauf gestartet wird.
+
+69
+00:03:31,060 --> 00:03:34,550
+Dann haben wir einen Job definiert,
+der heißt GitHub Actions Demo.
+
+70
+00:03:34,551 --> 00:03:36,230
+Das ist willkürlich einfach gewählt.
+
+71
+00:03:37,610 --> 00:03:39,630
+Dieser Job hat mehrere Steps.
+
+72
+00:03:40,160 --> 00:03:42,161
+Und der erste ist, ich führe ein bisschen
+Code aus.
+
+73
+00:03:42,850 --> 00:03:47,620
+Dann benutze ich eine
+Action, ein fest irgendwo
+
+74
+00:03:47,621 --> 00:03:51,011
+angebotenes Arbeitspaket
+von verschiedenen Sachen.
+
+75
+00:03:51,070 --> 00:03:52,831
+Das können auch wieder mehrere Schritte
+sein.
+
+76
+00:03:53,180 --> 00:03:55,101
+Und dann führe ich nochmal ein bisschen
+Code aus.
+
+77
+00:03:57,200 --> 00:03:58,321
+Wofür kann man die benutzen?
+
+78
+00:03:58,630 --> 00:04:01,510
+Für zum Beispiel statische Analysen von
+Code.
+
+79
+00:04:01,650 --> 00:04:05,070
+Coding-Standards oder irgendwelche
+statischen Analysen wie PSAM oder sonstige
+
+80
+00:04:05,570 --> 00:04:06,570
+Fehlerüberprüfungen.
+
+81
+00:04:07,130 --> 00:04:12,010
+Ich kann irgendwelche Quelldateien wie zum
+Beispiel SAS oder irgendwelchen Quell
+
+82
+00:04:12,260 --> 00:04:15,490
+-Typescript -Codes anders transpilieren,
+kompilieren.
+
+83
+00:04:15,510 --> 00:04:19,350
+Wenn wir irgendwelche Programmiersprachen
+verwenden, die tatsächlich compiled
+
+84
+00:04:19,351 --> 00:04:22,310
+werden, ist das natürlich eine
+Möglichkeit, wo man das machen kann.
+
+85
+00:04:22,311 --> 00:04:25,290
+Man kann dynamische Sachen ausführen.
+
+86
+00:04:25,410 --> 00:04:26,430
+Irgendwelche Tests.
+
+87
+00:04:26,490 --> 00:04:29,790
+Und mit Tests meine ich jetzt zum Beispiel
+Unit-Tests und End-to-End-Tests,
+
+88
+00:04:29,850 --> 00:04:32,570
+an die wahrscheinlich viele Leute denken,
+wenn man von Tests spricht.
+
+89
+00:04:32,800 --> 00:04:36,661
+Aber auch Accessibility-Testing
+oder Performance-Testing,
+
+90
+00:04:36,662 --> 00:04:38,431
+Page-Speed, Lighthouse
+und dergleichen.
+
+91
+00:04:39,010 --> 00:04:40,470
+Visual Regression-Testing.
+
+92
+00:04:40,550 --> 00:04:43,492
+Alles, was man irgendwo
+gegen Code oder gegen eine
+
+93
+00:04:43,493 --> 00:04:45,951
+echte Umgebung testen
+oder laufen lassen möchte.
+
+94
+00:04:46,670 --> 00:04:50,790
+Und natürlich, ich schiebe meinen Code in
+mein Deployment-System.
+
+95
+00:04:50,791 --> 00:04:56,491
+Und schicke es dann an eine oder mehrere
+Umgebungen im Internet oder sonst irgendwo.
+
+96
+00:04:58,350 --> 00:05:01,090
+Wer hier hat GitHub Actions schon benutzt?
+
+97
+00:05:02,370 --> 00:05:03,230
+Okay, das ist eine Menge.
+
+98
+00:05:03,290 --> 00:05:06,450
+Dann kommen wir vielleicht nachher mal
+dazu, wofür und wie ihr das gemacht habt.
+
+99
+00:05:08,490 --> 00:05:12,990
+Hauptteil jetzt dieses Talks ist Tipps und
+Best Practices meiner Meinung nach.
+
+100
+00:05:13,050 --> 00:05:17,090
+Das sind Dinge, die ich in den letzten 2-2
+,5 Jahren gelernt habe, angewendet habe.
+
+101
+00:05:17,210 --> 00:05:19,930
+Es gibt ganz, ganz viel, was man mit
+GitHub Actions machen kann.
+
+102
+00:05:19,931 --> 00:05:23,720
+Von der Syntax her, vom
+Funktionsumfang und natürlich
+
+103
+00:05:23,820 --> 00:05:26,290
+auch, wofür man es, wie
+man es tatsächlich einsetzt.
+
+104
+00:05:26,430 --> 00:05:28,412
+Also ich denke, nach
+dem Talk habt ihr
+
+105
+00:05:28,432 --> 00:05:31,190
+vielleicht 5% Überblick
+von dem, was möglich ist.
+
+106
+00:05:31,340 --> 00:05:34,270
+Und hoffentlich viele, viele Punkte, wo
+ihr euch selber irgendwo informieren könnt.
+
+107
+00:05:34,450 --> 00:05:38,070
+Gerne auch mit mir sprechen oder halt die
+Slides sind online.
+
+108
+00:05:38,400 --> 00:05:41,810
+Alles verlinkt, wo es auf der offiziellen
+Dokumentation ist.
+
+109
+00:05:41,940 --> 00:05:43,101
+Ein paar Blog-Artikel und so.
+
+110
+00:05:44,400 --> 00:05:48,230
+Das Problem ist, ich habe das als 4
+-Stunden-Workshop konzipiert.
+
+111
+00:05:48,290 --> 00:05:49,030
+Und das habe ich heute gehört.
+
+112
+00:05:49,031 --> 00:05:50,470
+Das ist ein 30-Minuten-Vortrag.
+
+113
+00:05:50,630 --> 00:05:51,630
+Kein Problem.
+
+114
+00:05:52,120 --> 00:05:54,830
+Ich habe gehört, das nennt man Shotgun
+Buffet, was wir machen.
+
+115
+00:05:55,030 --> 00:05:57,870
+Also ich werde euch mit ganz viel Wissen
+zuschießen.
+
+116
+00:05:58,510 --> 00:05:59,810
+Und wenn ihr Fragen habt, gerne.
+
+117
+00:06:00,980 --> 00:06:02,150
+Später oder sonst irgendwie.
+
+118
+00:06:02,750 --> 00:06:03,750
+So, wir fangen an.
+
+119
+00:06:05,060 --> 00:06:08,010
+Ich habe eben gesagt, so ein Workflow kann
+mehrere Jobs haben.
+
+120
+00:06:08,340 --> 00:06:11,610
+Jobs sind von der Definition her Dinge,
+die parallel ablaufen.
+
+121
+00:06:11,690 --> 00:06:12,690
+Wir haben hier drei Jobs.
+
+122
+00:06:12,720 --> 00:06:14,670
+Lint, Coding Standards und Static
+Analysis.
+
+123
+00:06:15,400 --> 00:06:16,270
+Und die machen irgendwas.
+
+124
+00:06:16,271 --> 00:06:19,089
+In dem Fall benutzen
+die jetzt hier eine Action
+
+125
+00:06:19,090 --> 00:06:21,110
+oder ein vorgegebenes
+Arbeitspaket irgendwo.
+
+126
+00:06:21,290 --> 00:06:22,410
+Und das läuft halt parallel.
+
+127
+00:06:23,680 --> 00:06:26,905
+Dann gibt es die
+Möglichkeit, in einem Job
+
+128
+00:06:26,906 --> 00:06:30,270
+verschiedene Arbeitsschritte
+sequenziell auszuführen.
+
+129
+00:06:30,350 --> 00:06:32,430
+Also wir werden hier jetzt die gleichen
+Dinge machen.
+
+130
+00:06:32,470 --> 00:06:34,090
+Wir linten unseren PHP-Code.
+
+131
+00:06:34,615 --> 00:06:36,146
+Dann testen wir unsere Coding Standards.
+
+132
+00:06:36,170 --> 00:06:39,090
+Und dann werden wir statische Analyse
+machen.
+
+133
+00:06:39,325 --> 00:06:40,650
+Aber genau in der Abfolge.
+
+134
+00:06:41,910 --> 00:06:45,690
+Sinnvoll für diese Sache wäre vielleicht
+etwas anderes, so ein Zwischending.
+
+135
+00:06:45,691 --> 00:06:48,370
+Wir gehen nochmal zurück zu den
+Parallelen.
+
+136
+00:06:49,690 --> 00:06:51,670
+Man könnte jetzt sagen, wenn ich den Code
+linte.
+
+137
+00:06:51,770 --> 00:06:54,021
+Das heißt, ich mache erstmal nur einen
+reinen Syntax-Check.
+
+138
+00:06:54,045 --> 00:06:55,550
+Ist das valider PHP-Code?
+
+139
+00:06:55,750 --> 00:06:58,490
+Das ist eine Voraussetzung für die anderen
+beiden Dinge.
+
+140
+00:06:58,910 --> 00:07:03,790
+Und das ist möglich, indem man bei den
+anderen Jobs sagt, dieser Job,
+
+141
+00:07:03,980 --> 00:07:10,631
+zum Beispiel Coding Standards, braucht
+einen erfolgreich ausgeführten Job lint.
+
+142
+00:07:10,830 --> 00:07:12,111
+Und das gleiche Static Analysis.
+
+143
+00:07:12,710 --> 00:07:16,590
+Wenn wir uns das jetzt als Diagramm
+anschauen würden, würden wir den ersten
+
+144
+00:07:16,690 --> 00:07:19,010
+Job lint starten und nichts weiter
+passiert.
+
+145
+00:07:19,640 --> 00:07:22,910
+Wenn der erfolgreich ausgeführt ist,
+starten wir zwei Jobs parallel,
+
+146
+00:07:23,450 --> 00:07:25,931
+die nichts voneinander wissen,
+nichts miteinander zu tun haben.
+
+147
+00:07:28,110 --> 00:07:30,310
+Man kann Timeouts setzen.
+
+148
+00:07:30,755 --> 00:07:32,436
+Wenn wir uns das jetzt mal hier anschauen.
+
+149
+00:07:32,510 --> 00:07:34,590
+Wir haben einen Job, der macht zwei Dinge.
+
+150
+00:07:34,860 --> 00:07:37,830
+Wir linten unseren Code und dann führen
+wir Coding Standards aus.
+
+151
+00:07:38,820 --> 00:07:41,330
+Es gibt einen Standard-Timeout für einen
+Job.
+
+152
+00:07:41,600 --> 00:07:42,870
+Der ist sechs Stunden.
+
+153
+00:07:43,870 --> 00:07:47,235
+Das heißt, wenn irgendwas in
+meinem Code hängt, zahle ich
+
+154
+00:07:47,236 --> 00:07:50,210
+sechs Stunden an GitHub
+Actions Minuten oder eben Geld.
+
+155
+00:07:51,250 --> 00:07:53,676
+Wenn mich das nicht interessiert,
+weil ich eh ganz viele habe, heißt das
+
+156
+00:07:53,700 --> 00:07:56,906
+trotzdem, dass dieser Job
+oder dieser Workflow einen
+
+157
+00:07:56,907 --> 00:08:00,670
+Runner blockiert für andere
+Jobs, die laufen sollten.
+
+158
+00:08:00,790 --> 00:08:01,790
+Und dieser hängt einfach.
+
+159
+00:08:02,510 --> 00:08:05,730
+Das heißt, es ist immer sinnvoll,
+einen Timeout anzugeben in Minuten.
+
+160
+00:08:05,890 --> 00:08:07,290
+Das heißt wirklich Timeout Minutes.
+
+161
+00:08:07,790 --> 00:08:11,030
+Zum Beispiel fünf Minuten, 15 Minuten,
+je nachdem, was man macht.
+
+162
+00:08:11,590 --> 00:08:12,850
+Das kann man auf Jobebene machen.
+
+163
+00:08:12,851 --> 00:08:16,310
+Das kann man aber auch auf Step-Ebene
+machen.
+
+164
+00:08:18,350 --> 00:08:24,170
+Es ist genauso sinnvoll, einen Workflow
+unter bestimmten Bedingungen abzubrechen.
+
+165
+00:08:24,590 --> 00:08:27,111
+Also wir kennen das wahrscheinlich alle
+oder vielleicht nur ich.
+
+166
+00:08:27,435 --> 00:08:29,446
+Man schreibt irgendwas, pusht das und
+fällt immer auf.
+
+167
+00:08:29,470 --> 00:08:30,370
+Oh Gott, da habe ich was vergessen.
+
+168
+00:08:30,470 --> 00:08:31,470
+Da fehlt ein Not.
+
+169
+00:08:31,670 --> 00:08:35,670
+Da habe ich was, ne, so noch schnell das
+Ausrufezeichen nochmal gepusht.
+
+170
+00:08:35,910 --> 00:08:37,936
+Dann sehe ich, oh nein, ich habe zweimal
+drauf gedrückt.
+
+171
+00:08:37,960 --> 00:08:39,200
+Nochmal gefixt, wieder gepusht.
+
+172
+00:08:39,660 --> 00:08:42,690
+Jeder Push, weil ich das so definiert
+habe, startet meinen Workflow.
+
+173
+00:08:42,691 --> 00:08:44,051
+Und der läuft und läuft und läuft.
+
+174
+00:08:44,450 --> 00:08:48,910
+Wenn mein Workflow Sachen macht wie Coding
+-Standard testen, Tests ausführen,
+
+175
+00:08:49,230 --> 00:08:53,250
+dann weiß ich ja, ich will gar nicht
+wissen, was der mit keinem Not und mit
+
+176
+00:08:53,500 --> 00:08:55,310
+Doppel -Not macht, weil es war falsch.
+
+177
+00:08:56,090 --> 00:08:59,810
+Das heißt, ich könnte hier zum Beispiel
+definieren unter dem Punkt Concurrency,
+
+178
+00:09:00,720 --> 00:09:02,590
+dieser Workflow ist Teil einer Gruppe.
+
+179
+00:09:03,150 --> 00:09:05,550
+Die definiere ich als die Workflow-ID.
+
+180
+00:09:05,670 --> 00:09:07,720
+Das heißt zum Beispiel,
+dieser Workflow lebt in
+
+181
+00:09:07,721 --> 00:09:10,471
+einer Datei und der hat
+quasi eine Bezeichnung.
+
+182
+00:09:10,595 --> 00:09:12,450
+Das ist diese erste Referenz, GitHub
+-Workflow.
+
+183
+00:09:13,000 --> 00:09:14,350
+Und dann habe ich GitHub-Ref.
+
+184
+00:09:14,840 --> 00:09:20,630
+Das wäre in meinem Beispiel zum Beispiel
+ein Commit in einem Branch.
+
+185
+00:09:20,910 --> 00:09:24,070
+Oder wenn ich einen Pull-Request erstelle,
+ist es dieser spezielle Pull-Request.
+
+186
+00:09:24,685 --> 00:09:27,463
+Das heißt also, wenn
+irgendetwas in dieser Kombination
+
+187
+00:09:27,464 --> 00:09:30,870
+passiert, bricht diesen Workflow
+ab, weil es gibt jemand Neuen.
+
+188
+00:09:31,330 --> 00:09:33,542
+Das heißt, ich habe einmal
+was falsch gemacht, der wird
+
+189
+00:09:33,582 --> 00:09:36,370
+automatisch abgebrochen, sobald
+ich meinen Doppel-Not gepusht habe.
+
+190
+00:09:36,905 --> 00:09:40,050
+Und wenn ich das Richtige pushe,
+wird der Zweite abgebrochen.
+
+191
+00:09:40,051 --> 00:09:41,290
+Und nur dieser läuft weiter.
+
+192
+00:09:41,785 --> 00:09:43,550
+Also ebenfalls wieder Geld sparen.
+
+193
+00:09:44,470 --> 00:09:47,557
+Manchmal ist es aber
+sinnvoll, einen Workflow nicht
+
+194
+00:09:47,558 --> 00:09:50,310
+abzubrechen oder nicht
+grundsätzlich abzubrechen.
+
+195
+00:09:50,745 --> 00:09:54,313
+Wir haben eben gesehen,
+diese dritte Zeile, Cancel in
+
+196
+00:09:54,314 --> 00:09:57,570
+Progress, ist ein Wahrheitswert,
+ein Boolean, True-False.
+
+197
+00:09:58,285 --> 00:10:02,650
+Ich kann da aber auch ein Stück Code
+reinschreiben, der ausgewertet wird.
+
+198
+00:10:02,810 --> 00:10:07,530
+Also das hier bedeutet zum Beispiel,
+wenn der GitHub-Ref, also mein Branch,
+
+199
+00:10:08,335 --> 00:10:12,290
+mit Release anfängt, dann möchte ich den
+nicht abbrechen.
+
+200
+00:10:12,560 --> 00:10:13,720
+Und bei anderen Dingen schon.
+
+201
+00:10:13,880 --> 00:10:16,480
+Einfach nur als Beispiel, dass es eben
+auch dynamisch möglich ist.
+
+202
+00:10:18,070 --> 00:10:23,090
+Unabhängig von menschlichen Triggern,
+wie zum Beispiel, ich pushe Code,
+
+203
+00:10:23,705 --> 00:10:27,233
+oder ich erstelle einen
+Pull-Request, oder ich label etwas,
+
+204
+00:10:27,234 --> 00:10:31,050
+kann man auch einen
+Workflow -Ablauf zeitlich steuern.
+
+205
+00:10:31,650 --> 00:10:35,230
+Das funktioniert mit der POSIX-Cron
+-Syntax.
+
+206
+00:10:35,330 --> 00:10:38,510
+Das ist also das, was man auch in Cron-Tab
+auf einem Web-Server, beziehungsweise
+
+207
+00:10:38,511 --> 00:10:41,570
+einem Linux-Server irgendwo automatisieren
+kann.
+
+208
+00:10:43,620 --> 00:10:47,130
+Das kleine Problem ist, wir haben YAML
+-Dateien, und der Stern ist ein
+
+209
+00:10:47,131 --> 00:10:51,210
+Sonderzeichen, hat eine bestimmte
+Bedeutung, also muss man den String,
+
+210
+00:10:51,620 --> 00:10:54,110
+der eigentlich nicht nötig ist,
+in Quotes packen.
+
+211
+00:10:55,140 --> 00:11:00,710
+Und ein Beispiel dafür ist, wir von Site
+haben eine GitHub-Action gestellt,
+
+212
+00:11:00,940 --> 00:11:04,310
+wo wir für jedes WordPress-Release,
+für jede Version von WordPress,
+
+213
+00:11:05,090 --> 00:11:06,150
+Stub-Dateien erstellen.
+
+214
+00:11:06,151 --> 00:11:10,650
+Das heißt, im Prinzip ist das die Inhalte
+von WordPress ohne Inhalt.
+
+215
+00:11:10,710 --> 00:11:14,530
+Also alle konstanten Definitionen,
+alle Klassen und Funktionen ohne Inhalt.
+
+216
+00:11:15,270 --> 00:11:18,030
+Unser Einsatz davon ist zum Beispiel
+statische Analysen.
+
+217
+00:11:18,070 --> 00:11:22,270
+Wir benutzen PSAM, und wenn wir jetzt ein
+Plugin entwickeln, und wir aber WordPress
+
+218
+00:11:22,271 --> 00:11:25,650
+-Funktionalität benutzen, sagt uns der
+Checker, kenne ich nicht, was ist das?
+
+219
+00:11:26,330 --> 00:11:28,690
+Und dazu kann man eben WordPress-Stubs
+verwenden.
+
+220
+00:11:29,490 --> 00:11:31,886
+Wir wollen nicht jedes Mal, wenn eine neue
+WordPress-Version released wurde,
+
+221
+00:11:31,910 --> 00:11:33,138
+und teilweise sind
+es ja auch, wenn es
+
+222
+00:11:33,162 --> 00:11:36,230
+Patch-Security-Fixes sind,
+mehrere, das händisch machen.
+
+223
+00:11:36,790 --> 00:11:40,890
+Also haben wir einfach so einen Cron-Job,
+der läuft halt einmal jede Woche,
+
+224
+00:11:40,910 --> 00:11:43,326
+glaube ich, oder so, und guckt,
+gibt es eine neue Version von WordPress?
+
+225
+00:11:43,350 --> 00:11:45,541
+Wenn ja, lädt ihr die
+runter, generiert Stubs davon
+
+226
+00:11:45,542 --> 00:11:47,691
+automatisch, wenn es
+keine gibt, passiert nichts.
+
+227
+00:11:48,480 --> 00:11:55,050
+Ein anderes Beispiel wäre Custom Depender
+Bot.
+
+228
+00:11:55,540 --> 00:11:58,550
+Depender Bot ist ein System, das erlaubt
+es, irgendwelche Dependencies,
+
+229
+00:11:58,815 --> 00:12:01,810
+zum Beispiel Composer
+oder NPM, automatisch zu
+
+230
+00:12:01,811 --> 00:12:04,270
+aktualisieren, oder er
+macht zumindest Vorschläge.
+
+231
+00:12:04,910 --> 00:12:07,410
+Das könnte sein, dass das nicht
+funktioniert, wenn man zum Beispiel
+
+232
+00:12:07,411 --> 00:12:11,952
+private Registries oder
+Repositories verwendet, dass
+
+233
+00:12:11,953 --> 00:12:15,250
+man irgendwo seine eigene
+Composer -Instanz hat.
+
+234
+00:12:15,810 --> 00:12:19,090
+Dann könnte man, genau wie Depender Bot
+arbeitet, so ein Workflow schreiben,
+
+235
+00:12:19,210 --> 00:12:22,770
+der einfach jede Woche einmal guckt,
+mit Composer zum Beispiel, gibt es
+
+236
+00:12:22,771 --> 00:12:27,530
+irgendein Update, wenn ja, schlage ich dem
+Besitzer des Repositors das vor,
+
+237
+00:12:28,260 --> 00:12:31,150
+als Pull-Request zum Beispiel,
+dann kann man machen, was man möchte.
+
+238
+00:12:36,670 --> 00:12:41,670
+Dann ist es manchmal sinnvoll,
+einen Workflow manuell zu starten.
+
+239
+00:12:41,835 --> 00:12:45,550
+Das könnte zum Beispiel sein, weil ich
+etwas testen möchte, tatsächlich auf GitHub.
+
+240
+00:12:46,050 --> 00:12:48,990
+Man kann Workflows auch lokal testen,
+nicht alles davon funktioniert gut.
+
+241
+00:12:49,610 --> 00:12:52,990
+Manchmal ist es aber auch sinnvoll,
+dass man das wirklich aufgrund von
+
+242
+00:12:52,991 --> 00:12:55,290
+irgendwelchen Dingen mal händisch anstoßen
+möchte.
+
+243
+00:12:56,060 --> 00:13:00,110
+Wenn man als Trigger Workflow Dispatch
+hinzufügt, dann sieht man hier,
+
+244
+00:13:00,290 --> 00:13:04,450
+wenn man zu diesem Workflow in GitHub in
+seinem Repository geht, dass da dieser
+
+245
+00:13:04,451 --> 00:13:08,650
+Button, oder so ein Dropdown-Button
+erscheint, Run Workflow.
+
+246
+00:13:08,965 --> 00:13:12,690
+Der ist standardmäßig nicht da, nur
+wenn dieser Trigger unter anderem da ist.
+
+247
+00:13:12,770 --> 00:13:14,370
+Das muss nicht der einzige Trigger sein.
+
+248
+00:13:14,990 --> 00:13:17,317
+Dann kann ich diesen
+Workflow sogar in einem
+
+249
+00:13:17,318 --> 00:13:19,931
+Zielbranch ausführen,
+so wie er jetzt definiert ist.
+
+250
+00:13:22,070 --> 00:13:27,070
+Dann ist es ganz oft sinnvoll,
+dass ich Sachen, die ich mehrmals benutze,
+
+251
+00:13:27,071 --> 00:13:29,651
+oder mehrmals brauche,
+nicht mehrmals tatsächlich
+
+252
+00:13:29,652 --> 00:13:32,171
+schreibe, sondern
+irgendwie wiederverwende.
+
+253
+00:13:32,260 --> 00:13:34,993
+Zum Beispiel ein Setup von
+irgendetwas, Vorbereitungen
+
+254
+00:13:34,994 --> 00:13:37,291
+für meinen eigentlichen Job,
+den ich ausführen möchte.
+
+255
+00:13:37,830 --> 00:13:40,250
+Das geht zum Beispiel mit Reusable
+Workflows.
+
+256
+00:13:40,940 --> 00:13:44,370
+Und so ein Workflow braucht einen Trigger
+Workflow Call.
+
+257
+00:13:44,715 --> 00:13:49,690
+Das bedeutet, ein anderer Workflow darf
+diese Datei, diesen Workflow auch starten.
+
+258
+00:13:54,790 --> 00:13:56,010
+Das bist du.
+
+259
+00:13:57,225 --> 00:13:59,837
+Der Vorteil davon
+ist, wenn mein äußerer
+
+260
+00:13:59,838 --> 00:14:02,490
+Workflow gestartet wird,
+hat er einen Payload.
+
+261
+00:14:02,570 --> 00:14:04,330
+Der weiß über bestimmte Dinge Bescheid.
+
+262
+00:14:04,331 --> 00:14:07,211
+Wie wir eben gesehen haben, was ist mein
+Branch, was ist sonst irgendwas.
+
+263
+00:14:07,590 --> 00:14:12,170
+Und wenn ich einen Workflow, der diesen
+Workflow Call Trigger hat, starte,
+
+264
+00:14:12,570 --> 00:14:15,070
+bekommt der genau diese Informationen
+weitergereicht.
+
+265
+00:14:15,130 --> 00:14:19,070
+Also als wäre dieser Workflow direkt
+getriggert worden.
+
+266
+00:14:20,850 --> 00:14:25,790
+Es ist halt sinnvoll, irgendwelche immer
+wieder aufkommenden Dinge zu abstrahieren
+
+267
+00:14:25,791 --> 00:14:28,290
+und an einer Stelle zu definieren und dann
+wiederzuverwenden.
+
+268
+00:14:29,570 --> 00:14:31,410
+Und man kann natürlich auch...
+
+269
+00:14:31,685 --> 00:14:36,330
+für diesen Reusable Workflow irgendwelche
+Eingabe- oder Ausgabewerte definieren,
+
+270
+00:14:36,390 --> 00:14:41,291
+damit dieser Workflow mit der Vergangenheit
+und der Zukunft quasi kommunizieren kann.
+
+271
+00:14:43,170 --> 00:14:44,170
+Das ist ein Beispiel.
+
+272
+00:14:44,390 --> 00:14:47,030
+Wir haben hier oben in Workflows My
+Workflow.
+
+273
+00:14:47,445 --> 00:14:51,050
+Der hat jetzt irgendeinen Trigger wie zum
+Beispiel Push oder Pull Request oder so.
+
+274
+00:14:51,575 --> 00:14:54,350
+Und in Zeile 7 sehen wir Uses.
+
+275
+00:14:54,860 --> 00:14:59,110
+Und dann sehen wir, es ist ein lokaler Part
+GitHub Workflows My Reusable Workflow.
+
+276
+00:14:59,350 --> 00:15:00,670
+Und der ist hier unten definiert.
+
+277
+00:15:00,980 --> 00:15:04,750
+Der hat den Trigger on Workflow Call,
+darf also von einem anderen Workflow
+
+278
+00:15:04,751 --> 00:15:08,110
+gestartet werden und macht dann sein Ding
+oder seine Dinge.
+
+279
+00:15:09,760 --> 00:15:14,250
+Eine ähnliche, aber etwas andere Idee ist
+eine Composite Action.
+
+280
+00:15:15,210 --> 00:15:17,310
+Eben hatten wir Reusable Workflow.
+
+281
+00:15:17,680 --> 00:15:19,030
+Jetzt haben wir Composite Action.
+
+282
+00:15:19,790 --> 00:15:23,910
+Das heißt, eine Action ist
+ein Teil, also ein Teil einer
+
+283
+00:15:23,911 --> 00:15:27,270
+Abfolge, die irgendwo in einem
+Workflow ausgeführt werden kann.
+
+284
+00:15:28,280 --> 00:15:30,510
+Und dieser Workflow ist dann...
+
+285
+00:15:30,511 --> 00:15:33,510
+Der Workflow benutzt einmal in Zeile 5
+Actions Checkout.
+
+286
+00:15:33,685 --> 00:15:35,956
+Das ist eine tatsächliche
+Action, die irgendwo
+
+287
+00:15:35,957 --> 00:15:37,810
+definiert ist in einem
+eigenen Repository.
+
+288
+00:15:37,930 --> 00:15:39,970
+Die kann man einfach so referenzieren und
+verwenden.
+
+289
+00:15:40,430 --> 00:15:43,050
+Und dann benutzen wir in Zeile 7 eine
+lokale Action.
+
+290
+00:15:43,150 --> 00:15:46,670
+Und der Part hier ist GitHub Actions und
+dann ist es der Name.
+
+291
+00:15:47,125 --> 00:15:50,590
+Und das ist, wie wir jetzt darunter sehen,
+der Name eines Ordners.
+
+292
+00:15:50,985 --> 00:15:54,110
+Und in dem Ordner muss eine action.yaml
+-Datei liegen.
+
+293
+00:15:54,330 --> 00:15:56,330
+Die wird gesucht und dann ausgeführt.
+
+294
+00:15:57,130 --> 00:16:02,130
+Und hier sehen wir in Zeile 4 oder 3 und 4
+Runs using Composite.
+
+295
+00:16:02,840 --> 00:16:06,450
+Wenn man Actions schreibt, gibt es aktuell
+drei Arten davon.
+
+296
+00:16:06,650 --> 00:16:09,265
+Einmal ist es eine
+JavaScript-Action oder es ist eine
+
+297
+00:16:09,266 --> 00:16:12,450
+Docker-basierte Action oder
+es ist eine Composite-Action.
+
+298
+00:16:13,220 --> 00:16:18,010
+Und ich würde sagen, der einzige große
+Unterschied zwischen einer JavaScript
+
+299
+00:16:18,110 --> 00:16:22,210
+-Action und einer Composite-Action ist,
+dass alles, was in dieser Action passiert,
+
+300
+00:16:23,100 --> 00:16:26,310
+als ein Punkt in meinem anderen Workflow
+steht.
+
+301
+00:16:26,311 --> 00:16:27,470
+aufgelistet wird.
+
+302
+00:16:28,000 --> 00:16:31,850
+Also wenn ich da jetzt 13 verschiedene
+andere Actions und Workflows und eigenen
+
+303
+00:16:31,851 --> 00:16:35,430
+Bash -Codes schreibe und so weiter,
+sehe ich in meinem benutzenden Workflow
+
+304
+00:16:35,431 --> 00:16:38,135
+einfach nur, diese Action
+wurde ausgeführt und hat so
+
+305
+00:16:38,136 --> 00:16:41,030
+lange gedauert und ist
+erfolgreich oder eben nicht.
+
+306
+00:16:43,060 --> 00:16:46,150
+Hier, wie gesagt, die Slides sind online,
+könnt ihr euch dann anschauen.
+
+307
+00:16:46,190 --> 00:16:48,388
+Das sind zwei interessante
+Artikel, warum man das unter
+
+308
+00:16:48,389 --> 00:16:51,270
+welchen Umständen verwenden
+sollte, was einem das bringt.
+
+309
+00:16:55,210 --> 00:16:58,750
+Natürlich wäre es schön, wenn man immer
+funktionierende Artikel und Code schreibt,
+
+310
+00:16:59,350 --> 00:17:00,350
+ist aber nicht der Fall.
+
+311
+00:17:00,610 --> 00:17:03,290
+Manchmal muss man debuggen, was da gerade
+läuft.
+
+312
+00:17:03,410 --> 00:17:06,290
+Warum irgendwas, was immer lief,
+jetzt mal nicht läuft, weil man etwas
+
+313
+00:17:06,490 --> 00:17:09,250
+Neues quasi probieren möchte, warum es
+nicht so läuft, wie man möchte.
+
+314
+00:17:10,370 --> 00:17:11,910
+Dafür gibt es Debug-Logging.
+
+315
+00:17:11,990 --> 00:17:13,690
+Es ist ein Feature von GitHub Actions.
+
+316
+00:17:15,440 --> 00:17:20,050
+Genauso kann oder muss man manchmal einen
+Job, der nicht erfolgreich gelaufen ist
+
+317
+00:17:20,500 --> 00:17:23,026
+oder zwar erfolgreich gelaufen ist,
+aber irgendwie nicht das gemacht hat,
+
+318
+00:17:23,050 --> 00:17:25,440
+was man erwartet hat,
+nochmal neu starten und kann
+
+319
+00:17:25,441 --> 00:17:28,250
+dann sagen, den jetzt bitte
+im Debug -Modus starten.
+
+320
+00:17:28,820 --> 00:17:32,490
+Und das bedeutet, dass manche Dinge,
+also Actions, die ich referenziere und die
+
+321
+00:17:32,640 --> 00:17:34,926
+ich verwende, mehr
+Informationen ins Terminal
+
+322
+00:17:34,927 --> 00:17:37,411
+reinschreiben, was ich
+dann anschauen kann.
+
+323
+00:17:38,170 --> 00:17:41,490
+Zusätzlich kann man in seinen eigenen
+Workflows oder Actions aber auch
+
+324
+00:17:41,491 --> 00:17:46,330
+Informationen schreiben, die nur in so
+einem Debug-Modus zu sehen sind.
+
+325
+00:17:47,080 --> 00:17:51,048
+Das sieht so aus, dass man
+quasi in einem Bash-Script
+
+326
+00:17:51,049 --> 00:17:53,950
+ins Terminal einen
+bestimmten Text schreibt.
+
+327
+00:17:54,050 --> 00:17:59,990
+Und der ist Doppelkolon oder Doppelpunkt
+Debug und danach dann irgendeine Nachricht.
+
+328
+00:18:00,150 --> 00:18:01,770
+Ein Beispiel wäre so.
+
+329
+00:18:02,410 --> 00:18:05,169
+Wir haben einen Job,
+Debug-Workflow, der hat einen
+
+330
+00:18:05,170 --> 00:18:08,010
+Step und zwar führe ich
+Echo und dann so weiter aus.
+
+331
+00:18:08,670 --> 00:18:11,270
+Das sehe ich nirgendwo, nicht mal in
+meinem Terminal, ganz normal.
+
+332
+00:18:11,450 --> 00:18:13,810
+Es sei denn, ich starte diesen Debug-Mode.
+
+333
+00:18:16,390 --> 00:18:21,170
+Manchmal, wenn man Bash-Code ausführt,
+also irgendwelche Kommandos, irgendwelche
+
+334
+00:18:21,171 --> 00:18:26,330
+Skripte, kann es sein, dass hier in Zeile
+7, ein Kommando fehlerhaft sein könnte.
+
+335
+00:18:26,490 --> 00:18:29,170
+Das heißt, es funktioniert etwas nicht wie
+erwartet.
+
+336
+00:18:29,210 --> 00:18:31,310
+Es gibt einen Fehler auf Terminal-Ebene.
+
+337
+00:18:31,850 --> 00:18:35,310
+Und standardmäßig heißt es, dass unser
+Workflow, also der gesamte Workflow,
+
+338
+00:18:35,370 --> 00:18:38,570
+nicht nur mein Step, fehlerhaft beendet
+wird.
+
+339
+00:18:39,610 --> 00:18:40,830
+Das möchte man nicht immer.
+
+340
+00:18:41,300 --> 00:18:44,072
+Man kann das verhindern,
+indem man GitHub Actions sagt,
+
+341
+00:18:44,073 --> 00:18:46,990
+was für eine Terminal
+-Umgebung genutzt werden wolle.
+
+342
+00:18:47,010 --> 00:18:49,230
+Also wie quasi die Shell erzeugt wird.
+
+343
+00:18:49,800 --> 00:18:52,730
+Das sieht zum Beispiel so aus, dass
+man sagt, ich hätte gerne eine Bash -Shell.
+
+344
+00:18:53,180 --> 00:18:55,294
+Und was auch immer
+da quasi als Inhalt ist, das
+
+345
+00:18:55,295 --> 00:18:57,711
+möchte ich quasi als
+Argument übergeben werden.
+
+346
+00:18:58,125 --> 00:19:03,890
+Der Standard-Shell, die Standard-Shell
+-Definition ist Bash-E, was halt bedeutet,
+
+347
+00:19:04,130 --> 00:19:07,086
+sobald ein Skript, ein
+Kommando, ein Fehler, also
+
+348
+00:19:07,087 --> 00:19:09,950
+ein Nicht-Zero-Excel-Code
+hat, bricht alles ab.
+
+349
+00:19:10,090 --> 00:19:11,130
+Das wollen wir hier nicht.
+
+350
+00:19:11,300 --> 00:19:12,650
+Wir wollen irgendwas machen.
+
+351
+00:19:12,910 --> 00:19:13,910
+Warum?
+
+352
+00:19:14,200 --> 00:19:16,843
+Na, weil wir zum Beispiel
+irgendetwas tun wollen,
+
+353
+00:19:16,844 --> 00:19:19,491
+nachdem wir wissen, es war
+etwas fehlerhaft oder nicht.
+
+354
+00:19:19,920 --> 00:19:22,363
+Das heißt, wir führen
+hier in Zeile 7 immer noch
+
+355
+00:19:22,463 --> 00:19:26,190
+diesen, diesen Befehl aus,
+der fehlerhaft enden könnte.
+
+356
+00:19:27,350 --> 00:19:31,224
+Dann fragen wir oder speichern
+wir diesen in Zeile 8 den
+
+357
+00:19:31,225 --> 00:19:34,430
+Return-Code und machen dann
+irgendwas und geben den genauso wieder.
+
+358
+00:19:34,620 --> 00:19:37,136
+Das heißt, wir wollen eigentlich nur
+zwischendrin noch etwas machen.
+
+359
+00:19:37,160 --> 00:19:40,610
+Und das könnte auch an irgendeine
+Bedingung geknüpft sein.
+
+360
+00:19:41,100 --> 00:19:42,679
+Vielleicht will ich das nur
+machen, wenn er wirklich
+
+361
+00:19:42,680 --> 00:19:44,791
+fehlerhaft ist oder wenn er
+nicht fehlerhaft ist oder so.
+
+362
+00:19:46,470 --> 00:19:52,270
+Dann gibt es die Möglichkeit, Inline
+-Nachrichten an einen Publikum zum
+
+363
+00:19:52,271 --> 00:19:54,361
+Beispiel, also in
+Dateien, die in einem
+
+364
+00:19:54,461 --> 00:19:57,350
+Pull-Request dargestellt
+werden, zu schreiben.
+
+365
+00:19:57,430 --> 00:20:05,430
+Das machen viele GitHub-Actions,
+zum Beispiel Code-Checker, wo mir irgendwo
+
+366
+00:20:05,431 --> 00:20:09,270
+in Coding-Standards dann gesagt wird,
+ja, du hast hier in dieser Zeile diese und
+
+367
+00:20:09,271 --> 00:20:11,070
+jene Coding-Standards-Regel nicht
+beachtet.
+
+368
+00:20:11,670 --> 00:20:13,030
+Das können wir auch selber machen.
+
+369
+00:20:13,650 --> 00:20:18,490
+Und zwar, indem wir entweder eine Notice,
+eine Warning oder einen Error loggen.
+
+370
+00:20:19,245 --> 00:20:21,930
+Es gibt noch weitere Sachen als die,
+die ich jetzt hier zeige.
+
+371
+00:20:21,931 --> 00:20:23,850
+Es ist ähnlich wie mit dem Debug.
+
+372
+00:20:24,380 --> 00:20:27,350
+Wir schreiben einen Sonder-String ins
+Terminal.
+
+373
+00:20:27,655 --> 00:20:30,150
+Wir nehmen zuerst den Type, also zum
+Beispiel Notice.
+
+374
+00:20:30,880 --> 00:20:35,330
+Und dann haben wir einen absoluten oder
+einen relativen vom Repository gesehenen
+
+375
+00:20:35,530 --> 00:20:40,430
+Pfad zu einer Datei, zu einer Zeile in
+dieser Datei und dann eben die Nachricht.
+
+376
+00:20:40,950 --> 00:20:41,950
+Hier wäre ein Beispiel.
+
+377
+00:20:42,870 --> 00:20:47,310
+Wir schreiben in die erste Zeile unserer
+Readme-Datei, dass die einfach klasse ist.
+
+378
+00:20:50,310 --> 00:20:52,870
+Das ist ein anderes Beispiel, wo wir ein
+paar Sachen kombinieren.
+
+379
+00:20:53,490 --> 00:20:56,910
+Ich führe hier in Zeile 7 Parallel-Lint
+aus.
+
+380
+00:20:57,160 --> 00:20:58,950
+Also im Prinzip prüfe ich meinen PHP-Code.
+
+381
+00:21:00,810 --> 00:21:05,522
+Und diese Binary, dieses
+Programm erlaubt es,
+
+382
+00:21:05,523 --> 00:21:09,250
+die Ergebnisse als
+JSON-String zu returnen.
+
+383
+00:21:09,710 --> 00:21:12,330
+Das speichere ich einfach in Zeile 7 in
+einer Variablen.
+
+384
+00:21:13,020 --> 00:21:14,710
+Prüfe dann noch, ob es hier Fehler gibt.
+
+385
+00:21:15,000 --> 00:21:16,126
+Wenn nicht, dann bin ich fertig.
+
+386
+00:21:16,150 --> 00:21:18,937
+Und wenn es Fehler
+gibt, dann suche ich mir da
+
+387
+00:21:18,938 --> 00:21:22,111
+bestimmte Dinge raus,
+die ich dann über diese...
+
+388
+00:21:22,430 --> 00:21:25,470
+das kann man jetzt hier nicht ganz
+sehen...
+
+389
+00:21:27,290 --> 00:21:31,370
+die ich dann quasi so, wie wir es eben
+gesehen haben, über Error, File,
+
+390
+00:21:32,030 --> 00:21:33,850
+Line und dann Message weitergeben.
+
+391
+00:21:34,235 --> 00:21:37,330
+Interessant ist nämlich, dass genau die
+Daten, so wie wir die brauchen,
+
+392
+00:21:37,530 --> 00:21:41,250
+also als Bezeichner File, Line und Message
+von Parallel-Lint zurückgegeben werden.
+
+393
+00:21:42,005 --> 00:21:45,590
+Und hier haben wir eben in Zeile 5
+gesehen, ich möchte nicht, dass wenn
+
+394
+00:21:45,591 --> 00:21:50,850
+Parallel -Lint Fehler feststellt,
+das ist ein Non-Zero-Exit, dass dann mein
+
+395
+00:21:50,851 --> 00:21:53,244
+Workflow beendet wird,
+sondern ich möchte damit
+
+396
+00:21:53,245 --> 00:21:56,970
+etwas machen und
+dann in Zeile 10 beenden.
+
+397
+00:21:57,130 --> 00:22:01,530
+Und in Zeile 8 sind wir mit dem Exit 0
+quasi rausgesprungen als ja, alles ist
+
+398
+00:22:01,580 --> 00:22:03,450
+gut, dann beende ich auch so, dass es gut
+ist.
+
+399
+00:22:05,370 --> 00:22:08,390
+Job Summaries ist ein weiteres Feature,
+das angeboten wird.
+
+400
+00:22:09,060 --> 00:22:11,910
+Wenn es irgendwelche Dinge gibt,
+die man zum Beispiel ins Terminal
+
+401
+00:22:11,911 --> 00:22:15,690
+schreiben könnte, die aber eigentlich
+relevant sind für jemanden, der überprüft,
+
+402
+00:22:15,691 --> 00:22:19,710
+was ist da gerade passiert, dann ist es
+sinnvoller, das nicht im Terminal in einem
+
+403
+00:22:20,260 --> 00:22:25,030
+verschachtelten und erstmal nicht
+aufgeklappten Bereich meines Outputs zu
+
+404
+00:22:25,055 --> 00:22:27,496
+machen, sondern indem
+ich tatsächlich eine Summary
+
+405
+00:22:27,497 --> 00:22:30,191
+für meinen Step oder
+für meinen Job schreibe.
+
+406
+00:22:30,460 --> 00:22:35,770
+Das funktioniert interessanterweise so,
+dass man in eine Datei quasi reinschreibt
+
+407
+00:22:36,220 --> 00:22:39,510
+und wenn man fertig ist mit diesem Step,
+wird der Inhalt der Datei ausgelesen.
+
+408
+00:22:39,810 --> 00:22:42,817
+Wenn da was drin ist,
+wird dann das quasi als
+
+409
+00:22:42,818 --> 00:22:45,190
+Inhalt tatsächlich
+so visuell dargestellt.
+
+410
+00:22:45,650 --> 00:22:46,810
+Und das unterstützt Markdown.
+
+411
+00:22:47,130 --> 00:22:50,530
+Wir sehen hier im Beispiel, wir schreiben
+Hello World und haben ein Emoji und
+
+412
+00:22:50,531 --> 00:22:52,538
+schreiben das zusätzlich
+zu allem, was jetzt
+
+413
+00:22:52,539 --> 00:22:54,990
+schon in diesem GitHub
+Step Summary drin ist.
+
+414
+00:22:55,650 --> 00:22:59,730
+Und so, ist vielleicht nicht gut zu
+erkennen, sieht es dann aus, in meinem
+
+415
+00:22:59,731 --> 00:23:03,450
+Ergebnis von meinem Workflow Run habe ich
+unten einen Bereich, da sehe ich jetzt
+
+416
+00:23:03,700 --> 00:23:07,230
+Example Summary und dann unser
+interpretiertes Markdown.
+
+417
+00:23:10,010 --> 00:23:13,690
+Es gibt verschiedene Möglichkeiten,
+wie man Third Party Actions oder auch
+
+418
+00:23:13,815 --> 00:23:18,430
+Workflows von der Version her, vom Commit
+her, von der Referenz her benutzen kann.
+
+419
+00:23:18,620 --> 00:23:20,596
+Was man oft sieht, ist
+die zweite Möglichkeit,
+
+420
+00:23:20,597 --> 00:23:22,631
+dass man sagt, ich hätte
+gerne Version so und so.
+
+421
+00:23:23,200 --> 00:23:28,830
+Man kann auch einen Branch von dem
+Repository, wo die Action lebt, verwenden.
+
+422
+00:23:29,790 --> 00:23:31,654
+Manchmal ist es aber viel
+sicherer oder sinnvoller,
+
+423
+00:23:31,655 --> 00:23:34,350
+dass man tatsächlich
+einen Commit erzeugt.
+
+424
+00:23:34,425 --> 00:23:36,607
+Denn der Branch bedeutet
+natürlich, ich benutze
+
+425
+00:23:36,608 --> 00:23:38,971
+das, was als letztes
+dahin gepusht wurde.
+
+426
+00:23:39,465 --> 00:23:41,522
+Eine Version ist
+eigentlich nur ein Tag, kann
+
+427
+00:23:41,523 --> 00:23:43,470
+auch gelöscht werden
+und redefiniert werden.
+
+428
+00:23:43,471 --> 00:23:47,290
+Und das heißt, es ist möglich,
+dass jemand dieses Repository irgendwie
+
+429
+00:23:47,291 --> 00:23:52,390
+sich aneignet und dann da schadhaften Code
+reinschreibt und ich benutze das in meinem
+
+430
+00:23:52,391 --> 00:23:57,010
+sehr privaten, sehr sensiblen Bereich mit
+weiß ich nicht was für Daten und denke
+
+431
+00:23:57,011 --> 00:23:58,731
+auch nicht daran, was dann passieren
+könnte.
+
+432
+00:23:59,095 --> 00:24:02,630
+Wenn ich aber sage, ich hätte gern genau
+diesen Commit Hash, es ist nicht möglich,
+
+433
+00:24:02,950 --> 00:24:06,950
+also nicht so leicht möglich, es ist
+leider, man löscht das Repository und
+
+434
+00:24:06,951 --> 00:24:09,016
+setzt es neu auf und so
+weiter, dass man quasi
+
+435
+00:24:09,017 --> 00:24:10,570
+sagt, ja, ich möchte
+da jetzt mal was ändern.
+
+436
+00:24:10,710 --> 00:24:12,208
+Wenn ich einmal sage,
+ich hätte gern diese
+
+437
+00:24:12,209 --> 00:24:15,131
+Version von dieser Action,
+dann ist das auch so.
+
+438
+00:24:15,560 --> 00:24:18,126
+Jetzt könnt ihr natürlich sagen,
+ja gut, aber wenn ich das jetzt in 20,
+
+439
+00:24:18,150 --> 00:24:20,100
+30, 100 Stellen mache
+und da ändert sich was,
+
+440
+00:24:20,101 --> 00:24:22,470
+dann muss ich ja alles
+immer von Hand überprüfen.
+
+441
+00:24:22,510 --> 00:24:23,130
+Ist das wichtig?
+
+442
+00:24:23,230 --> 00:24:25,170
+Muss ich das, sollte ich das benutzen oder
+nicht?
+
+443
+00:24:25,770 --> 00:24:26,770
+Das ist richtig.
+
+444
+00:24:27,410 --> 00:24:32,570
+Das könntet ihr dann aber so umgehen,
+dass ihr einen eigenen Workflow schafft,
+
+445
+00:24:33,120 --> 00:24:36,250
+wo ihr quasi an einer Stelle für euch in
+der Firma, für euch privat sagt,
+
+446
+00:24:36,960 --> 00:24:39,203
+wenn ich diese Art
+von Workflow ausführe,
+
+447
+00:24:39,204 --> 00:24:41,590
+benutze ich diese Action
+mit diesem Commit Hash.
+
+448
+00:24:41,591 --> 00:24:44,430
+Wenn ihr irgendwo seht, oh, da gibt es was
+Neues, prüft ihr es einmal.
+
+449
+00:24:44,590 --> 00:24:46,430
+Entweder wollt ihr das oder ihr wollt es
+nicht.
+
+450
+00:24:46,690 --> 00:24:50,299
+Aktualisiert eure Reusable-Seite
+und sämtliche Consumer
+
+451
+00:24:50,300 --> 00:24:52,791
+irgendwo sind dann eben
+auf dem Stand, wie ihr wollt.
+
+452
+00:24:53,570 --> 00:24:57,230
+Vielleicht wollt ihr sogar euren Reusable
+-Workflow selber taggen mit verschiedenen
+
+453
+00:24:57,231 --> 00:25:01,510
+Versionen, wo ihr sagt, naja, die neue
+Version ist sinnvoll, aber nicht immer.
+
+454
+00:25:02,160 --> 00:25:05,110
+Dann könntet ihr quasi in euren Consumern
+sagen, ich hätte gern meinen Workflow
+
+455
+00:25:05,111 --> 00:25:07,070
+Version 1 und da hätte ich gerne Version
+2.
+
+456
+00:25:08,925 --> 00:25:11,570
+Es ist möglich, Permissions zu öffnen.
+
+457
+00:25:11,770 --> 00:25:18,370
+Das heißt, der GitHub Token, also das
+Stück, das Datum, an dem hängt,
+
+458
+00:25:18,410 --> 00:25:25,150
+was der Runner im Prinzip machen darf, kann
+von euch in dem Workflow definiert werden.
+
+459
+00:25:25,770 --> 00:25:29,290
+Das sind die ganzen möglichen Permissions
+und die Werte davon.
+
+460
+00:25:30,000 --> 00:25:32,703
+Und manchmal ist es
+sinnvoll, dass ihr so anfangt,
+
+461
+00:25:32,704 --> 00:25:35,331
+dass ihr sagt, du
+sollst gar nichts können.
+
+462
+00:25:35,840 --> 00:25:38,541
+Und dann werdet ihr schon
+sehen, dann sagt GitHub Actions,
+
+463
+00:25:38,542 --> 00:25:40,690
+konnte nicht das und das
+machen, Permission fehlt.
+
+464
+00:25:40,691 --> 00:25:43,750
+Und dann könnt ihr überprüfen,
+okay, wenn ihr einen Action schreibt,
+
+465
+00:25:43,770 --> 00:25:47,030
+einen Workflow, der einen Pull-Request
+erstellen soll, dann macht das schon
+
+466
+00:25:47,031 --> 00:25:50,230
+durchaus Sinn, dass dieser Runner einen
+Pull-Request schreiben darf.
+
+467
+00:25:51,360 --> 00:25:54,750
+Zum Beispiel werdet ihr dann so euren
+Custom-Workflow definieren.
+
+468
+00:25:54,830 --> 00:25:57,590
+Und das reicht genau für Permissions für
+eure Zwecke.
+
+469
+00:25:58,680 --> 00:26:01,490
+So, ich habe noch drei Minuten und noch
+120 Folien.
+
+470
+00:26:02,410 --> 00:26:03,410
+Nein, stimmt nicht.
+
+471
+00:26:03,835 --> 00:26:07,990
+Es ist möglich, dass man so ein Workflow
+nur auf bestimmte Änderungen laufen lässt.
+
+472
+00:26:07,991 --> 00:26:11,071
+Also zum Beispiel sagt man, ich möchte
+diesen Workflow starten bei einem Push,
+
+473
+00:26:11,130 --> 00:26:13,590
+aber nur, wenn sich irgendeine PHP-Datei
+ändert.
+
+474
+00:26:14,150 --> 00:26:18,230
+Genauso ist es hier möglich, eine Ignore
+-Negation zu nutzen.
+
+475
+00:26:18,890 --> 00:26:21,270
+Ja, PHP-Dateien, aber keine Tests zum
+Beispiel.
+
+476
+00:26:22,200 --> 00:26:28,570
+Das Problem dabei ist, wenn man in GitHub
+in den Repository Settings sagt,
+
+477
+00:26:28,755 --> 00:26:32,630
+ich hätte gerne bestimmte Workflows,
+bestimmte Actions als required.
+
+478
+00:26:33,240 --> 00:26:35,840
+Die müssen immer laufen und die müssen
+auch immer successful sein.
+
+479
+00:26:36,275 --> 00:26:38,530
+Das Problem ist nämlich, ich gehe noch
+einmal zurück.
+
+480
+00:26:39,670 --> 00:26:44,810
+Wenn GitHub sieht, das soll nur ausgeführt
+werden bei PHP-Änderungen und es ändert
+
+481
+00:26:44,811 --> 00:26:48,050
+sich keine PHP-Datei, dann sagt GitHub,
+ja, dann mache ich halt nichts.
+
+482
+00:26:48,170 --> 00:26:51,990
+Und das ist für GitHub ein nicht
+erfolgreich ausführen.
+
+483
+00:26:53,090 --> 00:26:58,090
+Manchmal wollen wir, dass dieser Workflow,
+diese Action ausgeführt wird.
+
+484
+00:26:58,265 --> 00:26:59,826
+Aber wenn sie nichts macht, dann ist uns
+das egal.
+
+485
+00:26:59,850 --> 00:27:01,170
+Dann ist das erfolgreich für uns.
+
+486
+00:27:01,665 --> 00:27:05,030
+Das ist nach meinem Stand nur möglich über
+eine externe Action.
+
+487
+00:27:05,810 --> 00:27:08,750
+In Zeile 6 hier Dorney Paths Filter.
+
+488
+00:27:09,360 --> 00:27:11,926
+Das heißt, wir werden auf jeden Fall
+unseren Workflow immer ausführen.
+
+489
+00:27:11,950 --> 00:27:15,270
+Und in dem Workflow selber sehen wir,
+was hat sich getan?
+
+490
+00:27:15,860 --> 00:27:17,340
+Will ich irgendwas machen oder nicht?
+
+491
+00:27:17,685 --> 00:27:19,563
+Dann sehen wir halt hier zum
+Beispiel, ich möchte nur etwas
+
+492
+00:27:19,564 --> 00:27:21,850
+machen, wenn sich im Composer
+-Bereich was geändert hat.
+
+493
+00:27:22,220 --> 00:27:23,230
+Composer.json oder log.
+
+494
+00:27:23,820 --> 00:27:27,130
+Dann kann man hier weiter überprüfen,
+ja, gibt es das oder gibt es das nicht?
+
+495
+00:27:27,210 --> 00:27:28,210
+Dann mache ich irgendwas.
+
+496
+00:27:29,210 --> 00:27:30,466
+Das erlaubt noch ganz viel mehr.
+
+497
+00:27:30,490 --> 00:27:32,130
+Zum Beispiel kann man Gruppen definieren.
+
+498
+00:27:32,170 --> 00:27:34,790
+Also ich sage einmal hier in Zeile 2,
+ich möchte Workflows haben.
+
+499
+00:27:34,791 --> 00:27:36,630
+Also meine Workflow und Action-Dateien.
+
+500
+00:27:37,135 --> 00:27:41,650
+Dann habe ich NPM-Dateien, die beinhalten
+Workflows und auch weitere Sachen.
+
+501
+00:27:42,130 --> 00:27:43,546
+JavaScript und Styles und so weiter.
+
+502
+00:27:43,570 --> 00:27:47,490
+Und dann kann ich ganz genau hier sagen,
+was wann passieren soll.
+
+503
+00:27:51,200 --> 00:27:56,230
+Ich würde gerne noch einmal hier noch
+zurückkommen.
+
+504
+00:27:56,410 --> 00:27:57,681
+Dependabot hatten wir eben gesagt.
+
+505
+00:27:57,705 --> 00:27:59,550
+Dependabot unterstützt auch GitHub
+Actions.
+
+506
+00:27:59,551 --> 00:28:03,250
+Also sämtliche Third-Party Actions und
+Workflows kann Dependabot euch auch
+
+507
+00:28:03,400 --> 00:28:04,560
+vorschlagen zu aktualisieren.
+
+508
+00:28:05,390 --> 00:28:07,050
+Und dann habe ich hier einfach,
+nur damit ihr es schon einmal gesehen
+
+509
+00:28:07,051 --> 00:28:12,330
+habt, eine Liste von sinnvollen Actions,
+aber auch von Reusable Workflows.
+
+510
+00:28:13,170 --> 00:28:15,170
+Und bin sehr daran interessiert,
+was ihr so nutzt.
+
+511
+00:28:15,260 --> 00:28:17,028
+Vielleicht können wir
+uns über Twitter oder
+
+512
+00:28:17,029 --> 00:28:19,631
+hier oder LinkedIn oder
+irgendwo austauschen.
+
+513
+00:28:21,530 --> 00:28:24,450
+Das waren 120 Slides in 40 Minuten.
+
+514
+00:28:25,610 --> 00:28:26,610
+Dankeschön.
+
+515
+00:28:29,095 --> 00:28:31,050
+Genau, hier sind die Folien schon online.
+
+516
+00:28:33,060 --> 00:28:34,010
+Ich weiß nicht, haben wir ein,
+zwei?
+
+517
+00:28:34,011 --> 00:28:36,210
+Fragen oder besser später?
+
+518
+00:28:42,580 --> 00:28:44,220
+Torsten, ich habe eine Frage.
+
+519
+00:28:44,500 --> 00:28:48,660
+Also im Moment ist es so, wir haben eine
+Art Framework gebaut als Repository auf
+
+520
+00:28:48,785 --> 00:28:50,220
+GitHub, was privat ist.
+
+521
+00:28:50,955 --> 00:28:55,320
+Und die Idee war sozusagen, dieses
+Framework als Repository in verschiedenen
+
+522
+00:28:55,420 --> 00:28:59,120
+anderen Repositories wieder zu verwerten
+und die halt dort in verschiedenen
+
+523
+00:28:59,121 --> 00:29:01,740
+Templates, in Themes sozusagen zu
+überschreiben.
+
+524
+00:29:02,380 --> 00:29:04,534
+Die Idee ist aber
+gewesen, dass wir das über
+
+525
+00:29:04,535 --> 00:29:07,000
+den GitHub Shared, also
+die Submodules machen.
+
+526
+00:29:08,770 --> 00:29:09,906
+Da ist mal meine Frage an dich.
+
+527
+00:29:09,930 --> 00:29:11,970
+Gibt es vielleicht eine andere,
+bessere Möglichkeit?
+
+528
+00:29:12,080 --> 00:29:15,540
+Also ich weiß, dass du über MPM die
+Packages könnte man nutzen.
+
+529
+00:29:16,040 --> 00:29:19,760
+Hast du vielleicht noch andere Vorschläge,
+was man so machen könnte, um halt eine
+
+530
+00:29:19,960 --> 00:29:25,700
+Zentralisierung von Code bereitzustellen,
+die man halt in anderen Repositories
+
+531
+00:29:25,850 --> 00:29:26,850
+wiederverwerten kann?
+
+532
+00:29:27,210 --> 00:29:30,160
+Ja, können wir gerne im Detail noch
+darüber sprechen.
+
+533
+00:29:30,580 --> 00:29:32,860
+Da sehe ich jetzt ehrlich gesagt nicht den
+Bezug hierzu.
+
+534
+00:29:32,980 --> 00:29:35,900
+Das ist eher, dass du irgendein anderes
+System nutzt, um Code...
+
+535
+00:29:37,100 --> 00:29:38,100
+verfügbar zu machen.
+
+536
+00:29:39,440 --> 00:29:44,480
+Es geht darum, dass halt diese Shared auch
+in diesen GitHub Actions aufrufbar sind,
+
+537
+00:29:44,540 --> 00:29:46,568
+damit halt den Code am
+Ende released werden kann,
+
+538
+00:29:46,569 --> 00:29:48,880
+weil das alles dann die
+Abhängigkeiten zusammenkommen.
+
+539
+00:29:49,040 --> 00:29:52,680
+Ja, also der Bezug zu GitHub Actions,
+du kannst ausführen, was du möchtest.
+
+540
+00:29:53,050 --> 00:29:56,164
+Du hast eine, standardmäßig
+eine Linux Shell und kannst dir
+
+541
+00:29:56,165 --> 00:29:59,260
+irgendwelche Dateien runterladen
+und interaktiv ausführen.
+
+542
+00:29:59,585 --> 00:30:00,776
+Du kannst ein Docker Image bauen.
+
+543
+00:30:00,800 --> 00:30:05,880
+Also da ist dir, solange du quasi den
+Zugang, die Authentication irgendwie...
+
+544
+00:30:06,180 --> 00:30:08,980
+managen kannst, kannst du in deinem
+Workflow machen, was du willst.
+
+545
+00:30:09,160 --> 00:30:13,160
+Der kann auch irgendwo in einem Repository
+liegen, privat oder nicht privat,
+
+546
+00:30:13,680 --> 00:30:17,800
+wo du diese reusable Workflows anbietest
+und die dann an verschiedenen Stellen nutzt.
+
+547
+00:30:18,270 --> 00:30:21,800
+Du kannst auch ein GitHub Repository als
+Template Repository erstellen.
+
+548
+00:30:21,880 --> 00:30:25,280
+Das heißt, jedes Mal, wenn du eine neue
+Art von diesem, was auch immer,
+
+549
+00:30:25,320 --> 00:30:27,778
+wofür das Framework jetzt
+da ist, wenn du das baust,
+
+550
+00:30:27,779 --> 00:30:31,080
+erstellst du ein neues
+Repository, wo schon Inhalt drin ist.
+
+551
+00:30:31,535 --> 00:30:34,415
+Das heißt, du hast dann quasi nach dem
+Erstellen nicht mehr den Bezug zu,
+
+552
+00:30:34,630 --> 00:30:35,500
+wo kam das jetzt eigentlich her?
+
+553
+00:30:35,501 --> 00:30:37,640
+Aber du hast dann quasi einen Starter
+Inhalt.
+
+554
+00:30:38,240 --> 00:30:39,880
+Da gibt's verschiedenste Möglichkeiten.
+
+555
+00:30:40,080 --> 00:30:43,080
+Müsste man mal drüber sprechen,
+was jetzt genau euer Kontext da ist.
+
+556
+00:30:44,900 --> 00:30:45,900
+Ja, gerne.
+
+557
+00:30:47,020 --> 00:30:48,020
+Gut, dann.
+
+558
+00:30:49,300 --> 00:30:51,500
+Ich entscheide nicht, ob wir noch Zeit für
+Fragen haben.
+
+559
+00:30:58,680 --> 00:31:00,300
+Dankeschön erstmal für den Talk.
+
+560
+00:31:01,230 --> 00:31:05,020
+Es gibt ja eine Action von dem neuen
+Plugin Check.
+
+561
+00:31:05,300 --> 00:31:06,300
+Genau.
+
+562
+00:31:07,760 --> 00:31:08,680
+Der Check.
+
+563
+00:31:08,730 --> 00:31:12,569
+Der Check enthält ja auch eine
+Prüfung des Stable Tags, was
+
+564
+00:31:12,570 --> 00:31:15,880
+natürlich für die Entwicklung
+wahnsinnig unpraktisch ist.
+
+565
+00:31:18,650 --> 00:31:23,600
+Was wäre da der Ansatz, quasi,
+kann man das an der, also für einen
+
+566
+00:31:23,601 --> 00:31:28,980
+Release müsste ja wahrscheinlich gehen,
+quasi nicht für jeden Commit, sondern
+
+567
+00:31:28,981 --> 00:31:33,960
+quasi erst bei dem Erstellen eines Tags
+die Action ausführen zu lassen,
+
+568
+00:31:34,020 --> 00:31:36,909
+damit man, oder kann ich
+einzelne Regeln im Plugin
+
+569
+00:31:36,910 --> 00:31:39,381
+Check unterdrücken, dass
+er diese Regeln ausführt?
+
+570
+00:31:39,600 --> 00:31:43,060
+Oder was wäre da der Ansatz, das nutzbar
+zu kriegen?
+
+571
+00:31:43,320 --> 00:31:46,040
+Also ich habe den tatsächlich als GitHub
+Action noch nicht benutzt.
+
+572
+00:31:46,080 --> 00:31:47,985
+Das heißt, ich weiß
+nicht, was in der GitHub
+
+573
+00:31:47,986 --> 00:31:50,561
+Action möglich ist,
+über Inputs oder Secrets.
+
+574
+00:31:50,600 --> 00:31:55,020
+Ich weiß nicht, was als Programm beim
+Plugin Check konfigurierbar ist.
+
+575
+00:31:55,570 --> 00:32:00,040
+Aber ganz wichtig ist das, was du in
+deinem Kontext ausführst, ist nicht diese
+
+576
+00:32:00,041 --> 00:32:03,240
+Action, sondern ein Workflow, den du
+selber schreibst.
+
+577
+00:32:03,370 --> 00:32:04,920
+Und diese Action ist ein Bestandteil.
+
+578
+00:32:05,600 --> 00:32:08,520
+Das heißt, du kannst definieren,
+wann du das benutzen möchtest.
+
+579
+00:32:08,521 --> 00:32:08,640
+Und dann kannst du das auch ausführen.
+
+580
+00:32:08,660 --> 00:32:11,680
+Und wie gesagt, wenn etwas konfigurierbar
+ist, kannst du das halt da machen.
+
+581
+00:32:12,140 --> 00:32:13,256
+Das muss man sich wirklich mal anschauen.
+
+582
+00:32:13,280 --> 00:32:14,640
+Was ist in dieser Action möglich?
+
+583
+00:32:15,360 --> 00:32:20,820
+Was ist vielleicht auf Environment
+Variable oder wie auch immer möglich,
+
+584
+00:32:20,960 --> 00:32:25,100
+dass man quasi an das Skript, das
+ausgeführt wird, weitergibt?
+
+585
+00:32:25,625 --> 00:32:29,520
+Oder kannst du vielleicht selber eine
+Version davon machen?
+
+586
+00:32:30,020 --> 00:32:33,400
+Also du bist ja nicht gezwungen,
+für jeden Commit, der irgendwie in dein
+
+587
+00:32:33,401 --> 00:32:35,680
+Repository kommt, diese Action
+auszuführen.
+
+588
+00:32:36,840 --> 00:32:39,600
+Ich weiß nicht, ob das halbwegs antwortet.
+
+589
+00:32:40,660 --> 00:32:41,660
+Gut.
+
+590
+00:32:42,160 --> 00:32:43,160
+Dankeschön.
+
+591
+00:32:44,600 --> 00:32:45,600
+Dann...
+
+592
+00:32:47,560 --> 00:32:53,540
+Du hattest erwähnt, dass man diesen Timer
+nur einstellen kann pro Workflow oder Step.
+
+593
+00:32:53,600 --> 00:32:56,040
+Kann man das auch irgendwie global
+einstellen für seinen User?
+
+594
+00:32:56,620 --> 00:32:57,860
+Dass man das nicht immer reinschreiben
+muss?
+
+595
+00:32:57,880 --> 00:32:58,880
+Das glaube ich nicht.
+
+596
+00:32:59,360 --> 00:33:01,900
+Also du kannst das für einen Job machen.
+
+597
+00:33:02,000 --> 00:33:03,460
+Du kannst es für einen Step machen.
+
+598
+00:33:03,461 --> 00:33:08,620
+Aber auch nur, wenn dieser Step nicht quasi
+nur Ausführen einer anderen Action ist.
+
+599
+00:33:08,700 --> 00:33:10,540
+Weil dann muss der Timeout da definiert
+werden.
+
+600
+00:33:10,765 --> 00:33:13,020
+Aber global habe ich das noch nicht
+gesehen.
+
+601
+00:33:13,410 --> 00:33:16,260
+Noch nicht mal global in einer Datei für
+alle Jobs.
+
+602
+00:33:16,790 --> 00:33:18,760
+Also es gibt ein Defaults Key.
+
+603
+00:33:19,400 --> 00:33:22,820
+Da kann man zum Beispiel sagen,
+überall wo ich ein Bash, also wo ich Run
+
+604
+00:33:22,821 --> 00:33:26,960
+benutze, wo ich quasi Bash-Code ausführe
+oder wo ich ein Script-Code, Terminal-Code
+
+605
+00:33:26,961 --> 00:33:30,280
+ausführe, möchte ich sagen, das ist diese
+und jene Shell zum Beispiel.
+
+606
+00:33:30,800 --> 00:33:32,320
+Oder RunsOn zum Beispiel.
+
+607
+00:33:33,160 --> 00:33:34,160
+Timeout gibt es nicht.
+
+608
+00:33:34,220 --> 00:33:36,256
+Ich habe mich bei manchen Dingen schon
+gefragt, wäre das nicht sinnvoll,
+
+609
+00:33:36,280 --> 00:33:40,200
+wenn man das quasi als Default zumindest
+für diesen Workflow konzipiert.
+
+610
+00:33:40,780 --> 00:33:44,580
+Vielleicht ist die Denke dahinter,
+dass man gar nicht zu komplexe Workflows
+
+611
+00:33:44,581 --> 00:33:47,642
+bauen sollte, sondern immer
+nur kleine Sachen und die
+
+612
+00:33:47,643 --> 00:33:50,066
+dann miteinander verknüpft
+und wiederverwendbar macht.
+
+613
+00:33:50,090 --> 00:33:51,994
+Aber weiß ich nicht, was
+da die Gründe sind, warum
+
+614
+00:33:52,018 --> 00:33:54,050
+es manche Dinge nicht gibt
+oder manche Dinge schon.
+
+615
+00:33:58,460 --> 00:34:00,690
+Gut, dann danke schön und viel Spaß noch.
+

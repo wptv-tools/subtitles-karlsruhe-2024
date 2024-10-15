@@ -1,0 +1,2835 @@
+﻿1
+00:00:09,050 --> 00:00:10,091
+Willst du direkt anfangen?
+
+2
+00:00:11,370 --> 00:00:16,190
+Der Thorsten würde euch über eBay
+-Zustellbarkeit erzählen, aber weil er
+
+3
+00:00:16,440 --> 00:00:19,170
+ziemlich viel zu erzählen hat, machen
+wir jetzt einfach ganz schnell weiter.
+
+4
+00:00:19,770 --> 00:00:20,210
+Wunderbar.
+
+5
+00:00:20,790 --> 00:00:21,450
+Vielen Dank.
+
+6
+00:00:21,710 --> 00:00:24,555
+Ich freue mich, dass
+bei diesem doch sehr
+
+7
+00:00:24,556 --> 00:00:28,531
+technischen Thema so
+viele Leute hier im Raum sind.
+
+8
+00:00:30,280 --> 00:00:32,210
+Das wird sehr technisch heute.
+
+9
+00:00:33,950 --> 00:00:34,950
+Wir bekommen das hin.
+
+10
+00:00:37,320 --> 00:00:40,711
+Vielleicht einmal kurz die Frage, wer hat
+sich mit dem Thema schon mal beschäftigt?
+
+11
+00:00:43,010 --> 00:00:46,890
+Und wer von denen hat es verstanden?
+
+12
+00:00:50,210 --> 00:00:51,210
+Gut.
+
+13
+00:00:52,180 --> 00:00:53,180
+Ich sehe das Problem.
+
+14
+00:00:54,990 --> 00:00:55,670
+Ging mir nicht anders.
+
+15
+00:00:55,671 --> 00:01:01,310
+Der einzige Grund, warum ich diesen Talk
+halte, ist, dass ich mich durch dieses
+
+16
+00:01:01,311 --> 00:01:06,530
+Thema wühlen musste und mir dachte,
+wenn ich das jetzt schon gemacht habe,
+
+17
+00:01:06,650 --> 00:01:08,650
+dann können ja auch andere davon
+profitieren.
+
+18
+00:01:08,940 --> 00:01:09,940
+Und ich teile das.
+
+19
+00:01:11,970 --> 00:01:16,410
+Und ich versuche jetzt,
+also der Talk endet ja mit
+
+20
+00:01:16,450 --> 00:01:19,490
+noch Bimio und mal
+gucken, ob wir da hinkommen.
+
+21
+00:01:20,330 --> 00:01:22,210
+Wir haben ein bisschen Programm vor uns.
+
+22
+00:01:22,270 --> 00:01:23,870
+Ich versuche also schnell durchzukommen.
+
+23
+00:01:24,660 --> 00:01:25,650
+Ich komme noch so ein bisschen darauf an.
+
+24
+00:01:25,670 --> 00:01:30,010
+Wie sehr ihr mir die Rückmeldung gebt,
+dass ihr nicht mitkommt oder mitkommt.
+
+25
+00:01:30,180 --> 00:01:31,180
+Wir schauen mal.
+
+26
+00:01:33,250 --> 00:01:34,835
+Am Anfang werde ich
+ein bisschen schneller
+
+27
+00:01:34,836 --> 00:01:36,630
+sein, weil ich denke,
+dass das bekannt ist.
+
+28
+00:01:36,690 --> 00:01:39,690
+Aber ich nutze es mal als Einführung in
+das Thema.
+
+29
+00:01:41,350 --> 00:01:43,630
+Warum beschäftigen wir uns eigentlich mit
+dem ganzen Kram?
+
+30
+00:01:43,930 --> 00:01:45,170
+Hat mit Spam zu tun.
+
+31
+00:01:45,290 --> 00:01:46,290
+Was ist Spam?
+
+32
+00:01:46,630 --> 00:01:50,970
+Spam sind unerwünschte, massenhaft
+verschickte Nachrichten, die uns
+
+33
+00:01:50,971 --> 00:01:53,670
+unverlangt zugeschickt werden und vor
+allem verbisch sind.
+
+34
+00:01:53,671 --> 00:01:56,050
+So die Definition aus der Wikipedia.
+
+35
+00:01:57,840 --> 00:01:58,880
+Warum ist das ein Problem?
+
+36
+00:01:59,410 --> 00:02:00,410
+Ganz einfach.
+
+37
+00:02:01,760 --> 00:02:03,190
+Das sind Zahlen aus dem Jahr 2022.
+
+38
+00:02:04,950 --> 00:02:08,130
+Es wurden 333 Milliarden E-Mails
+verschickt, täglich.
+
+39
+00:02:08,740 --> 00:02:14,230
+Und davon sind 162, das ist 49 Prozent,
+also knapp die Hälfte, davon ist Spam.
+
+40
+00:02:15,190 --> 00:02:20,450
+Das ist also eine unglaubliche Welle,
+die da verschickt wird.
+
+41
+00:02:20,590 --> 00:02:25,410
+Und... Da müssen wir irgendwie
+Herr werden, diesen Problemen.
+
+42
+00:02:25,770 --> 00:02:26,770
+So.
+
+43
+00:02:27,410 --> 00:02:28,790
+Kurzer Fun Fact.
+
+44
+00:02:29,250 --> 00:02:31,210
+Woher kommt eigentlich dieser Begriff
+Spam?
+
+45
+00:02:31,230 --> 00:02:37,470
+Das ist aus einem Monty Python Sketch,
+wo die Menüs, wie man hier sehen kann,
+
+46
+00:02:37,670 --> 00:02:38,830
+hoffentlich sehen kann.
+
+47
+00:02:38,990 --> 00:02:41,090
+Die Lichtsituation ist ja nicht ganz so
+geil.
+
+48
+00:02:43,370 --> 00:02:48,790
+Wo alles mit dem Wort Spam, Spam,
+Spam, Spam und Spam vollgemüllt wird.
+
+49
+00:02:48,791 --> 00:02:53,310
+Und die ganze Kommunikation gehijackt wird
+durch dieses Wort.
+
+50
+00:02:53,450 --> 00:02:56,610
+Und das ist quasi der Herkunft.
+
+51
+00:02:56,855 --> 00:03:01,086
+Aber eigentlich ist der Name
+eben Unsolicited Commercial
+
+52
+00:03:01,146 --> 00:03:05,070
+E-Mail, also eine unverlangte
+kommerzielle E-Mail.
+
+53
+00:03:06,820 --> 00:03:11,530
+Ansonsten kennt man natürlich auch Scam,
+Phishing, Hoaxes, die verschickt werden.
+
+54
+00:03:12,230 --> 00:03:18,450
+Was so typischerweise alles unter diesem
+Spam Begriff eben subsummiert wird.
+
+55
+00:03:19,670 --> 00:03:22,452
+Wir kennen alle die
+E-Mails, die uns Viagra
+
+56
+00:03:22,453 --> 00:03:26,770
+verkaufen wollen oder
+Online Casino Spiele etc.
+
+57
+00:03:27,110 --> 00:03:27,330
+etc.
+
+58
+00:03:27,610 --> 00:03:29,690
+Das ist quasi das Problem.
+
+59
+00:03:30,525 --> 00:03:31,566
+Und warum sitzen wir hier?
+
+60
+00:03:31,630 --> 00:03:38,590
+Weil im Februar dieses Jahres Google und
+Yahoo angekündigt haben, sie werden die
+
+61
+00:03:38,591 --> 00:03:40,309
+Daumenschrauben jetzt
+ein bisschen anziehen
+
+62
+00:03:40,310 --> 00:03:43,390
+und sie verlangen entweder
+einen gesetzten SPF.
+
+63
+00:03:43,930 --> 00:03:45,530
+Was das ist, dazu kommen wir gleich.
+
+64
+00:03:46,350 --> 00:03:47,810
+Oder einen DKIM.
+
+65
+00:03:47,811 --> 00:03:54,390
+Und noch ein paar weitere Dinge,
+die gesetzt sein müssen.
+
+66
+00:03:55,080 --> 00:03:59,210
+Und für Massenversender, also wenn ihr
+eine Newsletter versenden wollt über
+
+67
+00:03:59,211 --> 00:04:05,530
+einschlägige Anbieter, dann gelten noch
+striktere Regeln.
+
+68
+00:04:06,620 --> 00:04:13,090
+Die zum Beispiel, die nicht zum Beispiel,
+sondern die bedeuten, dass wir nicht nur
+
+69
+00:04:13,091 --> 00:04:16,970
+SPF oder DKIM einrichten müssen,
+sondern eben beides.
+
+70
+00:04:17,620 --> 00:04:23,230
+Und außerdem muss auch noch ein DMark
+wertgesetzt werden.
+
+71
+00:04:24,090 --> 00:04:28,490
+Was genau hier noch die weiteren
+Definitionen sind, dazu kommen wir später.
+
+72
+00:04:32,490 --> 00:04:35,810
+Genau, da wird noch quasi näher definiert,
+wie der DMark gesetzt sein muss.
+
+73
+00:04:35,930 --> 00:04:41,191
+Das ist quasi das, was uns auch betrifft,
+wenn wir einen Newsletter versenden wollen.
+
+74
+00:04:41,580 --> 00:04:44,355
+Und das ist das, womit die
+Kunden ja dann wahrscheinlich
+
+75
+00:04:44,455 --> 00:04:46,630
+zu uns als diejenigen, die
+es umsetzen, eben kommen.
+
+76
+00:04:46,631 --> 00:04:47,631
+So.
+
+77
+00:04:48,690 --> 00:04:49,730
+Kurze Begriffserklärung.
+
+78
+00:04:50,130 --> 00:04:55,610
+Wenn nicht im Folgenden von MUA die Rede
+ist, dem Mail User Agent, dann sind die
+
+79
+00:04:55,611 --> 00:04:58,046
+Programme gemeint, mit denen wir am Ende
+die E-Mails empfangen.
+
+80
+00:04:58,070 --> 00:05:03,670
+Also Thunderbird, Outlook und Apple Mail
+und wie sie alle heißen.
+
+81
+00:05:04,150 --> 00:05:07,796
+Und wenn von MTA die
+Rede ist, dem Mail Transfer
+
+82
+00:05:07,797 --> 00:05:10,850
+Agent, dann ist die Software
+auf dem Server gemeint.
+
+83
+00:05:10,851 --> 00:05:14,170
+Also Postfix, Sendmail, Postmaster.
+
+84
+00:05:15,685 --> 00:05:18,418
+Das ist quasi das, von
+denen man dann manchmal
+
+85
+00:05:18,419 --> 00:05:21,011
+Mails kriegt, wenn
+irgendwas schief gelaufen ist.
+
+86
+00:05:21,955 --> 00:05:26,410
+Das ist quasi die Software, die auf dem
+Server läuft, um die Mails zu versenden.
+
+87
+00:05:31,040 --> 00:05:32,040
+Kurz durchschnaufen.
+
+88
+00:05:32,800 --> 00:05:33,800
+Jetzt geht's los.
+
+89
+00:05:33,840 --> 00:05:35,540
+Also, wir haben ein Spam-Problem.
+
+90
+00:05:36,030 --> 00:05:37,416
+Wir müssen dem irgendwie Herr werden.
+
+91
+00:05:37,440 --> 00:05:38,040
+Was tun wir?
+
+92
+00:05:38,140 --> 00:05:41,300
+Wir versuchen also jetzt eine Gegenwehr
+aufzubauen.
+
+93
+00:05:41,380 --> 00:05:46,780
+Und wer das Symbol da rechts unten erkennt
+und sich damit mal beschäftigt hat,
+
+94
+00:05:46,800 --> 00:05:47,340
+wie man das baut, der weiß, dass das nicht
+der Fall ist.
+
+95
+00:05:47,341 --> 00:05:52,441
+Und wer das bei Kommentarspam macht, der
+wird merken, es ist gar nicht so einfach.
+
+96
+00:05:53,110 --> 00:05:54,817
+Man könnte ja denken,
+naja, wenn im Text
+
+97
+00:05:54,818 --> 00:05:58,121
+einer E-Mail Viagra
+steht, dann ist das Spam.
+
+98
+00:05:58,400 --> 00:06:01,540
+Ja, aber was ist, wenn ich jetzt
+reinschreibe, oh, ich hasse es,
+
+99
+00:06:01,780 --> 00:06:03,720
+immer so viel Spam zu bekommen.
+
+100
+00:06:04,345 --> 00:06:05,780
+Da steht ständig Viagra drin.
+
+101
+00:06:05,980 --> 00:06:07,520
+Ist das ein ganz normaler Kommentar?
+
+102
+00:06:07,521 --> 00:06:08,636
+Den kann ich ja nicht aussortieren.
+
+103
+00:06:08,660 --> 00:06:13,060
+Also da müssen jetzt doch irgendwie noch
+ein paar andere Dinge der Fall sein.
+
+104
+00:06:13,740 --> 00:06:16,421
+Und wenn man dann sagt, naja, okay,
+da müsste auch noch irgendwie...
+
+105
+00:06:18,070 --> 00:06:23,000
+weiß ich nicht, der Absender von mail.ru
+kommen.
+
+106
+00:06:24,370 --> 00:06:26,060
+Das denke ich, ja, klar, das ist super.
+
+107
+00:06:26,120 --> 00:06:28,900
+Das wird wahrscheinlich bei mir im Blog
+super funktionieren.
+
+108
+00:06:28,920 --> 00:06:31,914
+Aber ich sage mal so, wenn
+jetzt ein russischer Blogger
+
+109
+00:06:32,014 --> 00:06:33,820
+das einrichten würde,
+wäre jetzt nicht so schön.
+
+110
+00:06:33,980 --> 00:06:39,080
+Also das funktioniert irgendwie nicht,
+weil es gibt ja auch tatsächlich normale
+
+111
+00:06:39,081 --> 00:06:42,400
+User bei diesem Mail-Anbieter, die
+vielleicht nicht gebloggt werden wollen.
+
+112
+00:06:42,560 --> 00:06:44,960
+Also es ist gar nicht so einfach,
+Spam zu erkennen.
+
+113
+00:06:44,961 --> 00:06:50,520
+Selbst mit AI und den Möglichkeiten,
+die wir da so haben.
+
+114
+00:06:50,795 --> 00:06:55,660
+Am Ende bleibt es halt, die Informationen,
+die wir zur Verfügung haben, doch recht
+
+115
+00:06:55,760 --> 00:06:56,760
+begrenzt.
+
+116
+00:06:57,200 --> 00:07:00,440
+Und so eindeutig können wir das eigentlich
+gar nicht bestimmen.
+
+117
+00:07:00,540 --> 00:07:03,431
+Wir müssen also mehrere
+Komponenten da irgendwie
+
+118
+00:07:03,432 --> 00:07:06,220
+kombinieren, um eine valide
+Aussage treffen zu können.
+
+119
+00:07:06,500 --> 00:07:10,060
+Das ist der Grund, warum man den Ansatz
+umgedreht hat.
+
+120
+00:07:12,060 --> 00:07:14,843
+SPF, DMarkt, DKIM und
+wie sie alle heißen, haben
+
+121
+00:07:14,844 --> 00:07:18,280
+eigentlich meistens nicht den
+Ansatz, Spam zu erkennen.
+
+122
+00:07:19,370 --> 00:07:22,980
+Auch wenn das in diesem Zuge immer erwähnt
+wird, das hilft uns bei Spam.
+
+123
+00:07:23,000 --> 00:07:27,400
+Aber in Wirklichkeit geht es darum,
+seriöse E-Mails besser zu erkennen.
+
+124
+00:07:30,310 --> 00:07:31,897
+Und wenn ihr euch von
+diesem Talk irgendeine
+
+125
+00:07:31,921 --> 00:07:33,800
+Sache mitnehmen wollt,
+dann ist das dieser Slide.
+
+126
+00:07:34,420 --> 00:07:38,640
+Weil das ist quasi jetzt erstmal so das
+Grundprinzip von diesen ganzen Sachen.
+
+127
+00:07:38,890 --> 00:07:43,960
+Mit SPF definieren wir die Frage,
+wer darf eigentlich eine Mail versenden?
+
+128
+00:07:46,100 --> 00:07:51,955
+Und DKIM sichert, dass die
+Mail auf dem Weg unverändert
+
+129
+00:07:51,956 --> 00:07:54,880
+ist und wirklich von
+diesem Absender stammt.
+
+130
+00:07:56,780 --> 00:08:01,020
+Ich stelle die Slides auch noch online,
+also ich müsste es nicht fotografieren.
+
+131
+00:08:01,040 --> 00:08:03,440
+Ich sagte nur, das ist eine wichtige
+Folie.
+
+132
+00:08:04,760 --> 00:08:05,400
+Genau.
+
+133
+00:08:05,460 --> 00:08:08,620
+Und mit DMarkt sagen wir, was passiert
+eigentlich?
+
+134
+00:08:11,200 --> 00:08:15,738
+Wenn SPF und oder
+DKIM nicht richtig bedient
+
+135
+00:08:15,739 --> 00:08:20,201
+werden, also failen,
+was soll dann passieren?
+
+136
+00:08:20,700 --> 00:08:24,780
+Das ist quasi der Part DMarkt,
+der das dann zusammenbringt.
+
+137
+00:08:26,340 --> 00:08:34,340
+Mit BIMI kann ich mein Logo automatisch
+anzeigen, was auch dem Empfänger
+
+138
+00:08:34,341 --> 00:08:38,600
+signalisiert, diese Mail kommt wirklich
+von diesem Absender.
+
+139
+00:08:38,601 --> 00:08:40,321
+Und dann kann ich das auch mit dem
+Anbieter.
+
+140
+00:08:41,780 --> 00:08:49,080
+Und mit MTA, STS, das ist euch vielleicht
+bei Website Domains schon mal aufgefallen.
+
+141
+00:08:49,100 --> 00:08:52,028
+Es gibt dieses HSTS, mit
+dem man sagen kann, eine
+
+142
+00:08:52,029 --> 00:08:54,620
+Verbindung soll immer
+über HTTPS stattfinden.
+
+143
+00:08:57,210 --> 00:08:59,920
+Und niemals über eine unverschlüsselte
+Verbindung.
+
+144
+00:09:00,350 --> 00:09:06,000
+Und das Gleiche können wir auch für die
+Verbindung der Mail Server vorgeben.
+
+145
+00:09:06,001 --> 00:09:10,241
+Dass also keine unverschlüsselten Verbindungen
+zum Mail Server gemacht werden können.
+
+146
+00:09:10,520 --> 00:09:14,160
+Das ist quasi das Gleiche, nur auf Mail
+Server Ebene.
+
+147
+00:09:15,555 --> 00:09:18,343
+Und wenn wir das auch
+noch einen Report bekommen
+
+148
+00:09:18,344 --> 00:09:20,460
+wollen, dann ist das
+quasi der letzte Punkt.
+
+149
+00:09:20,560 --> 00:09:23,800
+Das sind die Begrifflichkeiten,
+die uns jetzt hier so begegnen werden.
+
+150
+00:09:23,920 --> 00:09:30,440
+SPF, DKIM, DMarkt, BIMI, MTA, STS,
+TLS, RPT.
+
+151
+00:09:31,610 --> 00:09:35,900
+So, es geht immer darum seriöse Mails zu
+erkennen und weniger um Spamerkennung.
+
+152
+00:09:37,660 --> 00:09:42,280
+Erster Punkt, SPF, die Sender Policy
+Framework.
+
+153
+00:09:43,080 --> 00:09:48,198
+Also wir können einen
+TXT-Record, das ist also
+
+154
+00:09:48,199 --> 00:09:52,720
+ein DNS-Eintrag, den wir
+für die Domain vergeben.
+
+155
+00:09:53,660 --> 00:09:59,960
+Und der sagt, welcher Mail Server welche
+IP-Adresse, welcher Host versenden darf.
+
+156
+00:10:02,210 --> 00:10:05,880
+Und wichtig ist, es wird sich dabei nicht
+die Formel bezeichnen.
+
+157
+00:10:26,650 --> 00:10:34,650
+Und das ist der dritte Satz.
+
+158
+00:10:38,310 --> 00:10:40,650
+...wo man sehen kann, wie das
+funktioniert.
+
+159
+00:10:40,890 --> 00:10:48,590
+Also der Server wird connected und dann
+meldet sich der Mail-Server, meldet sich,
+
+160
+00:10:48,870 --> 00:10:55,950
+sagt seine Konfiguration, gibt er quasi
+durch und jetzt wird versucht,
+
+161
+00:10:56,130 --> 00:11:02,150
+eine Mail loszusenden mit dieser
+Absenderadresse und der Mail-Server
+
+162
+00:11:02,151 --> 00:11:08,290
+antwortet, dass er von dieser Location
+keine E-Mail-Adresse hat.
+
+163
+00:11:08,310 --> 00:11:11,790
+...keine E-Mails versenden möchte.
+
+164
+00:11:13,390 --> 00:11:17,530
+Also das Relaying, also das Weiterleiten
+der Mail ablehnt.
+
+165
+00:11:18,040 --> 00:11:25,790
+Das ist die richtige Antwort, wenn man
+dort gar keinen E-Mail-Postfach hat.
+
+166
+00:11:26,290 --> 00:11:28,510
+Aber da sieht man quasi, wie sich der
+Server meldet.
+
+167
+00:11:28,670 --> 00:11:34,670
+Diese Mail-From, das wird quasi jetzt
+genutzt und geprüft.
+
+168
+00:11:43,110 --> 00:11:47,481
+...eine E-Mail, müssen wir uns immer wieder
+vor Augen halten, ist nur eine Textdatei.
+
+169
+00:11:48,100 --> 00:11:53,251
+Der Header ist quasi
+jede Zeile, ist eine
+
+170
+00:11:53,351 --> 00:11:58,120
+Konfigurationseinstellung,
+sowas wie To, From, BCC.
+
+171
+00:11:59,810 --> 00:12:01,940
+Dann kommt eine Leerzeile und dann kommt
+der Body.
+
+172
+00:12:02,280 --> 00:12:06,940
+Das ist quasi eine E-Mail runtergebrochen
+und ich kann da eintragen in den From,
+
+173
+00:12:07,305 --> 00:12:08,305
+was ich möchte.
+
+174
+00:12:08,400 --> 00:12:08,480
+...was ich möchte.
+
+175
+00:12:08,481 --> 00:12:10,521
+Ich kann auch eine E-Mail schreiben,
+in der steht...
+
+176
+00:12:10,890 --> 00:12:17,060
+...das ist halt nur eine Textdatei.
+
+177
+00:12:17,860 --> 00:12:21,300
+...was wir aber jetzt mit SPF machen
+können, ist, dass jetzt geprüft wird,
+
+178
+00:12:21,710 --> 00:12:27,029
+welcher Server sendet mir
+denn diese Anfrage, von der
+
+179
+00:12:27,030 --> 00:12:29,820
+angeblich vom Bundeskanzleramt
+gerade geschickt wird.
+
+180
+00:12:30,505 --> 00:12:34,123
+...und dann wird jetzt eben
+der Server, der meldet sich
+
+181
+00:12:34,124 --> 00:12:39,920
+ja an, haben wir gerade
+gesehen, und der prüft jetzt...
+
+182
+00:12:40,940 --> 00:12:43,876
+...für die Domain ob da
+ein SPF gesetzt ist, und
+
+183
+00:12:43,877 --> 00:12:49,020
+schaut sich an, welches
+Server dürfen denn senden.
+
+184
+00:12:49,080 --> 00:12:51,020
+Also welche Server sind autorisiert.
+
+185
+00:12:52,840 --> 00:12:55,480
+...vergleicht das mit dem, was in der E
+-Mail steht, bzw.
+
+186
+00:12:55,660 --> 00:12:58,890
+was der Mail-Server
+gemeldet hat, und kann dann
+
+187
+00:12:58,891 --> 00:13:01,281
+eben prüfen, passt das
+zusammen, matcht das?
+
+188
+00:13:01,670 --> 00:13:03,600
+...ja, dann ist die Mail in Ordnung.
+
+189
+00:13:04,040 --> 00:13:05,360
+Nein, dann ist es wohl Spam.
+
+190
+00:13:08,120 --> 00:13:10,300
+...Vielen Dank an dieser Stelle übrigens
+an SPF.
+
+191
+00:13:10,301 --> 00:13:10,420
+... Vielen Dank an dieser
+Stelle übrigens an SPF.
+
+192
+00:13:10,590 --> 00:13:13,909
+record.de, die mir
+netterweise erlaubt haben,
+
+193
+00:13:13,910 --> 00:13:18,260
+deren Infografik zu
+benutzen für diesen Talk.
+
+194
+00:13:18,980 --> 00:13:21,300
+So, und jetzt werden wir noch ein bisschen
+technischer.
+
+195
+00:13:21,820 --> 00:13:25,497
+Konkret sieht das gerade so
+aus, also der DNS-Eintrag, wie
+
+196
+00:13:25,498 --> 00:13:28,900
+gesagt ein TXT -Eintrag,
+definiert erstmal die Version.
+
+197
+00:13:28,901 --> 00:13:35,220
+Es gibt noch keine 2, aber falls sie mal
+kommen sollte, gibt es eben die
+
+198
+00:13:35,480 --> 00:13:40,207
+Möglichkeit, sie hier
+direkt auszutauschen gegen
+
+199
+00:13:40,208 --> 00:13:44,481
+eine 2er-Version, falls
+es mal eine geben sollte.
+
+200
+00:13:45,060 --> 00:13:53,060
+Mit MX sagen wir, der Mail-Server,
+also Mail Exchange darf versenden mit A
+
+201
+00:13:53,061 --> 00:13:55,380
+der A-Record, also sprich die Webseite
+selbst.
+
+202
+00:13:56,000 --> 00:13:57,000
+Und...
+
+203
+00:13:59,020 --> 00:14:02,867
+das Fragezeichen definiert,
+was passiert denn, wenn
+
+204
+00:14:02,868 --> 00:14:06,300
+nichts von den vorherigen
+Einstellungen matcht.
+
+205
+00:14:06,760 --> 00:14:08,240
+Was soll dann mit der Mail passieren?
+
+206
+00:14:08,360 --> 00:14:10,769
+Und dann gibt es eben die
+Möglichkeit, die Mail abzulehnen,
+
+207
+00:14:10,770 --> 00:14:14,000
+die Mail in den Spam zu packen
+oder, ja, weiß ich auch nicht.
+
+208
+00:14:14,165 --> 00:14:17,560
+Das ist quasi das Fragezeichen,
+mach halt, was du denkst.
+
+209
+00:14:18,000 --> 00:14:21,400
+Das ist die schwächste Empfehlung,
+die man da machen kann.
+
+210
+00:14:22,180 --> 00:14:27,240
+Das ist so der typische Basis-SPF,
+den man immer setzen kann.
+
+211
+00:14:27,900 --> 00:14:28,880
+Wir erlauben dem Mail, dass er sich nicht
+so gut befasst.
+
+212
+00:14:28,881 --> 00:14:28,880
+Das ist so der typische Basis-SPF,
+den man immer setzen kann.
+
+213
+00:14:28,900 --> 00:14:29,560
+Wir erlauben dem Mail, dass er sich nicht
+so gut befasst.
+
+214
+00:14:29,561 --> 00:14:31,961
+Das ist so der typische Basis-SPF,
+den man immer setzen kann.
+
+215
+00:14:32,150 --> 00:14:33,440
+Wir erlauben dem Mail, dass er sich nicht
+so gut befasst.
+
+216
+00:14:33,441 --> 00:14:35,520
+Das ist so der typische Basis-SPF,
+den man immer setzen kann.
+
+217
+00:14:35,521 --> 00:14:40,200
+Wir erlauben dem Mail, dass er sich nicht
+so gut befasst.
+
+218
+00:14:40,460 --> 00:14:45,340
+Das ist so der typische Basis-SPF,
+den man immer setzen kann.
+
+219
+00:14:47,400 --> 00:14:48,140
+Wir erlauben dem Mail, dass er sich nicht
+so gut befasst.
+
+220
+00:14:48,141 --> 00:14:49,520
+Das ist so der typische Basis-SPF,
+den man immer setzen kann.
+
+221
+00:14:49,521 --> 00:14:51,761
+Wir erlauben dem Mail, dass er sich nicht
+so gut befasst.
+
+222
+00:14:52,940 --> 00:14:53,420
+Das ist so der typische Basis-SPF,
+den man immer setzen kann.
+
+223
+00:14:53,421 --> 00:14:55,840
+Wir erlauben dem Mail, dass er sich nicht
+so gut befasst.
+
+224
+00:14:56,140 --> 00:14:58,180
+Das ist so der typische Basis-SPF,
+den man immer setzen kann.
+
+225
+00:14:58,181 --> 00:15:00,360
+Da kann man das auch alles wunderbar
+nachlesen.
+
+226
+00:15:00,380 --> 00:15:05,420
+Es gibt halt noch statt dem Fragezeichen
+ein Plus, ein Minus.
+
+227
+00:15:05,540 --> 00:15:12,160
+Also vor diesen M, X und A könnt ihr euch
+quasi immer ein Plus denken.
+
+228
+00:15:12,320 --> 00:15:13,600
+Das ist das, was erlaubt ist.
+
+229
+00:15:14,370 --> 00:15:18,680
+Und das All gilt halt für alles,
+was dann noch nicht erfasst wurde.
+
+230
+00:15:19,210 --> 00:15:22,320
+Und da könnte man eben auch sagen,
+rejecte das.
+
+231
+00:15:22,920 --> 00:15:26,160
+Also sprich, lehne die Mail komplett ab.
+
+232
+00:15:26,960 --> 00:15:28,420
+Die Tilde ist ein Soft-Fail.
+
+233
+00:15:28,850 --> 00:15:36,141
+Das klingt so komisch, Soft-Fail, meint
+aber dann typischerweise den Spam -Ordner.
+
+234
+00:15:36,360 --> 00:15:37,760
+Neutral ist wie gesagt nichts.
+
+235
+00:15:42,480 --> 00:15:46,820
+Jetzt wäre das ja schön einfach,
+aber manchmal möchte man dann ja zum
+
+236
+00:15:46,821 --> 00:15:50,740
+Beispiel von der gleichen Domain auch über
+eine Newsletter was verschicken.
+
+237
+00:15:52,000 --> 00:15:54,640
+Dann muss ich ja dem Newsletter das
+zusätzlich erlauben.
+
+238
+00:15:54,660 --> 00:15:56,136
+Dafür gibt es die Möglichkeit,
+entweder...
+
+239
+00:15:56,160 --> 00:16:04,020
+...die IP-Adressen über IP 4 oder 6 oder
+den Host über Include einzubauen.
+
+240
+00:16:04,290 --> 00:16:09,140
+Dann sage ich quasi, erlaube neben dem
+Mail-Server und dem A-Record auch noch
+
+241
+00:16:10,840 --> 00:16:18,840
+einem anderen Server, zum Beispiel dem
+Server von Cleverreach oder Brevo oder wie
+
+242
+00:16:18,841 --> 00:16:21,060
+der Newsletter-Anbieter auch heißt,
+eben dann auch noch.
+
+243
+00:16:21,640 --> 00:16:25,651
+Und die Informationen bekommt man typischerweise
+aus der Hilfe, aus dem Support von.
+
+244
+00:16:25,652 --> 00:16:26,001
+..
+
+245
+00:16:26,160 --> 00:16:27,240
+...dem Newsletter-Anbieter.
+
+246
+00:16:28,860 --> 00:16:33,140
+So, kurze Fragerunde, ob ihr mitgekommen
+seid.
+
+247
+00:16:33,760 --> 00:16:38,600
+Wir haben jetzt hier eine typische
+Anleitung von All Inklisters in diesem
+
+248
+00:16:38,800 --> 00:16:41,180
+Fall, wie man Outlook 365 einrichtet.
+
+249
+00:16:41,980 --> 00:16:43,660
+Da ist der SPF.
+
+250
+00:16:44,080 --> 00:16:46,000
+Wir haben hier einen Include.
+
+251
+00:16:46,840 --> 00:16:50,364
+Das ist der Standard von
+Outlook 365, den man dann
+
+252
+00:16:50,365 --> 00:16:55,040
+hinzufügen muss, wenn man
+eben Outlook 365 nutzen möchte.
+
+253
+00:16:56,160 --> 00:16:57,640
+Wir haben hier ein Minus-All hinten.
+
+254
+00:17:00,130 --> 00:17:02,490
+Wir haben aber eine WordPress-Webseite auf
+der Seite laufen.
+
+255
+00:17:02,520 --> 00:17:04,340
+Jetzt wagen wir in die Runde.
+
+256
+00:17:04,380 --> 00:17:05,821
+Wer kann sagen, was das Problem ist?
+
+257
+00:17:13,590 --> 00:17:14,590
+Exakt, genau.
+
+258
+00:17:15,250 --> 00:17:19,670
+Es wurde gerade gesagt, der A-Record
+-Eintrag fehlt und das ist genau richtig.
+
+259
+00:17:20,370 --> 00:17:24,410
+Wenn wir jetzt eben die Passwort-vergessen
+-Funktion zum Beispiel nutzen wollen und
+
+260
+00:17:24,411 --> 00:17:31,650
+wir haben Gmail hinterlegt als Adresse,
+dann wird die nicht ankommen.
+
+261
+00:17:31,950 --> 00:17:36,050
+Gmail lehnt standardmäßig alles,
+was keinen SPF-Eintrag hat, ab.
+
+262
+00:17:36,860 --> 00:17:40,430
+Es ist aber kein SPF-Eintrag hinterlegt
+für den A-Record.
+
+263
+00:17:40,860 --> 00:17:43,340
+Das ist aber die Webseite, die gerade dann
+die Mail verschickt.
+
+264
+00:17:43,990 --> 00:17:46,510
+Da ist also dieser Server gar nicht
+erlaubt.
+
+265
+00:17:46,730 --> 00:17:48,250
+Folglich wird die Mail nicht ankommen.
+
+266
+00:17:52,880 --> 00:17:54,840
+Genau, mit SPF-Records gibt es noch mehr
+Probleme.
+
+267
+00:17:57,670 --> 00:18:01,730
+Einer ist zum Beispiel, dass wenn man zu
+viele Dienste nutzt...
+
+268
+00:18:02,880 --> 00:18:06,950
+Irgendwann das Problem ist, dass zu viele
+Look-Ups existieren.
+
+269
+00:18:07,010 --> 00:18:10,182
+Es dürfen nämlich nur maximal
+zehn Look -Ups in einem
+
+270
+00:18:10,183 --> 00:18:14,150
+SPF sein, weil sonst wurde
+eingebaut um DDoS-Attacken.
+
+271
+00:18:14,210 --> 00:18:18,190
+Also, wenn man da jetzt ganz viele Werte
+einträgt, könnte man den Server
+
+272
+00:18:18,191 --> 00:18:21,170
+beschäftigen, dass er die
+ganze Zeit immer Look-Ups
+
+273
+00:18:21,171 --> 00:18:23,891
+macht und um das zu
+verhindern, hat man das begrenzt.
+
+274
+00:18:25,210 --> 00:18:31,650
+Bedeutet, dass manchmal eine ganze Reihe
+von IP-Adressen dahinterlegt ist.
+
+275
+00:18:31,651 --> 00:18:34,570
+Weil die IP-Adresse selber muss ja nicht
+aufgelöst werden.
+
+276
+00:18:34,650 --> 00:18:36,130
+Das ist ja die fertige Adresse.
+
+277
+00:18:36,290 --> 00:18:37,990
+Das heißt, das kann man benutzen.
+
+278
+00:18:38,745 --> 00:18:43,373
+Oder man leitet auf
+eine... über ein CNAME auf
+
+279
+00:18:43,374 --> 00:18:47,790
+etwas hin, wo dann die
+IP-Adressen hinterlegt sind.
+
+280
+00:18:50,080 --> 00:18:54,650
+Genau, falls euch das mal begegnen sollte,
+wisst ihr, wo das Problem ist.
+
+281
+00:18:59,410 --> 00:19:00,890
+So... genau, das überspringe ich mal.
+
+282
+00:19:01,230 --> 00:19:06,590
+SPF ist also vor allem ein Schutz vor
+unberechtigten SMTP-Relays, also dass ich
+
+283
+00:19:06,591 --> 00:19:10,470
+über einen Server E-Mails verschicke,
+der gar nicht autorisiert ist,
+
+284
+00:19:10,650 --> 00:19:12,910
+zu dieser Domain Mails zu verschicken.
+
+285
+00:19:15,040 --> 00:19:16,410
+Soweit alle mitgekommen?
+
+286
+00:19:18,770 --> 00:19:20,590
+Ich sehe nickende Gesichter, das ist gut.
+
+287
+00:19:21,050 --> 00:19:22,470
+Dann können wir uns DKIM widmen.
+
+288
+00:19:22,730 --> 00:19:23,730
+DKIM.
+
+289
+00:19:24,550 --> 00:19:27,450
+Asymmetrische Kryptographie
+klingt wahnsinnig kompliziert,
+
+290
+00:19:27,451 --> 00:19:30,550
+ist aber eigentlich nur
+sowas wie PGP für Mails.
+
+291
+00:19:32,270 --> 00:19:37,204
+Wir haben einen MTA,
+der eine digitale Signatur
+
+292
+00:19:37,205 --> 00:19:41,271
+erstellt und sie
+mitschickt in der E-Mail.
+
+293
+00:19:42,390 --> 00:19:50,390
+Und der empfangende MTA, also der andere
+Mailserver, kann jetzt über den DNS
+
+294
+00:19:50,391 --> 00:19:57,810
+-Eintrag den öffentlichen Schlüssel
+nehmen, kann die E-Mail, das ist die
+
+295
+00:19:57,811 --> 00:20:03,710
+gesamte E-Mail inklusive aller Header,
+...einen Hash-Wert berechnen und sich den
+
+296
+00:20:03,711 --> 00:20:06,750
+mit dem Hash, der in dem Header steht,
+abgleichen.
+
+297
+00:20:07,850 --> 00:20:15,650
+Wenn wir die Signatur so verifizieren
+können, wissen wir, dass die Mail,
+
+298
+00:20:16,990 --> 00:20:24,990
+weil ja die Berechnung identisch ist,
+dass die E-Mail unverändert ist.
+
+299
+00:20:25,690 --> 00:20:30,398
+Wir haben also die Gewissheit
+über SPF, dass der Server
+
+300
+00:20:30,488 --> 00:20:33,890
+der richtige ist, der
+autorisierte ist, der sendet.
+
+301
+00:20:34,305 --> 00:20:37,134
+Und mit DKIM wissen wir, dass
+niemand in der Mitte die Mail
+
+302
+00:20:37,135 --> 00:20:39,431
+verändert hat oder auf dem
+Weg irgendwie verändert hat.
+
+303
+00:20:43,710 --> 00:20:50,770
+Genau, das heißt, wir nutzen diesen DNS
+-Eintrag einfach nur quasi um unseren
+
+304
+00:20:50,771 --> 00:20:53,824
+Public Key, unseren
+öffentlichen Schlüssel,
+
+305
+00:20:53,825 --> 00:20:56,851
+dem Mail-Server, dem
+anderen Mail -Server.
+
+306
+00:20:59,200 --> 00:21:04,490
+Auch hier eine Infografik dazu,
+wie das eben dann aussieht.
+
+307
+00:21:04,510 --> 00:21:10,310
+Wir haben den versendenden Server,
+der mit einem privaten Schlüssel die
+
+308
+00:21:10,311 --> 00:21:15,870
+Signatur erstellt, auf dem DNS-Server den
+öffentlichen Schlüssel.
+
+309
+00:21:16,690 --> 00:21:23,690
+So kann eben der empfangene Server die
+Berechnung nachbauen, den Wert nochmal
+
+310
+00:21:23,691 --> 00:21:26,350
+abgleichen und wenn das matcht,
+dann weiß er, alles klar ist.
+
+311
+00:21:26,450 --> 00:21:29,396
+Unverändert ist es
+okay, landet in der Inbox,
+
+312
+00:21:29,397 --> 00:21:31,811
+wenn nicht, dann ist
+es wahrscheinlich Spam.
+
+313
+00:21:33,885 --> 00:21:40,510
+Problem ist, wir brauchen, um das testen
+zu können, den Selector, mit dem das
+
+314
+00:21:40,890 --> 00:21:48,890
+passiert, was das ein bisschen schwieriger
+macht zu testen im Vergleich zu SPF.
+
+315
+00:21:50,435 --> 00:21:52,990
+So, kommen wir schon zum dritten,
+DMARC.
+
+316
+00:21:54,570 --> 00:21:56,430
+DMARC ist jetzt das Domain-Based Marker.
+
+317
+00:21:56,450 --> 00:21:59,550
+Message, Authentication, Reporting und
+Conformance.
+
+318
+00:21:59,960 --> 00:22:04,510
+So, das heißt, klingt auch wieder
+wahnsinnig kompliziert, ist aber auch
+
+319
+00:22:05,010 --> 00:22:13,010
+letzten Endes nur die Verbindung von SPF
+und DKIM und führt noch eine weitere Sache
+
+320
+00:22:13,011 --> 00:22:17,789
+ein, das Alignment, sagt aber
+nur, was passiert, wenn das
+
+321
+00:22:17,790 --> 00:22:23,330
+eben nicht matcht, wenn wir
+einen SPF oder DKIM-Fail haben.
+
+322
+00:22:25,170 --> 00:22:33,170
+Der DMARC ist auch ein TXT-Eintrag,
+der unterstrich DMARC heißt und an der
+
+323
+00:22:33,171 --> 00:22:39,290
+Domain hängt, wir haben dort drin die
+Möglichkeit, auch wieder so ein Basis
+
+324
+00:22:39,291 --> 00:22:41,410
+-DMARC zu setzen, damit überhaupt einer
+gesetzt ist.
+
+325
+00:22:41,470 --> 00:22:45,310
+Auch hier haben wir eine Versionsnummer,
+die wir setzen können, falls es mal eine
+
+326
+00:22:45,311 --> 00:22:49,730
+Zweier gibt, auch hier gibt es noch keine
+Zweier und die schwächste Variante ist,
+
+327
+00:22:50,110 --> 00:22:52,410
+P-Policy auf None zu setzen.
+
+328
+00:22:53,390 --> 00:22:56,880
+Weiß der Server schon
+mal, hier habe ich einen
+
+329
+00:22:56,881 --> 00:23:00,031
+DMARC-Eintrag, aber ich
+habe noch nichts für dich zu tun.
+
+330
+00:23:01,550 --> 00:23:04,849
+Die Definition ist jetzt ein
+bisschen komplizierter, wir
+
+331
+00:23:04,850 --> 00:23:07,710
+haben das auch hier wieder
+den Screenshot von Wikipedia.
+
+332
+00:23:09,230 --> 00:23:15,519
+Am Ende ist es aber auch
+alles verständlich, wir müssen
+
+333
+00:23:15,520 --> 00:23:19,590
+nur die komischen Abkürzungen
+einmal nachvollziehen.
+
+334
+00:23:19,670 --> 00:23:23,310
+Wir haben mit PCT, das ist einfach
+Percent, die Abkürzung.
+
+335
+00:23:23,330 --> 00:23:28,330
+Und wenn man sehr viele Mails in einer
+großen Firma hat, dann kann man sagen,
+
+336
+00:23:28,450 --> 00:23:33,090
+mach das doch erstmal nur für fünf
+Prozent, zehn Prozent des gesamten Mail
+
+337
+00:23:33,091 --> 00:23:35,816
+-Aufkommens, damit
+ich gucken kann, wie viele
+
+338
+00:23:35,817 --> 00:23:38,351
+Probleme passieren denn
+mit meiner Konfiguration.
+
+339
+00:23:40,430 --> 00:23:46,110
+Dann kann man sich einen aggregierten
+Bericht definieren, das ist das,
+
+340
+00:23:46,170 --> 00:23:50,890
+was man typischerweise machen möchte,
+um eben nachzuvollziehen, was gibt es denn
+
+341
+00:23:51,090 --> 00:23:56,990
+für Probleme mit Mit meinen Mails
+versuchen Leute, Mails von meiner Domain
+
+342
+00:23:56,991 --> 00:23:59,710
+zu senden, die aber nicht autorisiert
+sind.
+
+343
+00:23:59,790 --> 00:24:00,550
+Passiert das?
+
+344
+00:24:00,710 --> 00:24:01,810
+Wie häufig passiert das?
+
+345
+00:24:05,420 --> 00:24:12,030
+Die Policy ist, und das kommt jetzt dann
+bekannt vor, wie beim SPF, None,
+
+346
+00:24:12,840 --> 00:24:14,869
+tue gar nichts,
+entscheide mal selber,
+
+347
+00:24:14,969 --> 00:24:18,130
+Quarantines, Pucks &
+Spam, Reject, Mail ablehnen.
+
+348
+00:24:19,250 --> 00:24:21,722
+Interessant ist hier noch,
+es gibt die Möglichkeit, für
+
+349
+00:24:21,723 --> 00:24:28,670
+Subdomains eine eigene
+Einstellung zusätzlich einzurichten.
+
+350
+00:24:30,890 --> 00:24:36,010
+Und normalerweise ist der Standardwert
+eben das, was für die Domain gesetzt ist.
+
+351
+00:24:36,070 --> 00:24:38,270
+Man kann aber für Subdomains was anderes
+einstellen.
+
+352
+00:24:39,075 --> 00:24:41,610
+Ist jetzt gerade zum
+Beispiel bei Yonos der Fall,
+
+353
+00:24:41,611 --> 00:24:45,050
+dass die das für Subdomains
+strikter gemacht haben.
+
+354
+00:24:46,950 --> 00:24:48,070
+Weshalb man von...
+
+355
+00:24:48,950 --> 00:24:51,950
+Subdomain-WordPress-Installationen nicht
+mehr Mails verschicken kann.
+
+356
+00:24:52,050 --> 00:24:56,902
+Da müsst ihr aufpassen,
+dass ihr das entsprechend
+
+357
+00:24:56,903 --> 00:25:01,190
+umkonfiguriert oder von der
+Hauptdomain E-Mails versendet.
+
+358
+00:25:03,710 --> 00:25:08,090
+Genau, dann ist noch interessant der
+Abgleich-Modus für DKEM und SPF.
+
+359
+00:25:10,655 --> 00:25:13,430
+Das R&S steht für Strict bzw.
+
+360
+00:25:14,690 --> 00:25:15,690
+Relaxed.
+
+361
+00:25:16,700 --> 00:25:18,110
+Und da kommen wir...
+
+362
+00:25:18,760 --> 00:25:20,010
+später noch zu...
+
+363
+00:25:21,520 --> 00:25:25,710
+So, ich guck mal, das habe ich glaube ich
+alles gerade soweit erzählt.
+
+364
+00:25:25,950 --> 00:25:30,950
+Genau, bei DMARC schaut er sich
+tatsächlich dann jetzt die ROM-Zeile aus
+
+365
+00:25:30,951 --> 00:25:38,690
+der E-Mail an und nicht aus der SMTP
+-Server-Verbindung wie bei SPF.
+
+366
+00:25:39,445 --> 00:25:42,570
+Bei Strict muss die Domain exakt
+übereinstimmen.
+
+367
+00:25:42,571 --> 00:25:46,270
+Bei Relaxed kann es auch eine Subdomain
+von der gleichen Domain sein.
+
+368
+00:25:51,350 --> 00:25:53,906
+Genau, typischerweise lässt
+man sich dann einen Fehlerbericht
+
+369
+00:25:53,907 --> 00:25:58,490
+zukommen, damit man das
+Ganze eben monitoren kann.
+
+370
+00:25:59,710 --> 00:26:02,217
+Interessant ist, dass eben
+DMARC dann vor allem
+
+371
+00:26:02,218 --> 00:26:04,891
+bei größeren Mail-Aufkommen
+in größeren Firmen.
+
+372
+00:26:05,620 --> 00:26:12,731
+Und ja, wie wir das vorhin bei
+Massenversender versus Einzelversender haben.
+
+373
+00:26:12,810 --> 00:26:17,160
+Man kann es eben so konfigurieren,
+dass SPF oder DKEM...
+
+374
+00:26:18,420 --> 00:26:20,780
+Eines davon erfolgreich sein muss oder
+eben beides.
+
+375
+00:26:24,270 --> 00:26:26,960
+Genau, das habe ich soweit erzählt.
+
+376
+00:26:27,280 --> 00:26:31,900
+Probleme gibt es hier bei Mailinglisten,
+wenn Sie den Header verändern,
+
+377
+00:26:31,960 --> 00:26:35,440
+weil Sie dann noch Ihre Listeninformation
+reinschreiben.
+
+378
+00:26:35,460 --> 00:26:39,300
+Ihre Mailinglisten-Daten, weil dann
+verändern Sie ja die Mail.
+
+379
+00:26:39,860 --> 00:26:41,500
+Dann geht die Signatur kaputt.
+
+380
+00:26:42,810 --> 00:26:47,140
+Da muss man nochmal gucken, wie weit das
+mit der Mailingliste zusammenhängt.
+
+381
+00:26:47,340 --> 00:26:50,680
+Wie weit das mit Mailinglisten funktioniert,
+falls das etwas ist, was ihr einsetzt.
+
+382
+00:26:52,160 --> 00:26:55,340
+Genau, dann schauen wir uns nochmal dieses
+Alignment näher an.
+
+383
+00:26:56,200 --> 00:27:01,340
+Auch hier wieder vielen Dank an DMARCian,
+die mir netterweise erlaubt haben,
+
+384
+00:27:01,440 --> 00:27:03,640
+die Infografiken zu benutzen für diesen
+Talk.
+
+385
+00:27:06,010 --> 00:27:08,080
+In einer E-Mail gibt es immer einen Return
+Path.
+
+386
+00:27:08,450 --> 00:27:12,760
+Das ist die E-Mail-Adresse, die benutzt
+wird für Fehlermeldungen.
+
+387
+00:27:12,860 --> 00:27:16,180
+Also wenn ihr von diesem Mailer-Dämon
+Mails kriegt.
+
+388
+00:27:16,255 --> 00:27:20,140
+So ich konnte eine Mail nicht zustellen,
+etc.
+
+389
+00:27:20,240 --> 00:27:23,040
+Dann geht ihr an eine Rückläuferadresse.
+
+390
+00:27:23,120 --> 00:27:27,240
+Das ist der Return Path, der hinterlegt
+ist.
+
+391
+00:27:28,920 --> 00:27:35,060
+Und hier sieht man, der ist von der Domain
+example.com.
+
+392
+00:27:35,750 --> 00:27:41,920
+Wir haben aber auch hier eine DKIM
+-Signatur, die einen D für die Domain
+
+393
+00:27:41,921 --> 00:27:44,140
+einen Eintrag hat, der ebenfalls auf
+example steht.
+
+394
+00:27:44,950 --> 00:27:45,820
+Und die From-Adresse.
+
+395
+00:27:45,821 --> 00:27:49,180
+Also der Absender hat halt auch die
+example-Adresse.
+
+396
+00:27:49,260 --> 00:27:52,239
+Das sind die drei Werte, die
+übereinstimmen müssen, damit
+
+397
+00:27:52,240 --> 00:28:01,400
+dieser DKIM -SPF DMARC
+eben entsprechend aligned ist.
+
+398
+00:28:01,480 --> 00:28:06,020
+Also zusammenpasst, matcht und erfolgreich
+ist.
+
+399
+00:28:06,920 --> 00:28:08,480
+Ein Fail sieht dann entsprechend aus.
+
+400
+00:28:08,540 --> 00:28:12,680
+Wir haben hier eine Bounce-Adresse,
+die anders aussieht.
+
+401
+00:28:13,620 --> 00:28:14,620
+Ähm...
+
+402
+00:28:15,430 --> 00:28:21,020
+Der Server, der hier versendet,
+erstellt auch die DKIM-Signatur.
+
+403
+00:28:21,580 --> 00:28:24,680
+Deshalb ist er hier eingetragen,
+aber der Absender-Adresse ist eine andere.
+
+404
+00:28:25,210 --> 00:28:27,180
+Wir haben also jetzt hier kein Alignment
+mehr.
+
+405
+00:28:28,100 --> 00:28:34,181
+Das ist also ein Alignment-Fail, der uns
+dann in den Reports wieder begegnen würde.
+
+406
+00:28:35,180 --> 00:28:37,238
+So, diese Report,
+die man da kriegt, ist
+
+407
+00:28:37,239 --> 00:28:40,040
+eine E-Mail mit einer
+angehängten XML -Datei.
+
+408
+00:28:40,285 --> 00:28:43,040
+XML -Dateien sind jetzt eher nicht so
+schön zu lesen.
+
+409
+00:28:43,041 --> 00:28:44,760
+Das ist eher so für Maschinen.
+
+410
+00:28:45,560 --> 00:28:49,760
+Man kann aber mit diesem XML-to-human
+-Converter von DMARC hier...
+
+411
+00:28:49,761 --> 00:28:54,740
+Da kann man einfach die Datei reinwerfen,
+die XML, und sich das dann angucken.
+
+412
+00:28:54,800 --> 00:28:59,700
+Da sieht man auch schon, ich habe das
+jetzt mal für einen meiner Kunden gemacht.
+
+413
+00:28:59,760 --> 00:29:04,709
+Da hat mir also der
+Fast-Mail, der Empfänger quasi
+
+414
+00:29:04,729 --> 00:29:07,460
+von der Gegenseite,
+schickt mir jetzt einen Report.
+
+415
+00:29:08,440 --> 00:29:09,440
+Ähm...
+
+416
+00:29:09,770 --> 00:29:12,480
+Und sagt mir nochmal, welche Policies sind
+denn eingestellt.
+
+417
+00:29:15,190 --> 00:29:17,680
+Was er ausgelesen hat und wie er sich
+jetzt verhält.
+
+418
+00:29:18,010 --> 00:29:22,800
+Und er hat jetzt also von den Mails,
+die von unserer Domain zu deren Mail
+
+419
+00:29:22,801 --> 00:29:28,840
+-Server gegangen sind, hat er jetzt
+gesehen, das sind Microsoft 365-Mails,
+
+420
+00:29:29,140 --> 00:29:35,980
+die zu 100% DMARC-compliant waren,
+weil sie ein SPF gesetzt hatten.
+
+421
+00:29:36,000 --> 00:29:38,720
+Es war kein DKIM gesetzt.
+
+422
+00:29:39,170 --> 00:29:41,480
+Da das aber relaxed eingestellt ist.
+
+423
+00:29:41,481 --> 00:29:46,160
+Also SPF oder DKIM ist das DMARC ein Pass.
+
+424
+00:29:46,990 --> 00:29:48,750
+Und deshalb habe ich hier ein grünes
+Häkchen.
+
+425
+00:29:49,250 --> 00:29:50,460
+Und alles ist gut.
+
+426
+00:29:50,640 --> 00:29:54,340
+Und mit solchen Reports kann man dann
+quasi das Mail-Aufkommen anschauen und
+
+427
+00:29:54,490 --> 00:29:57,760
+schauen, ob es da Probleme gibt.
+
+428
+00:29:59,300 --> 00:30:00,300
+So...
+
+429
+00:30:11,770 --> 00:30:12,770
+Das ist jetzt...
+
+430
+00:30:13,540 --> 00:30:15,850
+Ob du einen DMARC brauchst, wenn du einen
+SPF...
+
+431
+00:30:15,851 --> 00:30:18,170
+Also es geht eher darum zwischen SPF und
+DKIM.
+
+432
+00:30:18,171 --> 00:30:20,090
+Also einen davon brauchst du.
+
+433
+00:30:20,515 --> 00:30:25,310
+DMARC ist eher so die Überlegung,
+wenn du einen Report darüber haben
+
+434
+00:30:25,311 --> 00:30:29,710
+möchtest, wie sich der Server dann
+verhält.
+
+435
+00:30:29,790 --> 00:30:33,850
+Für manche Sachen ist das quasi eine
+Vorgabe, dass DMARC vorhanden sein muss.
+
+436
+00:30:34,395 --> 00:30:36,690
+Da reicht im Zweifelsfall aber auch dieser
+Basis-DMARC.
+
+437
+00:30:37,850 --> 00:30:38,890
+So, habe ich die...
+
+438
+00:30:38,891 --> 00:30:42,070
+Wenn wir Fragen rauslassen, komme ich noch
+ein bisschen weiter, glaube ich.
+
+439
+00:30:43,290 --> 00:30:48,150
+Ich stelle euch einmal noch kurz Online
+-Tools vor mit mxtoolbox.com.
+
+440
+00:30:48,151 --> 00:30:52,010
+Könnt ihr eure DNS-Einstellungen selber
+checken.
+
+441
+00:30:52,950 --> 00:30:55,550
+Alternativ gibt es auch andere Anbieter.
+
+442
+00:30:55,551 --> 00:30:59,290
+NS-Lookup, DNS-Checker und viele andere
+mehr.
+
+443
+00:30:59,450 --> 00:31:01,454
+Ihr müsst halt nur
+irgendwie diese TXT
+
+444
+00:31:01,455 --> 00:31:05,011
+-Records auslesen können,
+um da dran zu kommen.
+
+445
+00:31:05,250 --> 00:31:09,570
+Ich habe noch ein paar weitere Quellen.
+
+446
+00:31:12,310 --> 00:31:16,170
+SPF-Records, Domain Security, DMARC-Hirn.
+
+447
+00:31:17,870 --> 00:31:20,050
+Ganz schön fand ich Learn DMARC.
+
+448
+00:31:21,230 --> 00:31:26,990
+Das ist so eine interaktive Tour,
+die ich sehr empfehlen kann.
+
+449
+00:31:27,510 --> 00:31:32,830
+Weil man dann einmal mit seiner eigenen
+Domain durchspielen kann, was da passiert.
+
+450
+00:31:33,150 --> 00:31:38,670
+Und der nimmt einen auf so eine Reise mit,
+um zu verstehen, was da passiert.
+
+451
+00:31:38,970 --> 00:31:41,810
+Und wie die Einstellungen sich auswirken.
+
+452
+00:31:43,310 --> 00:31:44,930
+So, problematisch ist...
+
+453
+00:31:46,170 --> 00:31:49,103
+Der Support leider
+zum Beispiel bei Domain
+
+454
+00:31:49,104 --> 00:31:52,871
+Factory wird kein DKIM
+und kein DMARC angeboten.
+
+455
+00:31:54,160 --> 00:31:56,687
+Ansonsten sollten im Prinzip
+eigentlich alle Hoster das
+
+456
+00:31:56,688 --> 00:31:59,310
+unterstützen, wo man an die
+DNS-Einstellungen rankommt.
+
+457
+00:31:59,950 --> 00:32:01,830
+Wenn nicht, wird es für Newsletter
+schwierig.
+
+458
+00:32:03,860 --> 00:32:09,150
+Und es sollten aber zumindest diese Basis
+SPF und DMARC gesetzt sein, damit man...
+
+459
+00:32:09,500 --> 00:32:14,491
+oder ein DKIM standardmäßig eingerichtet
+sein, damit man eben keine Probleme kriegt.
+
+460
+00:32:14,970 --> 00:32:18,490
+Für Newsletter ist das dann
+aber ein Ausschlusskriterium,
+
+461
+00:32:18,491 --> 00:32:20,451
+wenn man das SPF
+nicht erweitern kann.
+
+462
+00:32:22,590 --> 00:32:23,590
+Ja...
+
+463
+00:32:24,030 --> 00:32:25,030
+So...
+
+464
+00:32:25,430 --> 00:32:26,430
+In WordPress...
+
+465
+00:32:27,770 --> 00:32:30,030
+Ein bisschen WordPress-Bezug wollen wir
+vielleicht haben.
+
+466
+00:32:31,260 --> 00:32:34,130
+Es gibt ja diesen Website-Zustand.
+
+467
+00:32:34,150 --> 00:32:37,710
+Da gibt es auch ein Plugin dazu,
+das das noch ein bisschen erweitert.
+
+468
+00:32:39,380 --> 00:32:41,570
+Ist aber inzwischen in der Basisfunktion
+ja im Core.
+
+469
+00:32:42,310 --> 00:32:43,310
+Und...
+
+470
+00:32:43,800 --> 00:32:45,210
+Und meine Idee war ja, dass...
+
+471
+00:32:45,760 --> 00:32:49,090
+Da haben wir ja eigentlich ein super
+Kriterium, was man erweitern könnte.
+
+472
+00:32:49,270 --> 00:32:50,270
+Also ein super Ort.
+
+473
+00:32:51,020 --> 00:32:54,298
+Man kann ja über PHP
+auch DNS-Records abfragen
+
+474
+00:32:54,299 --> 00:32:57,471
+und man kann ja kurz ein
+kleines Plugin schreiben.
+
+475
+00:32:58,310 --> 00:32:59,310
+Und das habe ich gemacht.
+
+476
+00:32:59,810 --> 00:33:00,810
+Ist auf GitHub aktuell.
+
+477
+00:33:01,290 --> 00:33:05,259
+Heißt DNS-Info und
+erweitert einfach diesen
+
+478
+00:33:05,260 --> 00:33:09,610
+Bericht im Health-Jack
+um einen Bereich DNS.
+
+479
+00:33:09,730 --> 00:33:11,890
+Wo man dann eben diese Informationen...
+
+480
+00:33:12,850 --> 00:33:13,470
+reinpacken kann.
+
+481
+00:33:13,630 --> 00:33:16,370
+Ich habe dazu auch ein Track-Ticket bei
+WordPress eröffnet.
+
+482
+00:33:16,620 --> 00:33:21,770
+Wer Bock hat, damit einzusteigen und das
+zu verfeinern.
+
+483
+00:33:23,060 --> 00:33:25,570
+Ich freue mich über Mitmacher und
+Mitmacherinnen.
+
+484
+00:33:27,470 --> 00:33:28,470
+Dann bin ich durch.
+
+485
+00:33:29,380 --> 00:33:31,090
+Ich danke euch für eure Aufmerksamkeit.
+
+486
+00:33:31,190 --> 00:33:34,170
+Und falls ihr Fragen
+
+487
+00:33:37,560 --> 00:33:41,060
+haben solltet und wir noch ein bisschen
+Zeit haben, dann gerne.
+
+488
+00:33:42,085 --> 00:33:43,860
+Ich würde mich dafür interessieren.
+
+489
+00:33:46,400 --> 00:33:51,970
+Das DKIM löst eigentlich
+das, was OpenPGP wollte
+
+490
+00:33:51,971 --> 00:33:56,020
+und SPF das, was
+S-MIME bereitstellen sollte?
+
+491
+00:33:58,260 --> 00:34:00,320
+Dazu weiß ich zu wenig über S-MIME,
+ehrlich gesagt.
+
+492
+00:34:00,690 --> 00:34:02,760
+Aber ja, könnte sein, dass das hinhaut.
+
+493
+00:34:04,920 --> 00:34:09,240
+Also SPF sagt eben, wer darf versenden
+überhaupt.
+
+494
+00:34:09,380 --> 00:34:13,120
+Und das andere ist es auch wirklich
+unverändert.
+
+495
+00:34:13,770 --> 00:34:17,200
+Und das mit diesen Public-Schlüsseln und
+so, das haut schon hin so von den...
+
+496
+00:34:17,880 --> 00:34:18,880
+Genau, Pi mal Dau.
+
+497
+00:34:21,320 --> 00:34:22,320
+Oh, da sind mehr jetzt.
+
+498
+00:34:25,920 --> 00:34:26,720
+Hallo, Thorsten.
+
+499
+00:34:26,740 --> 00:34:28,560
+Erstmal vielen Dank für deinen tollen
+Vortrag.
+
+500
+00:34:29,380 --> 00:34:30,380
+Ich habe eine Frage.
+
+501
+00:34:30,460 --> 00:34:31,580
+Also es geht im Moment...
+
+502
+00:34:31,830 --> 00:34:34,507
+Es ist eine Multisites-Website
+gewesen, die
+
+503
+00:34:34,508 --> 00:34:37,741
+fast ungefähr 1000
+Webseiten drin beinhaltet.
+
+504
+00:34:38,050 --> 00:34:39,420
+Und das Problem ist, man hat z.B.
+
+505
+00:34:39,650 --> 00:34:41,718
+ein Kontaktformular
+und man möchte natürlich
+
+506
+00:34:41,719 --> 00:34:44,660
+jetzt irgendwie eine
+Absenderadresse haben.
+
+507
+00:34:44,661 --> 00:34:45,946
+Und dann muss man das hinterlegen.
+
+508
+00:34:45,970 --> 00:34:48,342
+Und im Moment geht das
+ja nicht auf direktem Wege,
+
+509
+00:34:48,343 --> 00:34:50,860
+dass halt diese
+Absenderadresse geändert wird.
+
+510
+00:34:51,230 --> 00:34:54,860
+Mittels Hook schon, aber über Multisite
+-System sehr schwierig, sagen wir mal so.
+
+511
+00:34:55,600 --> 00:34:59,920
+Das Problem ist aber auch, dass halt diese
+E-Mails noch nicht wirklich abgeschickt
+
+512
+00:34:59,970 --> 00:35:02,000
+werden können wegen diesem Problem,
+was ein...
+
+513
+00:35:02,001 --> 00:35:05,940
+Ich weiß den Namen nicht nennen von einem
+Hoster, wo man halt die Sachen noch nicht
+
+514
+00:35:06,040 --> 00:35:07,040
+konfiguriert hat.
+
+515
+00:35:07,540 --> 00:35:11,360
+Und deswegen die E-Mails einfach gar nicht
+erhalten werden.
+
+516
+00:35:11,361 --> 00:35:14,600
+Und meine Frage ist jetzt,
+hast du vielleicht eine Idee,
+
+517
+00:35:14,601 --> 00:35:18,140
+wie könnte man das zentralisiert,
+dieses Problem angehen?
+
+518
+00:35:18,141 --> 00:35:23,400
+Weil die ganzen Subpages in diesem
+Multisite-System sind auf verschiedenen Domänen.
+
+519
+00:35:23,440 --> 00:35:27,760
+Also müsste ich quasi in jeder Seite jetzt
+reingehen und da alles nochmal anpassen?
+
+520
+00:35:27,860 --> 00:35:29,315
+Oder gibt es da
+gegebenenfalls auch eine
+
+521
+00:35:29,316 --> 00:35:32,181
+Möglichkeit, das irgendwie
+zentral zu steuern?
+
+522
+00:35:33,240 --> 00:35:36,420
+Sind es Subdomains oder wirklich einzelne
+Domains?
+
+523
+00:35:36,480 --> 00:35:41,120
+Einzelne Domains, also immer unterschiedliche
+Kundenadressen, die über ein System...
+
+524
+00:35:41,410 --> 00:35:47,300
+verwaltet werden, aber es wäre natürlich
+cool, eine E-Mail-Adresse einzurichten,
+
+525
+00:35:47,380 --> 00:35:51,160
+damit halt man über die E-Mail das
+erhalten kann.
+
+526
+00:35:51,450 --> 00:35:55,180
+Passwort vergessen etc., die kommen
+einfach nicht an, weil der Server halt
+
+527
+00:35:55,181 --> 00:35:58,460
+nicht so konfiguriert wurde, sagen wir mal
+so, dass das funktioniert.
+
+528
+00:35:58,700 --> 00:36:01,733
+Also auch wenn man schon
+die DNS-Einträge einfügt,
+
+529
+00:36:01,773 --> 00:36:04,760
+funktioniert es immer noch
+nicht, sagen wir mal so.
+
+530
+00:36:05,340 --> 00:36:07,501
+Deswegen ist meine Frage vielleicht,
+hast du eine Idee?
+
+531
+00:36:10,060 --> 00:36:14,020
+Oh... Also ich würde gucken,
+woran es genau scheitert.
+
+532
+00:36:16,275 --> 00:36:24,200
+Wenn du den SPF anstatt auf einen Host auf
+die Server-IP-Adresse packen kannst,
+
+533
+00:36:24,560 --> 00:36:27,360
+aber wenn ich das richtig verstehe,
+mal hattest du das schon versucht,
+
+534
+00:36:28,780 --> 00:36:31,600
+wüsste ich gerade ad hoc auch nicht.
+
+535
+00:36:31,700 --> 00:36:36,245
+Also ist ein schönes
+Problem, über das es sich
+
+536
+00:36:36,246 --> 00:36:40,701
+lohnt nachzudenken, aber
+ad hoc jetzt hier quasi...
+
+537
+00:36:41,920 --> 00:36:43,000
+Lass uns nachher schnacken.
+
+538
+00:36:44,780 --> 00:36:45,941
+Klingt nach etwas, was man...
+
+539
+00:36:46,480 --> 00:36:50,980
+was interessant ist, dass man das mal löst
+und wo man genauer gucken muss,
+
+540
+00:36:51,100 --> 00:36:52,320
+wie man das jetzt machen kann.
+
+541
+00:36:52,460 --> 00:36:55,560
+Aber ist jetzt nicht so, wo ich sage,
+ah ja, das liegt daran, mach mal so.
+
+542
+00:36:55,870 --> 00:36:59,640
+Das ist komplex und ja, schauen wir mal.
+
+543
+00:37:03,200 --> 00:37:04,840
+Hallo Thorsten, auch von mir vielen Dank.
+
+544
+00:37:05,640 --> 00:37:07,920
+Kannst du ein bisschen über BIMI erzählen?
+
+545
+00:37:08,860 --> 00:37:09,860
+Ja.
+
+546
+00:37:17,065 --> 00:37:20,250
+Die Abkürzung steht für Brand Indicators
+for Message Identification.
+
+547
+00:37:21,470 --> 00:37:27,410
+Ist in Kurzform eine SVG-Datei in einem
+ganz spezifischen Format, die hinterlegt
+
+548
+00:37:27,535 --> 00:37:33,310
+wird an einem Ort, den du dann über den
+DNS-Eintrag mitgibst.
+
+549
+00:37:33,650 --> 00:37:38,890
+Und das Ganze ist nur erlaubt,
+wenn du HTTPS eingerichtet hast.
+
+550
+00:37:39,625 --> 00:37:43,515
+Und eigentlich, wobei es
+inzwischen optional ist, sollte
+
+551
+00:37:43,516 --> 00:37:46,690
+man eine Verified Mark
+Certificate für das Logo haben.
+
+552
+00:37:46,830 --> 00:37:49,713
+Also du musst quasi im
+besten Fall nachweisen,
+
+553
+00:37:49,714 --> 00:37:52,591
+dass dir die Marke
+gehört an diesem Logo.
+
+554
+00:37:54,450 --> 00:38:02,450
+Und dann hinterlegst du das SVG an dieser
+Stelle und dann weiß der Mail,
+
+555
+00:38:02,550 --> 00:38:08,750
+das Mail-Programm, der Mail-Client weiß
+dann, kann dann diesen DNS-Eintrag
+
+556
+00:38:08,751 --> 00:38:15,410
+auslesen, findet den SVG-Link und dann
+passiert das, dass zum Beispiel hier das
+
+557
+00:38:15,411 --> 00:38:19,930
+Logo standardmäßig dasteht, ohne dass
+jetzt irgendwie Gravatar zum Beispiel
+
+558
+00:38:19,931 --> 00:38:23,090
+abgefragt wird, sondern das ist dann dein
+Firmenlogo, das da auftaucht.
+
+559
+00:38:23,130 --> 00:38:26,999
+Und das ist dann so eine
+Seriositätssache, dass dann irgendwie,
+
+560
+00:38:27,099 --> 00:38:30,830
+weiß ich nicht, das
+Sparkassen-Logo da steht oder so.
+
+561
+00:38:30,930 --> 00:38:34,393
+Das gibt dann nochmal ein
+gutes Gefühl, dass das eine seriöse
+
+562
+00:38:34,394 --> 00:38:36,851
+E-Mail ist und die auch wirklich
+von der Sparkasse kommt.
+
+563
+00:38:36,950 --> 00:38:37,310
+So.
+
+564
+00:38:37,730 --> 00:38:38,730
+Das ist...
+
+565
+00:38:39,210 --> 00:38:40,210
+Das ist BME.
+
+566
+00:38:46,170 --> 00:38:47,546
+Das sollte aber unsere
+letzte Frage, denke ich,
+
+567
+00:38:47,570 --> 00:38:49,650
+sein, sonst haben wir
+nämlich keine Pause mehr.
+
+568
+00:38:50,710 --> 00:38:55,110
+Wenn ich das jetzt richtig verstanden
+habe, war ja bei den DKMI und DMARC
+
+569
+00:38:55,535 --> 00:38:58,310
+-Einträgen die Möglichkeit, Spam zu
+markieren.
+
+570
+00:38:59,020 --> 00:39:02,310
+Aber das sind doch die Einträge,
+die der zu erhaltene Server ausliest.
+
+571
+00:39:02,470 --> 00:39:07,030
+Also in welcher Situation sollte ich meine
+eigene E-Mail als Spam konfigurieren oder
+
+572
+00:39:07,280 --> 00:39:08,670
+wofür war dieser Spam-Eintrag?
+
+573
+00:39:09,470 --> 00:39:12,170
+Das ist das, was man dem anderen Mail
+-Server sagt.
+
+574
+00:39:13,290 --> 00:39:21,290
+Also eine Mail von einem Dritten wird an
+jemand anderen geschickt.
+
+575
+00:39:21,330 --> 00:39:26,050
+Und dieser andere, der muss ja jetzt
+entscheiden, ist das wirklich eine Mail
+
+576
+00:39:26,051 --> 00:39:32,310
+von mir oder von irgendwem, der nicht
+autorisiert ist.
+
+577
+00:39:32,470 --> 00:39:38,650
+Und der guckt sich jetzt quasi über die
+DNS-Einträge an, welche IP-Adresse er hat.
+
+578
+00:39:38,651 --> 00:39:40,026
+Also er darf sie dann zum Beispiel
+versenden.
+
+579
+00:39:40,050 --> 00:39:41,210
+Das ist, was SPF macht.
+
+580
+00:39:41,290 --> 00:39:44,540
+Und stellt dann fest, der
+versendende Server ist aber
+
+581
+00:39:44,541 --> 00:39:46,990
+laut dem DNS-Eintrag
+gar nicht erlaubt zu senden.
+
+582
+00:39:47,375 --> 00:39:51,272
+Dann ist das wahrscheinlich
+gar nicht von dem
+
+583
+00:39:51,292 --> 00:39:54,870
+Richtigen, sondern es
+ist Spam, es ist Phishing.
+
+584
+00:39:57,700 --> 00:40:01,396
+Jemand schickt also zum
+Beispiel dir eine E-Mail und
+
+585
+00:40:01,397 --> 00:40:04,530
+die soll angeblich von mail
+.torstenlanziedl.de kommen.
+
+586
+00:40:05,260 --> 00:40:07,821
+Ich habe die aber gar nicht geschrieben,
+sondern jemand möchte...
+
+587
+00:40:09,460 --> 00:40:13,170
+mit meiner Seriosität quasi von dir was
+erschleichen.
+
+588
+00:40:13,270 --> 00:40:17,750
+Und dann weiß der Server aber jetzt,
+das ist gar nicht erlaubt und kann diese
+
+589
+00:40:17,751 --> 00:40:20,670
+Mail eben als Spam verwerfen oder sogar
+ablehnen komplett.
+
+590
+00:40:22,150 --> 00:40:25,483
+Wir sagen quasi einem
+dritten Mail-Server, wie es sich
+
+591
+00:40:25,484 --> 00:40:28,071
+zu verhalten hat, wenn der
+Match eben nicht stattfindet.
+
+592
+00:40:28,130 --> 00:40:29,130
+So ist das gemeint.
+
+593
+00:40:32,400 --> 00:40:34,010
+Dann sind wir hier fertig erstmal.
+
+594
+00:40:34,590 --> 00:40:36,710
+Ich weiß gerade nicht, was der nächste
+Talk ist.
+
+595
+00:40:36,790 --> 00:40:37,790
+Aber...
+
+596
+00:40:38,010 --> 00:40:39,010
+Da finde ich noch was.
+
+597
+00:40:40,570 --> 00:40:41,570
+Dankeschön.
+
